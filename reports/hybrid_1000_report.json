@@ -1,0 +1,3055 @@
+{
+  "solver": "hybrid_per_target_facility_local_beam_search",
+  "current_submission": "submissions/submission_phase2_ssa.csv",
+  "output_submission": "submissions/submission_hybrid_part_1000.csv",
+  "current_score": 338407,
+  "selected_score": 335436,
+  "start_index": 800,
+  "end_index": 1000,
+  "candidate_puzzles": 200,
+  "failed_puzzles": 0,
+  "improved_puzzles": 186,
+  "total_improvement": 2971,
+  "largest_improvements": [
+    {
+      "id": "scored_0975",
+      "current_instructions": 362,
+      "hybrid_instructions": 252,
+      "improvement": 110,
+      "relations": {
+        "anchor": 13,
+        "direct": 9,
+        "factor": 10
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0824",
+      "current_instructions": 352,
+      "hybrid_instructions": 278,
+      "improvement": 74,
+      "relations": {
+        "anchor": 16,
+        "direct": 12,
+        "factor": 4
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0985",
+      "current_instructions": 336,
+      "hybrid_instructions": 264,
+      "improvement": 72,
+      "relations": {
+        "anchor": 12,
+        "direct": 8,
+        "factor": 8
+      },
+      "inner_depth": 2,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0996",
+      "current_instructions": 347,
+      "hybrid_instructions": 276,
+      "improvement": 71,
+      "relations": {
+        "direct": 7,
+        "anchor": 11,
+        "factor": 12
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0893",
+      "current_instructions": 323,
+      "hybrid_instructions": 253,
+      "improvement": 70,
+      "relations": {
+        "anchor": 8,
+        "direct": 13,
+        "factor": 10
+      },
+      "inner_depth": 2,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0972",
+      "current_instructions": 301,
+      "hybrid_instructions": 234,
+      "improvement": 67,
+      "relations": {
+        "direct": 10,
+        "anchor": 13,
+        "factor": 7
+      },
+      "inner_depth": 2,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0833",
+      "current_instructions": 331,
+      "hybrid_instructions": 279,
+      "improvement": 52,
+      "relations": {
+        "factor": 15,
+        "anchor": 7,
+        "direct": 7
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0927",
+      "current_instructions": 349,
+      "hybrid_instructions": 302,
+      "improvement": 47,
+      "relations": {
+        "anchor": 11,
+        "direct": 9,
+        "factor": 11
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0838",
+      "current_instructions": 310,
+      "hybrid_instructions": 265,
+      "improvement": 45,
+      "relations": {
+        "direct": 13,
+        "anchor": 14,
+        "factor": 1
+      },
+      "inner_depth": 2,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0987",
+      "current_instructions": 385,
+      "hybrid_instructions": 342,
+      "improvement": 43,
+      "relations": {
+        "direct": 9,
+        "anchor": 9,
+        "factor": 10
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0807",
+      "current_instructions": 373,
+      "hybrid_instructions": 331,
+      "improvement": 42,
+      "relations": {
+        "anchor": 14,
+        "direct": 7,
+        "factor": 7
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0861",
+      "current_instructions": 374,
+      "hybrid_instructions": 338,
+      "improvement": 36,
+      "relations": {
+        "direct": 14,
+        "anchor": 9,
+        "factor": 7
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0846",
+      "current_instructions": 226,
+      "hybrid_instructions": 191,
+      "improvement": 35,
+      "relations": {
+        "direct": 7,
+        "anchor": 9,
+        "factor": 13
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0835",
+      "current_instructions": 245,
+      "hybrid_instructions": 212,
+      "improvement": 33,
+      "relations": {
+        "direct": 12,
+        "anchor": 3,
+        "factor": 13
+      },
+      "inner_depth": 2,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0907",
+      "current_instructions": 252,
+      "hybrid_instructions": 219,
+      "improvement": 33,
+      "relations": {
+        "direct": 13,
+        "factor": 11,
+        "anchor": 8
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0802",
+      "current_instructions": 452,
+      "hybrid_instructions": 421,
+      "improvement": 31,
+      "relations": {
+        "direct": 9,
+        "anchor": 15,
+        "factor": 4
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0976",
+      "current_instructions": 323,
+      "hybrid_instructions": 292,
+      "improvement": 31,
+      "relations": {
+        "anchor": 17,
+        "direct": 8,
+        "factor": 3
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0809",
+      "current_instructions": 358,
+      "hybrid_instructions": 328,
+      "improvement": 30,
+      "relations": {
+        "anchor": 19,
+        "direct": 8,
+        "factor": 4
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0834",
+      "current_instructions": 479,
+      "hybrid_instructions": 449,
+      "improvement": 30,
+      "relations": {
+        "anchor": 22,
+        "direct": 7
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0992",
+      "current_instructions": 609,
+      "hybrid_instructions": 579,
+      "improvement": 30,
+      "relations": {
+        "direct": 5,
+        "anchor": 23,
+        "factor": 2
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0924",
+      "current_instructions": 270,
+      "hybrid_instructions": 243,
+      "improvement": 27,
+      "relations": {
+        "direct": 10,
+        "factor": 4,
+        "anchor": 18
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0805",
+      "current_instructions": 445,
+      "hybrid_instructions": 419,
+      "improvement": 26,
+      "relations": {
+        "factor": 9,
+        "anchor": 11,
+        "direct": 8
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0848",
+      "current_instructions": 582,
+      "hybrid_instructions": 556,
+      "improvement": 26,
+      "relations": {
+        "anchor": 21,
+        "direct": 6,
+        "factor": 1
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0853",
+      "current_instructions": 404,
+      "hybrid_instructions": 378,
+      "improvement": 26,
+      "relations": {
+        "anchor": 25,
+        "direct": 5,
+        "factor": 1
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0909",
+      "current_instructions": 455,
+      "hybrid_instructions": 429,
+      "improvement": 26,
+      "relations": {
+        "anchor": 14,
+        "direct": 9,
+        "factor": 5
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0978",
+      "current_instructions": 232,
+      "hybrid_instructions": 206,
+      "improvement": 26,
+      "relations": {
+        "direct": 12,
+        "anchor": 14,
+        "factor": 4
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0997",
+      "current_instructions": 351,
+      "hybrid_instructions": 325,
+      "improvement": 26,
+      "relations": {
+        "direct": 7,
+        "anchor": 19,
+        "factor": 4
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0826",
+      "current_instructions": 513,
+      "hybrid_instructions": 488,
+      "improvement": 25,
+      "relations": {
+        "direct": 10,
+        "factor": 7,
+        "anchor": 11
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0983",
+      "current_instructions": 351,
+      "hybrid_instructions": 326,
+      "improvement": 25,
+      "relations": {
+        "direct": 13,
+        "anchor": 14,
+        "factor": 5
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0998",
+      "current_instructions": 485,
+      "hybrid_instructions": 460,
+      "improvement": 25,
+      "relations": {
+        "direct": 9,
+        "anchor": 20,
+        "factor": 3
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0935",
+      "current_instructions": 395,
+      "hybrid_instructions": 371,
+      "improvement": 24,
+      "relations": {
+        "anchor": 19,
+        "direct": 12
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0823",
+      "current_instructions": 446,
+      "hybrid_instructions": 423,
+      "improvement": 23,
+      "relations": {
+        "anchor": 21,
+        "direct": 8,
+        "factor": 3
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0827",
+      "current_instructions": 486,
+      "hybrid_instructions": 463,
+      "improvement": 23,
+      "relations": {
+        "direct": 8,
+        "anchor": 18,
+        "factor": 6
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0886",
+      "current_instructions": 405,
+      "hybrid_instructions": 382,
+      "improvement": 23,
+      "relations": {
+        "anchor": 20,
+        "direct": 8,
+        "factor": 4
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0889",
+      "current_instructions": 226,
+      "hybrid_instructions": 203,
+      "improvement": 23,
+      "relations": {
+        "direct": 11,
+        "anchor": 8,
+        "factor": 11
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0919",
+      "current_instructions": 433,
+      "hybrid_instructions": 410,
+      "improvement": 23,
+      "relations": {
+        "anchor": 16,
+        "direct": 10,
+        "factor": 6
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0942",
+      "current_instructions": 450,
+      "hybrid_instructions": 427,
+      "improvement": 23,
+      "relations": {
+        "direct": 9,
+        "anchor": 19,
+        "factor": 3
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0980",
+      "current_instructions": 320,
+      "hybrid_instructions": 297,
+      "improvement": 23,
+      "relations": {
+        "direct": 15,
+        "anchor": 14,
+        "factor": 3
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0817",
+      "current_instructions": 434,
+      "hybrid_instructions": 412,
+      "improvement": 22,
+      "relations": {
+        "anchor": 12,
+        "direct": 13,
+        "factor": 3
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0925",
+      "current_instructions": 467,
+      "hybrid_instructions": 445,
+      "improvement": 22,
+      "relations": {
+        "anchor": 12,
+        "direct": 8,
+        "factor": 9
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0938",
+      "current_instructions": 440,
+      "hybrid_instructions": 418,
+      "improvement": 22,
+      "relations": {
+        "anchor": 15,
+        "direct": 11,
+        "factor": 6
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_1000",
+      "current_instructions": 521,
+      "hybrid_instructions": 499,
+      "improvement": 22,
+      "relations": {
+        "anchor": 26,
+        "direct": 6
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0836",
+      "current_instructions": 404,
+      "hybrid_instructions": 383,
+      "improvement": 21,
+      "relations": {
+        "anchor": 22,
+        "direct": 10
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0852",
+      "current_instructions": 409,
+      "hybrid_instructions": 388,
+      "improvement": 21,
+      "relations": {
+        "direct": 9,
+        "anchor": 17,
+        "factor": 3
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0815",
+      "current_instructions": 536,
+      "hybrid_instructions": 516,
+      "improvement": 20,
+      "relations": {
+        "anchor": 17,
+        "direct": 9,
+        "factor": 3
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0820",
+      "current_instructions": 546,
+      "hybrid_instructions": 526,
+      "improvement": 20,
+      "relations": {
+        "direct": 7,
+        "anchor": 21,
+        "factor": 2
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0845",
+      "current_instructions": 487,
+      "hybrid_instructions": 467,
+      "improvement": 20,
+      "relations": {
+        "anchor": 22,
+        "direct": 6,
+        "factor": 2
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0862",
+      "current_instructions": 451,
+      "hybrid_instructions": 431,
+      "improvement": 20,
+      "relations": {
+        "direct": 11,
+        "anchor": 17,
+        "factor": 4
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0870",
+      "current_instructions": 535,
+      "hybrid_instructions": 515,
+      "improvement": 20,
+      "relations": {
+        "direct": 8,
+        "factor": 5,
+        "anchor": 17
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0881",
+      "current_instructions": 190,
+      "hybrid_instructions": 170,
+      "improvement": 20,
+      "relations": {
+        "anchor": 9,
+        "direct": 16,
+        "factor": 5
+      },
+      "inner_depth": 2,
+      "states_tested": 3
+    }
+  ],
+  "improved": [
+    {
+      "id": "scored_0801",
+      "current_instructions": 209,
+      "hybrid_instructions": 201,
+      "improvement": 8,
+      "relations": {
+        "direct": 9,
+        "anchor": 18,
+        "factor": 2
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0802",
+      "current_instructions": 452,
+      "hybrid_instructions": 421,
+      "improvement": 31,
+      "relations": {
+        "direct": 9,
+        "anchor": 15,
+        "factor": 4
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0803",
+      "current_instructions": 307,
+      "hybrid_instructions": 292,
+      "improvement": 15,
+      "relations": {
+        "anchor": 19,
+        "direct": 8,
+        "factor": 2
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0804",
+      "current_instructions": 219,
+      "hybrid_instructions": 216,
+      "improvement": 3,
+      "relations": {
+        "anchor": 17,
+        "direct": 9,
+        "factor": 6
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0805",
+      "current_instructions": 445,
+      "hybrid_instructions": 419,
+      "improvement": 26,
+      "relations": {
+        "factor": 9,
+        "anchor": 11,
+        "direct": 8
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0806",
+      "current_instructions": 188,
+      "hybrid_instructions": 178,
+      "improvement": 10,
+      "relations": {
+        "anchor": 12,
+        "direct": 10,
+        "factor": 6
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0807",
+      "current_instructions": 373,
+      "hybrid_instructions": 331,
+      "improvement": 42,
+      "relations": {
+        "anchor": 14,
+        "direct": 7,
+        "factor": 7
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0808",
+      "current_instructions": 567,
+      "hybrid_instructions": 558,
+      "improvement": 9,
+      "relations": {
+        "anchor": 20,
+        "direct": 7,
+        "factor": 1
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0809",
+      "current_instructions": 358,
+      "hybrid_instructions": 328,
+      "improvement": 30,
+      "relations": {
+        "anchor": 19,
+        "direct": 8,
+        "factor": 4
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0810",
+      "current_instructions": 62,
+      "hybrid_instructions": 61,
+      "improvement": 1,
+      "relations": {
+        "direct": 4,
+        "anchor": 5,
+        "factor": 4
+      },
+      "inner_depth": 2,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0811",
+      "current_instructions": 166,
+      "hybrid_instructions": 164,
+      "improvement": 2,
+      "relations": {
+        "direct": 10,
+        "anchor": 13,
+        "factor": 5
+      },
+      "inner_depth": 2,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0812",
+      "current_instructions": 223,
+      "hybrid_instructions": 210,
+      "improvement": 13,
+      "relations": {
+        "direct": 9,
+        "anchor": 14,
+        "factor": 5
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0813",
+      "current_instructions": 503,
+      "hybrid_instructions": 488,
+      "improvement": 15,
+      "relations": {
+        "anchor": 23,
+        "direct": 6,
+        "factor": 1
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0814",
+      "current_instructions": 458,
+      "hybrid_instructions": 445,
+      "improvement": 13,
+      "relations": {
+        "direct": 7,
+        "anchor": 19,
+        "factor": 3
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0815",
+      "current_instructions": 536,
+      "hybrid_instructions": 516,
+      "improvement": 20,
+      "relations": {
+        "anchor": 17,
+        "direct": 9,
+        "factor": 3
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0816",
+      "current_instructions": 229,
+      "hybrid_instructions": 224,
+      "improvement": 5,
+      "relations": {
+        "anchor": 8,
+        "direct": 16,
+        "factor": 6
+      },
+      "inner_depth": 2,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0817",
+      "current_instructions": 434,
+      "hybrid_instructions": 412,
+      "improvement": 22,
+      "relations": {
+        "anchor": 12,
+        "direct": 13,
+        "factor": 3
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0818",
+      "current_instructions": 58,
+      "hybrid_instructions": 45,
+      "improvement": 13,
+      "relations": {
+        "direct": 1,
+        "factor": 4,
+        "anchor": 1
+      },
+      "inner_depth": 2,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0819",
+      "current_instructions": 555,
+      "hybrid_instructions": 543,
+      "improvement": 12,
+      "relations": {
+        "factor": 2,
+        "anchor": 18,
+        "direct": 9
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0820",
+      "current_instructions": 546,
+      "hybrid_instructions": 526,
+      "improvement": 20,
+      "relations": {
+        "direct": 7,
+        "anchor": 21,
+        "factor": 2
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0821",
+      "current_instructions": 196,
+      "hybrid_instructions": 193,
+      "improvement": 3,
+      "relations": {
+        "direct": 15,
+        "anchor": 13,
+        "factor": 3
+      },
+      "inner_depth": 2,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0822",
+      "current_instructions": 76,
+      "hybrid_instructions": 73,
+      "improvement": 3,
+      "relations": {
+        "anchor": 5,
+        "direct": 5,
+        "factor": 1
+      },
+      "inner_depth": 2,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0823",
+      "current_instructions": 446,
+      "hybrid_instructions": 423,
+      "improvement": 23,
+      "relations": {
+        "anchor": 21,
+        "direct": 8,
+        "factor": 3
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0824",
+      "current_instructions": 352,
+      "hybrid_instructions": 278,
+      "improvement": 74,
+      "relations": {
+        "anchor": 16,
+        "direct": 12,
+        "factor": 4
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0825",
+      "current_instructions": 255,
+      "hybrid_instructions": 245,
+      "improvement": 10,
+      "relations": {
+        "direct": 12,
+        "anchor": 13,
+        "factor": 6
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0826",
+      "current_instructions": 513,
+      "hybrid_instructions": 488,
+      "improvement": 25,
+      "relations": {
+        "direct": 10,
+        "factor": 7,
+        "anchor": 11
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0827",
+      "current_instructions": 486,
+      "hybrid_instructions": 463,
+      "improvement": 23,
+      "relations": {
+        "direct": 8,
+        "anchor": 18,
+        "factor": 6
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0828",
+      "current_instructions": 68,
+      "hybrid_instructions": 65,
+      "improvement": 3,
+      "relations": {
+        "direct": 4,
+        "anchor": 4,
+        "factor": 1
+      },
+      "inner_depth": 2,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0829",
+      "current_instructions": 382,
+      "hybrid_instructions": 365,
+      "improvement": 17,
+      "relations": {
+        "anchor": 21,
+        "direct": 6,
+        "factor": 3
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0830",
+      "current_instructions": 238,
+      "hybrid_instructions": 227,
+      "improvement": 11,
+      "relations": {
+        "anchor": 18,
+        "direct": 6,
+        "factor": 4
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0831",
+      "current_instructions": 190,
+      "hybrid_instructions": 184,
+      "improvement": 6,
+      "relations": {
+        "anchor": 11,
+        "direct": 12,
+        "factor": 7
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0832",
+      "current_instructions": 399,
+      "hybrid_instructions": 380,
+      "improvement": 19,
+      "relations": {
+        "anchor": 22,
+        "direct": 8,
+        "factor": 2
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0833",
+      "current_instructions": 331,
+      "hybrid_instructions": 279,
+      "improvement": 52,
+      "relations": {
+        "factor": 15,
+        "anchor": 7,
+        "direct": 7
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0834",
+      "current_instructions": 479,
+      "hybrid_instructions": 449,
+      "improvement": 30,
+      "relations": {
+        "anchor": 22,
+        "direct": 7
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0835",
+      "current_instructions": 245,
+      "hybrid_instructions": 212,
+      "improvement": 33,
+      "relations": {
+        "direct": 12,
+        "anchor": 3,
+        "factor": 13
+      },
+      "inner_depth": 2,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0836",
+      "current_instructions": 404,
+      "hybrid_instructions": 383,
+      "improvement": 21,
+      "relations": {
+        "anchor": 22,
+        "direct": 10
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0837",
+      "current_instructions": 509,
+      "hybrid_instructions": 505,
+      "improvement": 4,
+      "relations": {
+        "direct": 7,
+        "anchor": 25
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0838",
+      "current_instructions": 310,
+      "hybrid_instructions": 265,
+      "improvement": 45,
+      "relations": {
+        "direct": 13,
+        "anchor": 14,
+        "factor": 1
+      },
+      "inner_depth": 2,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0839",
+      "current_instructions": 376,
+      "hybrid_instructions": 368,
+      "improvement": 8,
+      "relations": {
+        "anchor": 23,
+        "direct": 7
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0840",
+      "current_instructions": 501,
+      "hybrid_instructions": 492,
+      "improvement": 9,
+      "relations": {
+        "anchor": 23,
+        "direct": 7,
+        "factor": 2
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0841",
+      "current_instructions": 454,
+      "hybrid_instructions": 436,
+      "improvement": 18,
+      "relations": {
+        "anchor": 20,
+        "direct": 8,
+        "factor": 2
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0842",
+      "current_instructions": 57,
+      "hybrid_instructions": 45,
+      "improvement": 12,
+      "relations": {
+        "anchor": 3,
+        "direct": 5,
+        "factor": 3
+      },
+      "inner_depth": 2,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0843",
+      "current_instructions": 341,
+      "hybrid_instructions": 332,
+      "improvement": 9,
+      "relations": {
+        "direct": 13,
+        "anchor": 14,
+        "factor": 1
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0844",
+      "current_instructions": 578,
+      "hybrid_instructions": 571,
+      "improvement": 7,
+      "relations": {
+        "anchor": 22,
+        "direct": 5,
+        "factor": 2
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0845",
+      "current_instructions": 487,
+      "hybrid_instructions": 467,
+      "improvement": 20,
+      "relations": {
+        "anchor": 22,
+        "direct": 6,
+        "factor": 2
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0846",
+      "current_instructions": 226,
+      "hybrid_instructions": 191,
+      "improvement": 35,
+      "relations": {
+        "direct": 7,
+        "anchor": 9,
+        "factor": 13
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0848",
+      "current_instructions": 582,
+      "hybrid_instructions": 556,
+      "improvement": 26,
+      "relations": {
+        "anchor": 21,
+        "direct": 6,
+        "factor": 1
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0849",
+      "current_instructions": 433,
+      "hybrid_instructions": 426,
+      "improvement": 7,
+      "relations": {
+        "direct": 12,
+        "anchor": 18,
+        "factor": 1
+      },
+      "inner_depth": 2,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0850",
+      "current_instructions": 397,
+      "hybrid_instructions": 385,
+      "improvement": 12,
+      "relations": {
+        "anchor": 24,
+        "factor": 1,
+        "direct": 6
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0851",
+      "current_instructions": 56,
+      "hybrid_instructions": 53,
+      "improvement": 3,
+      "relations": {
+        "direct": 4,
+        "anchor": 4,
+        "factor": 2
+      },
+      "inner_depth": 2,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0852",
+      "current_instructions": 409,
+      "hybrid_instructions": 388,
+      "improvement": 21,
+      "relations": {
+        "direct": 9,
+        "anchor": 17,
+        "factor": 3
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0853",
+      "current_instructions": 404,
+      "hybrid_instructions": 378,
+      "improvement": 26,
+      "relations": {
+        "anchor": 25,
+        "direct": 5,
+        "factor": 1
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0854",
+      "current_instructions": 367,
+      "hybrid_instructions": 361,
+      "improvement": 6,
+      "relations": {
+        "direct": 10,
+        "anchor": 19,
+        "factor": 2
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0855",
+      "current_instructions": 132,
+      "hybrid_instructions": 121,
+      "improvement": 11,
+      "relations": {
+        "anchor": 14,
+        "direct": 12,
+        "factor": 2
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0856",
+      "current_instructions": 467,
+      "hybrid_instructions": 464,
+      "improvement": 3,
+      "relations": {
+        "anchor": 23,
+        "direct": 6
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0857",
+      "current_instructions": 566,
+      "hybrid_instructions": 547,
+      "improvement": 19,
+      "relations": {
+        "anchor": 21,
+        "direct": 6,
+        "factor": 4
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0858",
+      "current_instructions": 94,
+      "hybrid_instructions": 89,
+      "improvement": 5,
+      "relations": {
+        "direct": 6,
+        "anchor": 4
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0859",
+      "current_instructions": 486,
+      "hybrid_instructions": 476,
+      "improvement": 10,
+      "relations": {
+        "anchor": 22,
+        "direct": 8
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0860",
+      "current_instructions": 319,
+      "hybrid_instructions": 308,
+      "improvement": 11,
+      "relations": {
+        "direct": 10,
+        "anchor": 17,
+        "factor": 1
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0861",
+      "current_instructions": 374,
+      "hybrid_instructions": 338,
+      "improvement": 36,
+      "relations": {
+        "direct": 14,
+        "anchor": 9,
+        "factor": 7
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0862",
+      "current_instructions": 451,
+      "hybrid_instructions": 431,
+      "improvement": 20,
+      "relations": {
+        "direct": 11,
+        "anchor": 17,
+        "factor": 4
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0863",
+      "current_instructions": 75,
+      "hybrid_instructions": 68,
+      "improvement": 7,
+      "relations": {
+        "anchor": 6,
+        "direct": 3,
+        "factor": 2
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0864",
+      "current_instructions": 462,
+      "hybrid_instructions": 455,
+      "improvement": 7,
+      "relations": {
+        "direct": 10,
+        "anchor": 15,
+        "factor": 3
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0865",
+      "current_instructions": 516,
+      "hybrid_instructions": 504,
+      "improvement": 12,
+      "relations": {
+        "anchor": 24,
+        "direct": 7,
+        "factor": 1
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0866",
+      "current_instructions": 58,
+      "hybrid_instructions": 53,
+      "improvement": 5,
+      "relations": {
+        "factor": 3,
+        "direct": 3,
+        "anchor": 1
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0867",
+      "current_instructions": 177,
+      "hybrid_instructions": 170,
+      "improvement": 7,
+      "relations": {
+        "direct": 5,
+        "anchor": 8
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0868",
+      "current_instructions": 67,
+      "hybrid_instructions": 61,
+      "improvement": 6,
+      "relations": {
+        "direct": 7,
+        "anchor": 4,
+        "factor": 2
+      },
+      "inner_depth": 2,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0869",
+      "current_instructions": 318,
+      "hybrid_instructions": 306,
+      "improvement": 12,
+      "relations": {
+        "anchor": 13,
+        "direct": 7,
+        "factor": 8
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0870",
+      "current_instructions": 535,
+      "hybrid_instructions": 515,
+      "improvement": 20,
+      "relations": {
+        "direct": 8,
+        "factor": 5,
+        "anchor": 17
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0871",
+      "current_instructions": 240,
+      "hybrid_instructions": 227,
+      "improvement": 13,
+      "relations": {
+        "anchor": 13,
+        "direct": 9,
+        "factor": 6
+      },
+      "inner_depth": 2,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0872",
+      "current_instructions": 212,
+      "hybrid_instructions": 198,
+      "improvement": 14,
+      "relations": {
+        "direct": 11,
+        "anchor": 16,
+        "factor": 4
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0875",
+      "current_instructions": 364,
+      "hybrid_instructions": 354,
+      "improvement": 10,
+      "relations": {
+        "direct": 7,
+        "anchor": 21
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0876",
+      "current_instructions": 476,
+      "hybrid_instructions": 465,
+      "improvement": 11,
+      "relations": {
+        "anchor": 18,
+        "direct": 10,
+        "factor": 3
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0877",
+      "current_instructions": 102,
+      "hybrid_instructions": 94,
+      "improvement": 8,
+      "relations": {
+        "direct": 6,
+        "anchor": 11
+      },
+      "inner_depth": 2,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0878",
+      "current_instructions": 357,
+      "hybrid_instructions": 353,
+      "improvement": 4,
+      "relations": {
+        "direct": 12,
+        "anchor": 18,
+        "factor": 1
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0879",
+      "current_instructions": 213,
+      "hybrid_instructions": 206,
+      "improvement": 7,
+      "relations": {
+        "direct": 12,
+        "anchor": 14,
+        "factor": 3
+      },
+      "inner_depth": 2,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0880",
+      "current_instructions": 69,
+      "hybrid_instructions": 68,
+      "improvement": 1,
+      "relations": {
+        "direct": 4,
+        "anchor": 5
+      },
+      "inner_depth": 2,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0881",
+      "current_instructions": 190,
+      "hybrid_instructions": 170,
+      "improvement": 20,
+      "relations": {
+        "anchor": 9,
+        "direct": 16,
+        "factor": 5
+      },
+      "inner_depth": 2,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0882",
+      "current_instructions": 49,
+      "hybrid_instructions": 46,
+      "improvement": 3,
+      "relations": {
+        "direct": 6,
+        "anchor": 2,
+        "factor": 4
+      },
+      "inner_depth": 2,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0884",
+      "current_instructions": 229,
+      "hybrid_instructions": 225,
+      "improvement": 4,
+      "relations": {
+        "direct": 11,
+        "anchor": 16,
+        "factor": 5
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0885",
+      "current_instructions": 373,
+      "hybrid_instructions": 367,
+      "improvement": 6,
+      "relations": {
+        "direct": 11,
+        "anchor": 18,
+        "factor": 3
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0886",
+      "current_instructions": 405,
+      "hybrid_instructions": 382,
+      "improvement": 23,
+      "relations": {
+        "anchor": 20,
+        "direct": 8,
+        "factor": 4
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0888",
+      "current_instructions": 321,
+      "hybrid_instructions": 301,
+      "improvement": 20,
+      "relations": {
+        "anchor": 19,
+        "direct": 10,
+        "factor": 2
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0889",
+      "current_instructions": 226,
+      "hybrid_instructions": 203,
+      "improvement": 23,
+      "relations": {
+        "direct": 11,
+        "anchor": 8,
+        "factor": 11
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0890",
+      "current_instructions": 189,
+      "hybrid_instructions": 182,
+      "improvement": 7,
+      "relations": {
+        "anchor": 12,
+        "direct": 14,
+        "factor": 2
+      },
+      "inner_depth": 2,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0891",
+      "current_instructions": 221,
+      "hybrid_instructions": 217,
+      "improvement": 4,
+      "relations": {
+        "direct": 13,
+        "anchor": 16,
+        "factor": 3
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0892",
+      "current_instructions": 40,
+      "hybrid_instructions": 35,
+      "improvement": 5,
+      "relations": {
+        "factor": 3,
+        "anchor": 3,
+        "direct": 2
+      },
+      "inner_depth": 2,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0893",
+      "current_instructions": 323,
+      "hybrid_instructions": 253,
+      "improvement": 70,
+      "relations": {
+        "anchor": 8,
+        "direct": 13,
+        "factor": 10
+      },
+      "inner_depth": 2,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0894",
+      "current_instructions": 333,
+      "hybrid_instructions": 324,
+      "improvement": 9,
+      "relations": {
+        "direct": 11,
+        "anchor": 16,
+        "factor": 5
+      },
+      "inner_depth": 2,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0895",
+      "current_instructions": 259,
+      "hybrid_instructions": 240,
+      "improvement": 19,
+      "relations": {
+        "direct": 13,
+        "anchor": 12,
+        "factor": 4
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0896",
+      "current_instructions": 488,
+      "hybrid_instructions": 487,
+      "improvement": 1,
+      "relations": {
+        "direct": 13,
+        "anchor": 17,
+        "factor": 1
+      },
+      "inner_depth": 2,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0898",
+      "current_instructions": 158,
+      "hybrid_instructions": 144,
+      "improvement": 14,
+      "relations": {
+        "anchor": 11,
+        "direct": 6
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0899",
+      "current_instructions": 547,
+      "hybrid_instructions": 531,
+      "improvement": 16,
+      "relations": {
+        "anchor": 23,
+        "direct": 9
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0900",
+      "current_instructions": 391,
+      "hybrid_instructions": 375,
+      "improvement": 16,
+      "relations": {
+        "direct": 9,
+        "anchor": 20,
+        "factor": 2
+      },
+      "inner_depth": 2,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0901",
+      "current_instructions": 33,
+      "hybrid_instructions": 31,
+      "improvement": 2,
+      "relations": {
+        "anchor": 2,
+        "direct": 2,
+        "factor": 2
+      },
+      "inner_depth": 2,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0902",
+      "current_instructions": 481,
+      "hybrid_instructions": 463,
+      "improvement": 18,
+      "relations": {
+        "direct": 10,
+        "anchor": 15,
+        "factor": 4
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0903",
+      "current_instructions": 351,
+      "hybrid_instructions": 338,
+      "improvement": 13,
+      "relations": {
+        "anchor": 19,
+        "direct": 9,
+        "factor": 2
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0904",
+      "current_instructions": 451,
+      "hybrid_instructions": 447,
+      "improvement": 4,
+      "relations": {
+        "anchor": 20,
+        "direct": 10,
+        "factor": 2
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0905",
+      "current_instructions": 500,
+      "hybrid_instructions": 496,
+      "improvement": 4,
+      "relations": {
+        "anchor": 23,
+        "direct": 8,
+        "factor": 1
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0907",
+      "current_instructions": 252,
+      "hybrid_instructions": 219,
+      "improvement": 33,
+      "relations": {
+        "direct": 13,
+        "factor": 11,
+        "anchor": 8
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0908",
+      "current_instructions": 61,
+      "hybrid_instructions": 58,
+      "improvement": 3,
+      "relations": {
+        "direct": 3,
+        "factor": 3,
+        "anchor": 3
+      },
+      "inner_depth": 2,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0909",
+      "current_instructions": 455,
+      "hybrid_instructions": 429,
+      "improvement": 26,
+      "relations": {
+        "anchor": 14,
+        "direct": 9,
+        "factor": 5
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0910",
+      "current_instructions": 69,
+      "hybrid_instructions": 63,
+      "improvement": 6,
+      "relations": {
+        "direct": 3,
+        "factor": 3,
+        "anchor": 2
+      },
+      "inner_depth": 2,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0911",
+      "current_instructions": 176,
+      "hybrid_instructions": 158,
+      "improvement": 18,
+      "relations": {
+        "anchor": 13,
+        "factor": 1,
+        "direct": 4
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0912",
+      "current_instructions": 467,
+      "hybrid_instructions": 447,
+      "improvement": 20,
+      "relations": {
+        "direct": 9,
+        "anchor": 20
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0913",
+      "current_instructions": 61,
+      "hybrid_instructions": 58,
+      "improvement": 3,
+      "relations": {
+        "direct": 6,
+        "anchor": 4,
+        "factor": 1
+      },
+      "inner_depth": 2,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0915",
+      "current_instructions": 456,
+      "hybrid_instructions": 440,
+      "improvement": 16,
+      "relations": {
+        "direct": 12,
+        "anchor": 16,
+        "factor": 1
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0916",
+      "current_instructions": 499,
+      "hybrid_instructions": 497,
+      "improvement": 2,
+      "relations": {
+        "anchor": 21,
+        "direct": 9,
+        "factor": 1
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0918",
+      "current_instructions": 470,
+      "hybrid_instructions": 461,
+      "improvement": 9,
+      "relations": {
+        "anchor": 15,
+        "direct": 11,
+        "factor": 3
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0919",
+      "current_instructions": 433,
+      "hybrid_instructions": 410,
+      "improvement": 23,
+      "relations": {
+        "anchor": 16,
+        "direct": 10,
+        "factor": 6
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0920",
+      "current_instructions": 329,
+      "hybrid_instructions": 314,
+      "improvement": 15,
+      "relations": {
+        "anchor": 17,
+        "direct": 11,
+        "factor": 1
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0921",
+      "current_instructions": 381,
+      "hybrid_instructions": 366,
+      "improvement": 15,
+      "relations": {
+        "anchor": 24,
+        "direct": 5
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0922",
+      "current_instructions": 48,
+      "hybrid_instructions": 44,
+      "improvement": 4,
+      "relations": {
+        "factor": 3,
+        "anchor": 2,
+        "direct": 1
+      },
+      "inner_depth": 2,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0923",
+      "current_instructions": 487,
+      "hybrid_instructions": 482,
+      "improvement": 5,
+      "relations": {
+        "direct": 9,
+        "anchor": 19,
+        "factor": 4
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0924",
+      "current_instructions": 270,
+      "hybrid_instructions": 243,
+      "improvement": 27,
+      "relations": {
+        "direct": 10,
+        "factor": 4,
+        "anchor": 18
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0925",
+      "current_instructions": 467,
+      "hybrid_instructions": 445,
+      "improvement": 22,
+      "relations": {
+        "anchor": 12,
+        "direct": 8,
+        "factor": 9
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0926",
+      "current_instructions": 63,
+      "hybrid_instructions": 58,
+      "improvement": 5,
+      "relations": {
+        "anchor": 2,
+        "direct": 2,
+        "factor": 3
+      },
+      "inner_depth": 2,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0927",
+      "current_instructions": 349,
+      "hybrid_instructions": 302,
+      "improvement": 47,
+      "relations": {
+        "anchor": 11,
+        "direct": 9,
+        "factor": 11
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0928",
+      "current_instructions": 58,
+      "hybrid_instructions": 56,
+      "improvement": 2,
+      "relations": {
+        "direct": 4,
+        "anchor": 4
+      },
+      "inner_depth": 2,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0929",
+      "current_instructions": 375,
+      "hybrid_instructions": 368,
+      "improvement": 7,
+      "relations": {
+        "direct": 10,
+        "factor": 4,
+        "anchor": 18
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0930",
+      "current_instructions": 168,
+      "hybrid_instructions": 161,
+      "improvement": 7,
+      "relations": {
+        "direct": 13,
+        "anchor": 14,
+        "factor": 4
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0932",
+      "current_instructions": 548,
+      "hybrid_instructions": 543,
+      "improvement": 5,
+      "relations": {
+        "anchor": 19,
+        "direct": 8,
+        "factor": 4
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0933",
+      "current_instructions": 442,
+      "hybrid_instructions": 429,
+      "improvement": 13,
+      "relations": {
+        "direct": 9,
+        "anchor": 17,
+        "factor": 2
+      },
+      "inner_depth": 2,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0934",
+      "current_instructions": 333,
+      "hybrid_instructions": 318,
+      "improvement": 15,
+      "relations": {
+        "direct": 9,
+        "anchor": 16,
+        "factor": 3
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0935",
+      "current_instructions": 395,
+      "hybrid_instructions": 371,
+      "improvement": 24,
+      "relations": {
+        "anchor": 19,
+        "direct": 12
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0936",
+      "current_instructions": 357,
+      "hybrid_instructions": 344,
+      "improvement": 13,
+      "relations": {
+        "direct": 9,
+        "anchor": 19,
+        "factor": 2
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0937",
+      "current_instructions": 63,
+      "hybrid_instructions": 61,
+      "improvement": 2,
+      "relations": {
+        "direct": 4,
+        "anchor": 2,
+        "factor": 1
+      },
+      "inner_depth": 2,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0938",
+      "current_instructions": 440,
+      "hybrid_instructions": 418,
+      "improvement": 22,
+      "relations": {
+        "anchor": 15,
+        "direct": 11,
+        "factor": 6
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0939",
+      "current_instructions": 574,
+      "hybrid_instructions": 569,
+      "improvement": 5,
+      "relations": {
+        "anchor": 21,
+        "factor": 4,
+        "direct": 7
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0940",
+      "current_instructions": 321,
+      "hybrid_instructions": 315,
+      "improvement": 6,
+      "relations": {
+        "anchor": 16,
+        "direct": 9,
+        "factor": 3
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0941",
+      "current_instructions": 496,
+      "hybrid_instructions": 485,
+      "improvement": 11,
+      "relations": {
+        "anchor": 24,
+        "direct": 7,
+        "factor": 1
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0942",
+      "current_instructions": 450,
+      "hybrid_instructions": 427,
+      "improvement": 23,
+      "relations": {
+        "direct": 9,
+        "anchor": 19,
+        "factor": 3
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0943",
+      "current_instructions": 181,
+      "hybrid_instructions": 169,
+      "improvement": 12,
+      "relations": {
+        "anchor": 10,
+        "direct": 11,
+        "factor": 7
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0944",
+      "current_instructions": 519,
+      "hybrid_instructions": 503,
+      "improvement": 16,
+      "relations": {
+        "anchor": 19,
+        "direct": 9,
+        "factor": 1
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0945",
+      "current_instructions": 57,
+      "hybrid_instructions": 44,
+      "improvement": 13,
+      "relations": {
+        "anchor": 5,
+        "factor": 5,
+        "direct": 3
+      },
+      "inner_depth": 2,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0946",
+      "current_instructions": 493,
+      "hybrid_instructions": 475,
+      "improvement": 18,
+      "relations": {
+        "anchor": 25,
+        "direct": 4,
+        "factor": 1
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0947",
+      "current_instructions": 184,
+      "hybrid_instructions": 181,
+      "improvement": 3,
+      "relations": {
+        "direct": 10,
+        "anchor": 17,
+        "factor": 3
+      },
+      "inner_depth": 2,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0948",
+      "current_instructions": 329,
+      "hybrid_instructions": 317,
+      "improvement": 12,
+      "relations": {
+        "direct": 10,
+        "factor": 8,
+        "anchor": 14
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0949",
+      "current_instructions": 169,
+      "hybrid_instructions": 157,
+      "improvement": 12,
+      "relations": {
+        "direct": 15,
+        "factor": 5,
+        "anchor": 12
+      },
+      "inner_depth": 2,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0950",
+      "current_instructions": 327,
+      "hybrid_instructions": 311,
+      "improvement": 16,
+      "relations": {
+        "anchor": 21,
+        "factor": 4,
+        "direct": 6
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0951",
+      "current_instructions": 192,
+      "hybrid_instructions": 175,
+      "improvement": 17,
+      "relations": {
+        "anchor": 11,
+        "direct": 11,
+        "factor": 7
+      },
+      "inner_depth": 2,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0952",
+      "current_instructions": 479,
+      "hybrid_instructions": 465,
+      "improvement": 14,
+      "relations": {
+        "anchor": 20,
+        "direct": 8,
+        "factor": 1
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0953",
+      "current_instructions": 399,
+      "hybrid_instructions": 391,
+      "improvement": 8,
+      "relations": {
+        "anchor": 25,
+        "direct": 5,
+        "factor": 2
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0954",
+      "current_instructions": 142,
+      "hybrid_instructions": 131,
+      "improvement": 11,
+      "relations": {
+        "anchor": 16,
+        "direct": 9,
+        "factor": 5
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0955",
+      "current_instructions": 167,
+      "hybrid_instructions": 155,
+      "improvement": 12,
+      "relations": {
+        "direct": 9,
+        "anchor": 18,
+        "factor": 5
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0956",
+      "current_instructions": 490,
+      "hybrid_instructions": 475,
+      "improvement": 15,
+      "relations": {
+        "anchor": 23,
+        "direct": 8
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0957",
+      "current_instructions": 54,
+      "hybrid_instructions": 52,
+      "improvement": 2,
+      "relations": {
+        "anchor": 4,
+        "direct": 3
+      },
+      "inner_depth": 2,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0958",
+      "current_instructions": 54,
+      "hybrid_instructions": 52,
+      "improvement": 2,
+      "relations": {
+        "factor": 1,
+        "direct": 4,
+        "anchor": 1
+      },
+      "inner_depth": 2,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0960",
+      "current_instructions": 254,
+      "hybrid_instructions": 248,
+      "improvement": 6,
+      "relations": {
+        "anchor": 17,
+        "direct": 10,
+        "factor": 4
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0961",
+      "current_instructions": 273,
+      "hybrid_instructions": 259,
+      "improvement": 14,
+      "relations": {
+        "anchor": 18,
+        "direct": 10
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0962",
+      "current_instructions": 75,
+      "hybrid_instructions": 66,
+      "improvement": 9,
+      "relations": {
+        "direct": 5,
+        "anchor": 4,
+        "factor": 2
+      },
+      "inner_depth": 2,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0963",
+      "current_instructions": 335,
+      "hybrid_instructions": 328,
+      "improvement": 7,
+      "relations": {
+        "direct": 9,
+        "anchor": 19,
+        "factor": 1
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0964",
+      "current_instructions": 473,
+      "hybrid_instructions": 455,
+      "improvement": 18,
+      "relations": {
+        "direct": 10,
+        "anchor": 21,
+        "factor": 1
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0965",
+      "current_instructions": 474,
+      "hybrid_instructions": 469,
+      "improvement": 5,
+      "relations": {
+        "anchor": 18,
+        "direct": 11,
+        "factor": 3
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0966",
+      "current_instructions": 173,
+      "hybrid_instructions": 160,
+      "improvement": 13,
+      "relations": {
+        "anchor": 16,
+        "direct": 11,
+        "factor": 3
+      },
+      "inner_depth": 2,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0967",
+      "current_instructions": 221,
+      "hybrid_instructions": 216,
+      "improvement": 5,
+      "relations": {
+        "anchor": 13,
+        "direct": 13,
+        "factor": 2
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0968",
+      "current_instructions": 361,
+      "hybrid_instructions": 360,
+      "improvement": 1,
+      "relations": {
+        "anchor": 19,
+        "direct": 7,
+        "factor": 2
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0969",
+      "current_instructions": 355,
+      "hybrid_instructions": 344,
+      "improvement": 11,
+      "relations": {
+        "direct": 8,
+        "anchor": 15,
+        "factor": 6
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0970",
+      "current_instructions": 505,
+      "hybrid_instructions": 501,
+      "improvement": 4,
+      "relations": {
+        "direct": 8,
+        "anchor": 24
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0971",
+      "current_instructions": 38,
+      "hybrid_instructions": 32,
+      "improvement": 6,
+      "relations": {
+        "anchor": 2,
+        "factor": 4
+      },
+      "inner_depth": 2,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0972",
+      "current_instructions": 301,
+      "hybrid_instructions": 234,
+      "improvement": 67,
+      "relations": {
+        "direct": 10,
+        "anchor": 13,
+        "factor": 7
+      },
+      "inner_depth": 2,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0973",
+      "current_instructions": 269,
+      "hybrid_instructions": 256,
+      "improvement": 13,
+      "relations": {
+        "anchor": 20,
+        "direct": 8,
+        "factor": 1
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0974",
+      "current_instructions": 514,
+      "hybrid_instructions": 496,
+      "improvement": 18,
+      "relations": {
+        "anchor": 24,
+        "direct": 8
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0975",
+      "current_instructions": 362,
+      "hybrid_instructions": 252,
+      "improvement": 110,
+      "relations": {
+        "anchor": 13,
+        "direct": 9,
+        "factor": 10
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0976",
+      "current_instructions": 323,
+      "hybrid_instructions": 292,
+      "improvement": 31,
+      "relations": {
+        "anchor": 17,
+        "direct": 8,
+        "factor": 3
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0977",
+      "current_instructions": 360,
+      "hybrid_instructions": 350,
+      "improvement": 10,
+      "relations": {
+        "anchor": 21,
+        "direct": 6,
+        "factor": 1
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0978",
+      "current_instructions": 232,
+      "hybrid_instructions": 206,
+      "improvement": 26,
+      "relations": {
+        "direct": 12,
+        "anchor": 14,
+        "factor": 4
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0979",
+      "current_instructions": 426,
+      "hybrid_instructions": 407,
+      "improvement": 19,
+      "relations": {
+        "direct": 9,
+        "anchor": 14,
+        "factor": 5
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0980",
+      "current_instructions": 320,
+      "hybrid_instructions": 297,
+      "improvement": 23,
+      "relations": {
+        "direct": 15,
+        "anchor": 14,
+        "factor": 3
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0981",
+      "current_instructions": 47,
+      "hybrid_instructions": 46,
+      "improvement": 1,
+      "relations": {
+        "direct": 3,
+        "anchor": 4
+      },
+      "inner_depth": 2,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0982",
+      "current_instructions": 616,
+      "hybrid_instructions": 602,
+      "improvement": 14,
+      "relations": {
+        "anchor": 23,
+        "direct": 7,
+        "factor": 1
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0983",
+      "current_instructions": 351,
+      "hybrid_instructions": 326,
+      "improvement": 25,
+      "relations": {
+        "direct": 13,
+        "anchor": 14,
+        "factor": 5
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0984",
+      "current_instructions": 340,
+      "hybrid_instructions": 329,
+      "improvement": 11,
+      "relations": {
+        "direct": 11,
+        "anchor": 18,
+        "factor": 1
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0985",
+      "current_instructions": 336,
+      "hybrid_instructions": 264,
+      "improvement": 72,
+      "relations": {
+        "anchor": 12,
+        "direct": 8,
+        "factor": 8
+      },
+      "inner_depth": 2,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0987",
+      "current_instructions": 385,
+      "hybrid_instructions": 342,
+      "improvement": 43,
+      "relations": {
+        "direct": 9,
+        "anchor": 9,
+        "factor": 10
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0988",
+      "current_instructions": 429,
+      "hybrid_instructions": 417,
+      "improvement": 12,
+      "relations": {
+        "anchor": 21,
+        "direct": 9,
+        "factor": 2
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0989",
+      "current_instructions": 169,
+      "hybrid_instructions": 156,
+      "improvement": 13,
+      "relations": {
+        "anchor": 8,
+        "direct": 4
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0991",
+      "current_instructions": 415,
+      "hybrid_instructions": 399,
+      "improvement": 16,
+      "relations": {
+        "direct": 11,
+        "anchor": 12,
+        "factor": 6
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0992",
+      "current_instructions": 609,
+      "hybrid_instructions": 579,
+      "improvement": 30,
+      "relations": {
+        "direct": 5,
+        "anchor": 23,
+        "factor": 2
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0993",
+      "current_instructions": 535,
+      "hybrid_instructions": 518,
+      "improvement": 17,
+      "relations": {
+        "direct": 7,
+        "anchor": 21,
+        "factor": 2
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0994",
+      "current_instructions": 401,
+      "hybrid_instructions": 391,
+      "improvement": 10,
+      "relations": {
+        "anchor": 16,
+        "direct": 12,
+        "factor": 4
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0995",
+      "current_instructions": 377,
+      "hybrid_instructions": 358,
+      "improvement": 19,
+      "relations": {
+        "factor": 3,
+        "direct": 11,
+        "anchor": 18
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0996",
+      "current_instructions": 347,
+      "hybrid_instructions": 276,
+      "improvement": 71,
+      "relations": {
+        "direct": 7,
+        "anchor": 11,
+        "factor": 12
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0997",
+      "current_instructions": 351,
+      "hybrid_instructions": 325,
+      "improvement": 26,
+      "relations": {
+        "direct": 7,
+        "anchor": 19,
+        "factor": 4
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_0998",
+      "current_instructions": 485,
+      "hybrid_instructions": 460,
+      "improvement": 25,
+      "relations": {
+        "direct": 9,
+        "anchor": 20,
+        "factor": 3
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    },
+    {
+      "id": "scored_1000",
+      "current_instructions": 521,
+      "hybrid_instructions": 499,
+      "improvement": 22,
+      "relations": {
+        "anchor": 26,
+        "direct": 6
+      },
+      "inner_depth": 3,
+      "states_tested": 3
+    }
+  ]
+}

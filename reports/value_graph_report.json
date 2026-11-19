@@ -1,0 +1,2999 @@
+{
+  "optimizer": "global_value_numbering_dce_liveness_allocation",
+  "current_submission": "submissions/submission_deep_anchor.csv",
+  "output_submission": "submissions/submission_value_graph.csv",
+  "current_score": 363056,
+  "selected_score": 349311,
+  "optimized_puzzles": 339,
+  "register_pressure_failures": 661,
+  "improved_puzzles": 323,
+  "total_improvement": 13745,
+  "largest_improvements": [
+    {
+      "id": "scored_0240",
+      "current_instructions": 346,
+      "optimized_instructions": 276,
+      "improvement": 70,
+      "duplicate_results": 70,
+      "dead_or_duplicate_instructions": 70
+    },
+    {
+      "id": "scored_0803",
+      "current_instructions": 376,
+      "optimized_instructions": 307,
+      "improvement": 69,
+      "duplicate_results": 69,
+      "dead_or_duplicate_instructions": 69
+    },
+    {
+      "id": "scored_0311",
+      "current_instructions": 307,
+      "optimized_instructions": 240,
+      "improvement": 67,
+      "duplicate_results": 67,
+      "dead_or_duplicate_instructions": 67
+    },
+    {
+      "id": "scored_0624",
+      "current_instructions": 321,
+      "optimized_instructions": 254,
+      "improvement": 67,
+      "duplicate_results": 67,
+      "dead_or_duplicate_instructions": 67
+    },
+    {
+      "id": "scored_0118",
+      "current_instructions": 296,
+      "optimized_instructions": 230,
+      "improvement": 66,
+      "duplicate_results": 66,
+      "dead_or_duplicate_instructions": 66
+    },
+    {
+      "id": "scored_0164",
+      "current_instructions": 334,
+      "optimized_instructions": 269,
+      "improvement": 65,
+      "duplicate_results": 65,
+      "dead_or_duplicate_instructions": 65
+    },
+    {
+      "id": "scored_0679",
+      "current_instructions": 318,
+      "optimized_instructions": 253,
+      "improvement": 65,
+      "duplicate_results": 65,
+      "dead_or_duplicate_instructions": 65
+    },
+    {
+      "id": "scored_0735",
+      "current_instructions": 326,
+      "optimized_instructions": 261,
+      "improvement": 65,
+      "duplicate_results": 65,
+      "dead_or_duplicate_instructions": 65
+    },
+    {
+      "id": "scored_0500",
+      "current_instructions": 243,
+      "optimized_instructions": 179,
+      "improvement": 64,
+      "duplicate_results": 64,
+      "dead_or_duplicate_instructions": 64
+    },
+    {
+      "id": "scored_0022",
+      "current_instructions": 339,
+      "optimized_instructions": 276,
+      "improvement": 63,
+      "duplicate_results": 63,
+      "dead_or_duplicate_instructions": 63
+    },
+    {
+      "id": "scored_0081",
+      "current_instructions": 329,
+      "optimized_instructions": 266,
+      "improvement": 63,
+      "duplicate_results": 63,
+      "dead_or_duplicate_instructions": 63
+    },
+    {
+      "id": "scored_0402",
+      "current_instructions": 263,
+      "optimized_instructions": 200,
+      "improvement": 63,
+      "duplicate_results": 63,
+      "dead_or_duplicate_instructions": 63
+    },
+    {
+      "id": "scored_0737",
+      "current_instructions": 302,
+      "optimized_instructions": 239,
+      "improvement": 63,
+      "duplicate_results": 63,
+      "dead_or_duplicate_instructions": 63
+    },
+    {
+      "id": "scored_0924",
+      "current_instructions": 333,
+      "optimized_instructions": 270,
+      "improvement": 63,
+      "duplicate_results": 63,
+      "dead_or_duplicate_instructions": 63
+    },
+    {
+      "id": "scored_0017",
+      "current_instructions": 353,
+      "optimized_instructions": 291,
+      "improvement": 62,
+      "duplicate_results": 62,
+      "dead_or_duplicate_instructions": 62
+    },
+    {
+      "id": "scored_0077",
+      "current_instructions": 304,
+      "optimized_instructions": 242,
+      "improvement": 62,
+      "duplicate_results": 62,
+      "dead_or_duplicate_instructions": 62
+    },
+    {
+      "id": "scored_0205",
+      "current_instructions": 352,
+      "optimized_instructions": 290,
+      "improvement": 62,
+      "duplicate_results": 62,
+      "dead_or_duplicate_instructions": 62
+    },
+    {
+      "id": "scored_0316",
+      "current_instructions": 309,
+      "optimized_instructions": 247,
+      "improvement": 62,
+      "duplicate_results": 62,
+      "dead_or_duplicate_instructions": 62
+    },
+    {
+      "id": "scored_0760",
+      "current_instructions": 296,
+      "optimized_instructions": 234,
+      "improvement": 62,
+      "duplicate_results": 62,
+      "dead_or_duplicate_instructions": 62
+    },
+    {
+      "id": "scored_0178",
+      "current_instructions": 291,
+      "optimized_instructions": 230,
+      "improvement": 61,
+      "duplicate_results": 61,
+      "dead_or_duplicate_instructions": 61
+    },
+    {
+      "id": "scored_0367",
+      "current_instructions": 320,
+      "optimized_instructions": 259,
+      "improvement": 61,
+      "duplicate_results": 61,
+      "dead_or_duplicate_instructions": 61
+    },
+    {
+      "id": "scored_0522",
+      "current_instructions": 239,
+      "optimized_instructions": 178,
+      "improvement": 61,
+      "duplicate_results": 61,
+      "dead_or_duplicate_instructions": 61
+    },
+    {
+      "id": "scored_0641",
+      "current_instructions": 321,
+      "optimized_instructions": 260,
+      "improvement": 61,
+      "duplicate_results": 61,
+      "dead_or_duplicate_instructions": 61
+    },
+    {
+      "id": "scored_0668",
+      "current_instructions": 320,
+      "optimized_instructions": 259,
+      "improvement": 61,
+      "duplicate_results": 61,
+      "dead_or_duplicate_instructions": 61
+    },
+    {
+      "id": "scored_0757",
+      "current_instructions": 343,
+      "optimized_instructions": 282,
+      "improvement": 61,
+      "duplicate_results": 61,
+      "dead_or_duplicate_instructions": 61
+    },
+    {
+      "id": "scored_0035",
+      "current_instructions": 289,
+      "optimized_instructions": 229,
+      "improvement": 60,
+      "duplicate_results": 60,
+      "dead_or_duplicate_instructions": 60
+    },
+    {
+      "id": "scored_0362",
+      "current_instructions": 322,
+      "optimized_instructions": 262,
+      "improvement": 60,
+      "duplicate_results": 60,
+      "dead_or_duplicate_instructions": 60
+    },
+    {
+      "id": "scored_0479",
+      "current_instructions": 306,
+      "optimized_instructions": 246,
+      "improvement": 60,
+      "duplicate_results": 60,
+      "dead_or_duplicate_instructions": 60
+    },
+    {
+      "id": "scored_0691",
+      "current_instructions": 383,
+      "optimized_instructions": 323,
+      "improvement": 60,
+      "duplicate_results": 60,
+      "dead_or_duplicate_instructions": 60
+    },
+    {
+      "id": "scored_0750",
+      "current_instructions": 307,
+      "optimized_instructions": 247,
+      "improvement": 60,
+      "duplicate_results": 60,
+      "dead_or_duplicate_instructions": 60
+    },
+    {
+      "id": "scored_0787",
+      "current_instructions": 283,
+      "optimized_instructions": 223,
+      "improvement": 60,
+      "duplicate_results": 60,
+      "dead_or_duplicate_instructions": 60
+    },
+    {
+      "id": "scored_0884",
+      "current_instructions": 289,
+      "optimized_instructions": 229,
+      "improvement": 60,
+      "duplicate_results": 60,
+      "dead_or_duplicate_instructions": 60
+    },
+    {
+      "id": "scored_0219",
+      "current_instructions": 333,
+      "optimized_instructions": 274,
+      "improvement": 59,
+      "duplicate_results": 59,
+      "dead_or_duplicate_instructions": 59
+    },
+    {
+      "id": "scored_0236",
+      "current_instructions": 291,
+      "optimized_instructions": 232,
+      "improvement": 59,
+      "duplicate_results": 59,
+      "dead_or_duplicate_instructions": 59
+    },
+    {
+      "id": "scored_0259",
+      "current_instructions": 291,
+      "optimized_instructions": 232,
+      "improvement": 59,
+      "duplicate_results": 59,
+      "dead_or_duplicate_instructions": 59
+    },
+    {
+      "id": "scored_0341",
+      "current_instructions": 333,
+      "optimized_instructions": 274,
+      "improvement": 59,
+      "duplicate_results": 59,
+      "dead_or_duplicate_instructions": 59
+    },
+    {
+      "id": "scored_0456",
+      "current_instructions": 313,
+      "optimized_instructions": 254,
+      "improvement": 59,
+      "duplicate_results": 59,
+      "dead_or_duplicate_instructions": 59
+    },
+    {
+      "id": "scored_0486",
+      "current_instructions": 305,
+      "optimized_instructions": 246,
+      "improvement": 59,
+      "duplicate_results": 59,
+      "dead_or_duplicate_instructions": 59
+    },
+    {
+      "id": "scored_0999",
+      "current_instructions": 308,
+      "optimized_instructions": 249,
+      "improvement": 59,
+      "duplicate_results": 59,
+      "dead_or_duplicate_instructions": 59
+    },
+    {
+      "id": "scored_0141",
+      "current_instructions": 346,
+      "optimized_instructions": 288,
+      "improvement": 58,
+      "duplicate_results": 58,
+      "dead_or_duplicate_instructions": 58
+    },
+    {
+      "id": "scored_0372",
+      "current_instructions": 312,
+      "optimized_instructions": 254,
+      "improvement": 58,
+      "duplicate_results": 58,
+      "dead_or_duplicate_instructions": 58
+    },
+    {
+      "id": "scored_0451",
+      "current_instructions": 297,
+      "optimized_instructions": 239,
+      "improvement": 58,
+      "duplicate_results": 58,
+      "dead_or_duplicate_instructions": 58
+    },
+    {
+      "id": "scored_0462",
+      "current_instructions": 305,
+      "optimized_instructions": 247,
+      "improvement": 58,
+      "duplicate_results": 58,
+      "dead_or_duplicate_instructions": 58
+    },
+    {
+      "id": "scored_0547",
+      "current_instructions": 301,
+      "optimized_instructions": 243,
+      "improvement": 58,
+      "duplicate_results": 58,
+      "dead_or_duplicate_instructions": 58
+    },
+    {
+      "id": "scored_0697",
+      "current_instructions": 328,
+      "optimized_instructions": 270,
+      "improvement": 58,
+      "duplicate_results": 58,
+      "dead_or_duplicate_instructions": 58
+    },
+    {
+      "id": "scored_0825",
+      "current_instructions": 313,
+      "optimized_instructions": 255,
+      "improvement": 58,
+      "duplicate_results": 58,
+      "dead_or_duplicate_instructions": 58
+    },
+    {
+      "id": "scored_0830",
+      "current_instructions": 296,
+      "optimized_instructions": 238,
+      "improvement": 58,
+      "duplicate_results": 58,
+      "dead_or_duplicate_instructions": 58
+    },
+    {
+      "id": "scored_0871",
+      "current_instructions": 298,
+      "optimized_instructions": 240,
+      "improvement": 58,
+      "duplicate_results": 58,
+      "dead_or_duplicate_instructions": 58
+    },
+    {
+      "id": "scored_0052",
+      "current_instructions": 289,
+      "optimized_instructions": 232,
+      "improvement": 57,
+      "duplicate_results": 57,
+      "dead_or_duplicate_instructions": 57
+    },
+    {
+      "id": "scored_0128",
+      "current_instructions": 327,
+      "optimized_instructions": 270,
+      "improvement": 57,
+      "duplicate_results": 57,
+      "dead_or_duplicate_instructions": 57
+    }
+  ],
+  "improved": [
+    {
+      "id": "scored_0005",
+      "current_instructions": 128,
+      "optimized_instructions": 99,
+      "improvement": 29,
+      "duplicate_results": 29,
+      "dead_or_duplicate_instructions": 29
+    },
+    {
+      "id": "scored_0009",
+      "current_instructions": 117,
+      "optimized_instructions": 83,
+      "improvement": 34,
+      "duplicate_results": 34,
+      "dead_or_duplicate_instructions": 34
+    },
+    {
+      "id": "scored_0014",
+      "current_instructions": 80,
+      "optimized_instructions": 57,
+      "improvement": 23,
+      "duplicate_results": 23,
+      "dead_or_duplicate_instructions": 23
+    },
+    {
+      "id": "scored_0017",
+      "current_instructions": 353,
+      "optimized_instructions": 291,
+      "improvement": 62,
+      "duplicate_results": 62,
+      "dead_or_duplicate_instructions": 62
+    },
+    {
+      "id": "scored_0019",
+      "current_instructions": 68,
+      "optimized_instructions": 61,
+      "improvement": 7,
+      "duplicate_results": 6,
+      "dead_or_duplicate_instructions": 7
+    },
+    {
+      "id": "scored_0021",
+      "current_instructions": 99,
+      "optimized_instructions": 75,
+      "improvement": 24,
+      "duplicate_results": 24,
+      "dead_or_duplicate_instructions": 24
+    },
+    {
+      "id": "scored_0022",
+      "current_instructions": 339,
+      "optimized_instructions": 276,
+      "improvement": 63,
+      "duplicate_results": 63,
+      "dead_or_duplicate_instructions": 63
+    },
+    {
+      "id": "scored_0024",
+      "current_instructions": 73,
+      "optimized_instructions": 52,
+      "improvement": 21,
+      "duplicate_results": 21,
+      "dead_or_duplicate_instructions": 21
+    },
+    {
+      "id": "scored_0029",
+      "current_instructions": 114,
+      "optimized_instructions": 84,
+      "improvement": 30,
+      "duplicate_results": 30,
+      "dead_or_duplicate_instructions": 30
+    },
+    {
+      "id": "scored_0032",
+      "current_instructions": 310,
+      "optimized_instructions": 256,
+      "improvement": 54,
+      "duplicate_results": 54,
+      "dead_or_duplicate_instructions": 54
+    },
+    {
+      "id": "scored_0035",
+      "current_instructions": 289,
+      "optimized_instructions": 229,
+      "improvement": 60,
+      "duplicate_results": 60,
+      "dead_or_duplicate_instructions": 60
+    },
+    {
+      "id": "scored_0039",
+      "current_instructions": 268,
+      "optimized_instructions": 219,
+      "improvement": 49,
+      "duplicate_results": 49,
+      "dead_or_duplicate_instructions": 49
+    },
+    {
+      "id": "scored_0044",
+      "current_instructions": 191,
+      "optimized_instructions": 151,
+      "improvement": 40,
+      "duplicate_results": 40,
+      "dead_or_duplicate_instructions": 40
+    },
+    {
+      "id": "scored_0046",
+      "current_instructions": 91,
+      "optimized_instructions": 85,
+      "improvement": 6,
+      "duplicate_results": 6,
+      "dead_or_duplicate_instructions": 6
+    },
+    {
+      "id": "scored_0050",
+      "current_instructions": 73,
+      "optimized_instructions": 54,
+      "improvement": 19,
+      "duplicate_results": 19,
+      "dead_or_duplicate_instructions": 19
+    },
+    {
+      "id": "scored_0052",
+      "current_instructions": 289,
+      "optimized_instructions": 232,
+      "improvement": 57,
+      "duplicate_results": 57,
+      "dead_or_duplicate_instructions": 57
+    },
+    {
+      "id": "scored_0055",
+      "current_instructions": 192,
+      "optimized_instructions": 153,
+      "improvement": 39,
+      "duplicate_results": 39,
+      "dead_or_duplicate_instructions": 39
+    },
+    {
+      "id": "scored_0056",
+      "current_instructions": 75,
+      "optimized_instructions": 51,
+      "improvement": 24,
+      "duplicate_results": 24,
+      "dead_or_duplicate_instructions": 24
+    },
+    {
+      "id": "scored_0065",
+      "current_instructions": 98,
+      "optimized_instructions": 75,
+      "improvement": 23,
+      "duplicate_results": 23,
+      "dead_or_duplicate_instructions": 23
+    },
+    {
+      "id": "scored_0066",
+      "current_instructions": 113,
+      "optimized_instructions": 83,
+      "improvement": 30,
+      "duplicate_results": 30,
+      "dead_or_duplicate_instructions": 30
+    },
+    {
+      "id": "scored_0071",
+      "current_instructions": 292,
+      "optimized_instructions": 236,
+      "improvement": 56,
+      "duplicate_results": 56,
+      "dead_or_duplicate_instructions": 56
+    },
+    {
+      "id": "scored_0077",
+      "current_instructions": 304,
+      "optimized_instructions": 242,
+      "improvement": 62,
+      "duplicate_results": 62,
+      "dead_or_duplicate_instructions": 62
+    },
+    {
+      "id": "scored_0078",
+      "current_instructions": 274,
+      "optimized_instructions": 224,
+      "improvement": 50,
+      "duplicate_results": 50,
+      "dead_or_duplicate_instructions": 50
+    },
+    {
+      "id": "scored_0081",
+      "current_instructions": 329,
+      "optimized_instructions": 266,
+      "improvement": 63,
+      "duplicate_results": 63,
+      "dead_or_duplicate_instructions": 63
+    },
+    {
+      "id": "scored_0084",
+      "current_instructions": 110,
+      "optimized_instructions": 83,
+      "improvement": 27,
+      "duplicate_results": 27,
+      "dead_or_duplicate_instructions": 27
+    },
+    {
+      "id": "scored_0085",
+      "current_instructions": 243,
+      "optimized_instructions": 195,
+      "improvement": 48,
+      "duplicate_results": 48,
+      "dead_or_duplicate_instructions": 48
+    },
+    {
+      "id": "scored_0086",
+      "current_instructions": 287,
+      "optimized_instructions": 236,
+      "improvement": 51,
+      "duplicate_results": 51,
+      "dead_or_duplicate_instructions": 51
+    },
+    {
+      "id": "scored_0091",
+      "current_instructions": 88,
+      "optimized_instructions": 65,
+      "improvement": 23,
+      "duplicate_results": 23,
+      "dead_or_duplicate_instructions": 23
+    },
+    {
+      "id": "scored_0092",
+      "current_instructions": 97,
+      "optimized_instructions": 70,
+      "improvement": 27,
+      "duplicate_results": 27,
+      "dead_or_duplicate_instructions": 27
+    },
+    {
+      "id": "scored_0093",
+      "current_instructions": 286,
+      "optimized_instructions": 230,
+      "improvement": 56,
+      "duplicate_results": 56,
+      "dead_or_duplicate_instructions": 56
+    },
+    {
+      "id": "scored_0095",
+      "current_instructions": 110,
+      "optimized_instructions": 80,
+      "improvement": 30,
+      "duplicate_results": 30,
+      "dead_or_duplicate_instructions": 30
+    },
+    {
+      "id": "scored_0097",
+      "current_instructions": 238,
+      "optimized_instructions": 193,
+      "improvement": 45,
+      "duplicate_results": 45,
+      "dead_or_duplicate_instructions": 45
+    },
+    {
+      "id": "scored_0101",
+      "current_instructions": 304,
+      "optimized_instructions": 249,
+      "improvement": 55,
+      "duplicate_results": 55,
+      "dead_or_duplicate_instructions": 55
+    },
+    {
+      "id": "scored_0103",
+      "current_instructions": 126,
+      "optimized_instructions": 90,
+      "improvement": 36,
+      "duplicate_results": 36,
+      "dead_or_duplicate_instructions": 36
+    },
+    {
+      "id": "scored_0113",
+      "current_instructions": 67,
+      "optimized_instructions": 46,
+      "improvement": 21,
+      "duplicate_results": 21,
+      "dead_or_duplicate_instructions": 21
+    },
+    {
+      "id": "scored_0116",
+      "current_instructions": 231,
+      "optimized_instructions": 182,
+      "improvement": 49,
+      "duplicate_results": 49,
+      "dead_or_duplicate_instructions": 49
+    },
+    {
+      "id": "scored_0118",
+      "current_instructions": 296,
+      "optimized_instructions": 230,
+      "improvement": 66,
+      "duplicate_results": 66,
+      "dead_or_duplicate_instructions": 66
+    },
+    {
+      "id": "scored_0121",
+      "current_instructions": 111,
+      "optimized_instructions": 83,
+      "improvement": 28,
+      "duplicate_results": 28,
+      "dead_or_duplicate_instructions": 28
+    },
+    {
+      "id": "scored_0124",
+      "current_instructions": 74,
+      "optimized_instructions": 51,
+      "improvement": 23,
+      "duplicate_results": 23,
+      "dead_or_duplicate_instructions": 23
+    },
+    {
+      "id": "scored_0125",
+      "current_instructions": 323,
+      "optimized_instructions": 271,
+      "improvement": 52,
+      "duplicate_results": 52,
+      "dead_or_duplicate_instructions": 52
+    },
+    {
+      "id": "scored_0128",
+      "current_instructions": 327,
+      "optimized_instructions": 270,
+      "improvement": 57,
+      "duplicate_results": 57,
+      "dead_or_duplicate_instructions": 57
+    },
+    {
+      "id": "scored_0130",
+      "current_instructions": 76,
+      "optimized_instructions": 70,
+      "improvement": 6,
+      "duplicate_results": 6,
+      "dead_or_duplicate_instructions": 6
+    },
+    {
+      "id": "scored_0131",
+      "current_instructions": 263,
+      "optimized_instructions": 211,
+      "improvement": 52,
+      "duplicate_results": 52,
+      "dead_or_duplicate_instructions": 52
+    },
+    {
+      "id": "scored_0134",
+      "current_instructions": 77,
+      "optimized_instructions": 54,
+      "improvement": 23,
+      "duplicate_results": 23,
+      "dead_or_duplicate_instructions": 23
+    },
+    {
+      "id": "scored_0135",
+      "current_instructions": 235,
+      "optimized_instructions": 182,
+      "improvement": 53,
+      "duplicate_results": 53,
+      "dead_or_duplicate_instructions": 53
+    },
+    {
+      "id": "scored_0137",
+      "current_instructions": 123,
+      "optimized_instructions": 96,
+      "improvement": 27,
+      "duplicate_results": 27,
+      "dead_or_duplicate_instructions": 27
+    },
+    {
+      "id": "scored_0138",
+      "current_instructions": 227,
+      "optimized_instructions": 184,
+      "improvement": 43,
+      "duplicate_results": 43,
+      "dead_or_duplicate_instructions": 43
+    },
+    {
+      "id": "scored_0141",
+      "current_instructions": 346,
+      "optimized_instructions": 288,
+      "improvement": 58,
+      "duplicate_results": 58,
+      "dead_or_duplicate_instructions": 58
+    },
+    {
+      "id": "scored_0147",
+      "current_instructions": 244,
+      "optimized_instructions": 194,
+      "improvement": 50,
+      "duplicate_results": 50,
+      "dead_or_duplicate_instructions": 50
+    },
+    {
+      "id": "scored_0149",
+      "current_instructions": 57,
+      "optimized_instructions": 38,
+      "improvement": 19,
+      "duplicate_results": 19,
+      "dead_or_duplicate_instructions": 19
+    },
+    {
+      "id": "scored_0151",
+      "current_instructions": 88,
+      "optimized_instructions": 66,
+      "improvement": 22,
+      "duplicate_results": 22,
+      "dead_or_duplicate_instructions": 22
+    },
+    {
+      "id": "scored_0156",
+      "current_instructions": 343,
+      "optimized_instructions": 287,
+      "improvement": 56,
+      "duplicate_results": 56,
+      "dead_or_duplicate_instructions": 56
+    },
+    {
+      "id": "scored_0164",
+      "current_instructions": 334,
+      "optimized_instructions": 269,
+      "improvement": 65,
+      "duplicate_results": 65,
+      "dead_or_duplicate_instructions": 65
+    },
+    {
+      "id": "scored_0169",
+      "current_instructions": 272,
+      "optimized_instructions": 222,
+      "improvement": 50,
+      "duplicate_results": 50,
+      "dead_or_duplicate_instructions": 50
+    },
+    {
+      "id": "scored_0175",
+      "current_instructions": 275,
+      "optimized_instructions": 227,
+      "improvement": 48,
+      "duplicate_results": 48,
+      "dead_or_duplicate_instructions": 48
+    },
+    {
+      "id": "scored_0176",
+      "current_instructions": 316,
+      "optimized_instructions": 264,
+      "improvement": 52,
+      "duplicate_results": 52,
+      "dead_or_duplicate_instructions": 52
+    },
+    {
+      "id": "scored_0178",
+      "current_instructions": 291,
+      "optimized_instructions": 230,
+      "improvement": 61,
+      "duplicate_results": 61,
+      "dead_or_duplicate_instructions": 61
+    },
+    {
+      "id": "scored_0180",
+      "current_instructions": 216,
+      "optimized_instructions": 168,
+      "improvement": 48,
+      "duplicate_results": 48,
+      "dead_or_duplicate_instructions": 48
+    },
+    {
+      "id": "scored_0181",
+      "current_instructions": 80,
+      "optimized_instructions": 60,
+      "improvement": 20,
+      "duplicate_results": 20,
+      "dead_or_duplicate_instructions": 20
+    },
+    {
+      "id": "scored_0187",
+      "current_instructions": 237,
+      "optimized_instructions": 188,
+      "improvement": 49,
+      "duplicate_results": 49,
+      "dead_or_duplicate_instructions": 49
+    },
+    {
+      "id": "scored_0188",
+      "current_instructions": 232,
+      "optimized_instructions": 186,
+      "improvement": 46,
+      "duplicate_results": 46,
+      "dead_or_duplicate_instructions": 46
+    },
+    {
+      "id": "scored_0196",
+      "current_instructions": 96,
+      "optimized_instructions": 65,
+      "improvement": 31,
+      "duplicate_results": 31,
+      "dead_or_duplicate_instructions": 31
+    },
+    {
+      "id": "scored_0199",
+      "current_instructions": 249,
+      "optimized_instructions": 201,
+      "improvement": 48,
+      "duplicate_results": 48,
+      "dead_or_duplicate_instructions": 48
+    },
+    {
+      "id": "scored_0205",
+      "current_instructions": 352,
+      "optimized_instructions": 290,
+      "improvement": 62,
+      "duplicate_results": 62,
+      "dead_or_duplicate_instructions": 62
+    },
+    {
+      "id": "scored_0210",
+      "current_instructions": 225,
+      "optimized_instructions": 180,
+      "improvement": 45,
+      "duplicate_results": 45,
+      "dead_or_duplicate_instructions": 45
+    },
+    {
+      "id": "scored_0211",
+      "current_instructions": 111,
+      "optimized_instructions": 78,
+      "improvement": 33,
+      "duplicate_results": 33,
+      "dead_or_duplicate_instructions": 33
+    },
+    {
+      "id": "scored_0212",
+      "current_instructions": 54,
+      "optimized_instructions": 37,
+      "improvement": 17,
+      "duplicate_results": 17,
+      "dead_or_duplicate_instructions": 17
+    },
+    {
+      "id": "scored_0219",
+      "current_instructions": 333,
+      "optimized_instructions": 274,
+      "improvement": 59,
+      "duplicate_results": 59,
+      "dead_or_duplicate_instructions": 59
+    },
+    {
+      "id": "scored_0220",
+      "current_instructions": 287,
+      "optimized_instructions": 232,
+      "improvement": 55,
+      "duplicate_results": 55,
+      "dead_or_duplicate_instructions": 55
+    },
+    {
+      "id": "scored_0221",
+      "current_instructions": 92,
+      "optimized_instructions": 67,
+      "improvement": 25,
+      "duplicate_results": 25,
+      "dead_or_duplicate_instructions": 25
+    },
+    {
+      "id": "scored_0222",
+      "current_instructions": 93,
+      "optimized_instructions": 70,
+      "improvement": 23,
+      "duplicate_results": 23,
+      "dead_or_duplicate_instructions": 23
+    },
+    {
+      "id": "scored_0225",
+      "current_instructions": 275,
+      "optimized_instructions": 224,
+      "improvement": 51,
+      "duplicate_results": 51,
+      "dead_or_duplicate_instructions": 51
+    },
+    {
+      "id": "scored_0226",
+      "current_instructions": 333,
+      "optimized_instructions": 277,
+      "improvement": 56,
+      "duplicate_results": 56,
+      "dead_or_duplicate_instructions": 56
+    },
+    {
+      "id": "scored_0233",
+      "current_instructions": 110,
+      "optimized_instructions": 82,
+      "improvement": 28,
+      "duplicate_results": 28,
+      "dead_or_duplicate_instructions": 28
+    },
+    {
+      "id": "scored_0236",
+      "current_instructions": 291,
+      "optimized_instructions": 232,
+      "improvement": 59,
+      "duplicate_results": 59,
+      "dead_or_duplicate_instructions": 59
+    },
+    {
+      "id": "scored_0237",
+      "current_instructions": 85,
+      "optimized_instructions": 60,
+      "improvement": 25,
+      "duplicate_results": 24,
+      "dead_or_duplicate_instructions": 25
+    },
+    {
+      "id": "scored_0240",
+      "current_instructions": 346,
+      "optimized_instructions": 276,
+      "improvement": 70,
+      "duplicate_results": 70,
+      "dead_or_duplicate_instructions": 70
+    },
+    {
+      "id": "scored_0241",
+      "current_instructions": 89,
+      "optimized_instructions": 66,
+      "improvement": 23,
+      "duplicate_results": 23,
+      "dead_or_duplicate_instructions": 23
+    },
+    {
+      "id": "scored_0245",
+      "current_instructions": 288,
+      "optimized_instructions": 239,
+      "improvement": 49,
+      "duplicate_results": 49,
+      "dead_or_duplicate_instructions": 49
+    },
+    {
+      "id": "scored_0250",
+      "current_instructions": 81,
+      "optimized_instructions": 54,
+      "improvement": 27,
+      "duplicate_results": 27,
+      "dead_or_duplicate_instructions": 27
+    },
+    {
+      "id": "scored_0252",
+      "current_instructions": 165,
+      "optimized_instructions": 128,
+      "improvement": 37,
+      "duplicate_results": 37,
+      "dead_or_duplicate_instructions": 37
+    },
+    {
+      "id": "scored_0253",
+      "current_instructions": 196,
+      "optimized_instructions": 152,
+      "improvement": 44,
+      "duplicate_results": 44,
+      "dead_or_duplicate_instructions": 44
+    },
+    {
+      "id": "scored_0256",
+      "current_instructions": 212,
+      "optimized_instructions": 168,
+      "improvement": 44,
+      "duplicate_results": 44,
+      "dead_or_duplicate_instructions": 44
+    },
+    {
+      "id": "scored_0259",
+      "current_instructions": 291,
+      "optimized_instructions": 232,
+      "improvement": 59,
+      "duplicate_results": 59,
+      "dead_or_duplicate_instructions": 59
+    },
+    {
+      "id": "scored_0260",
+      "current_instructions": 242,
+      "optimized_instructions": 190,
+      "improvement": 52,
+      "duplicate_results": 52,
+      "dead_or_duplicate_instructions": 52
+    },
+    {
+      "id": "scored_0266",
+      "current_instructions": 318,
+      "optimized_instructions": 262,
+      "improvement": 56,
+      "duplicate_results": 56,
+      "dead_or_duplicate_instructions": 56
+    },
+    {
+      "id": "scored_0270",
+      "current_instructions": 325,
+      "optimized_instructions": 269,
+      "improvement": 56,
+      "duplicate_results": 56,
+      "dead_or_duplicate_instructions": 56
+    },
+    {
+      "id": "scored_0271",
+      "current_instructions": 121,
+      "optimized_instructions": 90,
+      "improvement": 31,
+      "duplicate_results": 31,
+      "dead_or_duplicate_instructions": 31
+    },
+    {
+      "id": "scored_0272",
+      "current_instructions": 63,
+      "optimized_instructions": 43,
+      "improvement": 20,
+      "duplicate_results": 20,
+      "dead_or_duplicate_instructions": 20
+    },
+    {
+      "id": "scored_0276",
+      "current_instructions": 174,
+      "optimized_instructions": 137,
+      "improvement": 37,
+      "duplicate_results": 37,
+      "dead_or_duplicate_instructions": 37
+    },
+    {
+      "id": "scored_0278",
+      "current_instructions": 210,
+      "optimized_instructions": 163,
+      "improvement": 47,
+      "duplicate_results": 47,
+      "dead_or_duplicate_instructions": 47
+    },
+    {
+      "id": "scored_0282",
+      "current_instructions": 127,
+      "optimized_instructions": 95,
+      "improvement": 32,
+      "duplicate_results": 32,
+      "dead_or_duplicate_instructions": 32
+    },
+    {
+      "id": "scored_0289",
+      "current_instructions": 52,
+      "optimized_instructions": 41,
+      "improvement": 11,
+      "duplicate_results": 11,
+      "dead_or_duplicate_instructions": 11
+    },
+    {
+      "id": "scored_0292",
+      "current_instructions": 139,
+      "optimized_instructions": 103,
+      "improvement": 36,
+      "duplicate_results": 36,
+      "dead_or_duplicate_instructions": 36
+    },
+    {
+      "id": "scored_0296",
+      "current_instructions": 115,
+      "optimized_instructions": 83,
+      "improvement": 32,
+      "duplicate_results": 31,
+      "dead_or_duplicate_instructions": 32
+    },
+    {
+      "id": "scored_0298",
+      "current_instructions": 257,
+      "optimized_instructions": 209,
+      "improvement": 48,
+      "duplicate_results": 48,
+      "dead_or_duplicate_instructions": 48
+    },
+    {
+      "id": "scored_0300",
+      "current_instructions": 115,
+      "optimized_instructions": 85,
+      "improvement": 30,
+      "duplicate_results": 30,
+      "dead_or_duplicate_instructions": 30
+    },
+    {
+      "id": "scored_0308",
+      "current_instructions": 101,
+      "optimized_instructions": 75,
+      "improvement": 26,
+      "duplicate_results": 26,
+      "dead_or_duplicate_instructions": 26
+    },
+    {
+      "id": "scored_0311",
+      "current_instructions": 307,
+      "optimized_instructions": 240,
+      "improvement": 67,
+      "duplicate_results": 67,
+      "dead_or_duplicate_instructions": 67
+    },
+    {
+      "id": "scored_0316",
+      "current_instructions": 309,
+      "optimized_instructions": 247,
+      "improvement": 62,
+      "duplicate_results": 62,
+      "dead_or_duplicate_instructions": 62
+    },
+    {
+      "id": "scored_0320",
+      "current_instructions": 92,
+      "optimized_instructions": 65,
+      "improvement": 27,
+      "duplicate_results": 27,
+      "dead_or_duplicate_instructions": 27
+    },
+    {
+      "id": "scored_0337",
+      "current_instructions": 328,
+      "optimized_instructions": 279,
+      "improvement": 49,
+      "duplicate_results": 49,
+      "dead_or_duplicate_instructions": 49
+    },
+    {
+      "id": "scored_0339",
+      "current_instructions": 232,
+      "optimized_instructions": 181,
+      "improvement": 51,
+      "duplicate_results": 51,
+      "dead_or_duplicate_instructions": 51
+    },
+    {
+      "id": "scored_0341",
+      "current_instructions": 333,
+      "optimized_instructions": 274,
+      "improvement": 59,
+      "duplicate_results": 59,
+      "dead_or_duplicate_instructions": 59
+    },
+    {
+      "id": "scored_0350",
+      "current_instructions": 144,
+      "optimized_instructions": 110,
+      "improvement": 34,
+      "duplicate_results": 34,
+      "dead_or_duplicate_instructions": 34
+    },
+    {
+      "id": "scored_0355",
+      "current_instructions": 294,
+      "optimized_instructions": 242,
+      "improvement": 52,
+      "duplicate_results": 52,
+      "dead_or_duplicate_instructions": 52
+    },
+    {
+      "id": "scored_0356",
+      "current_instructions": 222,
+      "optimized_instructions": 171,
+      "improvement": 51,
+      "duplicate_results": 51,
+      "dead_or_duplicate_instructions": 51
+    },
+    {
+      "id": "scored_0362",
+      "current_instructions": 322,
+      "optimized_instructions": 262,
+      "improvement": 60,
+      "duplicate_results": 60,
+      "dead_or_duplicate_instructions": 60
+    },
+    {
+      "id": "scored_0367",
+      "current_instructions": 320,
+      "optimized_instructions": 259,
+      "improvement": 61,
+      "duplicate_results": 61,
+      "dead_or_duplicate_instructions": 61
+    },
+    {
+      "id": "scored_0368",
+      "current_instructions": 115,
+      "optimized_instructions": 85,
+      "improvement": 30,
+      "duplicate_results": 30,
+      "dead_or_duplicate_instructions": 30
+    },
+    {
+      "id": "scored_0372",
+      "current_instructions": 312,
+      "optimized_instructions": 254,
+      "improvement": 58,
+      "duplicate_results": 58,
+      "dead_or_duplicate_instructions": 58
+    },
+    {
+      "id": "scored_0376",
+      "current_instructions": 73,
+      "optimized_instructions": 51,
+      "improvement": 22,
+      "duplicate_results": 22,
+      "dead_or_duplicate_instructions": 22
+    },
+    {
+      "id": "scored_0377",
+      "current_instructions": 235,
+      "optimized_instructions": 182,
+      "improvement": 53,
+      "duplicate_results": 53,
+      "dead_or_duplicate_instructions": 53
+    },
+    {
+      "id": "scored_0378",
+      "current_instructions": 209,
+      "optimized_instructions": 169,
+      "improvement": 40,
+      "duplicate_results": 40,
+      "dead_or_duplicate_instructions": 40
+    },
+    {
+      "id": "scored_0379",
+      "current_instructions": 308,
+      "optimized_instructions": 256,
+      "improvement": 52,
+      "duplicate_results": 52,
+      "dead_or_duplicate_instructions": 52
+    },
+    {
+      "id": "scored_0387",
+      "current_instructions": 65,
+      "optimized_instructions": 44,
+      "improvement": 21,
+      "duplicate_results": 21,
+      "dead_or_duplicate_instructions": 21
+    },
+    {
+      "id": "scored_0388",
+      "current_instructions": 60,
+      "optimized_instructions": 42,
+      "improvement": 18,
+      "duplicate_results": 18,
+      "dead_or_duplicate_instructions": 18
+    },
+    {
+      "id": "scored_0390",
+      "current_instructions": 300,
+      "optimized_instructions": 247,
+      "improvement": 53,
+      "duplicate_results": 53,
+      "dead_or_duplicate_instructions": 53
+    },
+    {
+      "id": "scored_0392",
+      "current_instructions": 315,
+      "optimized_instructions": 259,
+      "improvement": 56,
+      "duplicate_results": 56,
+      "dead_or_duplicate_instructions": 56
+    },
+    {
+      "id": "scored_0393",
+      "current_instructions": 84,
+      "optimized_instructions": 57,
+      "improvement": 27,
+      "duplicate_results": 26,
+      "dead_or_duplicate_instructions": 27
+    },
+    {
+      "id": "scored_0395",
+      "current_instructions": 221,
+      "optimized_instructions": 174,
+      "improvement": 47,
+      "duplicate_results": 47,
+      "dead_or_duplicate_instructions": 47
+    },
+    {
+      "id": "scored_0396",
+      "current_instructions": 101,
+      "optimized_instructions": 73,
+      "improvement": 28,
+      "duplicate_results": 28,
+      "dead_or_duplicate_instructions": 28
+    },
+    {
+      "id": "scored_0399",
+      "current_instructions": 55,
+      "optimized_instructions": 39,
+      "improvement": 16,
+      "duplicate_results": 16,
+      "dead_or_duplicate_instructions": 16
+    },
+    {
+      "id": "scored_0401",
+      "current_instructions": 81,
+      "optimized_instructions": 55,
+      "improvement": 26,
+      "duplicate_results": 25,
+      "dead_or_duplicate_instructions": 26
+    },
+    {
+      "id": "scored_0402",
+      "current_instructions": 263,
+      "optimized_instructions": 200,
+      "improvement": 63,
+      "duplicate_results": 63,
+      "dead_or_duplicate_instructions": 63
+    },
+    {
+      "id": "scored_0404",
+      "current_instructions": 270,
+      "optimized_instructions": 217,
+      "improvement": 53,
+      "duplicate_results": 53,
+      "dead_or_duplicate_instructions": 53
+    },
+    {
+      "id": "scored_0409",
+      "current_instructions": 59,
+      "optimized_instructions": 43,
+      "improvement": 16,
+      "duplicate_results": 16,
+      "dead_or_duplicate_instructions": 16
+    },
+    {
+      "id": "scored_0418",
+      "current_instructions": 330,
+      "optimized_instructions": 273,
+      "improvement": 57,
+      "duplicate_results": 57,
+      "dead_or_duplicate_instructions": 57
+    },
+    {
+      "id": "scored_0419",
+      "current_instructions": 77,
+      "optimized_instructions": 53,
+      "improvement": 24,
+      "duplicate_results": 24,
+      "dead_or_duplicate_instructions": 24
+    },
+    {
+      "id": "scored_0423",
+      "current_instructions": 244,
+      "optimized_instructions": 193,
+      "improvement": 51,
+      "duplicate_results": 51,
+      "dead_or_duplicate_instructions": 51
+    },
+    {
+      "id": "scored_0425",
+      "current_instructions": 93,
+      "optimized_instructions": 62,
+      "improvement": 31,
+      "duplicate_results": 31,
+      "dead_or_duplicate_instructions": 31
+    },
+    {
+      "id": "scored_0429",
+      "current_instructions": 291,
+      "optimized_instructions": 237,
+      "improvement": 54,
+      "duplicate_results": 54,
+      "dead_or_duplicate_instructions": 54
+    },
+    {
+      "id": "scored_0430",
+      "current_instructions": 232,
+      "optimized_instructions": 183,
+      "improvement": 49,
+      "duplicate_results": 49,
+      "dead_or_duplicate_instructions": 49
+    },
+    {
+      "id": "scored_0431",
+      "current_instructions": 213,
+      "optimized_instructions": 167,
+      "improvement": 46,
+      "duplicate_results": 46,
+      "dead_or_duplicate_instructions": 46
+    },
+    {
+      "id": "scored_0434",
+      "current_instructions": 274,
+      "optimized_instructions": 218,
+      "improvement": 56,
+      "duplicate_results": 56,
+      "dead_or_duplicate_instructions": 56
+    },
+    {
+      "id": "scored_0443",
+      "current_instructions": 87,
+      "optimized_instructions": 63,
+      "improvement": 24,
+      "duplicate_results": 24,
+      "dead_or_duplicate_instructions": 24
+    },
+    {
+      "id": "scored_0449",
+      "current_instructions": 245,
+      "optimized_instructions": 192,
+      "improvement": 53,
+      "duplicate_results": 53,
+      "dead_or_duplicate_instructions": 53
+    },
+    {
+      "id": "scored_0451",
+      "current_instructions": 297,
+      "optimized_instructions": 239,
+      "improvement": 58,
+      "duplicate_results": 58,
+      "dead_or_duplicate_instructions": 58
+    },
+    {
+      "id": "scored_0455",
+      "current_instructions": 95,
+      "optimized_instructions": 63,
+      "improvement": 32,
+      "duplicate_results": 32,
+      "dead_or_duplicate_instructions": 32
+    },
+    {
+      "id": "scored_0456",
+      "current_instructions": 313,
+      "optimized_instructions": 254,
+      "improvement": 59,
+      "duplicate_results": 59,
+      "dead_or_duplicate_instructions": 59
+    },
+    {
+      "id": "scored_0459",
+      "current_instructions": 219,
+      "optimized_instructions": 169,
+      "improvement": 50,
+      "duplicate_results": 50,
+      "dead_or_duplicate_instructions": 50
+    },
+    {
+      "id": "scored_0461",
+      "current_instructions": 105,
+      "optimized_instructions": 77,
+      "improvement": 28,
+      "duplicate_results": 28,
+      "dead_or_duplicate_instructions": 28
+    },
+    {
+      "id": "scored_0462",
+      "current_instructions": 305,
+      "optimized_instructions": 247,
+      "improvement": 58,
+      "duplicate_results": 58,
+      "dead_or_duplicate_instructions": 58
+    },
+    {
+      "id": "scored_0463",
+      "current_instructions": 261,
+      "optimized_instructions": 208,
+      "improvement": 53,
+      "duplicate_results": 53,
+      "dead_or_duplicate_instructions": 53
+    },
+    {
+      "id": "scored_0464",
+      "current_instructions": 223,
+      "optimized_instructions": 172,
+      "improvement": 51,
+      "duplicate_results": 51,
+      "dead_or_duplicate_instructions": 51
+    },
+    {
+      "id": "scored_0467",
+      "current_instructions": 226,
+      "optimized_instructions": 182,
+      "improvement": 44,
+      "duplicate_results": 44,
+      "dead_or_duplicate_instructions": 44
+    },
+    {
+      "id": "scored_0469",
+      "current_instructions": 224,
+      "optimized_instructions": 178,
+      "improvement": 46,
+      "duplicate_results": 46,
+      "dead_or_duplicate_instructions": 46
+    },
+    {
+      "id": "scored_0471",
+      "current_instructions": 268,
+      "optimized_instructions": 212,
+      "improvement": 56,
+      "duplicate_results": 56,
+      "dead_or_duplicate_instructions": 56
+    },
+    {
+      "id": "scored_0472",
+      "current_instructions": 85,
+      "optimized_instructions": 58,
+      "improvement": 27,
+      "duplicate_results": 27,
+      "dead_or_duplicate_instructions": 27
+    },
+    {
+      "id": "scored_0473",
+      "current_instructions": 78,
+      "optimized_instructions": 52,
+      "improvement": 26,
+      "duplicate_results": 26,
+      "dead_or_duplicate_instructions": 26
+    },
+    {
+      "id": "scored_0474",
+      "current_instructions": 211,
+      "optimized_instructions": 167,
+      "improvement": 44,
+      "duplicate_results": 44,
+      "dead_or_duplicate_instructions": 44
+    },
+    {
+      "id": "scored_0479",
+      "current_instructions": 306,
+      "optimized_instructions": 246,
+      "improvement": 60,
+      "duplicate_results": 60,
+      "dead_or_duplicate_instructions": 60
+    },
+    {
+      "id": "scored_0486",
+      "current_instructions": 305,
+      "optimized_instructions": 246,
+      "improvement": 59,
+      "duplicate_results": 59,
+      "dead_or_duplicate_instructions": 59
+    },
+    {
+      "id": "scored_0487",
+      "current_instructions": 95,
+      "optimized_instructions": 69,
+      "improvement": 26,
+      "duplicate_results": 26,
+      "dead_or_duplicate_instructions": 26
+    },
+    {
+      "id": "scored_0492",
+      "current_instructions": 107,
+      "optimized_instructions": 75,
+      "improvement": 32,
+      "duplicate_results": 32,
+      "dead_or_duplicate_instructions": 32
+    },
+    {
+      "id": "scored_0500",
+      "current_instructions": 243,
+      "optimized_instructions": 179,
+      "improvement": 64,
+      "duplicate_results": 64,
+      "dead_or_duplicate_instructions": 64
+    },
+    {
+      "id": "scored_0503",
+      "current_instructions": 221,
+      "optimized_instructions": 173,
+      "improvement": 48,
+      "duplicate_results": 48,
+      "dead_or_duplicate_instructions": 48
+    },
+    {
+      "id": "scored_0506",
+      "current_instructions": 325,
+      "optimized_instructions": 272,
+      "improvement": 53,
+      "duplicate_results": 53,
+      "dead_or_duplicate_instructions": 53
+    },
+    {
+      "id": "scored_0510",
+      "current_instructions": 218,
+      "optimized_instructions": 176,
+      "improvement": 42,
+      "duplicate_results": 42,
+      "dead_or_duplicate_instructions": 42
+    },
+    {
+      "id": "scored_0515",
+      "current_instructions": 114,
+      "optimized_instructions": 80,
+      "improvement": 34,
+      "duplicate_results": 33,
+      "dead_or_duplicate_instructions": 34
+    },
+    {
+      "id": "scored_0519",
+      "current_instructions": 222,
+      "optimized_instructions": 170,
+      "improvement": 52,
+      "duplicate_results": 52,
+      "dead_or_duplicate_instructions": 52
+    },
+    {
+      "id": "scored_0522",
+      "current_instructions": 239,
+      "optimized_instructions": 178,
+      "improvement": 61,
+      "duplicate_results": 61,
+      "dead_or_duplicate_instructions": 61
+    },
+    {
+      "id": "scored_0523",
+      "current_instructions": 326,
+      "optimized_instructions": 272,
+      "improvement": 54,
+      "duplicate_results": 54,
+      "dead_or_duplicate_instructions": 54
+    },
+    {
+      "id": "scored_0532",
+      "current_instructions": 206,
+      "optimized_instructions": 158,
+      "improvement": 48,
+      "duplicate_results": 48,
+      "dead_or_duplicate_instructions": 48
+    },
+    {
+      "id": "scored_0533",
+      "current_instructions": 304,
+      "optimized_instructions": 247,
+      "improvement": 57,
+      "duplicate_results": 57,
+      "dead_or_duplicate_instructions": 57
+    },
+    {
+      "id": "scored_0539",
+      "current_instructions": 243,
+      "optimized_instructions": 197,
+      "improvement": 46,
+      "duplicate_results": 46,
+      "dead_or_duplicate_instructions": 46
+    },
+    {
+      "id": "scored_0541",
+      "current_instructions": 143,
+      "optimized_instructions": 109,
+      "improvement": 34,
+      "duplicate_results": 34,
+      "dead_or_duplicate_instructions": 34
+    },
+    {
+      "id": "scored_0543",
+      "current_instructions": 252,
+      "optimized_instructions": 203,
+      "improvement": 49,
+      "duplicate_results": 49,
+      "dead_or_duplicate_instructions": 49
+    },
+    {
+      "id": "scored_0547",
+      "current_instructions": 301,
+      "optimized_instructions": 243,
+      "improvement": 58,
+      "duplicate_results": 58,
+      "dead_or_duplicate_instructions": 58
+    },
+    {
+      "id": "scored_0548",
+      "current_instructions": 112,
+      "optimized_instructions": 79,
+      "improvement": 33,
+      "duplicate_results": 33,
+      "dead_or_duplicate_instructions": 33
+    },
+    {
+      "id": "scored_0549",
+      "current_instructions": 294,
+      "optimized_instructions": 237,
+      "improvement": 57,
+      "duplicate_results": 57,
+      "dead_or_duplicate_instructions": 57
+    },
+    {
+      "id": "scored_0556",
+      "current_instructions": 93,
+      "optimized_instructions": 67,
+      "improvement": 26,
+      "duplicate_results": 26,
+      "dead_or_duplicate_instructions": 26
+    },
+    {
+      "id": "scored_0559",
+      "current_instructions": 104,
+      "optimized_instructions": 77,
+      "improvement": 27,
+      "duplicate_results": 27,
+      "dead_or_duplicate_instructions": 27
+    },
+    {
+      "id": "scored_0560",
+      "current_instructions": 105,
+      "optimized_instructions": 76,
+      "improvement": 29,
+      "duplicate_results": 29,
+      "dead_or_duplicate_instructions": 29
+    },
+    {
+      "id": "scored_0561",
+      "current_instructions": 250,
+      "optimized_instructions": 201,
+      "improvement": 49,
+      "duplicate_results": 49,
+      "dead_or_duplicate_instructions": 49
+    },
+    {
+      "id": "scored_0562",
+      "current_instructions": 222,
+      "optimized_instructions": 177,
+      "improvement": 45,
+      "duplicate_results": 45,
+      "dead_or_duplicate_instructions": 45
+    },
+    {
+      "id": "scored_0563",
+      "current_instructions": 273,
+      "optimized_instructions": 221,
+      "improvement": 52,
+      "duplicate_results": 52,
+      "dead_or_duplicate_instructions": 52
+    },
+    {
+      "id": "scored_0564",
+      "current_instructions": 89,
+      "optimized_instructions": 61,
+      "improvement": 28,
+      "duplicate_results": 28,
+      "dead_or_duplicate_instructions": 28
+    },
+    {
+      "id": "scored_0566",
+      "current_instructions": 58,
+      "optimized_instructions": 52,
+      "improvement": 6,
+      "duplicate_results": 6,
+      "dead_or_duplicate_instructions": 6
+    },
+    {
+      "id": "scored_0570",
+      "current_instructions": 217,
+      "optimized_instructions": 170,
+      "improvement": 47,
+      "duplicate_results": 47,
+      "dead_or_duplicate_instructions": 47
+    },
+    {
+      "id": "scored_0574",
+      "current_instructions": 266,
+      "optimized_instructions": 217,
+      "improvement": 49,
+      "duplicate_results": 49,
+      "dead_or_duplicate_instructions": 49
+    },
+    {
+      "id": "scored_0583",
+      "current_instructions": 109,
+      "optimized_instructions": 76,
+      "improvement": 33,
+      "duplicate_results": 33,
+      "dead_or_duplicate_instructions": 33
+    },
+    {
+      "id": "scored_0584",
+      "current_instructions": 119,
+      "optimized_instructions": 90,
+      "improvement": 29,
+      "duplicate_results": 29,
+      "dead_or_duplicate_instructions": 29
+    },
+    {
+      "id": "scored_0586",
+      "current_instructions": 214,
+      "optimized_instructions": 167,
+      "improvement": 47,
+      "duplicate_results": 47,
+      "dead_or_duplicate_instructions": 47
+    },
+    {
+      "id": "scored_0589",
+      "current_instructions": 214,
+      "optimized_instructions": 168,
+      "improvement": 46,
+      "duplicate_results": 46,
+      "dead_or_duplicate_instructions": 46
+    },
+    {
+      "id": "scored_0598",
+      "current_instructions": 212,
+      "optimized_instructions": 168,
+      "improvement": 44,
+      "duplicate_results": 44,
+      "dead_or_duplicate_instructions": 44
+    },
+    {
+      "id": "scored_0601",
+      "current_instructions": 294,
+      "optimized_instructions": 240,
+      "improvement": 54,
+      "duplicate_results": 54,
+      "dead_or_duplicate_instructions": 54
+    },
+    {
+      "id": "scored_0602",
+      "current_instructions": 312,
+      "optimized_instructions": 257,
+      "improvement": 55,
+      "duplicate_results": 55,
+      "dead_or_duplicate_instructions": 55
+    },
+    {
+      "id": "scored_0607",
+      "current_instructions": 325,
+      "optimized_instructions": 271,
+      "improvement": 54,
+      "duplicate_results": 54,
+      "dead_or_duplicate_instructions": 54
+    },
+    {
+      "id": "scored_0611",
+      "current_instructions": 107,
+      "optimized_instructions": 74,
+      "improvement": 33,
+      "duplicate_results": 31,
+      "dead_or_duplicate_instructions": 33
+    },
+    {
+      "id": "scored_0613",
+      "current_instructions": 284,
+      "optimized_instructions": 231,
+      "improvement": 53,
+      "duplicate_results": 53,
+      "dead_or_duplicate_instructions": 53
+    },
+    {
+      "id": "scored_0614",
+      "current_instructions": 53,
+      "optimized_instructions": 37,
+      "improvement": 16,
+      "duplicate_results": 16,
+      "dead_or_duplicate_instructions": 16
+    },
+    {
+      "id": "scored_0615",
+      "current_instructions": 287,
+      "optimized_instructions": 231,
+      "improvement": 56,
+      "duplicate_results": 56,
+      "dead_or_duplicate_instructions": 56
+    },
+    {
+      "id": "scored_0617",
+      "current_instructions": 289,
+      "optimized_instructions": 234,
+      "improvement": 55,
+      "duplicate_results": 55,
+      "dead_or_duplicate_instructions": 55
+    },
+    {
+      "id": "scored_0618",
+      "current_instructions": 272,
+      "optimized_instructions": 221,
+      "improvement": 51,
+      "duplicate_results": 51,
+      "dead_or_duplicate_instructions": 51
+    },
+    {
+      "id": "scored_0620",
+      "current_instructions": 96,
+      "optimized_instructions": 70,
+      "improvement": 26,
+      "duplicate_results": 26,
+      "dead_or_duplicate_instructions": 26
+    },
+    {
+      "id": "scored_0623",
+      "current_instructions": 196,
+      "optimized_instructions": 150,
+      "improvement": 46,
+      "duplicate_results": 46,
+      "dead_or_duplicate_instructions": 46
+    },
+    {
+      "id": "scored_0624",
+      "current_instructions": 321,
+      "optimized_instructions": 254,
+      "improvement": 67,
+      "duplicate_results": 67,
+      "dead_or_duplicate_instructions": 67
+    },
+    {
+      "id": "scored_0625",
+      "current_instructions": 249,
+      "optimized_instructions": 197,
+      "improvement": 52,
+      "duplicate_results": 52,
+      "dead_or_duplicate_instructions": 52
+    },
+    {
+      "id": "scored_0630",
+      "current_instructions": 129,
+      "optimized_instructions": 81,
+      "improvement": 48,
+      "duplicate_results": 48,
+      "dead_or_duplicate_instructions": 48
+    },
+    {
+      "id": "scored_0635",
+      "current_instructions": 97,
+      "optimized_instructions": 68,
+      "improvement": 29,
+      "duplicate_results": 29,
+      "dead_or_duplicate_instructions": 29
+    },
+    {
+      "id": "scored_0637",
+      "current_instructions": 107,
+      "optimized_instructions": 73,
+      "improvement": 34,
+      "duplicate_results": 30,
+      "dead_or_duplicate_instructions": 34
+    },
+    {
+      "id": "scored_0639",
+      "current_instructions": 311,
+      "optimized_instructions": 257,
+      "improvement": 54,
+      "duplicate_results": 54,
+      "dead_or_duplicate_instructions": 54
+    },
+    {
+      "id": "scored_0641",
+      "current_instructions": 321,
+      "optimized_instructions": 260,
+      "improvement": 61,
+      "duplicate_results": 61,
+      "dead_or_duplicate_instructions": 61
+    },
+    {
+      "id": "scored_0648",
+      "current_instructions": 266,
+      "optimized_instructions": 215,
+      "improvement": 51,
+      "duplicate_results": 51,
+      "dead_or_duplicate_instructions": 51
+    },
+    {
+      "id": "scored_0650",
+      "current_instructions": 88,
+      "optimized_instructions": 65,
+      "improvement": 23,
+      "duplicate_results": 23,
+      "dead_or_duplicate_instructions": 23
+    },
+    {
+      "id": "scored_0652",
+      "current_instructions": 240,
+      "optimized_instructions": 190,
+      "improvement": 50,
+      "duplicate_results": 50,
+      "dead_or_duplicate_instructions": 50
+    },
+    {
+      "id": "scored_0654",
+      "current_instructions": 88,
+      "optimized_instructions": 64,
+      "improvement": 24,
+      "duplicate_results": 24,
+      "dead_or_duplicate_instructions": 24
+    },
+    {
+      "id": "scored_0656",
+      "current_instructions": 101,
+      "optimized_instructions": 73,
+      "improvement": 28,
+      "duplicate_results": 28,
+      "dead_or_duplicate_instructions": 28
+    },
+    {
+      "id": "scored_0657",
+      "current_instructions": 252,
+      "optimized_instructions": 202,
+      "improvement": 50,
+      "duplicate_results": 50,
+      "dead_or_duplicate_instructions": 50
+    },
+    {
+      "id": "scored_0659",
+      "current_instructions": 219,
+      "optimized_instructions": 172,
+      "improvement": 47,
+      "duplicate_results": 47,
+      "dead_or_duplicate_instructions": 47
+    },
+    {
+      "id": "scored_0665",
+      "current_instructions": 248,
+      "optimized_instructions": 201,
+      "improvement": 47,
+      "duplicate_results": 47,
+      "dead_or_duplicate_instructions": 47
+    },
+    {
+      "id": "scored_0668",
+      "current_instructions": 320,
+      "optimized_instructions": 259,
+      "improvement": 61,
+      "duplicate_results": 61,
+      "dead_or_duplicate_instructions": 61
+    },
+    {
+      "id": "scored_0672",
+      "current_instructions": 143,
+      "optimized_instructions": 109,
+      "improvement": 34,
+      "duplicate_results": 34,
+      "dead_or_duplicate_instructions": 34
+    },
+    {
+      "id": "scored_0679",
+      "current_instructions": 318,
+      "optimized_instructions": 253,
+      "improvement": 65,
+      "duplicate_results": 65,
+      "dead_or_duplicate_instructions": 65
+    },
+    {
+      "id": "scored_0686",
+      "current_instructions": 252,
+      "optimized_instructions": 202,
+      "improvement": 50,
+      "duplicate_results": 50,
+      "dead_or_duplicate_instructions": 50
+    },
+    {
+      "id": "scored_0691",
+      "current_instructions": 383,
+      "optimized_instructions": 323,
+      "improvement": 60,
+      "duplicate_results": 60,
+      "dead_or_duplicate_instructions": 60
+    },
+    {
+      "id": "scored_0695",
+      "current_instructions": 315,
+      "optimized_instructions": 258,
+      "improvement": 57,
+      "duplicate_results": 57,
+      "dead_or_duplicate_instructions": 57
+    },
+    {
+      "id": "scored_0696",
+      "current_instructions": 194,
+      "optimized_instructions": 156,
+      "improvement": 38,
+      "duplicate_results": 38,
+      "dead_or_duplicate_instructions": 38
+    },
+    {
+      "id": "scored_0697",
+      "current_instructions": 328,
+      "optimized_instructions": 270,
+      "improvement": 58,
+      "duplicate_results": 58,
+      "dead_or_duplicate_instructions": 58
+    },
+    {
+      "id": "scored_0701",
+      "current_instructions": 80,
+      "optimized_instructions": 56,
+      "improvement": 24,
+      "duplicate_results": 24,
+      "dead_or_duplicate_instructions": 24
+    },
+    {
+      "id": "scored_0707",
+      "current_instructions": 223,
+      "optimized_instructions": 172,
+      "improvement": 51,
+      "duplicate_results": 51,
+      "dead_or_duplicate_instructions": 51
+    },
+    {
+      "id": "scored_0710",
+      "current_instructions": 307,
+      "optimized_instructions": 253,
+      "improvement": 54,
+      "duplicate_results": 54,
+      "dead_or_duplicate_instructions": 54
+    },
+    {
+      "id": "scored_0711",
+      "current_instructions": 52,
+      "optimized_instructions": 47,
+      "improvement": 5,
+      "duplicate_results": 5,
+      "dead_or_duplicate_instructions": 5
+    },
+    {
+      "id": "scored_0713",
+      "current_instructions": 252,
+      "optimized_instructions": 204,
+      "improvement": 48,
+      "duplicate_results": 48,
+      "dead_or_duplicate_instructions": 48
+    },
+    {
+      "id": "scored_0720",
+      "current_instructions": 93,
+      "optimized_instructions": 66,
+      "improvement": 27,
+      "duplicate_results": 27,
+      "dead_or_duplicate_instructions": 27
+    },
+    {
+      "id": "scored_0723",
+      "current_instructions": 251,
+      "optimized_instructions": 197,
+      "improvement": 54,
+      "duplicate_results": 54,
+      "dead_or_duplicate_instructions": 54
+    },
+    {
+      "id": "scored_0727",
+      "current_instructions": 213,
+      "optimized_instructions": 169,
+      "improvement": 44,
+      "duplicate_results": 44,
+      "dead_or_duplicate_instructions": 44
+    },
+    {
+      "id": "scored_0733",
+      "current_instructions": 242,
+      "optimized_instructions": 194,
+      "improvement": 48,
+      "duplicate_results": 48,
+      "dead_or_duplicate_instructions": 48
+    },
+    {
+      "id": "scored_0735",
+      "current_instructions": 326,
+      "optimized_instructions": 261,
+      "improvement": 65,
+      "duplicate_results": 65,
+      "dead_or_duplicate_instructions": 65
+    },
+    {
+      "id": "scored_0737",
+      "current_instructions": 302,
+      "optimized_instructions": 239,
+      "improvement": 63,
+      "duplicate_results": 63,
+      "dead_or_duplicate_instructions": 63
+    },
+    {
+      "id": "scored_0743",
+      "current_instructions": 276,
+      "optimized_instructions": 229,
+      "improvement": 47,
+      "duplicate_results": 47,
+      "dead_or_duplicate_instructions": 47
+    },
+    {
+      "id": "scored_0749",
+      "current_instructions": 229,
+      "optimized_instructions": 181,
+      "improvement": 48,
+      "duplicate_results": 48,
+      "dead_or_duplicate_instructions": 48
+    },
+    {
+      "id": "scored_0750",
+      "current_instructions": 307,
+      "optimized_instructions": 247,
+      "improvement": 60,
+      "duplicate_results": 60,
+      "dead_or_duplicate_instructions": 60
+    },
+    {
+      "id": "scored_0752",
+      "current_instructions": 249,
+      "optimized_instructions": 199,
+      "improvement": 50,
+      "duplicate_results": 50,
+      "dead_or_duplicate_instructions": 50
+    },
+    {
+      "id": "scored_0753",
+      "current_instructions": 252,
+      "optimized_instructions": 202,
+      "improvement": 50,
+      "duplicate_results": 50,
+      "dead_or_duplicate_instructions": 50
+    },
+    {
+      "id": "scored_0757",
+      "current_instructions": 343,
+      "optimized_instructions": 282,
+      "improvement": 61,
+      "duplicate_results": 61,
+      "dead_or_duplicate_instructions": 61
+    },
+    {
+      "id": "scored_0758",
+      "current_instructions": 261,
+      "optimized_instructions": 212,
+      "improvement": 49,
+      "duplicate_results": 49,
+      "dead_or_duplicate_instructions": 49
+    },
+    {
+      "id": "scored_0760",
+      "current_instructions": 296,
+      "optimized_instructions": 234,
+      "improvement": 62,
+      "duplicate_results": 62,
+      "dead_or_duplicate_instructions": 62
+    },
+    {
+      "id": "scored_0761",
+      "current_instructions": 247,
+      "optimized_instructions": 199,
+      "improvement": 48,
+      "duplicate_results": 48,
+      "dead_or_duplicate_instructions": 48
+    },
+    {
+      "id": "scored_0763",
+      "current_instructions": 228,
+      "optimized_instructions": 180,
+      "improvement": 48,
+      "duplicate_results": 48,
+      "dead_or_duplicate_instructions": 48
+    },
+    {
+      "id": "scored_0772",
+      "current_instructions": 313,
+      "optimized_instructions": 256,
+      "improvement": 57,
+      "duplicate_results": 57,
+      "dead_or_duplicate_instructions": 57
+    },
+    {
+      "id": "scored_0773",
+      "current_instructions": 123,
+      "optimized_instructions": 92,
+      "improvement": 31,
+      "duplicate_results": 31,
+      "dead_or_duplicate_instructions": 31
+    },
+    {
+      "id": "scored_0777",
+      "current_instructions": 113,
+      "optimized_instructions": 83,
+      "improvement": 30,
+      "duplicate_results": 30,
+      "dead_or_duplicate_instructions": 30
+    },
+    {
+      "id": "scored_0783",
+      "current_instructions": 278,
+      "optimized_instructions": 225,
+      "improvement": 53,
+      "duplicate_results": 53,
+      "dead_or_duplicate_instructions": 53
+    },
+    {
+      "id": "scored_0785",
+      "current_instructions": 283,
+      "optimized_instructions": 230,
+      "improvement": 53,
+      "duplicate_results": 53,
+      "dead_or_duplicate_instructions": 53
+    },
+    {
+      "id": "scored_0787",
+      "current_instructions": 283,
+      "optimized_instructions": 223,
+      "improvement": 60,
+      "duplicate_results": 60,
+      "dead_or_duplicate_instructions": 60
+    },
+    {
+      "id": "scored_0797",
+      "current_instructions": 196,
+      "optimized_instructions": 151,
+      "improvement": 45,
+      "duplicate_results": 45,
+      "dead_or_duplicate_instructions": 45
+    },
+    {
+      "id": "scored_0800",
+      "current_instructions": 204,
+      "optimized_instructions": 153,
+      "improvement": 51,
+      "duplicate_results": 51,
+      "dead_or_duplicate_instructions": 51
+    },
+    {
+      "id": "scored_0801",
+      "current_instructions": 257,
+      "optimized_instructions": 209,
+      "improvement": 48,
+      "duplicate_results": 48,
+      "dead_or_duplicate_instructions": 48
+    },
+    {
+      "id": "scored_0803",
+      "current_instructions": 376,
+      "optimized_instructions": 307,
+      "improvement": 69,
+      "duplicate_results": 69,
+      "dead_or_duplicate_instructions": 69
+    },
+    {
+      "id": "scored_0804",
+      "current_instructions": 274,
+      "optimized_instructions": 219,
+      "improvement": 55,
+      "duplicate_results": 55,
+      "dead_or_duplicate_instructions": 55
+    },
+    {
+      "id": "scored_0806",
+      "current_instructions": 236,
+      "optimized_instructions": 188,
+      "improvement": 48,
+      "duplicate_results": 48,
+      "dead_or_duplicate_instructions": 48
+    },
+    {
+      "id": "scored_0810",
+      "current_instructions": 102,
+      "optimized_instructions": 62,
+      "improvement": 40,
+      "duplicate_results": 38,
+      "dead_or_duplicate_instructions": 40
+    },
+    {
+      "id": "scored_0811",
+      "current_instructions": 206,
+      "optimized_instructions": 166,
+      "improvement": 40,
+      "duplicate_results": 40,
+      "dead_or_duplicate_instructions": 40
+    },
+    {
+      "id": "scored_0812",
+      "current_instructions": 274,
+      "optimized_instructions": 223,
+      "improvement": 51,
+      "duplicate_results": 51,
+      "dead_or_duplicate_instructions": 51
+    },
+    {
+      "id": "scored_0816",
+      "current_instructions": 282,
+      "optimized_instructions": 229,
+      "improvement": 53,
+      "duplicate_results": 53,
+      "dead_or_duplicate_instructions": 53
+    },
+    {
+      "id": "scored_0818",
+      "current_instructions": 63,
+      "optimized_instructions": 58,
+      "improvement": 5,
+      "duplicate_results": 5,
+      "dead_or_duplicate_instructions": 5
+    },
+    {
+      "id": "scored_0821",
+      "current_instructions": 244,
+      "optimized_instructions": 196,
+      "improvement": 48,
+      "duplicate_results": 48,
+      "dead_or_duplicate_instructions": 48
+    },
+    {
+      "id": "scored_0822",
+      "current_instructions": 105,
+      "optimized_instructions": 76,
+      "improvement": 29,
+      "duplicate_results": 29,
+      "dead_or_duplicate_instructions": 29
+    },
+    {
+      "id": "scored_0825",
+      "current_instructions": 313,
+      "optimized_instructions": 255,
+      "improvement": 58,
+      "duplicate_results": 58,
+      "dead_or_duplicate_instructions": 58
+    },
+    {
+      "id": "scored_0828",
+      "current_instructions": 96,
+      "optimized_instructions": 68,
+      "improvement": 28,
+      "duplicate_results": 28,
+      "dead_or_duplicate_instructions": 28
+    },
+    {
+      "id": "scored_0830",
+      "current_instructions": 296,
+      "optimized_instructions": 238,
+      "improvement": 58,
+      "duplicate_results": 58,
+      "dead_or_duplicate_instructions": 58
+    },
+    {
+      "id": "scored_0831",
+      "current_instructions": 240,
+      "optimized_instructions": 190,
+      "improvement": 50,
+      "duplicate_results": 50,
+      "dead_or_duplicate_instructions": 50
+    },
+    {
+      "id": "scored_0835",
+      "current_instructions": 302,
+      "optimized_instructions": 245,
+      "improvement": 57,
+      "duplicate_results": 57,
+      "dead_or_duplicate_instructions": 57
+    },
+    {
+      "id": "scored_0842",
+      "current_instructions": 77,
+      "optimized_instructions": 57,
+      "improvement": 20,
+      "duplicate_results": 20,
+      "dead_or_duplicate_instructions": 20
+    },
+    {
+      "id": "scored_0846",
+      "current_instructions": 279,
+      "optimized_instructions": 226,
+      "improvement": 53,
+      "duplicate_results": 53,
+      "dead_or_duplicate_instructions": 53
+    },
+    {
+      "id": "scored_0851",
+      "current_instructions": 97,
+      "optimized_instructions": 56,
+      "improvement": 41,
+      "duplicate_results": 41,
+      "dead_or_duplicate_instructions": 41
+    },
+    {
+      "id": "scored_0855",
+      "current_instructions": 170,
+      "optimized_instructions": 132,
+      "improvement": 38,
+      "duplicate_results": 38,
+      "dead_or_duplicate_instructions": 38
+    },
+    {
+      "id": "scored_0858",
+      "current_instructions": 124,
+      "optimized_instructions": 94,
+      "improvement": 30,
+      "duplicate_results": 30,
+      "dead_or_duplicate_instructions": 30
+    },
+    {
+      "id": "scored_0863",
+      "current_instructions": 103,
+      "optimized_instructions": 75,
+      "improvement": 28,
+      "duplicate_results": 28,
+      "dead_or_duplicate_instructions": 28
+    },
+    {
+      "id": "scored_0866",
+      "current_instructions": 78,
+      "optimized_instructions": 58,
+      "improvement": 20,
+      "duplicate_results": 20,
+      "dead_or_duplicate_instructions": 20
+    },
+    {
+      "id": "scored_0867",
+      "current_instructions": 225,
+      "optimized_instructions": 177,
+      "improvement": 48,
+      "duplicate_results": 48,
+      "dead_or_duplicate_instructions": 48
+    },
+    {
+      "id": "scored_0868",
+      "current_instructions": 90,
+      "optimized_instructions": 67,
+      "improvement": 23,
+      "duplicate_results": 23,
+      "dead_or_duplicate_instructions": 23
+    },
+    {
+      "id": "scored_0871",
+      "current_instructions": 298,
+      "optimized_instructions": 240,
+      "improvement": 58,
+      "duplicate_results": 58,
+      "dead_or_duplicate_instructions": 58
+    },
+    {
+      "id": "scored_0872",
+      "current_instructions": 261,
+      "optimized_instructions": 212,
+      "improvement": 49,
+      "duplicate_results": 49,
+      "dead_or_duplicate_instructions": 49
+    },
+    {
+      "id": "scored_0873",
+      "current_instructions": 101,
+      "optimized_instructions": 73,
+      "improvement": 28,
+      "duplicate_results": 28,
+      "dead_or_duplicate_instructions": 28
+    },
+    {
+      "id": "scored_0874",
+      "current_instructions": 85,
+      "optimized_instructions": 58,
+      "improvement": 27,
+      "duplicate_results": 27,
+      "dead_or_duplicate_instructions": 27
+    },
+    {
+      "id": "scored_0877",
+      "current_instructions": 135,
+      "optimized_instructions": 102,
+      "improvement": 33,
+      "duplicate_results": 33,
+      "dead_or_duplicate_instructions": 33
+    },
+    {
+      "id": "scored_0879",
+      "current_instructions": 264,
+      "optimized_instructions": 213,
+      "improvement": 51,
+      "duplicate_results": 51,
+      "dead_or_duplicate_instructions": 51
+    },
+    {
+      "id": "scored_0880",
+      "current_instructions": 95,
+      "optimized_instructions": 69,
+      "improvement": 26,
+      "duplicate_results": 26,
+      "dead_or_duplicate_instructions": 26
+    },
+    {
+      "id": "scored_0881",
+      "current_instructions": 241,
+      "optimized_instructions": 190,
+      "improvement": 51,
+      "duplicate_results": 51,
+      "dead_or_duplicate_instructions": 51
+    },
+    {
+      "id": "scored_0882",
+      "current_instructions": 71,
+      "optimized_instructions": 49,
+      "improvement": 22,
+      "duplicate_results": 22,
+      "dead_or_duplicate_instructions": 22
+    },
+    {
+      "id": "scored_0884",
+      "current_instructions": 289,
+      "optimized_instructions": 229,
+      "improvement": 60,
+      "duplicate_results": 60,
+      "dead_or_duplicate_instructions": 60
+    },
+    {
+      "id": "scored_0889",
+      "current_instructions": 281,
+      "optimized_instructions": 226,
+      "improvement": 55,
+      "duplicate_results": 55,
+      "dead_or_duplicate_instructions": 55
+    },
+    {
+      "id": "scored_0890",
+      "current_instructions": 243,
+      "optimized_instructions": 189,
+      "improvement": 54,
+      "duplicate_results": 54,
+      "dead_or_duplicate_instructions": 54
+    },
+    {
+      "id": "scored_0891",
+      "current_instructions": 277,
+      "optimized_instructions": 221,
+      "improvement": 56,
+      "duplicate_results": 56,
+      "dead_or_duplicate_instructions": 56
+    },
+    {
+      "id": "scored_0892",
+      "current_instructions": 58,
+      "optimized_instructions": 40,
+      "improvement": 18,
+      "duplicate_results": 18,
+      "dead_or_duplicate_instructions": 18
+    },
+    {
+      "id": "scored_0895",
+      "current_instructions": 316,
+      "optimized_instructions": 259,
+      "improvement": 57,
+      "duplicate_results": 57,
+      "dead_or_duplicate_instructions": 57
+    },
+    {
+      "id": "scored_0897",
+      "current_instructions": 101,
+      "optimized_instructions": 69,
+      "improvement": 32,
+      "duplicate_results": 32,
+      "dead_or_duplicate_instructions": 32
+    },
+    {
+      "id": "scored_0898",
+      "current_instructions": 203,
+      "optimized_instructions": 158,
+      "improvement": 45,
+      "duplicate_results": 45,
+      "dead_or_duplicate_instructions": 45
+    },
+    {
+      "id": "scored_0901",
+      "current_instructions": 48,
+      "optimized_instructions": 33,
+      "improvement": 15,
+      "duplicate_results": 15,
+      "dead_or_duplicate_instructions": 15
+    },
+    {
+      "id": "scored_0907",
+      "current_instructions": 308,
+      "optimized_instructions": 252,
+      "improvement": 56,
+      "duplicate_results": 56,
+      "dead_or_duplicate_instructions": 56
+    },
+    {
+      "id": "scored_0908",
+      "current_instructions": 84,
+      "optimized_instructions": 61,
+      "improvement": 23,
+      "duplicate_results": 23,
+      "dead_or_duplicate_instructions": 23
+    },
+    {
+      "id": "scored_0910",
+      "current_instructions": 94,
+      "optimized_instructions": 69,
+      "improvement": 25,
+      "duplicate_results": 25,
+      "dead_or_duplicate_instructions": 25
+    },
+    {
+      "id": "scored_0911",
+      "current_instructions": 217,
+      "optimized_instructions": 176,
+      "improvement": 41,
+      "duplicate_results": 41,
+      "dead_or_duplicate_instructions": 41
+    },
+    {
+      "id": "scored_0913",
+      "current_instructions": 88,
+      "optimized_instructions": 61,
+      "improvement": 27,
+      "duplicate_results": 27,
+      "dead_or_duplicate_instructions": 27
+    },
+    {
+      "id": "scored_0914",
+      "current_instructions": 92,
+      "optimized_instructions": 68,
+      "improvement": 24,
+      "duplicate_results": 24,
+      "dead_or_duplicate_instructions": 24
+    },
+    {
+      "id": "scored_0922",
+      "current_instructions": 67,
+      "optimized_instructions": 48,
+      "improvement": 19,
+      "duplicate_results": 19,
+      "dead_or_duplicate_instructions": 19
+    },
+    {
+      "id": "scored_0924",
+      "current_instructions": 333,
+      "optimized_instructions": 270,
+      "improvement": 63,
+      "duplicate_results": 63,
+      "dead_or_duplicate_instructions": 63
+    },
+    {
+      "id": "scored_0926",
+      "current_instructions": 87,
+      "optimized_instructions": 63,
+      "improvement": 24,
+      "duplicate_results": 24,
+      "dead_or_duplicate_instructions": 24
+    },
+    {
+      "id": "scored_0928",
+      "current_instructions": 80,
+      "optimized_instructions": 58,
+      "improvement": 22,
+      "duplicate_results": 22,
+      "dead_or_duplicate_instructions": 22
+    },
+    {
+      "id": "scored_0930",
+      "current_instructions": 216,
+      "optimized_instructions": 168,
+      "improvement": 48,
+      "duplicate_results": 48,
+      "dead_or_duplicate_instructions": 48
+    },
+    {
+      "id": "scored_0937",
+      "current_instructions": 92,
+      "optimized_instructions": 63,
+      "improvement": 29,
+      "duplicate_results": 29,
+      "dead_or_duplicate_instructions": 29
+    },
+    {
+      "id": "scored_0943",
+      "current_instructions": 231,
+      "optimized_instructions": 181,
+      "improvement": 50,
+      "duplicate_results": 50,
+      "dead_or_duplicate_instructions": 50
+    },
+    {
+      "id": "scored_0945",
+      "current_instructions": 84,
+      "optimized_instructions": 57,
+      "improvement": 27,
+      "duplicate_results": 27,
+      "dead_or_duplicate_instructions": 27
+    },
+    {
+      "id": "scored_0947",
+      "current_instructions": 232,
+      "optimized_instructions": 184,
+      "improvement": 48,
+      "duplicate_results": 48,
+      "dead_or_duplicate_instructions": 48
+    },
+    {
+      "id": "scored_0949",
+      "current_instructions": 216,
+      "optimized_instructions": 169,
+      "improvement": 47,
+      "duplicate_results": 47,
+      "dead_or_duplicate_instructions": 47
+    },
+    {
+      "id": "scored_0951",
+      "current_instructions": 245,
+      "optimized_instructions": 192,
+      "improvement": 53,
+      "duplicate_results": 53,
+      "dead_or_duplicate_instructions": 53
+    },
+    {
+      "id": "scored_0954",
+      "current_instructions": 184,
+      "optimized_instructions": 142,
+      "improvement": 42,
+      "duplicate_results": 42,
+      "dead_or_duplicate_instructions": 42
+    },
+    {
+      "id": "scored_0955",
+      "current_instructions": 213,
+      "optimized_instructions": 167,
+      "improvement": 46,
+      "duplicate_results": 46,
+      "dead_or_duplicate_instructions": 46
+    },
+    {
+      "id": "scored_0957",
+      "current_instructions": 78,
+      "optimized_instructions": 54,
+      "improvement": 24,
+      "duplicate_results": 24,
+      "dead_or_duplicate_instructions": 24
+    },
+    {
+      "id": "scored_0958",
+      "current_instructions": 77,
+      "optimized_instructions": 54,
+      "improvement": 23,
+      "duplicate_results": 23,
+      "dead_or_duplicate_instructions": 23
+    },
+    {
+      "id": "scored_0960",
+      "current_instructions": 305,
+      "optimized_instructions": 254,
+      "improvement": 51,
+      "duplicate_results": 51,
+      "dead_or_duplicate_instructions": 51
+    },
+    {
+      "id": "scored_0961",
+      "current_instructions": 329,
+      "optimized_instructions": 273,
+      "improvement": 56,
+      "duplicate_results": 56,
+      "dead_or_duplicate_instructions": 56
+    },
+    {
+      "id": "scored_0962",
+      "current_instructions": 105,
+      "optimized_instructions": 75,
+      "improvement": 30,
+      "duplicate_results": 30,
+      "dead_or_duplicate_instructions": 30
+    },
+    {
+      "id": "scored_0966",
+      "current_instructions": 222,
+      "optimized_instructions": 173,
+      "improvement": 49,
+      "duplicate_results": 49,
+      "dead_or_duplicate_instructions": 49
+    },
+    {
+      "id": "scored_0967",
+      "current_instructions": 274,
+      "optimized_instructions": 221,
+      "improvement": 53,
+      "duplicate_results": 53,
+      "dead_or_duplicate_instructions": 53
+    },
+    {
+      "id": "scored_0971",
+      "current_instructions": 54,
+      "optimized_instructions": 38,
+      "improvement": 16,
+      "duplicate_results": 16,
+      "dead_or_duplicate_instructions": 16
+    },
+    {
+      "id": "scored_0978",
+      "current_instructions": 281,
+      "optimized_instructions": 232,
+      "improvement": 49,
+      "duplicate_results": 49,
+      "dead_or_duplicate_instructions": 49
+    },
+    {
+      "id": "scored_0981",
+      "current_instructions": 70,
+      "optimized_instructions": 47,
+      "improvement": 23,
+      "duplicate_results": 23,
+      "dead_or_duplicate_instructions": 23
+    },
+    {
+      "id": "scored_0989",
+      "current_instructions": 215,
+      "optimized_instructions": 169,
+      "improvement": 46,
+      "duplicate_results": 46,
+      "dead_or_duplicate_instructions": 46
+    },
+    {
+      "id": "scored_0999",
+      "current_instructions": 308,
+      "optimized_instructions": 249,
+      "improvement": 59,
+      "duplicate_results": 59,
+      "dead_or_duplicate_instructions": 59
+    }
+  ]
+}

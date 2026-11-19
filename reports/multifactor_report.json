@@ -1,0 +1,4229 @@
+{
+  "solver": "greedy_multiple_reusable_factors",
+  "current_submission": "submissions/submission_multiplicative.csv",
+  "output_submission": "submissions/submission_multifactor.csv",
+  "current_score": 399627,
+  "candidate_puzzles": 970,
+  "selected_score": 397499,
+  "improved_puzzles": 208,
+  "total_improvement": 2128,
+  "largest_improvements": [
+    {
+      "id": "scored_0334",
+      "current_instructions": 680,
+      "multifactor_instructions": 630,
+      "improvement": 50,
+      "factors": [
+        2,
+        3,
+        5,
+        37,
+        59
+      ],
+      "derived_targets": 16,
+      "opened_factors": 5
+    },
+    {
+      "id": "scored_0051",
+      "current_instructions": 791,
+      "multifactor_instructions": 747,
+      "improvement": 44,
+      "factors": [
+        2,
+        3,
+        5,
+        7,
+        13,
+        17,
+        67
+      ],
+      "derived_targets": 16,
+      "opened_factors": 7
+    },
+    {
+      "id": "scored_0165",
+      "current_instructions": 704,
+      "multifactor_instructions": 662,
+      "improvement": 42,
+      "factors": [
+        2,
+        3,
+        5,
+        9,
+        11,
+        33,
+        43,
+        127
+      ],
+      "derived_targets": 17,
+      "opened_factors": 8
+    },
+    {
+      "id": "scored_0992",
+      "current_instructions": 736,
+      "multifactor_instructions": 695,
+      "improvement": 41,
+      "factors": [
+        2,
+        5,
+        7,
+        11,
+        13,
+        17,
+        103
+      ],
+      "derived_targets": 17,
+      "opened_factors": 7
+    },
+    {
+      "id": "scored_0771",
+      "current_instructions": 760,
+      "multifactor_instructions": 720,
+      "improvement": 40,
+      "factors": [
+        2,
+        3,
+        5,
+        7,
+        9,
+        29
+      ],
+      "derived_targets": 14,
+      "opened_factors": 6
+    },
+    {
+      "id": "scored_0833",
+      "current_instructions": 383,
+      "multifactor_instructions": 344,
+      "improvement": 39,
+      "factors": [
+        7,
+        9,
+        20,
+        34,
+        39,
+        97,
+        3105,
+        62115,
+        301185
+      ],
+      "derived_targets": 18,
+      "opened_factors": 6
+    },
+    {
+      "id": "scored_0681",
+      "current_instructions": 608,
+      "multifactor_instructions": 573,
+      "improvement": 35,
+      "factors": [
+        2,
+        3,
+        4,
+        5,
+        7,
+        9,
+        15,
+        25,
+        31,
+        33,
+        47,
+        81,
+        1509
+      ],
+      "derived_targets": 20,
+      "opened_factors": 9
+    },
+    {
+      "id": "scored_0826",
+      "current_instructions": 605,
+      "multifactor_instructions": 571,
+      "improvement": 34,
+      "factors": [
+        3,
+        5,
+        17,
+        23,
+        29
+      ],
+      "derived_targets": 16,
+      "opened_factors": 4
+    },
+    {
+      "id": "scored_0058",
+      "current_instructions": 770,
+      "multifactor_instructions": 737,
+      "improvement": 33,
+      "factors": [
+        2,
+        3,
+        5,
+        25,
+        41,
+        123
+      ],
+      "derived_targets": 17,
+      "opened_factors": 6
+    },
+    {
+      "id": "scored_0060",
+      "current_instructions": 729,
+      "multifactor_instructions": 696,
+      "improvement": 33,
+      "factors": [
+        2,
+        3,
+        5,
+        7,
+        9,
+        11,
+        15,
+        27,
+        129
+      ],
+      "derived_targets": 18,
+      "opened_factors": 9
+    },
+    {
+      "id": "scored_0168",
+      "current_instructions": 743,
+      "multifactor_instructions": 710,
+      "improvement": 33,
+      "factors": [
+        2,
+        3,
+        7,
+        11,
+        13,
+        23,
+        830
+      ],
+      "derived_targets": 16,
+      "opened_factors": 6
+    },
+    {
+      "id": "scored_0638",
+      "current_instructions": 772,
+      "multifactor_instructions": 740,
+      "improvement": 32,
+      "factors": [
+        3,
+        5,
+        7,
+        9,
+        11,
+        13
+      ],
+      "derived_targets": 23,
+      "opened_factors": 6
+    },
+    {
+      "id": "scored_0690",
+      "current_instructions": 729,
+      "multifactor_instructions": 698,
+      "improvement": 31,
+      "factors": [
+        2,
+        3,
+        5,
+        9,
+        61,
+        73,
+        97
+      ],
+      "derived_targets": 20,
+      "opened_factors": 7
+    },
+    {
+      "id": "scored_0853",
+      "current_instructions": 542,
+      "multifactor_instructions": 511,
+      "improvement": 31,
+      "factors": [
+        2,
+        3,
+        5,
+        7,
+        13,
+        53,
+        360
+      ],
+      "derived_targets": 14,
+      "opened_factors": 6
+    },
+    {
+      "id": "scored_0337",
+      "current_instructions": 358,
+      "multifactor_instructions": 328,
+      "improvement": 30,
+      "factors": [
+        5,
+        13,
+        18,
+        29,
+        251,
+        12909,
+        95481
+      ],
+      "derived_targets": 15,
+      "opened_factors": 5
+    },
+    {
+      "id": "scored_0369",
+      "current_instructions": 658,
+      "multifactor_instructions": 628,
+      "improvement": 30,
+      "factors": [
+        3,
+        5,
+        7,
+        15,
+        24,
+        27,
+        33,
+        61
+      ],
+      "derived_targets": 19,
+      "opened_factors": 5
+    },
+    {
+      "id": "scored_0374",
+      "current_instructions": 657,
+      "multifactor_instructions": 627,
+      "improvement": 30,
+      "factors": [
+        2,
+        3,
+        5,
+        7,
+        15,
+        31,
+        33,
+        81
+      ],
+      "derived_targets": 19,
+      "opened_factors": 5
+    },
+    {
+      "id": "scored_0205",
+      "current_instructions": 381,
+      "multifactor_instructions": 352,
+      "improvement": 29,
+      "factors": [
+        3,
+        18,
+        37,
+        65,
+        201,
+        10897
+      ],
+      "derived_targets": 16,
+      "opened_factors": 5
+    },
+    {
+      "id": "scored_0249",
+      "current_instructions": 751,
+      "multifactor_instructions": 723,
+      "improvement": 28,
+      "factors": [
+        2,
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        16,
+        19
+      ],
+      "derived_targets": 20,
+      "opened_factors": 8
+    },
+    {
+      "id": "scored_0446",
+      "current_instructions": 693,
+      "multifactor_instructions": 668,
+      "improvement": 25,
+      "factors": [
+        3,
+        5,
+        11,
+        17,
+        101
+      ],
+      "derived_targets": 15,
+      "opened_factors": 5
+    },
+    {
+      "id": "scored_0719",
+      "current_instructions": 740,
+      "multifactor_instructions": 716,
+      "improvement": 24,
+      "factors": [
+        2,
+        3,
+        5,
+        7,
+        37
+      ],
+      "derived_targets": 14,
+      "opened_factors": 5
+    },
+    {
+      "id": "scored_0820",
+      "current_instructions": 637,
+      "multifactor_instructions": 613,
+      "improvement": 24,
+      "factors": [
+        3,
+        5,
+        7,
+        25,
+        33,
+        34,
+        59,
+        227,
+        187493218407
+      ],
+      "derived_targets": 18,
+      "opened_factors": 7
+    },
+    {
+      "id": "scored_0226",
+      "current_instructions": 356,
+      "multifactor_instructions": 333,
+      "improvement": 23,
+      "factors": [
+        3,
+        7,
+        9,
+        11,
+        15,
+        257
+      ],
+      "derived_targets": 17,
+      "opened_factors": 6
+    },
+    {
+      "id": "scored_0403",
+      "current_instructions": 653,
+      "multifactor_instructions": 630,
+      "improvement": 23,
+      "factors": [
+        3,
+        5,
+        11,
+        26,
+        31,
+        33,
+        41,
+        309
+      ],
+      "derived_targets": 20,
+      "opened_factors": 6
+    },
+    {
+      "id": "scored_0493",
+      "current_instructions": 675,
+      "multifactor_instructions": 652,
+      "improvement": 23,
+      "factors": [
+        5,
+        9,
+        14,
+        24,
+        25,
+        59,
+        69,
+        283
+      ],
+      "derived_targets": 17,
+      "opened_factors": 5
+    },
+    {
+      "id": "scored_0012",
+      "current_instructions": 522,
+      "multifactor_instructions": 500,
+      "improvement": 22,
+      "factors": [
+        3,
+        5,
+        11,
+        17,
+        19,
+        23,
+        25,
+        191,
+        5377
+      ],
+      "derived_targets": 20,
+      "opened_factors": 7
+    },
+    {
+      "id": "scored_0592",
+      "current_instructions": 592,
+      "multifactor_instructions": 570,
+      "improvement": 22,
+      "factors": [
+        5,
+        7,
+        10,
+        11,
+        15,
+        19,
+        23,
+        26,
+        1355
+      ],
+      "derived_targets": 16,
+      "opened_factors": 7
+    },
+    {
+      "id": "scored_0087",
+      "current_instructions": 674,
+      "multifactor_instructions": 653,
+      "improvement": 21,
+      "factors": [
+        2,
+        3,
+        5,
+        7,
+        13,
+        25,
+        281
+      ],
+      "derived_targets": 15,
+      "opened_factors": 7
+    },
+    {
+      "id": "scored_0094",
+      "current_instructions": 699,
+      "multifactor_instructions": 678,
+      "improvement": 21,
+      "factors": [
+        2,
+        3,
+        13,
+        17,
+        19,
+        21,
+        125
+      ],
+      "derived_targets": 17,
+      "opened_factors": 7
+    },
+    {
+      "id": "scored_0549",
+      "current_instructions": 336,
+      "multifactor_instructions": 316,
+      "improvement": 20,
+      "factors": [
+        3,
+        5,
+        11,
+        24,
+        34,
+        365
+      ],
+      "derived_targets": 16,
+      "opened_factors": 3
+    },
+    {
+      "id": "scored_0691",
+      "current_instructions": 403,
+      "multifactor_instructions": 383,
+      "improvement": 20,
+      "factors": [
+        3,
+        5,
+        6,
+        31,
+        37,
+        55,
+        1765,
+        15885
+      ],
+      "derived_targets": 21,
+      "opened_factors": 6
+    },
+    {
+      "id": "scored_0067",
+      "current_instructions": 710,
+      "multifactor_instructions": 692,
+      "improvement": 18,
+      "factors": [
+        3,
+        5,
+        13,
+        17,
+        35,
+        37,
+        141,
+        479
+      ],
+      "derived_targets": 16,
+      "opened_factors": 8
+    },
+    {
+      "id": "scored_0375",
+      "current_instructions": 580,
+      "multifactor_instructions": 562,
+      "improvement": 18,
+      "factors": [
+        3,
+        5,
+        7,
+        33,
+        39,
+        213
+      ],
+      "derived_targets": 16,
+      "opened_factors": 5
+    },
+    {
+      "id": "scored_0636",
+      "current_instructions": 713,
+      "multifactor_instructions": 695,
+      "improvement": 18,
+      "factors": [
+        2,
+        3,
+        7,
+        19,
+        27,
+        41,
+        47,
+        101
+      ],
+      "derived_targets": 17,
+      "opened_factors": 8
+    },
+    {
+      "id": "scored_0924",
+      "current_instructions": 362,
+      "multifactor_instructions": 344,
+      "improvement": 18,
+      "factors": [
+        3,
+        9,
+        14,
+        17,
+        19,
+        21,
+        29,
+        7239
+      ],
+      "derived_targets": 17,
+      "opened_factors": 5
+    },
+    {
+      "id": "scored_0581",
+      "current_instructions": 702,
+      "multifactor_instructions": 685,
+      "improvement": 17,
+      "factors": [
+        2,
+        3,
+        7,
+        11,
+        13,
+        23,
+        31,
+        157,
+        975
+      ],
+      "derived_targets": 17,
+      "opened_factors": 9
+    },
+    {
+      "id": "scored_0669",
+      "current_instructions": 446,
+      "multifactor_instructions": 429,
+      "improvement": 17,
+      "factors": [
+        6,
+        9,
+        27,
+        49,
+        79,
+        239,
+        19114025
+      ],
+      "derived_targets": 17,
+      "opened_factors": 5
+    },
+    {
+      "id": "scored_0787",
+      "current_instructions": 301,
+      "multifactor_instructions": 284,
+      "improvement": 17,
+      "factors": [
+        5,
+        9,
+        12,
+        13,
+        31,
+        127,
+        2047
+      ],
+      "derived_targets": 16,
+      "opened_factors": 5
+    },
+    {
+      "id": "scored_0154",
+      "current_instructions": 455,
+      "multifactor_instructions": 439,
+      "improvement": 16,
+      "factors": [
+        3,
+        7,
+        187,
+        1155,
+        4621
+      ],
+      "derived_targets": 14,
+      "opened_factors": 5
+    },
+    {
+      "id": "scored_0159",
+      "current_instructions": 670,
+      "multifactor_instructions": 654,
+      "improvement": 16,
+      "factors": [
+        2,
+        3,
+        5,
+        7,
+        10,
+        15,
+        17,
+        18,
+        19,
+        39,
+        111
+      ],
+      "derived_targets": 19,
+      "opened_factors": 8
+    },
+    {
+      "id": "scored_0170",
+      "current_instructions": 672,
+      "multifactor_instructions": 656,
+      "improvement": 16,
+      "factors": [
+        2,
+        3,
+        5,
+        13,
+        15,
+        19,
+        23,
+        493
+      ],
+      "derived_targets": 19,
+      "opened_factors": 6
+    },
+    {
+      "id": "scored_0684",
+      "current_instructions": 367,
+      "multifactor_instructions": 351,
+      "improvement": 16,
+      "factors": [
+        3,
+        6,
+        10,
+        11,
+        21,
+        29,
+        645,
+        6455
+      ],
+      "derived_targets": 15,
+      "opened_factors": 5
+    },
+    {
+      "id": "scored_0731",
+      "current_instructions": 498,
+      "multifactor_instructions": 482,
+      "improvement": 16,
+      "factors": [
+        3,
+        7,
+        19,
+        27,
+        57,
+        63,
+        81,
+        869
+      ],
+      "derived_targets": 19,
+      "opened_factors": 6
+    },
+    {
+      "id": "scored_0093",
+      "current_instructions": 303,
+      "multifactor_instructions": 288,
+      "improvement": 15,
+      "factors": [
+        10,
+        11,
+        13,
+        25,
+        33,
+        34,
+        121
+      ],
+      "derived_targets": 18,
+      "opened_factors": 4
+    },
+    {
+      "id": "scored_0267",
+      "current_instructions": 374,
+      "multifactor_instructions": 359,
+      "improvement": 15,
+      "factors": [
+        13,
+        31,
+        1043,
+        5208177,
+        32613080
+      ],
+      "derived_targets": 10,
+      "opened_factors": 3
+    },
+    {
+      "id": "scored_0304",
+      "current_instructions": 478,
+      "multifactor_instructions": 463,
+      "improvement": 15,
+      "factors": [
+        3,
+        5,
+        11,
+        15,
+        27,
+        43,
+        61,
+        91
+      ],
+      "derived_targets": 19,
+      "opened_factors": 7
+    },
+    {
+      "id": "scored_0729",
+      "current_instructions": 755,
+      "multifactor_instructions": 740,
+      "improvement": 15,
+      "factors": [
+        2,
+        3,
+        25,
+        31,
+        67
+      ],
+      "derived_targets": 16,
+      "opened_factors": 5
+    },
+    {
+      "id": "scored_0857",
+      "current_instructions": 662,
+      "multifactor_instructions": 647,
+      "improvement": 15,
+      "factors": [
+        2,
+        3,
+        5,
+        18,
+        31,
+        33,
+        127
+      ],
+      "derived_targets": 17,
+      "opened_factors": 4
+    },
+    {
+      "id": "scored_0202",
+      "current_instructions": 391,
+      "multifactor_instructions": 377,
+      "improvement": 14,
+      "factors": [
+        3,
+        5,
+        7,
+        15,
+        22,
+        69
+      ],
+      "derived_targets": 21,
+      "opened_factors": 4
+    },
+    {
+      "id": "scored_0444",
+      "current_instructions": 689,
+      "multifactor_instructions": 675,
+      "improvement": 14,
+      "factors": [
+        2,
+        3,
+        5,
+        11,
+        13,
+        61,
+        243,
+        383
+      ],
+      "derived_targets": 17,
+      "opened_factors": 7
+    }
+  ],
+  "improved": [
+    {
+      "id": "scored_0008",
+      "current_instructions": 423,
+      "multifactor_instructions": 422,
+      "improvement": 1,
+      "factors": [
+        3,
+        5,
+        7,
+        15,
+        31,
+        2405943
+      ],
+      "derived_targets": 17,
+      "opened_factors": 4
+    },
+    {
+      "id": "scored_0012",
+      "current_instructions": 522,
+      "multifactor_instructions": 500,
+      "improvement": 22,
+      "factors": [
+        3,
+        5,
+        11,
+        17,
+        19,
+        23,
+        25,
+        191,
+        5377
+      ],
+      "derived_targets": 20,
+      "opened_factors": 7
+    },
+    {
+      "id": "scored_0022",
+      "current_instructions": 373,
+      "multifactor_instructions": 369,
+      "improvement": 4,
+      "factors": [
+        6,
+        31,
+        73,
+        1065,
+        8073
+      ],
+      "derived_targets": 11,
+      "opened_factors": 3
+    },
+    {
+      "id": "scored_0029",
+      "current_instructions": 117,
+      "multifactor_instructions": 114,
+      "improvement": 3,
+      "factors": [
+        5,
+        11,
+        13,
+        278892
+      ],
+      "derived_targets": 5,
+      "opened_factors": 2
+    },
+    {
+      "id": "scored_0050",
+      "current_instructions": 78,
+      "multifactor_instructions": 73,
+      "improvement": 5,
+      "factors": [
+        21,
+        129
+      ],
+      "derived_targets": 6,
+      "opened_factors": 2
+    },
+    {
+      "id": "scored_0051",
+      "current_instructions": 791,
+      "multifactor_instructions": 747,
+      "improvement": 44,
+      "factors": [
+        2,
+        3,
+        5,
+        7,
+        13,
+        17,
+        67
+      ],
+      "derived_targets": 16,
+      "opened_factors": 7
+    },
+    {
+      "id": "scored_0052",
+      "current_instructions": 310,
+      "multifactor_instructions": 306,
+      "improvement": 4,
+      "factors": [
+        7,
+        10,
+        23,
+        24,
+        55,
+        153
+      ],
+      "derived_targets": 13,
+      "opened_factors": 2
+    },
+    {
+      "id": "scored_0058",
+      "current_instructions": 770,
+      "multifactor_instructions": 737,
+      "improvement": 33,
+      "factors": [
+        2,
+        3,
+        5,
+        25,
+        41,
+        123
+      ],
+      "derived_targets": 17,
+      "opened_factors": 6
+    },
+    {
+      "id": "scored_0060",
+      "current_instructions": 729,
+      "multifactor_instructions": 696,
+      "improvement": 33,
+      "factors": [
+        2,
+        3,
+        5,
+        7,
+        9,
+        11,
+        15,
+        27,
+        129
+      ],
+      "derived_targets": 18,
+      "opened_factors": 9
+    },
+    {
+      "id": "scored_0066",
+      "current_instructions": 124,
+      "multifactor_instructions": 118,
+      "improvement": 6,
+      "factors": [
+        7,
+        13,
+        15,
+        3479
+      ],
+      "derived_targets": 6,
+      "opened_factors": 2
+    },
+    {
+      "id": "scored_0067",
+      "current_instructions": 710,
+      "multifactor_instructions": 692,
+      "improvement": 18,
+      "factors": [
+        3,
+        5,
+        13,
+        17,
+        35,
+        37,
+        141,
+        479
+      ],
+      "derived_targets": 16,
+      "opened_factors": 8
+    },
+    {
+      "id": "scored_0068",
+      "current_instructions": 495,
+      "multifactor_instructions": 493,
+      "improvement": 2,
+      "factors": [
+        3,
+        7,
+        9,
+        11,
+        31,
+        33,
+        85,
+        217
+      ],
+      "derived_targets": 17,
+      "opened_factors": 6
+    },
+    {
+      "id": "scored_0070",
+      "current_instructions": 461,
+      "multifactor_instructions": 451,
+      "improvement": 10,
+      "factors": [
+        3,
+        9,
+        11,
+        27,
+        3265,
+        10939212690
+      ],
+      "derived_targets": 18,
+      "opened_factors": 5
+    },
+    {
+      "id": "scored_0072",
+      "current_instructions": 432,
+      "multifactor_instructions": 431,
+      "improvement": 1,
+      "factors": [
+        3,
+        6,
+        13,
+        14,
+        15,
+        31,
+        125
+      ],
+      "derived_targets": 14,
+      "opened_factors": 4
+    },
+    {
+      "id": "scored_0075",
+      "current_instructions": 723,
+      "multifactor_instructions": 720,
+      "improvement": 3,
+      "factors": [
+        2,
+        3,
+        5,
+        9,
+        25,
+        331
+      ],
+      "derived_targets": 13,
+      "opened_factors": 6
+    },
+    {
+      "id": "scored_0087",
+      "current_instructions": 674,
+      "multifactor_instructions": 653,
+      "improvement": 21,
+      "factors": [
+        2,
+        3,
+        5,
+        7,
+        13,
+        25,
+        281
+      ],
+      "derived_targets": 15,
+      "opened_factors": 7
+    },
+    {
+      "id": "scored_0088",
+      "current_instructions": 622,
+      "multifactor_instructions": 611,
+      "improvement": 11,
+      "factors": [
+        2,
+        3,
+        5,
+        15,
+        17,
+        33,
+        159
+      ],
+      "derived_targets": 14,
+      "opened_factors": 5
+    },
+    {
+      "id": "scored_0089",
+      "current_instructions": 369,
+      "multifactor_instructions": 363,
+      "improvement": 6,
+      "factors": [
+        3,
+        7,
+        11,
+        15,
+        20,
+        155,
+        580085
+      ],
+      "derived_targets": 16,
+      "opened_factors": 5
+    },
+    {
+      "id": "scored_0093",
+      "current_instructions": 303,
+      "multifactor_instructions": 288,
+      "improvement": 15,
+      "factors": [
+        10,
+        11,
+        13,
+        25,
+        33,
+        34,
+        121
+      ],
+      "derived_targets": 18,
+      "opened_factors": 4
+    },
+    {
+      "id": "scored_0094",
+      "current_instructions": 699,
+      "multifactor_instructions": 678,
+      "improvement": 21,
+      "factors": [
+        2,
+        3,
+        13,
+        17,
+        19,
+        21,
+        125
+      ],
+      "derived_targets": 17,
+      "opened_factors": 7
+    },
+    {
+      "id": "scored_0103",
+      "current_instructions": 128,
+      "multifactor_instructions": 126,
+      "improvement": 2,
+      "factors": [
+        10,
+        780372
+      ],
+      "derived_targets": 3,
+      "opened_factors": 1
+    },
+    {
+      "id": "scored_0109",
+      "current_instructions": 427,
+      "multifactor_instructions": 424,
+      "improvement": 3,
+      "factors": [
+        3,
+        5,
+        10,
+        15
+      ],
+      "derived_targets": 10,
+      "opened_factors": 3
+    },
+    {
+      "id": "scored_0118",
+      "current_instructions": 320,
+      "multifactor_instructions": 312,
+      "improvement": 8,
+      "factors": [
+        7,
+        13,
+        15,
+        17,
+        27,
+        34,
+        225
+      ],
+      "derived_targets": 16,
+      "opened_factors": 4
+    },
+    {
+      "id": "scored_0129",
+      "current_instructions": 745,
+      "multifactor_instructions": 732,
+      "improvement": 13,
+      "factors": [
+        2,
+        3,
+        9,
+        11,
+        17,
+        34,
+        3057
+      ],
+      "derived_targets": 14,
+      "opened_factors": 6
+    },
+    {
+      "id": "scored_0132",
+      "current_instructions": 330,
+      "multifactor_instructions": 324,
+      "improvement": 6,
+      "factors": [
+        3,
+        9,
+        15,
+        19,
+        21,
+        81
+      ],
+      "derived_targets": 14,
+      "opened_factors": 4
+    },
+    {
+      "id": "scored_0133",
+      "current_instructions": 649,
+      "multifactor_instructions": 638,
+      "improvement": 11,
+      "factors": [
+        3,
+        5,
+        6,
+        9,
+        19,
+        24,
+        37,
+        273,
+        505
+      ],
+      "derived_targets": 19,
+      "opened_factors": 5
+    },
+    {
+      "id": "scored_0138",
+      "current_instructions": 243,
+      "multifactor_instructions": 241,
+      "improvement": 2,
+      "factors": [
+        3,
+        20,
+        31,
+        161
+      ],
+      "derived_targets": 11,
+      "opened_factors": 3
+    },
+    {
+      "id": "scored_0141",
+      "current_instructions": 357,
+      "multifactor_instructions": 354,
+      "improvement": 3,
+      "factors": [
+        5,
+        6,
+        9,
+        13,
+        33,
+        39
+      ],
+      "derived_targets": 19,
+      "opened_factors": 3
+    },
+    {
+      "id": "scored_0151",
+      "current_instructions": 90,
+      "multifactor_instructions": 88,
+      "improvement": 2,
+      "factors": [
+        3,
+        3258
+      ],
+      "derived_targets": 6,
+      "opened_factors": 1
+    },
+    {
+      "id": "scored_0152",
+      "current_instructions": 359,
+      "multifactor_instructions": 355,
+      "improvement": 4,
+      "factors": [
+        3,
+        11,
+        17,
+        29,
+        4895
+      ],
+      "derived_targets": 12,
+      "opened_factors": 3
+    },
+    {
+      "id": "scored_0154",
+      "current_instructions": 455,
+      "multifactor_instructions": 439,
+      "improvement": 16,
+      "factors": [
+        3,
+        7,
+        187,
+        1155,
+        4621
+      ],
+      "derived_targets": 14,
+      "opened_factors": 5
+    },
+    {
+      "id": "scored_0159",
+      "current_instructions": 670,
+      "multifactor_instructions": 654,
+      "improvement": 16,
+      "factors": [
+        2,
+        3,
+        5,
+        7,
+        10,
+        15,
+        17,
+        18,
+        19,
+        39,
+        111
+      ],
+      "derived_targets": 19,
+      "opened_factors": 8
+    },
+    {
+      "id": "scored_0163",
+      "current_instructions": 744,
+      "multifactor_instructions": 731,
+      "improvement": 13,
+      "factors": [
+        2,
+        3,
+        5,
+        7,
+        49
+      ],
+      "derived_targets": 12,
+      "opened_factors": 5
+    },
+    {
+      "id": "scored_0164",
+      "current_instructions": 361,
+      "multifactor_instructions": 360,
+      "improvement": 1,
+      "factors": [
+        3,
+        10,
+        11,
+        14,
+        15,
+        409
+      ],
+      "derived_targets": 18,
+      "opened_factors": 4
+    },
+    {
+      "id": "scored_0165",
+      "current_instructions": 704,
+      "multifactor_instructions": 662,
+      "improvement": 42,
+      "factors": [
+        2,
+        3,
+        5,
+        9,
+        11,
+        33,
+        43,
+        127
+      ],
+      "derived_targets": 17,
+      "opened_factors": 8
+    },
+    {
+      "id": "scored_0167",
+      "current_instructions": 686,
+      "multifactor_instructions": 680,
+      "improvement": 6,
+      "factors": [
+        2,
+        3,
+        5,
+        7,
+        13,
+        23,
+        253,
+        18439
+      ],
+      "derived_targets": 17,
+      "opened_factors": 8
+    },
+    {
+      "id": "scored_0168",
+      "current_instructions": 743,
+      "multifactor_instructions": 710,
+      "improvement": 33,
+      "factors": [
+        2,
+        3,
+        7,
+        11,
+        13,
+        23,
+        830
+      ],
+      "derived_targets": 16,
+      "opened_factors": 6
+    },
+    {
+      "id": "scored_0170",
+      "current_instructions": 672,
+      "multifactor_instructions": 656,
+      "improvement": 16,
+      "factors": [
+        2,
+        3,
+        5,
+        13,
+        15,
+        19,
+        23,
+        493
+      ],
+      "derived_targets": 19,
+      "opened_factors": 6
+    },
+    {
+      "id": "scored_0171",
+      "current_instructions": 367,
+      "multifactor_instructions": 366,
+      "improvement": 1,
+      "factors": [
+        5,
+        6,
+        14,
+        389
+      ],
+      "derived_targets": 10,
+      "opened_factors": 1
+    },
+    {
+      "id": "scored_0172",
+      "current_instructions": 463,
+      "multifactor_instructions": 459,
+      "improvement": 4,
+      "factors": [
+        3,
+        5,
+        19,
+        21,
+        26,
+        31,
+        158737580604
+      ],
+      "derived_targets": 14,
+      "opened_factors": 4
+    },
+    {
+      "id": "scored_0174",
+      "current_instructions": 405,
+      "multifactor_instructions": 401,
+      "improvement": 4,
+      "factors": [
+        9,
+        11,
+        31,
+        57,
+        119
+      ],
+      "derived_targets": 15,
+      "opened_factors": 4
+    },
+    {
+      "id": "scored_0177",
+      "current_instructions": 443,
+      "multifactor_instructions": 431,
+      "improvement": 12,
+      "factors": [
+        5,
+        15,
+        27,
+        63,
+        143,
+        5564989575
+      ],
+      "derived_targets": 16,
+      "opened_factors": 6
+    },
+    {
+      "id": "scored_0179",
+      "current_instructions": 558,
+      "multifactor_instructions": 557,
+      "improvement": 1,
+      "factors": [
+        3,
+        5,
+        17,
+        21,
+        23,
+        25,
+        239,
+        561
+      ],
+      "derived_targets": 18,
+      "opened_factors": 6
+    },
+    {
+      "id": "scored_0184",
+      "current_instructions": 393,
+      "multifactor_instructions": 392,
+      "improvement": 1,
+      "factors": [
+        9,
+        14,
+        29,
+        37,
+        183,
+        5114295
+      ],
+      "derived_targets": 12,
+      "opened_factors": 3
+    },
+    {
+      "id": "scored_0187",
+      "current_instructions": 258,
+      "multifactor_instructions": 250,
+      "improvement": 8,
+      "factors": [
+        5,
+        11,
+        14,
+        22,
+        89,
+        201,
+        1209,
+        6419
+      ],
+      "derived_targets": 19,
+      "opened_factors": 6
+    },
+    {
+      "id": "scored_0197",
+      "current_instructions": 339,
+      "multifactor_instructions": 330,
+      "improvement": 9,
+      "factors": [
+        3,
+        9,
+        14,
+        31,
+        51183,
+        385427
+      ],
+      "derived_targets": 16,
+      "opened_factors": 4
+    },
+    {
+      "id": "scored_0202",
+      "current_instructions": 391,
+      "multifactor_instructions": 377,
+      "improvement": 14,
+      "factors": [
+        3,
+        5,
+        7,
+        15,
+        22,
+        69
+      ],
+      "derived_targets": 21,
+      "opened_factors": 4
+    },
+    {
+      "id": "scored_0205",
+      "current_instructions": 381,
+      "multifactor_instructions": 352,
+      "improvement": 29,
+      "factors": [
+        3,
+        18,
+        37,
+        65,
+        201,
+        10897
+      ],
+      "derived_targets": 16,
+      "opened_factors": 5
+    },
+    {
+      "id": "scored_0206",
+      "current_instructions": 437,
+      "multifactor_instructions": 431,
+      "improvement": 6,
+      "factors": [
+        3,
+        5,
+        9,
+        13,
+        26,
+        30,
+        133
+      ],
+      "derived_targets": 17,
+      "opened_factors": 3
+    },
+    {
+      "id": "scored_0208",
+      "current_instructions": 632,
+      "multifactor_instructions": 626,
+      "improvement": 6,
+      "factors": [
+        3,
+        5,
+        7,
+        17,
+        23,
+        33
+      ],
+      "derived_targets": 18,
+      "opened_factors": 5
+    },
+    {
+      "id": "scored_0214",
+      "current_instructions": 492,
+      "multifactor_instructions": 487,
+      "improvement": 5,
+      "factors": [
+        3,
+        15,
+        23,
+        25,
+        39,
+        91,
+        143
+      ],
+      "derived_targets": 17,
+      "opened_factors": 7
+    },
+    {
+      "id": "scored_0226",
+      "current_instructions": 356,
+      "multifactor_instructions": 333,
+      "improvement": 23,
+      "factors": [
+        3,
+        7,
+        9,
+        11,
+        15,
+        257
+      ],
+      "derived_targets": 17,
+      "opened_factors": 6
+    },
+    {
+      "id": "scored_0237",
+      "current_instructions": 86,
+      "multifactor_instructions": 85,
+      "improvement": 1,
+      "factors": [
+        10,
+        17,
+        2223
+      ],
+      "derived_targets": 6,
+      "opened_factors": 1
+    },
+    {
+      "id": "scored_0240",
+      "current_instructions": 357,
+      "multifactor_instructions": 350,
+      "improvement": 7,
+      "factors": [
+        12,
+        13,
+        15,
+        31,
+        2649,
+        3529
+      ],
+      "derived_targets": 14,
+      "opened_factors": 3
+    },
+    {
+      "id": "scored_0243",
+      "current_instructions": 388,
+      "multifactor_instructions": 385,
+      "improvement": 3,
+      "factors": [
+        3,
+        11,
+        13,
+        14,
+        15,
+        33
+      ],
+      "derived_targets": 17,
+      "opened_factors": 4
+    },
+    {
+      "id": "scored_0249",
+      "current_instructions": 751,
+      "multifactor_instructions": 723,
+      "improvement": 28,
+      "factors": [
+        2,
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        16,
+        19
+      ],
+      "derived_targets": 20,
+      "opened_factors": 8
+    },
+    {
+      "id": "scored_0255",
+      "current_instructions": 774,
+      "multifactor_instructions": 761,
+      "improvement": 13,
+      "factors": [
+        2,
+        3,
+        5,
+        11,
+        15,
+        19
+      ],
+      "derived_targets": 15,
+      "opened_factors": 6
+    },
+    {
+      "id": "scored_0258",
+      "current_instructions": 741,
+      "multifactor_instructions": 734,
+      "improvement": 7,
+      "factors": [
+        2,
+        3,
+        7,
+        15,
+        17
+      ],
+      "derived_targets": 11,
+      "opened_factors": 5
+    },
+    {
+      "id": "scored_0260",
+      "current_instructions": 256,
+      "multifactor_instructions": 254,
+      "improvement": 2,
+      "factors": [
+        18,
+        21,
+        29,
+        7029
+      ],
+      "derived_targets": 10,
+      "opened_factors": 2
+    },
+    {
+      "id": "scored_0263",
+      "current_instructions": 670,
+      "multifactor_instructions": 666,
+      "improvement": 4,
+      "factors": [
+        3,
+        5,
+        11,
+        13,
+        24,
+        26,
+        53,
+        257
+      ],
+      "derived_targets": 17,
+      "opened_factors": 6
+    },
+    {
+      "id": "scored_0267",
+      "current_instructions": 374,
+      "multifactor_instructions": 359,
+      "improvement": 15,
+      "factors": [
+        13,
+        31,
+        1043,
+        5208177,
+        32613080
+      ],
+      "derived_targets": 10,
+      "opened_factors": 3
+    },
+    {
+      "id": "scored_0271",
+      "current_instructions": 126,
+      "multifactor_instructions": 121,
+      "improvement": 5,
+      "factors": [
+        3,
+        33,
+        97
+      ],
+      "derived_targets": 8,
+      "opened_factors": 2
+    },
+    {
+      "id": "scored_0294",
+      "current_instructions": 429,
+      "multifactor_instructions": 419,
+      "improvement": 10,
+      "factors": [
+        3,
+        7,
+        9,
+        15,
+        23,
+        25,
+        1793
+      ],
+      "derived_targets": 17,
+      "opened_factors": 5
+    },
+    {
+      "id": "scored_0297",
+      "current_instructions": 359,
+      "multifactor_instructions": 352,
+      "improvement": 7,
+      "factors": [
+        3,
+        7,
+        18,
+        115,
+        198375
+      ],
+      "derived_targets": 14,
+      "opened_factors": 4
+    },
+    {
+      "id": "scored_0298",
+      "current_instructions": 277,
+      "multifactor_instructions": 273,
+      "improvement": 4,
+      "factors": [
+        3,
+        7,
+        10,
+        25,
+        32055
+      ],
+      "derived_targets": 14,
+      "opened_factors": 3
+    },
+    {
+      "id": "scored_0304",
+      "current_instructions": 478,
+      "multifactor_instructions": 463,
+      "improvement": 15,
+      "factors": [
+        3,
+        5,
+        11,
+        15,
+        27,
+        43,
+        61,
+        91
+      ],
+      "derived_targets": 19,
+      "opened_factors": 7
+    },
+    {
+      "id": "scored_0316",
+      "current_instructions": 327,
+      "multifactor_instructions": 322,
+      "improvement": 5,
+      "factors": [
+        3,
+        19,
+        30,
+        217
+      ],
+      "derived_targets": 14,
+      "opened_factors": 2
+    },
+    {
+      "id": "scored_0321",
+      "current_instructions": 758,
+      "multifactor_instructions": 756,
+      "improvement": 2,
+      "factors": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        53,
+        65
+      ],
+      "derived_targets": 16,
+      "opened_factors": 7
+    },
+    {
+      "id": "scored_0331",
+      "current_instructions": 688,
+      "multifactor_instructions": 681,
+      "improvement": 7,
+      "factors": [
+        2,
+        3,
+        13,
+        19,
+        21
+      ],
+      "derived_targets": 11,
+      "opened_factors": 4
+    },
+    {
+      "id": "scored_0334",
+      "current_instructions": 680,
+      "multifactor_instructions": 630,
+      "improvement": 50,
+      "factors": [
+        2,
+        3,
+        5,
+        37,
+        59
+      ],
+      "derived_targets": 16,
+      "opened_factors": 5
+    },
+    {
+      "id": "scored_0337",
+      "current_instructions": 358,
+      "multifactor_instructions": 328,
+      "improvement": 30,
+      "factors": [
+        5,
+        13,
+        18,
+        29,
+        251,
+        12909,
+        95481
+      ],
+      "derived_targets": 15,
+      "opened_factors": 5
+    },
+    {
+      "id": "scored_0340",
+      "current_instructions": 362,
+      "multifactor_instructions": 356,
+      "improvement": 6,
+      "factors": [
+        7,
+        23,
+        28,
+        33,
+        10575,
+        158099764
+      ],
+      "derived_targets": 12,
+      "opened_factors": 3
+    },
+    {
+      "id": "scored_0343",
+      "current_instructions": 322,
+      "multifactor_instructions": 315,
+      "improvement": 7,
+      "factors": [
+        5,
+        22,
+        27,
+        933,
+        4559
+      ],
+      "derived_targets": 13,
+      "opened_factors": 3
+    },
+    {
+      "id": "scored_0347",
+      "current_instructions": 369,
+      "multifactor_instructions": 363,
+      "improvement": 6,
+      "factors": [
+        5,
+        6,
+        7,
+        27,
+        34
+      ],
+      "derived_targets": 13,
+      "opened_factors": 3
+    },
+    {
+      "id": "scored_0358",
+      "current_instructions": 532,
+      "multifactor_instructions": 521,
+      "improvement": 11,
+      "factors": [
+        7,
+        9,
+        17,
+        19,
+        23,
+        26,
+        27,
+        175
+      ],
+      "derived_targets": 16,
+      "opened_factors": 4
+    },
+    {
+      "id": "scored_0366",
+      "current_instructions": 358,
+      "multifactor_instructions": 348,
+      "improvement": 10,
+      "factors": [
+        6,
+        7,
+        15,
+        22,
+        33,
+        39,
+        49,
+        14079
+      ],
+      "derived_targets": 16,
+      "opened_factors": 4
+    },
+    {
+      "id": "scored_0369",
+      "current_instructions": 658,
+      "multifactor_instructions": 628,
+      "improvement": 30,
+      "factors": [
+        3,
+        5,
+        7,
+        15,
+        24,
+        27,
+        33,
+        61
+      ],
+      "derived_targets": 19,
+      "opened_factors": 5
+    },
+    {
+      "id": "scored_0372",
+      "current_instructions": 336,
+      "multifactor_instructions": 326,
+      "improvement": 10,
+      "factors": [
+        3,
+        5,
+        7,
+        9,
+        20,
+        26,
+        29,
+        31,
+        279
+      ],
+      "derived_targets": 20,
+      "opened_factors": 4
+    },
+    {
+      "id": "scored_0374",
+      "current_instructions": 657,
+      "multifactor_instructions": 627,
+      "improvement": 30,
+      "factors": [
+        2,
+        3,
+        5,
+        7,
+        15,
+        31,
+        33,
+        81
+      ],
+      "derived_targets": 19,
+      "opened_factors": 5
+    },
+    {
+      "id": "scored_0375",
+      "current_instructions": 580,
+      "multifactor_instructions": 562,
+      "improvement": 18,
+      "factors": [
+        3,
+        5,
+        7,
+        33,
+        39,
+        213
+      ],
+      "derived_targets": 16,
+      "opened_factors": 5
+    },
+    {
+      "id": "scored_0377",
+      "current_instructions": 253,
+      "multifactor_instructions": 249,
+      "improvement": 4,
+      "factors": [
+        3,
+        10,
+        17,
+        18,
+        377
+      ],
+      "derived_targets": 15,
+      "opened_factors": 2
+    },
+    {
+      "id": "scored_0382",
+      "current_instructions": 413,
+      "multifactor_instructions": 400,
+      "improvement": 13,
+      "factors": [
+        5,
+        9,
+        13,
+        21,
+        27,
+        31,
+        9477
+      ],
+      "derived_targets": 14,
+      "opened_factors": 4
+    },
+    {
+      "id": "scored_0386",
+      "current_instructions": 528,
+      "multifactor_instructions": 527,
+      "improvement": 1,
+      "factors": [
+        3,
+        5,
+        13,
+        17,
+        23
+      ],
+      "derived_targets": 15,
+      "opened_factors": 4
+    },
+    {
+      "id": "scored_0403",
+      "current_instructions": 653,
+      "multifactor_instructions": 630,
+      "improvement": 23,
+      "factors": [
+        3,
+        5,
+        11,
+        26,
+        31,
+        33,
+        41,
+        309
+      ],
+      "derived_targets": 20,
+      "opened_factors": 6
+    },
+    {
+      "id": "scored_0408",
+      "current_instructions": 454,
+      "multifactor_instructions": 448,
+      "improvement": 6,
+      "factors": [
+        3,
+        5,
+        9,
+        19,
+        25,
+        135
+      ],
+      "derived_targets": 17,
+      "opened_factors": 4
+    },
+    {
+      "id": "scored_0409",
+      "current_instructions": 66,
+      "multifactor_instructions": 59,
+      "improvement": 7,
+      "factors": [
+        5,
+        14,
+        3896
+      ],
+      "derived_targets": 5,
+      "opened_factors": 1
+    },
+    {
+      "id": "scored_0423",
+      "current_instructions": 258,
+      "multifactor_instructions": 246,
+      "improvement": 12,
+      "factors": [
+        3,
+        15,
+        19,
+        29,
+        34,
+        2189
+      ],
+      "derived_targets": 14,
+      "opened_factors": 3
+    },
+    {
+      "id": "scored_0434",
+      "current_instructions": 289,
+      "multifactor_instructions": 280,
+      "improvement": 9,
+      "factors": [
+        5,
+        20,
+        22,
+        26,
+        151,
+        191,
+        7675
+      ],
+      "derived_targets": 15,
+      "opened_factors": 4
+    },
+    {
+      "id": "scored_0435",
+      "current_instructions": 472,
+      "multifactor_instructions": 470,
+      "improvement": 2,
+      "factors": [
+        5,
+        6,
+        19,
+        27,
+        33
+      ],
+      "derived_targets": 14,
+      "opened_factors": 2
+    },
+    {
+      "id": "scored_0438",
+      "current_instructions": 585,
+      "multifactor_instructions": 573,
+      "improvement": 12,
+      "factors": [
+        2,
+        3,
+        5,
+        14,
+        17,
+        19,
+        37
+      ],
+      "derived_targets": 17,
+      "opened_factors": 6
+    },
+    {
+      "id": "scored_0442",
+      "current_instructions": 495,
+      "multifactor_instructions": 487,
+      "improvement": 8,
+      "factors": [
+        3,
+        18,
+        20,
+        25,
+        49,
+        529
+      ],
+      "derived_targets": 14,
+      "opened_factors": 2
+    },
+    {
+      "id": "scored_0444",
+      "current_instructions": 689,
+      "multifactor_instructions": 675,
+      "improvement": 14,
+      "factors": [
+        2,
+        3,
+        5,
+        11,
+        13,
+        61,
+        243,
+        383
+      ],
+      "derived_targets": 17,
+      "opened_factors": 7
+    },
+    {
+      "id": "scored_0446",
+      "current_instructions": 693,
+      "multifactor_instructions": 668,
+      "improvement": 25,
+      "factors": [
+        3,
+        5,
+        11,
+        17,
+        101
+      ],
+      "derived_targets": 15,
+      "opened_factors": 5
+    },
+    {
+      "id": "scored_0461",
+      "current_instructions": 109,
+      "multifactor_instructions": 107,
+      "improvement": 2,
+      "factors": [
+        3,
+        5,
+        11,
+        47575
+      ],
+      "derived_targets": 7,
+      "opened_factors": 1
+    },
+    {
+      "id": "scored_0463",
+      "current_instructions": 289,
+      "multifactor_instructions": 286,
+      "improvement": 3,
+      "factors": [
+        3,
+        5,
+        9,
+        21,
+        23,
+        26
+      ],
+      "derived_targets": 17,
+      "opened_factors": 4
+    },
+    {
+      "id": "scored_0464",
+      "current_instructions": 236,
+      "multifactor_instructions": 226,
+      "improvement": 10,
+      "factors": [
+        3,
+        11,
+        23,
+        29,
+        31,
+        47,
+        461
+      ],
+      "derived_targets": 15,
+      "opened_factors": 4
+    },
+    {
+      "id": "scored_0468",
+      "current_instructions": 418,
+      "multifactor_instructions": 413,
+      "improvement": 5,
+      "factors": [
+        3,
+        7,
+        17,
+        35,
+        3329
+      ],
+      "derived_targets": 12,
+      "opened_factors": 4
+    },
+    {
+      "id": "scored_0469",
+      "current_instructions": 248,
+      "multifactor_instructions": 246,
+      "improvement": 2,
+      "factors": [
+        3,
+        7,
+        11,
+        14,
+        15,
+        23,
+        26
+      ],
+      "derived_targets": 12,
+      "opened_factors": 3
+    },
+    {
+      "id": "scored_0474",
+      "current_instructions": 223,
+      "multifactor_instructions": 222,
+      "improvement": 1,
+      "factors": [
+        3,
+        9,
+        20,
+        34,
+        327
+      ],
+      "derived_targets": 9,
+      "opened_factors": 2
+    },
+    {
+      "id": "scored_0477",
+      "current_instructions": 481,
+      "multifactor_instructions": 470,
+      "improvement": 11,
+      "factors": [
+        5,
+        17,
+        19,
+        25,
+        28,
+        35,
+        701
+      ],
+      "derived_targets": 17,
+      "opened_factors": 4
+    },
+    {
+      "id": "scored_0479",
+      "current_instructions": 316,
+      "multifactor_instructions": 313,
+      "improvement": 3,
+      "factors": [
+        3,
+        11,
+        18,
+        21,
+        23,
+        225
+      ],
+      "derived_targets": 14,
+      "opened_factors": 3
+    },
+    {
+      "id": "scored_0488",
+      "current_instructions": 411,
+      "multifactor_instructions": 401,
+      "improvement": 10,
+      "factors": [
+        3,
+        9,
+        17,
+        18,
+        19,
+        29,
+        367,
+        8575,
+        171535
+      ],
+      "derived_targets": 22,
+      "opened_factors": 7
+    },
+    {
+      "id": "scored_0489",
+      "current_instructions": 395,
+      "multifactor_instructions": 393,
+      "improvement": 2,
+      "factors": [
+        3,
+        23,
+        25,
+        43,
+        65
+      ],
+      "derived_targets": 13,
+      "opened_factors": 2
+    },
+    {
+      "id": "scored_0493",
+      "current_instructions": 675,
+      "multifactor_instructions": 652,
+      "improvement": 23,
+      "factors": [
+        5,
+        9,
+        14,
+        24,
+        25,
+        59,
+        69,
+        283
+      ],
+      "derived_targets": 17,
+      "opened_factors": 5
+    },
+    {
+      "id": "scored_0499",
+      "current_instructions": 503,
+      "multifactor_instructions": 501,
+      "improvement": 2,
+      "factors": [
+        3,
+        5,
+        7,
+        13,
+        30,
+        67,
+        555,
+        1111,
+        242267404966
+      ],
+      "derived_targets": 22,
+      "opened_factors": 8
+    },
+    {
+      "id": "scored_0506",
+      "current_instructions": 347,
+      "multifactor_instructions": 342,
+      "improvement": 5,
+      "factors": [
+        3,
+        9,
+        10,
+        43,
+        177,
+        489650994
+      ],
+      "derived_targets": 15,
+      "opened_factors": 4
+    },
+    {
+      "id": "scored_0527",
+      "current_instructions": 638,
+      "multifactor_instructions": 624,
+      "improvement": 14,
+      "factors": [
+        3,
+        5,
+        9,
+        14,
+        29,
+        31
+      ],
+      "derived_targets": 19,
+      "opened_factors": 4
+    },
+    {
+      "id": "scored_0528",
+      "current_instructions": 379,
+      "multifactor_instructions": 378,
+      "improvement": 1,
+      "factors": [
+        3,
+        5,
+        9,
+        15,
+        125
+      ],
+      "derived_targets": 17,
+      "opened_factors": 4
+    },
+    {
+      "id": "scored_0532",
+      "current_instructions": 223,
+      "multifactor_instructions": 212,
+      "improvement": 11,
+      "factors": [
+        7,
+        18,
+        24,
+        25,
+        287
+      ],
+      "derived_targets": 15,
+      "opened_factors": 2
+    },
+    {
+      "id": "scored_0533",
+      "current_instructions": 328,
+      "multifactor_instructions": 323,
+      "improvement": 5,
+      "factors": [
+        3,
+        6,
+        7,
+        17,
+        18,
+        59
+      ],
+      "derived_targets": 13,
+      "opened_factors": 3
+    },
+    {
+      "id": "scored_0536",
+      "current_instructions": 668,
+      "multifactor_instructions": 659,
+      "improvement": 9,
+      "factors": [
+        2,
+        3,
+        7,
+        11,
+        25
+      ],
+      "derived_targets": 12,
+      "opened_factors": 5
+    },
+    {
+      "id": "scored_0539",
+      "current_instructions": 272,
+      "multifactor_instructions": 271,
+      "improvement": 1,
+      "factors": [
+        11,
+        18,
+        30,
+        50067600
+      ],
+      "derived_targets": 11,
+      "opened_factors": 1
+    },
+    {
+      "id": "scored_0549",
+      "current_instructions": 336,
+      "multifactor_instructions": 316,
+      "improvement": 20,
+      "factors": [
+        3,
+        5,
+        11,
+        24,
+        34,
+        365
+      ],
+      "derived_targets": 16,
+      "opened_factors": 3
+    },
+    {
+      "id": "scored_0556",
+      "current_instructions": 101,
+      "multifactor_instructions": 98,
+      "improvement": 3,
+      "factors": [
+        3,
+        14,
+        17
+      ],
+      "derived_targets": 5,
+      "opened_factors": 0
+    },
+    {
+      "id": "scored_0560",
+      "current_instructions": 117,
+      "multifactor_instructions": 105,
+      "improvement": 12,
+      "factors": [
+        3,
+        195,
+        386884
+      ],
+      "derived_targets": 9,
+      "opened_factors": 3
+    },
+    {
+      "id": "scored_0561",
+      "current_instructions": 279,
+      "multifactor_instructions": 266,
+      "improvement": 13,
+      "factors": [
+        7,
+        13,
+        17,
+        24,
+        6678
+      ],
+      "derived_targets": 16,
+      "opened_factors": 3
+    },
+    {
+      "id": "scored_0563",
+      "current_instructions": 290,
+      "multifactor_instructions": 286,
+      "improvement": 4,
+      "factors": [
+        3,
+        13,
+        15,
+        2559
+      ],
+      "derived_targets": 11,
+      "opened_factors": 2
+    },
+    {
+      "id": "scored_0564",
+      "current_instructions": 92,
+      "multifactor_instructions": 90,
+      "improvement": 2,
+      "factors": [
+        6
+      ],
+      "derived_targets": 1,
+      "opened_factors": 0
+    },
+    {
+      "id": "scored_0571",
+      "current_instructions": 527,
+      "multifactor_instructions": 517,
+      "improvement": 10,
+      "factors": [
+        3,
+        5,
+        19,
+        25,
+        26,
+        37,
+        53,
+        97
+      ],
+      "derived_targets": 16,
+      "opened_factors": 6
+    },
+    {
+      "id": "scored_0573",
+      "current_instructions": 510,
+      "multifactor_instructions": 500,
+      "improvement": 10,
+      "factors": [
+        3,
+        7,
+        10,
+        20,
+        67,
+        3391
+      ],
+      "derived_targets": 17,
+      "opened_factors": 4
+    },
+    {
+      "id": "scored_0574",
+      "current_instructions": 284,
+      "multifactor_instructions": 282,
+      "improvement": 2,
+      "factors": [
+        5,
+        29,
+        33,
+        43,
+        345,
+        415
+      ],
+      "derived_targets": 15,
+      "opened_factors": 4
+    },
+    {
+      "id": "scored_0581",
+      "current_instructions": 702,
+      "multifactor_instructions": 685,
+      "improvement": 17,
+      "factors": [
+        2,
+        3,
+        7,
+        11,
+        13,
+        23,
+        31,
+        157,
+        975
+      ],
+      "derived_targets": 17,
+      "opened_factors": 9
+    },
+    {
+      "id": "scored_0583",
+      "current_instructions": 110,
+      "multifactor_instructions": 109,
+      "improvement": 1,
+      "factors": [
+        3,
+        479
+      ],
+      "derived_targets": 6,
+      "opened_factors": 1
+    },
+    {
+      "id": "scored_0592",
+      "current_instructions": 592,
+      "multifactor_instructions": 570,
+      "improvement": 22,
+      "factors": [
+        5,
+        7,
+        10,
+        11,
+        15,
+        19,
+        23,
+        26,
+        1355
+      ],
+      "derived_targets": 16,
+      "opened_factors": 7
+    },
+    {
+      "id": "scored_0594",
+      "current_instructions": 623,
+      "multifactor_instructions": 611,
+      "improvement": 12,
+      "factors": [
+        2,
+        3,
+        5,
+        17,
+        23,
+        28,
+        29,
+        473
+      ],
+      "derived_targets": 15,
+      "opened_factors": 6
+    },
+    {
+      "id": "scored_0602",
+      "current_instructions": 329,
+      "multifactor_instructions": 316,
+      "improvement": 13,
+      "factors": [
+        9,
+        14,
+        17,
+        24,
+        31,
+        71,
+        401,
+        767
+      ],
+      "derived_targets": 16,
+      "opened_factors": 5
+    },
+    {
+      "id": "scored_0603",
+      "current_instructions": 454,
+      "multifactor_instructions": 450,
+      "improvement": 4,
+      "factors": [
+        3,
+        5,
+        6,
+        25,
+        29,
+        34,
+        37,
+        77
+      ],
+      "derived_targets": 20,
+      "opened_factors": 4
+    },
+    {
+      "id": "scored_0604",
+      "current_instructions": 482,
+      "multifactor_instructions": 476,
+      "improvement": 6,
+      "factors": [
+        3,
+        5,
+        7,
+        9,
+        17,
+        33
+      ],
+      "derived_targets": 18,
+      "opened_factors": 5
+    },
+    {
+      "id": "scored_0605",
+      "current_instructions": 455,
+      "multifactor_instructions": 448,
+      "improvement": 7,
+      "factors": [
+        3,
+        5,
+        17,
+        21,
+        23,
+        31,
+        41,
+        79
+      ],
+      "derived_targets": 18,
+      "opened_factors": 6
+    },
+    {
+      "id": "scored_0612",
+      "current_instructions": 722,
+      "multifactor_instructions": 711,
+      "improvement": 11,
+      "factors": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        25,
+        37
+      ],
+      "derived_targets": 17,
+      "opened_factors": 7
+    },
+    {
+      "id": "scored_0614",
+      "current_instructions": 57,
+      "multifactor_instructions": 53,
+      "improvement": 4,
+      "factors": [
+        5,
+        12
+      ],
+      "derived_targets": 3,
+      "opened_factors": 0
+    },
+    {
+      "id": "scored_0620",
+      "current_instructions": 99,
+      "multifactor_instructions": 98,
+      "improvement": 1,
+      "factors": [
+        5,
+        14,
+        25281
+      ],
+      "derived_targets": 4,
+      "opened_factors": 2
+    },
+    {
+      "id": "scored_0623",
+      "current_instructions": 216,
+      "multifactor_instructions": 213,
+      "improvement": 3,
+      "factors": [
+        18,
+        20,
+        23,
+        28
+      ],
+      "derived_targets": 11,
+      "opened_factors": 1
+    },
+    {
+      "id": "scored_0636",
+      "current_instructions": 713,
+      "multifactor_instructions": 695,
+      "improvement": 18,
+      "factors": [
+        2,
+        3,
+        7,
+        19,
+        27,
+        41,
+        47,
+        101
+      ],
+      "derived_targets": 17,
+      "opened_factors": 8
+    },
+    {
+      "id": "scored_0637",
+      "current_instructions": 110,
+      "multifactor_instructions": 107,
+      "improvement": 3,
+      "factors": [
+        3,
+        7,
+        971618
+      ],
+      "derived_targets": 8,
+      "opened_factors": 2
+    },
+    {
+      "id": "scored_0638",
+      "current_instructions": 772,
+      "multifactor_instructions": 740,
+      "improvement": 32,
+      "factors": [
+        3,
+        5,
+        7,
+        9,
+        11,
+        13
+      ],
+      "derived_targets": 23,
+      "opened_factors": 6
+    },
+    {
+      "id": "scored_0641",
+      "current_instructions": 339,
+      "multifactor_instructions": 338,
+      "improvement": 1,
+      "factors": [
+        5,
+        7,
+        9,
+        12,
+        13,
+        137,
+        523
+      ],
+      "derived_targets": 19,
+      "opened_factors": 4
+    },
+    {
+      "id": "scored_0642",
+      "current_instructions": 350,
+      "multifactor_instructions": 349,
+      "improvement": 1,
+      "factors": [
+        3,
+        10,
+        23,
+        24,
+        31,
+        93
+      ],
+      "derived_targets": 12,
+      "opened_factors": 3
+    },
+    {
+      "id": "scored_0648",
+      "current_instructions": 283,
+      "multifactor_instructions": 282,
+      "improvement": 1,
+      "factors": [
+        3,
+        7,
+        9,
+        13,
+        31,
+        8161
+      ],
+      "derived_targets": 19,
+      "opened_factors": 6
+    },
+    {
+      "id": "scored_0665",
+      "current_instructions": 268,
+      "multifactor_instructions": 267,
+      "improvement": 1,
+      "factors": [
+        3,
+        5,
+        11,
+        12,
+        15,
+        34,
+        83,
+        4844055
+      ],
+      "derived_targets": 20,
+      "opened_factors": 5
+    },
+    {
+      "id": "scored_0669",
+      "current_instructions": 446,
+      "multifactor_instructions": 429,
+      "improvement": 17,
+      "factors": [
+        6,
+        9,
+        27,
+        49,
+        79,
+        239,
+        19114025
+      ],
+      "derived_targets": 17,
+      "opened_factors": 5
+    },
+    {
+      "id": "scored_0680",
+      "current_instructions": 561,
+      "multifactor_instructions": 559,
+      "improvement": 2,
+      "factors": [
+        2,
+        3,
+        5,
+        13,
+        14,
+        22,
+        34,
+        41
+      ],
+      "derived_targets": 17,
+      "opened_factors": 4
+    },
+    {
+      "id": "scored_0681",
+      "current_instructions": 608,
+      "multifactor_instructions": 573,
+      "improvement": 35,
+      "factors": [
+        2,
+        3,
+        4,
+        5,
+        7,
+        9,
+        15,
+        25,
+        31,
+        33,
+        47,
+        81,
+        1509
+      ],
+      "derived_targets": 20,
+      "opened_factors": 9
+    },
+    {
+      "id": "scored_0682",
+      "current_instructions": 712,
+      "multifactor_instructions": 706,
+      "improvement": 6,
+      "factors": [
+        2,
+        3,
+        5,
+        7,
+        15,
+        17,
+        19,
+        23
+      ],
+      "derived_targets": 21,
+      "opened_factors": 8
+    },
+    {
+      "id": "scored_0684",
+      "current_instructions": 367,
+      "multifactor_instructions": 351,
+      "improvement": 16,
+      "factors": [
+        3,
+        6,
+        10,
+        11,
+        21,
+        29,
+        645,
+        6455
+      ],
+      "derived_targets": 15,
+      "opened_factors": 5
+    },
+    {
+      "id": "scored_0690",
+      "current_instructions": 729,
+      "multifactor_instructions": 698,
+      "improvement": 31,
+      "factors": [
+        2,
+        3,
+        5,
+        9,
+        61,
+        73,
+        97
+      ],
+      "derived_targets": 20,
+      "opened_factors": 7
+    },
+    {
+      "id": "scored_0691",
+      "current_instructions": 403,
+      "multifactor_instructions": 383,
+      "improvement": 20,
+      "factors": [
+        3,
+        5,
+        6,
+        31,
+        37,
+        55,
+        1765,
+        15885
+      ],
+      "derived_targets": 21,
+      "opened_factors": 6
+    },
+    {
+      "id": "scored_0693",
+      "current_instructions": 484,
+      "multifactor_instructions": 473,
+      "improvement": 11,
+      "factors": [
+        3,
+        5,
+        7,
+        9,
+        10,
+        47,
+        2079
+      ],
+      "derived_targets": 11,
+      "opened_factors": 6
+    },
+    {
+      "id": "scored_0707",
+      "current_instructions": 243,
+      "multifactor_instructions": 240,
+      "improvement": 3,
+      "factors": [
+        3,
+        5,
+        34,
+        127,
+        193
+      ],
+      "derived_targets": 16,
+      "opened_factors": 4
+    },
+    {
+      "id": "scored_0710",
+      "current_instructions": 330,
+      "multifactor_instructions": 326,
+      "improvement": 4,
+      "factors": [
+        3,
+        5,
+        6,
+        17,
+        22,
+        209,
+        33910979520
+      ],
+      "derived_targets": 16,
+      "opened_factors": 4
+    },
+    {
+      "id": "scored_0714",
+      "current_instructions": 549,
+      "multifactor_instructions": 548,
+      "improvement": 1,
+      "factors": [
+        3,
+        5,
+        6,
+        7,
+        22,
+        33,
+        1875,
+        86980726875
+      ],
+      "derived_targets": 17,
+      "opened_factors": 5
+    },
+    {
+      "id": "scored_0716",
+      "current_instructions": 341,
+      "multifactor_instructions": 330,
+      "improvement": 11,
+      "factors": [
+        3,
+        20,
+        29,
+        157,
+        1257
+      ],
+      "derived_targets": 18,
+      "opened_factors": 3
+    },
+    {
+      "id": "scored_0719",
+      "current_instructions": 740,
+      "multifactor_instructions": 716,
+      "improvement": 24,
+      "factors": [
+        2,
+        3,
+        5,
+        7,
+        37
+      ],
+      "derived_targets": 14,
+      "opened_factors": 5
+    },
+    {
+      "id": "scored_0727",
+      "current_instructions": 237,
+      "multifactor_instructions": 235,
+      "improvement": 2,
+      "factors": [
+        7,
+        9,
+        10,
+        11,
+        24,
+        4014
+      ],
+      "derived_targets": 16,
+      "opened_factors": 3
+    },
+    {
+      "id": "scored_0729",
+      "current_instructions": 755,
+      "multifactor_instructions": 740,
+      "improvement": 15,
+      "factors": [
+        2,
+        3,
+        25,
+        31,
+        67
+      ],
+      "derived_targets": 16,
+      "opened_factors": 5
+    },
+    {
+      "id": "scored_0731",
+      "current_instructions": 498,
+      "multifactor_instructions": 482,
+      "improvement": 16,
+      "factors": [
+        3,
+        7,
+        19,
+        27,
+        57,
+        63,
+        81,
+        869
+      ],
+      "derived_targets": 19,
+      "opened_factors": 6
+    },
+    {
+      "id": "scored_0732",
+      "current_instructions": 355,
+      "multifactor_instructions": 353,
+      "improvement": 2,
+      "factors": [
+        3,
+        9,
+        15,
+        28,
+        61,
+        81
+      ],
+      "derived_targets": 16,
+      "opened_factors": 5
+    },
+    {
+      "id": "scored_0737",
+      "current_instructions": 333,
+      "multifactor_instructions": 332,
+      "improvement": 1,
+      "factors": [
+        9,
+        15,
+        17,
+        22,
+        471,
+        2597795
+      ],
+      "derived_targets": 14,
+      "opened_factors": 4
+    },
+    {
+      "id": "scored_0741",
+      "current_instructions": 391,
+      "multifactor_instructions": 384,
+      "improvement": 7,
+      "factors": [
+        3,
+        5,
+        7,
+        17,
+        27,
+        173
+      ],
+      "derived_targets": 17,
+      "opened_factors": 4
+    },
+    {
+      "id": "scored_0743",
+      "current_instructions": 287,
+      "multifactor_instructions": 280,
+      "improvement": 7,
+      "factors": [
+        3,
+        15,
+        24,
+        25,
+        3621
+      ],
+      "derived_targets": 16,
+      "opened_factors": 3
+    },
+    {
+      "id": "scored_0751",
+      "current_instructions": 599,
+      "multifactor_instructions": 590,
+      "improvement": 9,
+      "factors": [
+        3,
+        5,
+        9,
+        11,
+        13,
+        39,
+        67
+      ],
+      "derived_targets": 16,
+      "opened_factors": 4
+    },
+    {
+      "id": "scored_0752",
+      "current_instructions": 281,
+      "multifactor_instructions": 271,
+      "improvement": 10,
+      "factors": [
+        3,
+        15,
+        18,
+        27,
+        28
+      ],
+      "derived_targets": 18,
+      "opened_factors": 3
+    },
+    {
+      "id": "scored_0755",
+      "current_instructions": 455,
+      "multifactor_instructions": 451,
+      "improvement": 4,
+      "factors": [
+        5,
+        9,
+        12,
+        13,
+        17,
+        21,
+        135,
+        3943865916
+      ],
+      "derived_targets": 15,
+      "opened_factors": 6
+    },
+    {
+      "id": "scored_0763",
+      "current_instructions": 252,
+      "multifactor_instructions": 251,
+      "improvement": 1,
+      "factors": [
+        5,
+        7,
+        17,
+        79
+      ],
+      "derived_targets": 10,
+      "opened_factors": 4
+    },
+    {
+      "id": "scored_0769",
+      "current_instructions": 397,
+      "multifactor_instructions": 391,
+      "improvement": 6,
+      "factors": [
+        3,
+        7,
+        9,
+        19,
+        29,
+        31,
+        125,
+        225,
+        1750,
+        70254065
+      ],
+      "derived_targets": 17,
+      "opened_factors": 8
+    },
+    {
+      "id": "scored_0770",
+      "current_instructions": 478,
+      "multifactor_instructions": 474,
+      "improvement": 4,
+      "factors": [
+        5,
+        19,
+        24,
+        143,
+        151,
+        793,
+        1821025
+      ],
+      "derived_targets": 15,
+      "opened_factors": 6
+    },
+    {
+      "id": "scored_0771",
+      "current_instructions": 760,
+      "multifactor_instructions": 720,
+      "improvement": 40,
+      "factors": [
+        2,
+        3,
+        5,
+        7,
+        9,
+        29
+      ],
+      "derived_targets": 14,
+      "opened_factors": 6
+    },
+    {
+      "id": "scored_0778",
+      "current_instructions": 383,
+      "multifactor_instructions": 375,
+      "improvement": 8,
+      "factors": [
+        3,
+        5,
+        7,
+        17,
+        455
+      ],
+      "derived_targets": 19,
+      "opened_factors": 4
+    },
+    {
+      "id": "scored_0787",
+      "current_instructions": 301,
+      "multifactor_instructions": 284,
+      "improvement": 17,
+      "factors": [
+        5,
+        9,
+        12,
+        13,
+        31,
+        127,
+        2047
+      ],
+      "derived_targets": 16,
+      "opened_factors": 5
+    },
+    {
+      "id": "scored_0791",
+      "current_instructions": 460,
+      "multifactor_instructions": 451,
+      "improvement": 9,
+      "factors": [
+        3,
+        9,
+        25,
+        3903
+      ],
+      "derived_targets": 13,
+      "opened_factors": 3
+    },
+    {
+      "id": "scored_0793",
+      "current_instructions": 568,
+      "multifactor_instructions": 567,
+      "improvement": 1,
+      "factors": [
+        3,
+        7,
+        10,
+        15,
+        31
+      ],
+      "derived_targets": 13,
+      "opened_factors": 4
+    },
+    {
+      "id": "scored_0802",
+      "current_instructions": 507,
+      "multifactor_instructions": 500,
+      "improvement": 7,
+      "factors": [
+        3,
+        9,
+        13,
+        15,
+        17,
+        21,
+        23,
+        34
+      ],
+      "derived_targets": 15,
+      "opened_factors": 5
+    },
+    {
+      "id": "scored_0806",
+      "current_instructions": 253,
+      "multifactor_instructions": 244,
+      "improvement": 9,
+      "factors": [
+        5,
+        7,
+        23,
+        27,
+        28,
+        67
+      ],
+      "derived_targets": 16,
+      "opened_factors": 3
+    },
+    {
+      "id": "scored_0810",
+      "current_instructions": 109,
+      "multifactor_instructions": 102,
+      "improvement": 7,
+      "factors": [
+        10,
+        75525,
+        140450
+      ],
+      "derived_targets": 5,
+      "opened_factors": 2
+    },
+    {
+      "id": "scored_0815",
+      "current_instructions": 620,
+      "multifactor_instructions": 610,
+      "improvement": 10,
+      "factors": [
+        2,
+        5,
+        14,
+        26,
+        24081,
+        32178832003125
+      ],
+      "derived_targets": 15,
+      "opened_factors": 4
+    },
+    {
+      "id": "scored_0819",
+      "current_instructions": 624,
+      "multifactor_instructions": 621,
+      "improvement": 3,
+      "factors": [
+        3,
+        4,
+        5,
+        7,
+        13,
+        31
+      ],
+      "derived_targets": 17,
+      "opened_factors": 4
+    },
+    {
+      "id": "scored_0820",
+      "current_instructions": 637,
+      "multifactor_instructions": 613,
+      "improvement": 24,
+      "factors": [
+        3,
+        5,
+        7,
+        25,
+        33,
+        34,
+        59,
+        227,
+        187493218407
+      ],
+      "derived_targets": 18,
+      "opened_factors": 7
+    },
+    {
+      "id": "scored_0822",
+      "current_instructions": 123,
+      "multifactor_instructions": 121,
+      "improvement": 2,
+      "factors": [
+        3,
+        125
+      ],
+      "derived_targets": 4,
+      "opened_factors": 1
+    },
+    {
+      "id": "scored_0824",
+      "current_instructions": 384,
+      "multifactor_instructions": 381,
+      "improvement": 3,
+      "factors": [
+        3,
+        7,
+        25,
+        87,
+        913
+      ],
+      "derived_targets": 18,
+      "opened_factors": 4
+    },
+    {
+      "id": "scored_0826",
+      "current_instructions": 605,
+      "multifactor_instructions": 571,
+      "improvement": 34,
+      "factors": [
+        3,
+        5,
+        17,
+        23,
+        29
+      ],
+      "derived_targets": 16,
+      "opened_factors": 4
+    },
+    {
+      "id": "scored_0833",
+      "current_instructions": 383,
+      "multifactor_instructions": 344,
+      "improvement": 39,
+      "factors": [
+        7,
+        9,
+        20,
+        34,
+        39,
+        97,
+        3105,
+        62115,
+        301185
+      ],
+      "derived_targets": 18,
+      "opened_factors": 6
+    },
+    {
+      "id": "scored_0835",
+      "current_instructions": 316,
+      "multifactor_instructions": 308,
+      "improvement": 8,
+      "factors": [
+        3,
+        5,
+        13,
+        897,
+        39941
+      ],
+      "derived_targets": 14,
+      "opened_factors": 3
+    },
+    {
+      "id": "scored_0844",
+      "current_instructions": 691,
+      "multifactor_instructions": 685,
+      "improvement": 6,
+      "factors": [
+        2,
+        3,
+        5,
+        7,
+        29,
+        89
+      ],
+      "derived_targets": 15,
+      "opened_factors": 6
+    },
+    {
+      "id": "scored_0846",
+      "current_instructions": 312,
+      "multifactor_instructions": 307,
+      "improvement": 5,
+      "factors": [
+        3,
+        5,
+        15,
+        17,
+        24
+      ],
+      "derived_targets": 19,
+      "opened_factors": 4
+    },
+    {
+      "id": "scored_0853",
+      "current_instructions": 542,
+      "multifactor_instructions": 511,
+      "improvement": 31,
+      "factors": [
+        2,
+        3,
+        5,
+        7,
+        13,
+        53,
+        360
+      ],
+      "derived_targets": 14,
+      "opened_factors": 6
+    },
+    {
+      "id": "scored_0857",
+      "current_instructions": 662,
+      "multifactor_instructions": 647,
+      "improvement": 15,
+      "factors": [
+        2,
+        3,
+        5,
+        18,
+        31,
+        33,
+        127
+      ],
+      "derived_targets": 17,
+      "opened_factors": 4
+    },
+    {
+      "id": "scored_0861",
+      "current_instructions": 421,
+      "multifactor_instructions": 412,
+      "improvement": 9,
+      "factors": [
+        3,
+        5,
+        13,
+        17,
+        7119
+      ],
+      "derived_targets": 12,
+      "opened_factors": 3
+    },
+    {
+      "id": "scored_0870",
+      "current_instructions": 630,
+      "multifactor_instructions": 620,
+      "improvement": 10,
+      "factors": [
+        3,
+        5,
+        7,
+        53,
+        151
+      ],
+      "derived_targets": 16,
+      "opened_factors": 4
+    },
+    {
+      "id": "scored_0876",
+      "current_instructions": 543,
+      "multifactor_instructions": 538,
+      "improvement": 5,
+      "factors": [
+        3,
+        7,
+        11,
+        15,
+        29,
+        43,
+        97
+      ],
+      "derived_targets": 22,
+      "opened_factors": 6
+    },
+    {
+      "id": "scored_0881",
+      "current_instructions": 252,
+      "multifactor_instructions": 244,
+      "improvement": 8,
+      "factors": [
+        3,
+        15,
+        19,
+        23,
+        27,
+        33
+      ],
+      "derived_targets": 14,
+      "opened_factors": 3
+    },
+    {
+      "id": "scored_0892",
+      "current_instructions": 60,
+      "multifactor_instructions": 58,
+      "improvement": 2,
+      "factors": [
+        7,
+        17
+      ],
+      "derived_targets": 3,
+      "opened_factors": 0
+    },
+    {
+      "id": "scored_0893",
+      "current_instructions": 354,
+      "multifactor_instructions": 350,
+      "improvement": 4,
+      "factors": [
+        3,
+        26,
+        30,
+        35,
+        39,
+        69,
+        81
+      ],
+      "derived_targets": 14,
+      "opened_factors": 5
+    },
+    {
+      "id": "scored_0901",
+      "current_instructions": 51,
+      "multifactor_instructions": 48,
+      "improvement": 3,
+      "factors": [
+        9,
+        15
+      ],
+      "derived_targets": 4,
+      "opened_factors": 1
+    },
+    {
+      "id": "scored_0907",
+      "current_instructions": 336,
+      "multifactor_instructions": 335,
+      "improvement": 1,
+      "factors": [
+        3,
+        10,
+        11,
+        14,
+        15,
+        464471
+      ],
+      "derived_targets": 12,
+      "opened_factors": 2
+    },
+    {
+      "id": "scored_0908",
+      "current_instructions": 86,
+      "multifactor_instructions": 84,
+      "improvement": 2,
+      "factors": [
+        10,
+        61
+      ],
+      "derived_targets": 5,
+      "opened_factors": 1
+    },
+    {
+      "id": "scored_0911",
+      "current_instructions": 244,
+      "multifactor_instructions": 243,
+      "improvement": 1,
+      "factors": [
+        3,
+        5,
+        9,
+        19,
+        421
+      ],
+      "derived_targets": 9,
+      "opened_factors": 4
+    },
+    {
+      "id": "scored_0917",
+      "current_instructions": 590,
+      "multifactor_instructions": 585,
+      "improvement": 5,
+      "factors": [
+        2,
+        3,
+        5,
+        7,
+        19,
+        23,
+        31,
+        97,
+        1087
+      ],
+      "derived_targets": 19,
+      "opened_factors": 8
+    },
+    {
+      "id": "scored_0924",
+      "current_instructions": 362,
+      "multifactor_instructions": 344,
+      "improvement": 18,
+      "factors": [
+        3,
+        9,
+        14,
+        17,
+        19,
+        21,
+        29,
+        7239
+      ],
+      "derived_targets": 17,
+      "opened_factors": 5
+    },
+    {
+      "id": "scored_0926",
+      "current_instructions": 88,
+      "multifactor_instructions": 87,
+      "improvement": 1,
+      "factors": [
+        12,
+        13,
+        3992651
+      ],
+      "derived_targets": 5,
+      "opened_factors": 1
+    },
+    {
+      "id": "scored_0927",
+      "current_instructions": 390,
+      "multifactor_instructions": 383,
+      "improvement": 7,
+      "factors": [
+        10,
+        26,
+        28,
+        33,
+        291,
+        371,
+        136735
+      ],
+      "derived_targets": 15,
+      "opened_factors": 4
+    },
+    {
+      "id": "scored_0970",
+      "current_instructions": 618,
+      "multifactor_instructions": 609,
+      "improvement": 9,
+      "factors": [
+        2,
+        3,
+        5,
+        13,
+        37,
+        109,
+        1383,
+        1601
+      ],
+      "derived_targets": 18,
+      "opened_factors": 8
+    },
+    {
+      "id": "scored_0971",
+      "current_instructions": 55,
+      "multifactor_instructions": 54,
+      "improvement": 1,
+      "factors": [
+        11,
+        15
+      ],
+      "derived_targets": 4,
+      "opened_factors": 1
+    },
+    {
+      "id": "scored_0978",
+      "current_instructions": 300,
+      "multifactor_instructions": 295,
+      "improvement": 5,
+      "factors": [
+        5,
+        7,
+        9,
+        17,
+        37,
+        7824
+      ],
+      "derived_targets": 16,
+      "opened_factors": 5
+    },
+    {
+      "id": "scored_0983",
+      "current_instructions": 384,
+      "multifactor_instructions": 380,
+      "improvement": 4,
+      "factors": [
+        3,
+        5,
+        7,
+        13,
+        17,
+        19,
+        283
+      ],
+      "derived_targets": 20,
+      "opened_factors": 5
+    },
+    {
+      "id": "scored_0985",
+      "current_instructions": 366,
+      "multifactor_instructions": 353,
+      "improvement": 13,
+      "factors": [
+        10,
+        41,
+        89,
+        19985,
+        23897535
+      ],
+      "derived_targets": 12,
+      "opened_factors": 4
+    },
+    {
+      "id": "scored_0992",
+      "current_instructions": 736,
+      "multifactor_instructions": 695,
+      "improvement": 41,
+      "factors": [
+        2,
+        5,
+        7,
+        11,
+        13,
+        17,
+        103
+      ],
+      "derived_targets": 17,
+      "opened_factors": 7
+    },
+    {
+      "id": "scored_0995",
+      "current_instructions": 433,
+      "multifactor_instructions": 425,
+      "improvement": 8,
+      "factors": [
+        7,
+        12,
+        19,
+        27,
+        103,
+        1172,
+        1103058007
+      ],
+      "derived_targets": 12,
+      "opened_factors": 4
+    },
+    {
+      "id": "scored_0996",
+      "current_instructions": 394,
+      "multifactor_instructions": 382,
+      "improvement": 12,
+      "factors": [
+        5,
+        10,
+        13,
+        17,
+        24,
+        33,
+        1983,
+        4391
+      ],
+      "derived_targets": 20,
+      "opened_factors": 5
+    }
+  ]
+}

@@ -1,0 +1,735 @@
+{
+  "solver": "single_reusable_common_factor",
+  "current_submission": "submissions/submission_anchor_difference.csv",
+  "output_submission": "submissions/submission_multiplicative.csv",
+  "current_score": 399864,
+  "candidate_puzzles": 978,
+  "candidate_score_on_applicable_puzzles": 424873,
+  "selected_score": 399627,
+  "improved_puzzles": 40,
+  "total_improvement": 237,
+  "largest_improvements": [
+    {
+      "id": "scored_0560",
+      "current_instructions": 146,
+      "multiplicative_instructions": 117,
+      "improvement": 29,
+      "factor": 386884,
+      "derived_targets": 2,
+      "candidates": 17
+    },
+    {
+      "id": "scored_0777",
+      "current_instructions": 131,
+      "multiplicative_instructions": 113,
+      "improvement": 18,
+      "factor": 13880,
+      "derived_targets": 3,
+      "candidates": 11
+    },
+    {
+      "id": "scored_0851",
+      "current_instructions": 111,
+      "multiplicative_instructions": 97,
+      "improvement": 14,
+      "factor": 990,
+      "derived_targets": 2,
+      "candidates": 9
+    },
+    {
+      "id": "scored_0029",
+      "current_instructions": 130,
+      "multiplicative_instructions": 117,
+      "improvement": 13,
+      "factor": 278892,
+      "derived_targets": 1,
+      "candidates": 11
+    },
+    {
+      "id": "scored_0945",
+      "current_instructions": 96,
+      "multiplicative_instructions": 84,
+      "improvement": 12,
+      "factor": 4653,
+      "derived_targets": 3,
+      "candidates": 17
+    },
+    {
+      "id": "scored_0559",
+      "current_instructions": 115,
+      "multiplicative_instructions": 104,
+      "improvement": 11,
+      "factor": 1323,
+      "derived_targets": 2,
+      "candidates": 8
+    },
+    {
+      "id": "scored_0103",
+      "current_instructions": 138,
+      "multiplicative_instructions": 128,
+      "improvement": 10,
+      "factor": 780372,
+      "derived_targets": 2,
+      "candidates": 8
+    },
+    {
+      "id": "scored_0050",
+      "current_instructions": 86,
+      "multiplicative_instructions": 78,
+      "improvement": 8,
+      "factor": 387,
+      "derived_targets": 3,
+      "candidates": 18
+    },
+    {
+      "id": "scored_0132",
+      "current_instructions": 338,
+      "multiplicative_instructions": 330,
+      "improvement": 8,
+      "factor": 194480,
+      "derived_targets": 2,
+      "candidates": 59
+    },
+    {
+      "id": "scored_0472",
+      "current_instructions": 93,
+      "multiplicative_instructions": 85,
+      "improvement": 8,
+      "factor": 155,
+      "derived_targets": 3,
+      "candidates": 14
+    },
+    {
+      "id": "scored_0691",
+      "current_instructions": 411,
+      "multiplicative_instructions": 403,
+      "improvement": 8,
+      "factor": 1765,
+      "derived_targets": 6,
+      "candidates": 60
+    },
+    {
+      "id": "scored_0149",
+      "current_instructions": 64,
+      "multiplicative_instructions": 57,
+      "improvement": 7,
+      "factor": 27,
+      "derived_targets": 1,
+      "candidates": 2
+    },
+    {
+      "id": "scored_0205",
+      "current_instructions": 388,
+      "multiplicative_instructions": 381,
+      "improvement": 7,
+      "factor": 10897,
+      "derived_targets": 4,
+      "candidates": 51
+    },
+    {
+      "id": "scored_0237",
+      "current_instructions": 93,
+      "multiplicative_instructions": 86,
+      "improvement": 7,
+      "factor": 2223,
+      "derived_targets": 3,
+      "candidates": 15
+    },
+    {
+      "id": "scored_0267",
+      "current_instructions": 381,
+      "multiplicative_instructions": 374,
+      "improvement": 7,
+      "factor": 1043,
+      "derived_targets": 6,
+      "candidates": 48
+    },
+    {
+      "id": "scored_0583",
+      "current_instructions": 117,
+      "multiplicative_instructions": 110,
+      "improvement": 7,
+      "factor": 479,
+      "derived_targets": 4,
+      "candidates": 11
+    },
+    {
+      "id": "scored_0009",
+      "current_instructions": 123,
+      "multiplicative_instructions": 117,
+      "improvement": 6,
+      "factor": 7681353,
+      "derived_targets": 2,
+      "candidates": 7
+    },
+    {
+      "id": "scored_0842",
+      "current_instructions": 83,
+      "multiplicative_instructions": 77,
+      "improvement": 6,
+      "factor": 19035,
+      "derived_targets": 1,
+      "candidates": 6
+    },
+    {
+      "id": "scored_0926",
+      "current_instructions": 94,
+      "multiplicative_instructions": 88,
+      "improvement": 6,
+      "factor": 9529,
+      "derived_targets": 3,
+      "candidates": 5
+    },
+    {
+      "id": "scored_0388",
+      "current_instructions": 65,
+      "multiplicative_instructions": 60,
+      "improvement": 5,
+      "factor": 242,
+      "derived_targets": 2,
+      "candidates": 10
+    },
+    {
+      "id": "scored_0240",
+      "current_instructions": 361,
+      "multiplicative_instructions": 357,
+      "improvement": 4,
+      "factor": 84768,
+      "derived_targets": 3,
+      "candidates": 30
+    },
+    {
+      "id": "scored_0260",
+      "current_instructions": 260,
+      "multiplicative_instructions": 256,
+      "improvement": 4,
+      "factor": 4686,
+      "derived_targets": 4,
+      "candidates": 33
+    },
+    {
+      "id": "scored_0650",
+      "current_instructions": 92,
+      "multiplicative_instructions": 88,
+      "improvement": 4,
+      "factor": 1911,
+      "derived_targets": 2,
+      "candidates": 6
+    },
+    {
+      "id": "scored_0066",
+      "current_instructions": 127,
+      "multiplicative_instructions": 124,
+      "improvement": 3,
+      "factor": 49,
+      "derived_targets": 3,
+      "candidates": 9
+    },
+    {
+      "id": "scored_0151",
+      "current_instructions": 93,
+      "multiplicative_instructions": 90,
+      "improvement": 3,
+      "factor": 181,
+      "derived_targets": 5,
+      "candidates": 9
+    },
+    {
+      "id": "scored_0654",
+      "current_instructions": 92,
+      "multiplicative_instructions": 89,
+      "improvement": 3,
+      "factor": 9,
+      "derived_targets": 3,
+      "candidates": 22
+    },
+    {
+      "id": "scored_0058",
+      "current_instructions": 772,
+      "multiplicative_instructions": 770,
+      "improvement": 2,
+      "factor": 3,
+      "derived_targets": 7,
+      "candidates": 19
+    },
+    {
+      "id": "scored_0089",
+      "current_instructions": 371,
+      "multiplicative_instructions": 369,
+      "improvement": 2,
+      "factor": 3969,
+      "derived_targets": 2,
+      "candidates": 48
+    },
+    {
+      "id": "scored_0515",
+      "current_instructions": 120,
+      "multiplicative_instructions": 118,
+      "improvement": 2,
+      "factor": 45167,
+      "derived_targets": 2,
+      "candidates": 11
+    },
+    {
+      "id": "scored_0614",
+      "current_instructions": 59,
+      "multiplicative_instructions": 57,
+      "improvement": 2,
+      "factor": 12,
+      "derived_targets": 1,
+      "candidates": 8
+    },
+    {
+      "id": "scored_0810",
+      "current_instructions": 111,
+      "multiplicative_instructions": 109,
+      "improvement": 2,
+      "factor": 1325,
+      "derived_targets": 6,
+      "candidates": 20
+    },
+    {
+      "id": "scored_0118",
+      "current_instructions": 321,
+      "multiplicative_instructions": 320,
+      "improvement": 1,
+      "factor": 28800,
+      "derived_targets": 3,
+      "candidates": 30
+    },
+    {
+      "id": "scored_0250",
+      "current_instructions": 82,
+      "multiplicative_instructions": 81,
+      "improvement": 1,
+      "factor": 14,
+      "derived_targets": 1,
+      "candidates": 2
+    },
+    {
+      "id": "scored_0374",
+      "current_instructions": 658,
+      "multiplicative_instructions": 657,
+      "improvement": 1,
+      "factor": 3,
+      "derived_targets": 6,
+      "candidates": 31
+    },
+    {
+      "id": "scored_0473",
+      "current_instructions": 83,
+      "multiplicative_instructions": 82,
+      "improvement": 1,
+      "factor": 12,
+      "derived_targets": 1,
+      "candidates": 8
+    },
+    {
+      "id": "scored_0611",
+      "current_instructions": 108,
+      "multiplicative_instructions": 107,
+      "improvement": 1,
+      "factor": 297,
+      "derived_targets": 2,
+      "candidates": 4
+    },
+    {
+      "id": "scored_0630",
+      "current_instructions": 130,
+      "multiplicative_instructions": 129,
+      "improvement": 1,
+      "factor": 122,
+      "derived_targets": 3,
+      "candidates": 5
+    },
+    {
+      "id": "scored_0866",
+      "current_instructions": 84,
+      "multiplicative_instructions": 83,
+      "improvement": 1,
+      "factor": 3,
+      "derived_targets": 2,
+      "candidates": 5
+    },
+    {
+      "id": "scored_0901",
+      "current_instructions": 52,
+      "multiplicative_instructions": 51,
+      "improvement": 1,
+      "factor": 15,
+      "derived_targets": 3,
+      "candidates": 6
+    },
+    {
+      "id": "scored_0913",
+      "current_instructions": 89,
+      "multiplicative_instructions": 88,
+      "improvement": 1,
+      "factor": 6,
+      "derived_targets": 3,
+      "candidates": 16
+    }
+  ],
+  "improved": [
+    {
+      "id": "scored_0009",
+      "current_instructions": 123,
+      "multiplicative_instructions": 117,
+      "improvement": 6,
+      "factor": 7681353,
+      "derived_targets": 2,
+      "candidates": 7
+    },
+    {
+      "id": "scored_0029",
+      "current_instructions": 130,
+      "multiplicative_instructions": 117,
+      "improvement": 13,
+      "factor": 278892,
+      "derived_targets": 1,
+      "candidates": 11
+    },
+    {
+      "id": "scored_0050",
+      "current_instructions": 86,
+      "multiplicative_instructions": 78,
+      "improvement": 8,
+      "factor": 387,
+      "derived_targets": 3,
+      "candidates": 18
+    },
+    {
+      "id": "scored_0058",
+      "current_instructions": 772,
+      "multiplicative_instructions": 770,
+      "improvement": 2,
+      "factor": 3,
+      "derived_targets": 7,
+      "candidates": 19
+    },
+    {
+      "id": "scored_0066",
+      "current_instructions": 127,
+      "multiplicative_instructions": 124,
+      "improvement": 3,
+      "factor": 49,
+      "derived_targets": 3,
+      "candidates": 9
+    },
+    {
+      "id": "scored_0089",
+      "current_instructions": 371,
+      "multiplicative_instructions": 369,
+      "improvement": 2,
+      "factor": 3969,
+      "derived_targets": 2,
+      "candidates": 48
+    },
+    {
+      "id": "scored_0103",
+      "current_instructions": 138,
+      "multiplicative_instructions": 128,
+      "improvement": 10,
+      "factor": 780372,
+      "derived_targets": 2,
+      "candidates": 8
+    },
+    {
+      "id": "scored_0118",
+      "current_instructions": 321,
+      "multiplicative_instructions": 320,
+      "improvement": 1,
+      "factor": 28800,
+      "derived_targets": 3,
+      "candidates": 30
+    },
+    {
+      "id": "scored_0132",
+      "current_instructions": 338,
+      "multiplicative_instructions": 330,
+      "improvement": 8,
+      "factor": 194480,
+      "derived_targets": 2,
+      "candidates": 59
+    },
+    {
+      "id": "scored_0149",
+      "current_instructions": 64,
+      "multiplicative_instructions": 57,
+      "improvement": 7,
+      "factor": 27,
+      "derived_targets": 1,
+      "candidates": 2
+    },
+    {
+      "id": "scored_0151",
+      "current_instructions": 93,
+      "multiplicative_instructions": 90,
+      "improvement": 3,
+      "factor": 181,
+      "derived_targets": 5,
+      "candidates": 9
+    },
+    {
+      "id": "scored_0205",
+      "current_instructions": 388,
+      "multiplicative_instructions": 381,
+      "improvement": 7,
+      "factor": 10897,
+      "derived_targets": 4,
+      "candidates": 51
+    },
+    {
+      "id": "scored_0237",
+      "current_instructions": 93,
+      "multiplicative_instructions": 86,
+      "improvement": 7,
+      "factor": 2223,
+      "derived_targets": 3,
+      "candidates": 15
+    },
+    {
+      "id": "scored_0240",
+      "current_instructions": 361,
+      "multiplicative_instructions": 357,
+      "improvement": 4,
+      "factor": 84768,
+      "derived_targets": 3,
+      "candidates": 30
+    },
+    {
+      "id": "scored_0250",
+      "current_instructions": 82,
+      "multiplicative_instructions": 81,
+      "improvement": 1,
+      "factor": 14,
+      "derived_targets": 1,
+      "candidates": 2
+    },
+    {
+      "id": "scored_0260",
+      "current_instructions": 260,
+      "multiplicative_instructions": 256,
+      "improvement": 4,
+      "factor": 4686,
+      "derived_targets": 4,
+      "candidates": 33
+    },
+    {
+      "id": "scored_0267",
+      "current_instructions": 381,
+      "multiplicative_instructions": 374,
+      "improvement": 7,
+      "factor": 1043,
+      "derived_targets": 6,
+      "candidates": 48
+    },
+    {
+      "id": "scored_0374",
+      "current_instructions": 658,
+      "multiplicative_instructions": 657,
+      "improvement": 1,
+      "factor": 3,
+      "derived_targets": 6,
+      "candidates": 31
+    },
+    {
+      "id": "scored_0388",
+      "current_instructions": 65,
+      "multiplicative_instructions": 60,
+      "improvement": 5,
+      "factor": 242,
+      "derived_targets": 2,
+      "candidates": 10
+    },
+    {
+      "id": "scored_0472",
+      "current_instructions": 93,
+      "multiplicative_instructions": 85,
+      "improvement": 8,
+      "factor": 155,
+      "derived_targets": 3,
+      "candidates": 14
+    },
+    {
+      "id": "scored_0473",
+      "current_instructions": 83,
+      "multiplicative_instructions": 82,
+      "improvement": 1,
+      "factor": 12,
+      "derived_targets": 1,
+      "candidates": 8
+    },
+    {
+      "id": "scored_0515",
+      "current_instructions": 120,
+      "multiplicative_instructions": 118,
+      "improvement": 2,
+      "factor": 45167,
+      "derived_targets": 2,
+      "candidates": 11
+    },
+    {
+      "id": "scored_0559",
+      "current_instructions": 115,
+      "multiplicative_instructions": 104,
+      "improvement": 11,
+      "factor": 1323,
+      "derived_targets": 2,
+      "candidates": 8
+    },
+    {
+      "id": "scored_0560",
+      "current_instructions": 146,
+      "multiplicative_instructions": 117,
+      "improvement": 29,
+      "factor": 386884,
+      "derived_targets": 2,
+      "candidates": 17
+    },
+    {
+      "id": "scored_0583",
+      "current_instructions": 117,
+      "multiplicative_instructions": 110,
+      "improvement": 7,
+      "factor": 479,
+      "derived_targets": 4,
+      "candidates": 11
+    },
+    {
+      "id": "scored_0611",
+      "current_instructions": 108,
+      "multiplicative_instructions": 107,
+      "improvement": 1,
+      "factor": 297,
+      "derived_targets": 2,
+      "candidates": 4
+    },
+    {
+      "id": "scored_0614",
+      "current_instructions": 59,
+      "multiplicative_instructions": 57,
+      "improvement": 2,
+      "factor": 12,
+      "derived_targets": 1,
+      "candidates": 8
+    },
+    {
+      "id": "scored_0630",
+      "current_instructions": 130,
+      "multiplicative_instructions": 129,
+      "improvement": 1,
+      "factor": 122,
+      "derived_targets": 3,
+      "candidates": 5
+    },
+    {
+      "id": "scored_0650",
+      "current_instructions": 92,
+      "multiplicative_instructions": 88,
+      "improvement": 4,
+      "factor": 1911,
+      "derived_targets": 2,
+      "candidates": 6
+    },
+    {
+      "id": "scored_0654",
+      "current_instructions": 92,
+      "multiplicative_instructions": 89,
+      "improvement": 3,
+      "factor": 9,
+      "derived_targets": 3,
+      "candidates": 22
+    },
+    {
+      "id": "scored_0691",
+      "current_instructions": 411,
+      "multiplicative_instructions": 403,
+      "improvement": 8,
+      "factor": 1765,
+      "derived_targets": 6,
+      "candidates": 60
+    },
+    {
+      "id": "scored_0777",
+      "current_instructions": 131,
+      "multiplicative_instructions": 113,
+      "improvement": 18,
+      "factor": 13880,
+      "derived_targets": 3,
+      "candidates": 11
+    },
+    {
+      "id": "scored_0810",
+      "current_instructions": 111,
+      "multiplicative_instructions": 109,
+      "improvement": 2,
+      "factor": 1325,
+      "derived_targets": 6,
+      "candidates": 20
+    },
+    {
+      "id": "scored_0842",
+      "current_instructions": 83,
+      "multiplicative_instructions": 77,
+      "improvement": 6,
+      "factor": 19035,
+      "derived_targets": 1,
+      "candidates": 6
+    },
+    {
+      "id": "scored_0851",
+      "current_instructions": 111,
+      "multiplicative_instructions": 97,
+      "improvement": 14,
+      "factor": 990,
+      "derived_targets": 2,
+      "candidates": 9
+    },
+    {
+      "id": "scored_0866",
+      "current_instructions": 84,
+      "multiplicative_instructions": 83,
+      "improvement": 1,
+      "factor": 3,
+      "derived_targets": 2,
+      "candidates": 5
+    },
+    {
+      "id": "scored_0901",
+      "current_instructions": 52,
+      "multiplicative_instructions": 51,
+      "improvement": 1,
+      "factor": 15,
+      "derived_targets": 3,
+      "candidates": 6
+    },
+    {
+      "id": "scored_0913",
+      "current_instructions": 89,
+      "multiplicative_instructions": 88,
+      "improvement": 1,
+      "factor": 6,
+      "derived_targets": 3,
+      "candidates": 16
+    },
+    {
+      "id": "scored_0926",
+      "current_instructions": 94,
+      "multiplicative_instructions": 88,
+      "improvement": 6,
+      "factor": 9529,
+      "derived_targets": 3,
+      "candidates": 5
+    },
+    {
+      "id": "scored_0945",
+      "current_instructions": 96,
+      "multiplicative_instructions": 84,
+      "improvement": 12,
+      "factor": 4653,
+      "derived_targets": 3,
+      "candidates": 17
+    }
+  ]
+}

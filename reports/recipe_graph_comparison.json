@@ -1,0 +1,54 @@
+{
+  "before": 322106,
+  "after": 306723,
+  "saved": 15383,
+  "percent": 4.7757570489217835,
+  "improved": 977,
+  "unchanged": 23,
+  "regressions": 0,
+  "median_saved": 11.0,
+  "max_saved": 76,
+  "initial_ssa_saved": 8944,
+  "recomputation_selected": 0,
+  "families_predicted": {
+    "independent": {
+      "count": 253,
+      "improved": 250,
+      "before": 103998,
+      "after": 100670
+    },
+    "mixed": {
+      "count": 222,
+      "improved": 222,
+      "before": 89554,
+      "after": 85744
+    },
+    "shared": {
+      "count": 271,
+      "improved": 270,
+      "before": 84417,
+      "after": 79004
+    },
+    "multiplicative": {
+      "count": 238,
+      "improved": 235,
+      "before": 44080,
+      "after": 41248
+    },
+    "tiny": {
+      "count": 16,
+      "improved": 0,
+      "before": 57,
+      "after": 57
+    }
+  },
+  "pilot_matches_parallel": true,
+  "validation": {
+    "valid": true,
+    "rows": 1000,
+    "score": 306723,
+    "maximum_instructions": 606,
+    "maximum_program_cell_bytes": 8618,
+    "file_bytes": 4976062
+  }
+}

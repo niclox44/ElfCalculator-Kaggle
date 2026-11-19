@@ -1,0 +1,5702 @@
+{
+  "optimizer": "ssa_identity_propagation_dce_liveness_allocation",
+  "current_submission": "submissions/submission_value_graph.csv",
+  "output_submission": "submissions/submission_phase2_ssa.csv",
+  "current_score": 349311,
+  "selected_score": 338407,
+  "allocation_failures": 0,
+  "improved_puzzles": 661,
+  "total_improvement": 10904,
+  "largest_improvements": [
+    {
+      "id": "scored_0129",
+      "current_instructions": 654,
+      "optimized_instructions": 628,
+      "improvement": 26,
+      "identity_instructions": 26,
+      "removed_instructions": 26
+    },
+    {
+      "id": "scored_0481",
+      "current_instructions": 439,
+      "optimized_instructions": 413,
+      "improvement": 26,
+      "identity_instructions": 26,
+      "removed_instructions": 26
+    },
+    {
+      "id": "scored_0687",
+      "current_instructions": 543,
+      "optimized_instructions": 517,
+      "improvement": 26,
+      "identity_instructions": 26,
+      "removed_instructions": 26
+    },
+    {
+      "id": "scored_0837",
+      "current_instructions": 535,
+      "optimized_instructions": 509,
+      "improvement": 26,
+      "identity_instructions": 26,
+      "removed_instructions": 26
+    },
+    {
+      "id": "scored_0051",
+      "current_instructions": 662,
+      "optimized_instructions": 637,
+      "improvement": 25,
+      "identity_instructions": 25,
+      "removed_instructions": 25
+    },
+    {
+      "id": "scored_0067",
+      "current_instructions": 640,
+      "optimized_instructions": 615,
+      "improvement": 25,
+      "identity_instructions": 25,
+      "removed_instructions": 25
+    },
+    {
+      "id": "scored_0145",
+      "current_instructions": 515,
+      "optimized_instructions": 490,
+      "improvement": 25,
+      "identity_instructions": 25,
+      "removed_instructions": 25
+    },
+    {
+      "id": "scored_0146",
+      "current_instructions": 626,
+      "optimized_instructions": 601,
+      "improvement": 25,
+      "identity_instructions": 25,
+      "removed_instructions": 25
+    },
+    {
+      "id": "scored_0281",
+      "current_instructions": 441,
+      "optimized_instructions": 416,
+      "improvement": 25,
+      "identity_instructions": 25,
+      "removed_instructions": 25
+    },
+    {
+      "id": "scored_0315",
+      "current_instructions": 530,
+      "optimized_instructions": 505,
+      "improvement": 25,
+      "identity_instructions": 25,
+      "removed_instructions": 25
+    },
+    {
+      "id": "scored_0318",
+      "current_instructions": 426,
+      "optimized_instructions": 401,
+      "improvement": 25,
+      "identity_instructions": 25,
+      "removed_instructions": 25
+    },
+    {
+      "id": "scored_0321",
+      "current_instructions": 661,
+      "optimized_instructions": 636,
+      "improvement": 25,
+      "identity_instructions": 25,
+      "removed_instructions": 25
+    },
+    {
+      "id": "scored_0357",
+      "current_instructions": 533,
+      "optimized_instructions": 508,
+      "improvement": 25,
+      "identity_instructions": 25,
+      "removed_instructions": 25
+    },
+    {
+      "id": "scored_0450",
+      "current_instructions": 654,
+      "optimized_instructions": 629,
+      "improvement": 25,
+      "identity_instructions": 25,
+      "removed_instructions": 25
+    },
+    {
+      "id": "scored_0661",
+      "current_instructions": 534,
+      "optimized_instructions": 509,
+      "improvement": 25,
+      "identity_instructions": 25,
+      "removed_instructions": 25
+    },
+    {
+      "id": "scored_0729",
+      "current_instructions": 674,
+      "optimized_instructions": 649,
+      "improvement": 25,
+      "identity_instructions": 25,
+      "removed_instructions": 25
+    },
+    {
+      "id": "scored_0745",
+      "current_instructions": 420,
+      "optimized_instructions": 395,
+      "improvement": 25,
+      "identity_instructions": 25,
+      "removed_instructions": 25
+    },
+    {
+      "id": "scored_0774",
+      "current_instructions": 642,
+      "optimized_instructions": 617,
+      "improvement": 25,
+      "identity_instructions": 25,
+      "removed_instructions": 25
+    },
+    {
+      "id": "scored_0799",
+      "current_instructions": 531,
+      "optimized_instructions": 506,
+      "improvement": 25,
+      "identity_instructions": 25,
+      "removed_instructions": 25
+    },
+    {
+      "id": "scored_0956",
+      "current_instructions": 515,
+      "optimized_instructions": 490,
+      "improvement": 25,
+      "identity_instructions": 24,
+      "removed_instructions": 25
+    },
+    {
+      "id": "scored_0001",
+      "current_instructions": 545,
+      "optimized_instructions": 521,
+      "improvement": 24,
+      "identity_instructions": 24,
+      "removed_instructions": 24
+    },
+    {
+      "id": "scored_0058",
+      "current_instructions": 641,
+      "optimized_instructions": 617,
+      "improvement": 24,
+      "identity_instructions": 24,
+      "removed_instructions": 24
+    },
+    {
+      "id": "scored_0069",
+      "current_instructions": 654,
+      "optimized_instructions": 630,
+      "improvement": 24,
+      "identity_instructions": 24,
+      "removed_instructions": 24
+    },
+    {
+      "id": "scored_0098",
+      "current_instructions": 430,
+      "optimized_instructions": 406,
+      "improvement": 24,
+      "identity_instructions": 24,
+      "removed_instructions": 24
+    },
+    {
+      "id": "scored_0104",
+      "current_instructions": 544,
+      "optimized_instructions": 520,
+      "improvement": 24,
+      "identity_instructions": 23,
+      "removed_instructions": 24
+    },
+    {
+      "id": "scored_0108",
+      "current_instructions": 424,
+      "optimized_instructions": 400,
+      "improvement": 24,
+      "identity_instructions": 24,
+      "removed_instructions": 24
+    },
+    {
+      "id": "scored_0150",
+      "current_instructions": 401,
+      "optimized_instructions": 377,
+      "improvement": 24,
+      "identity_instructions": 24,
+      "removed_instructions": 24
+    },
+    {
+      "id": "scored_0155",
+      "current_instructions": 499,
+      "optimized_instructions": 475,
+      "improvement": 24,
+      "identity_instructions": 24,
+      "removed_instructions": 24
+    },
+    {
+      "id": "scored_0168",
+      "current_instructions": 641,
+      "optimized_instructions": 617,
+      "improvement": 24,
+      "identity_instructions": 24,
+      "removed_instructions": 24
+    },
+    {
+      "id": "scored_0183",
+      "current_instructions": 656,
+      "optimized_instructions": 632,
+      "improvement": 24,
+      "identity_instructions": 24,
+      "removed_instructions": 24
+    },
+    {
+      "id": "scored_0218",
+      "current_instructions": 664,
+      "optimized_instructions": 640,
+      "improvement": 24,
+      "identity_instructions": 23,
+      "removed_instructions": 24
+    },
+    {
+      "id": "scored_0255",
+      "current_instructions": 671,
+      "optimized_instructions": 647,
+      "improvement": 24,
+      "identity_instructions": 24,
+      "removed_instructions": 24
+    },
+    {
+      "id": "scored_0258",
+      "current_instructions": 639,
+      "optimized_instructions": 615,
+      "improvement": 24,
+      "identity_instructions": 24,
+      "removed_instructions": 24
+    },
+    {
+      "id": "scored_0269",
+      "current_instructions": 661,
+      "optimized_instructions": 637,
+      "improvement": 24,
+      "identity_instructions": 24,
+      "removed_instructions": 24
+    },
+    {
+      "id": "scored_0279",
+      "current_instructions": 614,
+      "optimized_instructions": 590,
+      "improvement": 24,
+      "identity_instructions": 24,
+      "removed_instructions": 24
+    },
+    {
+      "id": "scored_0317",
+      "current_instructions": 425,
+      "optimized_instructions": 401,
+      "improvement": 24,
+      "identity_instructions": 24,
+      "removed_instructions": 24
+    },
+    {
+      "id": "scored_0352",
+      "current_instructions": 515,
+      "optimized_instructions": 491,
+      "improvement": 24,
+      "identity_instructions": 24,
+      "removed_instructions": 24
+    },
+    {
+      "id": "scored_0370",
+      "current_instructions": 646,
+      "optimized_instructions": 622,
+      "improvement": 24,
+      "identity_instructions": 24,
+      "removed_instructions": 24
+    },
+    {
+      "id": "scored_0400",
+      "current_instructions": 518,
+      "optimized_instructions": 494,
+      "improvement": 24,
+      "identity_instructions": 24,
+      "removed_instructions": 24
+    },
+    {
+      "id": "scored_0405",
+      "current_instructions": 632,
+      "optimized_instructions": 608,
+      "improvement": 24,
+      "identity_instructions": 23,
+      "removed_instructions": 24
+    },
+    {
+      "id": "scored_0410",
+      "current_instructions": 412,
+      "optimized_instructions": 388,
+      "improvement": 24,
+      "identity_instructions": 24,
+      "removed_instructions": 24
+    },
+    {
+      "id": "scored_0445",
+      "current_instructions": 536,
+      "optimized_instructions": 512,
+      "improvement": 24,
+      "identity_instructions": 24,
+      "removed_instructions": 24
+    },
+    {
+      "id": "scored_0511",
+      "current_instructions": 595,
+      "optimized_instructions": 571,
+      "improvement": 24,
+      "identity_instructions": 24,
+      "removed_instructions": 24
+    },
+    {
+      "id": "scored_0544",
+      "current_instructions": 410,
+      "optimized_instructions": 386,
+      "improvement": 24,
+      "identity_instructions": 23,
+      "removed_instructions": 24
+    },
+    {
+      "id": "scored_0572",
+      "current_instructions": 532,
+      "optimized_instructions": 508,
+      "improvement": 24,
+      "identity_instructions": 24,
+      "removed_instructions": 24
+    },
+    {
+      "id": "scored_0638",
+      "current_instructions": 649,
+      "optimized_instructions": 625,
+      "improvement": 24,
+      "identity_instructions": 24,
+      "removed_instructions": 24
+    },
+    {
+      "id": "scored_0682",
+      "current_instructions": 629,
+      "optimized_instructions": 605,
+      "improvement": 24,
+      "identity_instructions": 24,
+      "removed_instructions": 24
+    },
+    {
+      "id": "scored_0689",
+      "current_instructions": 425,
+      "optimized_instructions": 401,
+      "improvement": 24,
+      "identity_instructions": 24,
+      "removed_instructions": 24
+    },
+    {
+      "id": "scored_0719",
+      "current_instructions": 621,
+      "optimized_instructions": 597,
+      "improvement": 24,
+      "identity_instructions": 24,
+      "removed_instructions": 24
+    },
+    {
+      "id": "scored_0744",
+      "current_instructions": 656,
+      "optimized_instructions": 632,
+      "improvement": 24,
+      "identity_instructions": 24,
+      "removed_instructions": 24
+    }
+  ],
+  "improved": [
+    {
+      "id": "scored_0001",
+      "current_instructions": 545,
+      "optimized_instructions": 521,
+      "improvement": 24,
+      "identity_instructions": 24,
+      "removed_instructions": 24
+    },
+    {
+      "id": "scored_0002",
+      "current_instructions": 588,
+      "optimized_instructions": 568,
+      "improvement": 20,
+      "identity_instructions": 20,
+      "removed_instructions": 20
+    },
+    {
+      "id": "scored_0003",
+      "current_instructions": 525,
+      "optimized_instructions": 510,
+      "improvement": 15,
+      "identity_instructions": 15,
+      "removed_instructions": 15
+    },
+    {
+      "id": "scored_0004",
+      "current_instructions": 496,
+      "optimized_instructions": 475,
+      "improvement": 21,
+      "identity_instructions": 21,
+      "removed_instructions": 21
+    },
+    {
+      "id": "scored_0006",
+      "current_instructions": 478,
+      "optimized_instructions": 463,
+      "improvement": 15,
+      "identity_instructions": 15,
+      "removed_instructions": 15
+    },
+    {
+      "id": "scored_0007",
+      "current_instructions": 506,
+      "optimized_instructions": 494,
+      "improvement": 12,
+      "identity_instructions": 12,
+      "removed_instructions": 12
+    },
+    {
+      "id": "scored_0008",
+      "current_instructions": 390,
+      "optimized_instructions": 377,
+      "improvement": 13,
+      "identity_instructions": 13,
+      "removed_instructions": 13
+    },
+    {
+      "id": "scored_0010",
+      "current_instructions": 409,
+      "optimized_instructions": 387,
+      "improvement": 22,
+      "identity_instructions": 22,
+      "removed_instructions": 22
+    },
+    {
+      "id": "scored_0011",
+      "current_instructions": 473,
+      "optimized_instructions": 464,
+      "improvement": 9,
+      "identity_instructions": 8,
+      "removed_instructions": 9
+    },
+    {
+      "id": "scored_0012",
+      "current_instructions": 456,
+      "optimized_instructions": 439,
+      "improvement": 17,
+      "identity_instructions": 16,
+      "removed_instructions": 17
+    },
+    {
+      "id": "scored_0013",
+      "current_instructions": 388,
+      "optimized_instructions": 368,
+      "improvement": 20,
+      "identity_instructions": 20,
+      "removed_instructions": 20
+    },
+    {
+      "id": "scored_0015",
+      "current_instructions": 499,
+      "optimized_instructions": 479,
+      "improvement": 20,
+      "identity_instructions": 20,
+      "removed_instructions": 20
+    },
+    {
+      "id": "scored_0016",
+      "current_instructions": 454,
+      "optimized_instructions": 445,
+      "improvement": 9,
+      "identity_instructions": 9,
+      "removed_instructions": 9
+    },
+    {
+      "id": "scored_0018",
+      "current_instructions": 338,
+      "optimized_instructions": 322,
+      "improvement": 16,
+      "identity_instructions": 16,
+      "removed_instructions": 16
+    },
+    {
+      "id": "scored_0020",
+      "current_instructions": 594,
+      "optimized_instructions": 574,
+      "improvement": 20,
+      "identity_instructions": 20,
+      "removed_instructions": 20
+    },
+    {
+      "id": "scored_0023",
+      "current_instructions": 378,
+      "optimized_instructions": 357,
+      "improvement": 21,
+      "identity_instructions": 21,
+      "removed_instructions": 21
+    },
+    {
+      "id": "scored_0025",
+      "current_instructions": 362,
+      "optimized_instructions": 348,
+      "improvement": 14,
+      "identity_instructions": 13,
+      "removed_instructions": 14
+    },
+    {
+      "id": "scored_0026",
+      "current_instructions": 415,
+      "optimized_instructions": 392,
+      "improvement": 23,
+      "identity_instructions": 23,
+      "removed_instructions": 23
+    },
+    {
+      "id": "scored_0027",
+      "current_instructions": 304,
+      "optimized_instructions": 288,
+      "improvement": 16,
+      "identity_instructions": 16,
+      "removed_instructions": 16
+    },
+    {
+      "id": "scored_0028",
+      "current_instructions": 514,
+      "optimized_instructions": 499,
+      "improvement": 15,
+      "identity_instructions": 15,
+      "removed_instructions": 15
+    },
+    {
+      "id": "scored_0030",
+      "current_instructions": 493,
+      "optimized_instructions": 476,
+      "improvement": 17,
+      "identity_instructions": 17,
+      "removed_instructions": 17
+    },
+    {
+      "id": "scored_0031",
+      "current_instructions": 590,
+      "optimized_instructions": 569,
+      "improvement": 21,
+      "identity_instructions": 21,
+      "removed_instructions": 21
+    },
+    {
+      "id": "scored_0033",
+      "current_instructions": 496,
+      "optimized_instructions": 476,
+      "improvement": 20,
+      "identity_instructions": 20,
+      "removed_instructions": 20
+    },
+    {
+      "id": "scored_0034",
+      "current_instructions": 395,
+      "optimized_instructions": 374,
+      "improvement": 21,
+      "identity_instructions": 21,
+      "removed_instructions": 21
+    },
+    {
+      "id": "scored_0036",
+      "current_instructions": 509,
+      "optimized_instructions": 489,
+      "improvement": 20,
+      "identity_instructions": 20,
+      "removed_instructions": 20
+    },
+    {
+      "id": "scored_0037",
+      "current_instructions": 485,
+      "optimized_instructions": 471,
+      "improvement": 14,
+      "identity_instructions": 14,
+      "removed_instructions": 14
+    },
+    {
+      "id": "scored_0038",
+      "current_instructions": 350,
+      "optimized_instructions": 334,
+      "improvement": 16,
+      "identity_instructions": 16,
+      "removed_instructions": 16
+    },
+    {
+      "id": "scored_0040",
+      "current_instructions": 412,
+      "optimized_instructions": 390,
+      "improvement": 22,
+      "identity_instructions": 22,
+      "removed_instructions": 22
+    },
+    {
+      "id": "scored_0041",
+      "current_instructions": 367,
+      "optimized_instructions": 357,
+      "improvement": 10,
+      "identity_instructions": 10,
+      "removed_instructions": 10
+    },
+    {
+      "id": "scored_0042",
+      "current_instructions": 381,
+      "optimized_instructions": 361,
+      "improvement": 20,
+      "identity_instructions": 19,
+      "removed_instructions": 20
+    },
+    {
+      "id": "scored_0043",
+      "current_instructions": 492,
+      "optimized_instructions": 470,
+      "improvement": 22,
+      "identity_instructions": 22,
+      "removed_instructions": 22
+    },
+    {
+      "id": "scored_0045",
+      "current_instructions": 386,
+      "optimized_instructions": 369,
+      "improvement": 17,
+      "identity_instructions": 17,
+      "removed_instructions": 17
+    },
+    {
+      "id": "scored_0047",
+      "current_instructions": 432,
+      "optimized_instructions": 418,
+      "improvement": 14,
+      "identity_instructions": 13,
+      "removed_instructions": 14
+    },
+    {
+      "id": "scored_0048",
+      "current_instructions": 365,
+      "optimized_instructions": 352,
+      "improvement": 13,
+      "identity_instructions": 13,
+      "removed_instructions": 13
+    },
+    {
+      "id": "scored_0049",
+      "current_instructions": 383,
+      "optimized_instructions": 367,
+      "improvement": 16,
+      "identity_instructions": 15,
+      "removed_instructions": 16
+    },
+    {
+      "id": "scored_0051",
+      "current_instructions": 662,
+      "optimized_instructions": 637,
+      "improvement": 25,
+      "identity_instructions": 25,
+      "removed_instructions": 25
+    },
+    {
+      "id": "scored_0053",
+      "current_instructions": 487,
+      "optimized_instructions": 474,
+      "improvement": 13,
+      "identity_instructions": 13,
+      "removed_instructions": 13
+    },
+    {
+      "id": "scored_0054",
+      "current_instructions": 473,
+      "optimized_instructions": 456,
+      "improvement": 17,
+      "identity_instructions": 17,
+      "removed_instructions": 17
+    },
+    {
+      "id": "scored_0057",
+      "current_instructions": 514,
+      "optimized_instructions": 491,
+      "improvement": 23,
+      "identity_instructions": 23,
+      "removed_instructions": 23
+    },
+    {
+      "id": "scored_0058",
+      "current_instructions": 641,
+      "optimized_instructions": 617,
+      "improvement": 24,
+      "identity_instructions": 24,
+      "removed_instructions": 24
+    },
+    {
+      "id": "scored_0059",
+      "current_instructions": 373,
+      "optimized_instructions": 361,
+      "improvement": 12,
+      "identity_instructions": 12,
+      "removed_instructions": 12
+    },
+    {
+      "id": "scored_0060",
+      "current_instructions": 619,
+      "optimized_instructions": 599,
+      "improvement": 20,
+      "identity_instructions": 20,
+      "removed_instructions": 20
+    },
+    {
+      "id": "scored_0062",
+      "current_instructions": 368,
+      "optimized_instructions": 356,
+      "improvement": 12,
+      "identity_instructions": 12,
+      "removed_instructions": 12
+    },
+    {
+      "id": "scored_0063",
+      "current_instructions": 338,
+      "optimized_instructions": 322,
+      "improvement": 16,
+      "identity_instructions": 16,
+      "removed_instructions": 16
+    },
+    {
+      "id": "scored_0064",
+      "current_instructions": 350,
+      "optimized_instructions": 337,
+      "improvement": 13,
+      "identity_instructions": 13,
+      "removed_instructions": 13
+    },
+    {
+      "id": "scored_0067",
+      "current_instructions": 640,
+      "optimized_instructions": 615,
+      "improvement": 25,
+      "identity_instructions": 25,
+      "removed_instructions": 25
+    },
+    {
+      "id": "scored_0068",
+      "current_instructions": 453,
+      "optimized_instructions": 441,
+      "improvement": 12,
+      "identity_instructions": 12,
+      "removed_instructions": 12
+    },
+    {
+      "id": "scored_0069",
+      "current_instructions": 654,
+      "optimized_instructions": 630,
+      "improvement": 24,
+      "identity_instructions": 24,
+      "removed_instructions": 24
+    },
+    {
+      "id": "scored_0070",
+      "current_instructions": 425,
+      "optimized_instructions": 417,
+      "improvement": 8,
+      "identity_instructions": 8,
+      "removed_instructions": 8
+    },
+    {
+      "id": "scored_0072",
+      "current_instructions": 382,
+      "optimized_instructions": 372,
+      "improvement": 10,
+      "identity_instructions": 10,
+      "removed_instructions": 10
+    },
+    {
+      "id": "scored_0073",
+      "current_instructions": 322,
+      "optimized_instructions": 310,
+      "improvement": 12,
+      "identity_instructions": 12,
+      "removed_instructions": 12
+    },
+    {
+      "id": "scored_0074",
+      "current_instructions": 490,
+      "optimized_instructions": 469,
+      "improvement": 21,
+      "identity_instructions": 21,
+      "removed_instructions": 21
+    },
+    {
+      "id": "scored_0075",
+      "current_instructions": 626,
+      "optimized_instructions": 605,
+      "improvement": 21,
+      "identity_instructions": 21,
+      "removed_instructions": 21
+    },
+    {
+      "id": "scored_0076",
+      "current_instructions": 351,
+      "optimized_instructions": 339,
+      "improvement": 12,
+      "identity_instructions": 12,
+      "removed_instructions": 12
+    },
+    {
+      "id": "scored_0079",
+      "current_instructions": 413,
+      "optimized_instructions": 404,
+      "improvement": 9,
+      "identity_instructions": 9,
+      "removed_instructions": 9
+    },
+    {
+      "id": "scored_0080",
+      "current_instructions": 354,
+      "optimized_instructions": 340,
+      "improvement": 14,
+      "identity_instructions": 14,
+      "removed_instructions": 14
+    },
+    {
+      "id": "scored_0082",
+      "current_instructions": 440,
+      "optimized_instructions": 428,
+      "improvement": 12,
+      "identity_instructions": 12,
+      "removed_instructions": 12
+    },
+    {
+      "id": "scored_0083",
+      "current_instructions": 389,
+      "optimized_instructions": 367,
+      "improvement": 22,
+      "identity_instructions": 22,
+      "removed_instructions": 22
+    },
+    {
+      "id": "scored_0087",
+      "current_instructions": 589,
+      "optimized_instructions": 569,
+      "improvement": 20,
+      "identity_instructions": 20,
+      "removed_instructions": 20
+    },
+    {
+      "id": "scored_0088",
+      "current_instructions": 526,
+      "optimized_instructions": 512,
+      "improvement": 14,
+      "identity_instructions": 14,
+      "removed_instructions": 14
+    },
+    {
+      "id": "scored_0089",
+      "current_instructions": 349,
+      "optimized_instructions": 336,
+      "improvement": 13,
+      "identity_instructions": 13,
+      "removed_instructions": 13
+    },
+    {
+      "id": "scored_0090",
+      "current_instructions": 455,
+      "optimized_instructions": 442,
+      "improvement": 13,
+      "identity_instructions": 13,
+      "removed_instructions": 13
+    },
+    {
+      "id": "scored_0094",
+      "current_instructions": 591,
+      "optimized_instructions": 572,
+      "improvement": 19,
+      "identity_instructions": 19,
+      "removed_instructions": 19
+    },
+    {
+      "id": "scored_0096",
+      "current_instructions": 387,
+      "optimized_instructions": 367,
+      "improvement": 20,
+      "identity_instructions": 19,
+      "removed_instructions": 20
+    },
+    {
+      "id": "scored_0098",
+      "current_instructions": 430,
+      "optimized_instructions": 406,
+      "improvement": 24,
+      "identity_instructions": 24,
+      "removed_instructions": 24
+    },
+    {
+      "id": "scored_0099",
+      "current_instructions": 435,
+      "optimized_instructions": 421,
+      "improvement": 14,
+      "identity_instructions": 13,
+      "removed_instructions": 14
+    },
+    {
+      "id": "scored_0100",
+      "current_instructions": 374,
+      "optimized_instructions": 359,
+      "improvement": 15,
+      "identity_instructions": 15,
+      "removed_instructions": 15
+    },
+    {
+      "id": "scored_0102",
+      "current_instructions": 461,
+      "optimized_instructions": 450,
+      "improvement": 11,
+      "identity_instructions": 11,
+      "removed_instructions": 11
+    },
+    {
+      "id": "scored_0104",
+      "current_instructions": 544,
+      "optimized_instructions": 520,
+      "improvement": 24,
+      "identity_instructions": 23,
+      "removed_instructions": 24
+    },
+    {
+      "id": "scored_0105",
+      "current_instructions": 362,
+      "optimized_instructions": 346,
+      "improvement": 16,
+      "identity_instructions": 16,
+      "removed_instructions": 16
+    },
+    {
+      "id": "scored_0106",
+      "current_instructions": 575,
+      "optimized_instructions": 558,
+      "improvement": 17,
+      "identity_instructions": 17,
+      "removed_instructions": 17
+    },
+    {
+      "id": "scored_0107",
+      "current_instructions": 595,
+      "optimized_instructions": 574,
+      "improvement": 21,
+      "identity_instructions": 21,
+      "removed_instructions": 21
+    },
+    {
+      "id": "scored_0108",
+      "current_instructions": 424,
+      "optimized_instructions": 400,
+      "improvement": 24,
+      "identity_instructions": 24,
+      "removed_instructions": 24
+    },
+    {
+      "id": "scored_0109",
+      "current_instructions": 399,
+      "optimized_instructions": 384,
+      "improvement": 15,
+      "identity_instructions": 15,
+      "removed_instructions": 15
+    },
+    {
+      "id": "scored_0110",
+      "current_instructions": 433,
+      "optimized_instructions": 420,
+      "improvement": 13,
+      "identity_instructions": 13,
+      "removed_instructions": 13
+    },
+    {
+      "id": "scored_0111",
+      "current_instructions": 560,
+      "optimized_instructions": 545,
+      "improvement": 15,
+      "identity_instructions": 15,
+      "removed_instructions": 15
+    },
+    {
+      "id": "scored_0112",
+      "current_instructions": 482,
+      "optimized_instructions": 461,
+      "improvement": 21,
+      "identity_instructions": 21,
+      "removed_instructions": 21
+    },
+    {
+      "id": "scored_0114",
+      "current_instructions": 398,
+      "optimized_instructions": 376,
+      "improvement": 22,
+      "identity_instructions": 22,
+      "removed_instructions": 22
+    },
+    {
+      "id": "scored_0115",
+      "current_instructions": 468,
+      "optimized_instructions": 447,
+      "improvement": 21,
+      "identity_instructions": 21,
+      "removed_instructions": 21
+    },
+    {
+      "id": "scored_0117",
+      "current_instructions": 459,
+      "optimized_instructions": 443,
+      "improvement": 16,
+      "identity_instructions": 16,
+      "removed_instructions": 16
+    },
+    {
+      "id": "scored_0119",
+      "current_instructions": 572,
+      "optimized_instructions": 554,
+      "improvement": 18,
+      "identity_instructions": 16,
+      "removed_instructions": 18
+    },
+    {
+      "id": "scored_0120",
+      "current_instructions": 529,
+      "optimized_instructions": 513,
+      "improvement": 16,
+      "identity_instructions": 16,
+      "removed_instructions": 16
+    },
+    {
+      "id": "scored_0122",
+      "current_instructions": 370,
+      "optimized_instructions": 350,
+      "improvement": 20,
+      "identity_instructions": 20,
+      "removed_instructions": 20
+    },
+    {
+      "id": "scored_0123",
+      "current_instructions": 523,
+      "optimized_instructions": 501,
+      "improvement": 22,
+      "identity_instructions": 22,
+      "removed_instructions": 22
+    },
+    {
+      "id": "scored_0127",
+      "current_instructions": 395,
+      "optimized_instructions": 381,
+      "improvement": 14,
+      "identity_instructions": 14,
+      "removed_instructions": 14
+    },
+    {
+      "id": "scored_0129",
+      "current_instructions": 654,
+      "optimized_instructions": 628,
+      "improvement": 26,
+      "identity_instructions": 26,
+      "removed_instructions": 26
+    },
+    {
+      "id": "scored_0132",
+      "current_instructions": 309,
+      "optimized_instructions": 299,
+      "improvement": 10,
+      "identity_instructions": 10,
+      "removed_instructions": 10
+    },
+    {
+      "id": "scored_0133",
+      "current_instructions": 576,
+      "optimized_instructions": 558,
+      "improvement": 18,
+      "identity_instructions": 18,
+      "removed_instructions": 18
+    },
+    {
+      "id": "scored_0136",
+      "current_instructions": 419,
+      "optimized_instructions": 405,
+      "improvement": 14,
+      "identity_instructions": 13,
+      "removed_instructions": 14
+    },
+    {
+      "id": "scored_0139",
+      "current_instructions": 411,
+      "optimized_instructions": 389,
+      "improvement": 22,
+      "identity_instructions": 22,
+      "removed_instructions": 22
+    },
+    {
+      "id": "scored_0140",
+      "current_instructions": 391,
+      "optimized_instructions": 372,
+      "improvement": 19,
+      "identity_instructions": 19,
+      "removed_instructions": 19
+    },
+    {
+      "id": "scored_0142",
+      "current_instructions": 299,
+      "optimized_instructions": 287,
+      "improvement": 12,
+      "identity_instructions": 12,
+      "removed_instructions": 12
+    },
+    {
+      "id": "scored_0143",
+      "current_instructions": 494,
+      "optimized_instructions": 481,
+      "improvement": 13,
+      "identity_instructions": 13,
+      "removed_instructions": 13
+    },
+    {
+      "id": "scored_0144",
+      "current_instructions": 297,
+      "optimized_instructions": 279,
+      "improvement": 18,
+      "identity_instructions": 18,
+      "removed_instructions": 18
+    },
+    {
+      "id": "scored_0145",
+      "current_instructions": 515,
+      "optimized_instructions": 490,
+      "improvement": 25,
+      "identity_instructions": 25,
+      "removed_instructions": 25
+    },
+    {
+      "id": "scored_0146",
+      "current_instructions": 626,
+      "optimized_instructions": 601,
+      "improvement": 25,
+      "identity_instructions": 25,
+      "removed_instructions": 25
+    },
+    {
+      "id": "scored_0148",
+      "current_instructions": 449,
+      "optimized_instructions": 434,
+      "improvement": 15,
+      "identity_instructions": 15,
+      "removed_instructions": 15
+    },
+    {
+      "id": "scored_0150",
+      "current_instructions": 401,
+      "optimized_instructions": 377,
+      "improvement": 24,
+      "identity_instructions": 24,
+      "removed_instructions": 24
+    },
+    {
+      "id": "scored_0152",
+      "current_instructions": 329,
+      "optimized_instructions": 316,
+      "improvement": 13,
+      "identity_instructions": 12,
+      "removed_instructions": 13
+    },
+    {
+      "id": "scored_0153",
+      "current_instructions": 323,
+      "optimized_instructions": 314,
+      "improvement": 9,
+      "identity_instructions": 9,
+      "removed_instructions": 9
+    },
+    {
+      "id": "scored_0154",
+      "current_instructions": 420,
+      "optimized_instructions": 407,
+      "improvement": 13,
+      "identity_instructions": 13,
+      "removed_instructions": 13
+    },
+    {
+      "id": "scored_0155",
+      "current_instructions": 499,
+      "optimized_instructions": 475,
+      "improvement": 24,
+      "identity_instructions": 24,
+      "removed_instructions": 24
+    },
+    {
+      "id": "scored_0157",
+      "current_instructions": 377,
+      "optimized_instructions": 362,
+      "improvement": 15,
+      "identity_instructions": 15,
+      "removed_instructions": 15
+    },
+    {
+      "id": "scored_0158",
+      "current_instructions": 360,
+      "optimized_instructions": 341,
+      "improvement": 19,
+      "identity_instructions": 18,
+      "removed_instructions": 19
+    },
+    {
+      "id": "scored_0159",
+      "current_instructions": 592,
+      "optimized_instructions": 574,
+      "improvement": 18,
+      "identity_instructions": 18,
+      "removed_instructions": 18
+    },
+    {
+      "id": "scored_0160",
+      "current_instructions": 517,
+      "optimized_instructions": 503,
+      "improvement": 14,
+      "identity_instructions": 14,
+      "removed_instructions": 14
+    },
+    {
+      "id": "scored_0161",
+      "current_instructions": 381,
+      "optimized_instructions": 362,
+      "improvement": 19,
+      "identity_instructions": 19,
+      "removed_instructions": 19
+    },
+    {
+      "id": "scored_0162",
+      "current_instructions": 520,
+      "optimized_instructions": 507,
+      "improvement": 13,
+      "identity_instructions": 13,
+      "removed_instructions": 13
+    },
+    {
+      "id": "scored_0163",
+      "current_instructions": 623,
+      "optimized_instructions": 603,
+      "improvement": 20,
+      "identity_instructions": 20,
+      "removed_instructions": 20
+    },
+    {
+      "id": "scored_0165",
+      "current_instructions": 593,
+      "optimized_instructions": 572,
+      "improvement": 21,
+      "identity_instructions": 21,
+      "removed_instructions": 21
+    },
+    {
+      "id": "scored_0166",
+      "current_instructions": 477,
+      "optimized_instructions": 455,
+      "improvement": 22,
+      "identity_instructions": 22,
+      "removed_instructions": 22
+    },
+    {
+      "id": "scored_0167",
+      "current_instructions": 601,
+      "optimized_instructions": 581,
+      "improvement": 20,
+      "identity_instructions": 20,
+      "removed_instructions": 20
+    },
+    {
+      "id": "scored_0168",
+      "current_instructions": 641,
+      "optimized_instructions": 617,
+      "improvement": 24,
+      "identity_instructions": 24,
+      "removed_instructions": 24
+    },
+    {
+      "id": "scored_0170",
+      "current_instructions": 570,
+      "optimized_instructions": 555,
+      "improvement": 15,
+      "identity_instructions": 14,
+      "removed_instructions": 15
+    },
+    {
+      "id": "scored_0171",
+      "current_instructions": 342,
+      "optimized_instructions": 333,
+      "improvement": 9,
+      "identity_instructions": 9,
+      "removed_instructions": 9
+    },
+    {
+      "id": "scored_0172",
+      "current_instructions": 415,
+      "optimized_instructions": 399,
+      "improvement": 16,
+      "identity_instructions": 16,
+      "removed_instructions": 16
+    },
+    {
+      "id": "scored_0173",
+      "current_instructions": 456,
+      "optimized_instructions": 441,
+      "improvement": 15,
+      "identity_instructions": 15,
+      "removed_instructions": 15
+    },
+    {
+      "id": "scored_0174",
+      "current_instructions": 368,
+      "optimized_instructions": 351,
+      "improvement": 17,
+      "identity_instructions": 17,
+      "removed_instructions": 17
+    },
+    {
+      "id": "scored_0177",
+      "current_instructions": 416,
+      "optimized_instructions": 406,
+      "improvement": 10,
+      "identity_instructions": 10,
+      "removed_instructions": 10
+    },
+    {
+      "id": "scored_0179",
+      "current_instructions": 521,
+      "optimized_instructions": 502,
+      "improvement": 19,
+      "identity_instructions": 19,
+      "removed_instructions": 19
+    },
+    {
+      "id": "scored_0182",
+      "current_instructions": 410,
+      "optimized_instructions": 400,
+      "improvement": 10,
+      "identity_instructions": 10,
+      "removed_instructions": 10
+    },
+    {
+      "id": "scored_0183",
+      "current_instructions": 656,
+      "optimized_instructions": 632,
+      "improvement": 24,
+      "identity_instructions": 24,
+      "removed_instructions": 24
+    },
+    {
+      "id": "scored_0184",
+      "current_instructions": 366,
+      "optimized_instructions": 355,
+      "improvement": 11,
+      "identity_instructions": 11,
+      "removed_instructions": 11
+    },
+    {
+      "id": "scored_0185",
+      "current_instructions": 454,
+      "optimized_instructions": 444,
+      "improvement": 10,
+      "identity_instructions": 9,
+      "removed_instructions": 10
+    },
+    {
+      "id": "scored_0186",
+      "current_instructions": 439,
+      "optimized_instructions": 432,
+      "improvement": 7,
+      "identity_instructions": 7,
+      "removed_instructions": 7
+    },
+    {
+      "id": "scored_0189",
+      "current_instructions": 488,
+      "optimized_instructions": 476,
+      "improvement": 12,
+      "identity_instructions": 12,
+      "removed_instructions": 12
+    },
+    {
+      "id": "scored_0190",
+      "current_instructions": 316,
+      "optimized_instructions": 305,
+      "improvement": 11,
+      "identity_instructions": 11,
+      "removed_instructions": 11
+    },
+    {
+      "id": "scored_0191",
+      "current_instructions": 436,
+      "optimized_instructions": 423,
+      "improvement": 13,
+      "identity_instructions": 13,
+      "removed_instructions": 13
+    },
+    {
+      "id": "scored_0192",
+      "current_instructions": 424,
+      "optimized_instructions": 414,
+      "improvement": 10,
+      "identity_instructions": 10,
+      "removed_instructions": 10
+    },
+    {
+      "id": "scored_0193",
+      "current_instructions": 319,
+      "optimized_instructions": 308,
+      "improvement": 11,
+      "identity_instructions": 11,
+      "removed_instructions": 11
+    },
+    {
+      "id": "scored_0194",
+      "current_instructions": 373,
+      "optimized_instructions": 356,
+      "improvement": 17,
+      "identity_instructions": 17,
+      "removed_instructions": 17
+    },
+    {
+      "id": "scored_0195",
+      "current_instructions": 311,
+      "optimized_instructions": 299,
+      "improvement": 12,
+      "identity_instructions": 12,
+      "removed_instructions": 12
+    },
+    {
+      "id": "scored_0197",
+      "current_instructions": 316,
+      "optimized_instructions": 303,
+      "improvement": 13,
+      "identity_instructions": 13,
+      "removed_instructions": 13
+    },
+    {
+      "id": "scored_0198",
+      "current_instructions": 555,
+      "optimized_instructions": 539,
+      "improvement": 16,
+      "identity_instructions": 16,
+      "removed_instructions": 16
+    },
+    {
+      "id": "scored_0200",
+      "current_instructions": 438,
+      "optimized_instructions": 426,
+      "improvement": 12,
+      "identity_instructions": 12,
+      "removed_instructions": 12
+    },
+    {
+      "id": "scored_0201",
+      "current_instructions": 373,
+      "optimized_instructions": 358,
+      "improvement": 15,
+      "identity_instructions": 15,
+      "removed_instructions": 15
+    },
+    {
+      "id": "scored_0202",
+      "current_instructions": 367,
+      "optimized_instructions": 350,
+      "improvement": 17,
+      "identity_instructions": 17,
+      "removed_instructions": 17
+    },
+    {
+      "id": "scored_0203",
+      "current_instructions": 536,
+      "optimized_instructions": 523,
+      "improvement": 13,
+      "identity_instructions": 13,
+      "removed_instructions": 13
+    },
+    {
+      "id": "scored_0204",
+      "current_instructions": 538,
+      "optimized_instructions": 523,
+      "improvement": 15,
+      "identity_instructions": 15,
+      "removed_instructions": 15
+    },
+    {
+      "id": "scored_0206",
+      "current_instructions": 395,
+      "optimized_instructions": 378,
+      "improvement": 17,
+      "identity_instructions": 17,
+      "removed_instructions": 17
+    },
+    {
+      "id": "scored_0207",
+      "current_instructions": 536,
+      "optimized_instructions": 514,
+      "improvement": 22,
+      "identity_instructions": 22,
+      "removed_instructions": 22
+    },
+    {
+      "id": "scored_0208",
+      "current_instructions": 572,
+      "optimized_instructions": 557,
+      "improvement": 15,
+      "identity_instructions": 15,
+      "removed_instructions": 15
+    },
+    {
+      "id": "scored_0209",
+      "current_instructions": 525,
+      "optimized_instructions": 502,
+      "improvement": 23,
+      "identity_instructions": 23,
+      "removed_instructions": 23
+    },
+    {
+      "id": "scored_0213",
+      "current_instructions": 399,
+      "optimized_instructions": 390,
+      "improvement": 9,
+      "identity_instructions": 9,
+      "removed_instructions": 9
+    },
+    {
+      "id": "scored_0214",
+      "current_instructions": 458,
+      "optimized_instructions": 446,
+      "improvement": 12,
+      "identity_instructions": 11,
+      "removed_instructions": 12
+    },
+    {
+      "id": "scored_0215",
+      "current_instructions": 383,
+      "optimized_instructions": 363,
+      "improvement": 20,
+      "identity_instructions": 20,
+      "removed_instructions": 20
+    },
+    {
+      "id": "scored_0216",
+      "current_instructions": 476,
+      "optimized_instructions": 465,
+      "improvement": 11,
+      "identity_instructions": 10,
+      "removed_instructions": 11
+    },
+    {
+      "id": "scored_0217",
+      "current_instructions": 611,
+      "optimized_instructions": 592,
+      "improvement": 19,
+      "identity_instructions": 19,
+      "removed_instructions": 19
+    },
+    {
+      "id": "scored_0218",
+      "current_instructions": 664,
+      "optimized_instructions": 640,
+      "improvement": 24,
+      "identity_instructions": 23,
+      "removed_instructions": 24
+    },
+    {
+      "id": "scored_0223",
+      "current_instructions": 555,
+      "optimized_instructions": 540,
+      "improvement": 15,
+      "identity_instructions": 15,
+      "removed_instructions": 15
+    },
+    {
+      "id": "scored_0224",
+      "current_instructions": 417,
+      "optimized_instructions": 394,
+      "improvement": 23,
+      "identity_instructions": 23,
+      "removed_instructions": 23
+    },
+    {
+      "id": "scored_0227",
+      "current_instructions": 468,
+      "optimized_instructions": 455,
+      "improvement": 13,
+      "identity_instructions": 12,
+      "removed_instructions": 13
+    },
+    {
+      "id": "scored_0228",
+      "current_instructions": 396,
+      "optimized_instructions": 386,
+      "improvement": 10,
+      "identity_instructions": 10,
+      "removed_instructions": 10
+    },
+    {
+      "id": "scored_0229",
+      "current_instructions": 344,
+      "optimized_instructions": 329,
+      "improvement": 15,
+      "identity_instructions": 15,
+      "removed_instructions": 15
+    },
+    {
+      "id": "scored_0230",
+      "current_instructions": 504,
+      "optimized_instructions": 481,
+      "improvement": 23,
+      "identity_instructions": 23,
+      "removed_instructions": 23
+    },
+    {
+      "id": "scored_0231",
+      "current_instructions": 413,
+      "optimized_instructions": 391,
+      "improvement": 22,
+      "identity_instructions": 22,
+      "removed_instructions": 22
+    },
+    {
+      "id": "scored_0232",
+      "current_instructions": 381,
+      "optimized_instructions": 359,
+      "improvement": 22,
+      "identity_instructions": 22,
+      "removed_instructions": 22
+    },
+    {
+      "id": "scored_0234",
+      "current_instructions": 419,
+      "optimized_instructions": 397,
+      "improvement": 22,
+      "identity_instructions": 22,
+      "removed_instructions": 22
+    },
+    {
+      "id": "scored_0235",
+      "current_instructions": 528,
+      "optimized_instructions": 517,
+      "improvement": 11,
+      "identity_instructions": 11,
+      "removed_instructions": 11
+    },
+    {
+      "id": "scored_0238",
+      "current_instructions": 332,
+      "optimized_instructions": 316,
+      "improvement": 16,
+      "identity_instructions": 16,
+      "removed_instructions": 16
+    },
+    {
+      "id": "scored_0239",
+      "current_instructions": 385,
+      "optimized_instructions": 366,
+      "improvement": 19,
+      "identity_instructions": 19,
+      "removed_instructions": 19
+    },
+    {
+      "id": "scored_0242",
+      "current_instructions": 380,
+      "optimized_instructions": 359,
+      "improvement": 21,
+      "identity_instructions": 21,
+      "removed_instructions": 21
+    },
+    {
+      "id": "scored_0243",
+      "current_instructions": 359,
+      "optimized_instructions": 348,
+      "improvement": 11,
+      "identity_instructions": 11,
+      "removed_instructions": 11
+    },
+    {
+      "id": "scored_0244",
+      "current_instructions": 471,
+      "optimized_instructions": 457,
+      "improvement": 14,
+      "identity_instructions": 14,
+      "removed_instructions": 14
+    },
+    {
+      "id": "scored_0246",
+      "current_instructions": 385,
+      "optimized_instructions": 372,
+      "improvement": 13,
+      "identity_instructions": 11,
+      "removed_instructions": 13
+    },
+    {
+      "id": "scored_0247",
+      "current_instructions": 375,
+      "optimized_instructions": 365,
+      "improvement": 10,
+      "identity_instructions": 10,
+      "removed_instructions": 10
+    },
+    {
+      "id": "scored_0248",
+      "current_instructions": 415,
+      "optimized_instructions": 394,
+      "improvement": 21,
+      "identity_instructions": 21,
+      "removed_instructions": 21
+    },
+    {
+      "id": "scored_0249",
+      "current_instructions": 638,
+      "optimized_instructions": 615,
+      "improvement": 23,
+      "identity_instructions": 23,
+      "removed_instructions": 23
+    },
+    {
+      "id": "scored_0251",
+      "current_instructions": 553,
+      "optimized_instructions": 539,
+      "improvement": 14,
+      "identity_instructions": 14,
+      "removed_instructions": 14
+    },
+    {
+      "id": "scored_0254",
+      "current_instructions": 575,
+      "optimized_instructions": 560,
+      "improvement": 15,
+      "identity_instructions": 15,
+      "removed_instructions": 15
+    },
+    {
+      "id": "scored_0255",
+      "current_instructions": 671,
+      "optimized_instructions": 647,
+      "improvement": 24,
+      "identity_instructions": 24,
+      "removed_instructions": 24
+    },
+    {
+      "id": "scored_0257",
+      "current_instructions": 466,
+      "optimized_instructions": 448,
+      "improvement": 18,
+      "identity_instructions": 18,
+      "removed_instructions": 18
+    },
+    {
+      "id": "scored_0258",
+      "current_instructions": 639,
+      "optimized_instructions": 615,
+      "improvement": 24,
+      "identity_instructions": 24,
+      "removed_instructions": 24
+    },
+    {
+      "id": "scored_0261",
+      "current_instructions": 391,
+      "optimized_instructions": 371,
+      "improvement": 20,
+      "identity_instructions": 20,
+      "removed_instructions": 20
+    },
+    {
+      "id": "scored_0262",
+      "current_instructions": 568,
+      "optimized_instructions": 553,
+      "improvement": 15,
+      "identity_instructions": 15,
+      "removed_instructions": 15
+    },
+    {
+      "id": "scored_0263",
+      "current_instructions": 602,
+      "optimized_instructions": 585,
+      "improvement": 17,
+      "identity_instructions": 17,
+      "removed_instructions": 17
+    },
+    {
+      "id": "scored_0264",
+      "current_instructions": 557,
+      "optimized_instructions": 544,
+      "improvement": 13,
+      "identity_instructions": 13,
+      "removed_instructions": 13
+    },
+    {
+      "id": "scored_0265",
+      "current_instructions": 522,
+      "optimized_instructions": 506,
+      "improvement": 16,
+      "identity_instructions": 16,
+      "removed_instructions": 16
+    },
+    {
+      "id": "scored_0267",
+      "current_instructions": 347,
+      "optimized_instructions": 335,
+      "improvement": 12,
+      "identity_instructions": 12,
+      "removed_instructions": 12
+    },
+    {
+      "id": "scored_0268",
+      "current_instructions": 539,
+      "optimized_instructions": 522,
+      "improvement": 17,
+      "identity_instructions": 16,
+      "removed_instructions": 17
+    },
+    {
+      "id": "scored_0269",
+      "current_instructions": 661,
+      "optimized_instructions": 637,
+      "improvement": 24,
+      "identity_instructions": 24,
+      "removed_instructions": 24
+    },
+    {
+      "id": "scored_0273",
+      "current_instructions": 407,
+      "optimized_instructions": 384,
+      "improvement": 23,
+      "identity_instructions": 23,
+      "removed_instructions": 23
+    },
+    {
+      "id": "scored_0274",
+      "current_instructions": 454,
+      "optimized_instructions": 439,
+      "improvement": 15,
+      "identity_instructions": 15,
+      "removed_instructions": 15
+    },
+    {
+      "id": "scored_0275",
+      "current_instructions": 350,
+      "optimized_instructions": 336,
+      "improvement": 14,
+      "identity_instructions": 14,
+      "removed_instructions": 14
+    },
+    {
+      "id": "scored_0277",
+      "current_instructions": 400,
+      "optimized_instructions": 386,
+      "improvement": 14,
+      "identity_instructions": 12,
+      "removed_instructions": 14
+    },
+    {
+      "id": "scored_0279",
+      "current_instructions": 614,
+      "optimized_instructions": 590,
+      "improvement": 24,
+      "identity_instructions": 24,
+      "removed_instructions": 24
+    },
+    {
+      "id": "scored_0280",
+      "current_instructions": 444,
+      "optimized_instructions": 433,
+      "improvement": 11,
+      "identity_instructions": 11,
+      "removed_instructions": 11
+    },
+    {
+      "id": "scored_0281",
+      "current_instructions": 441,
+      "optimized_instructions": 416,
+      "improvement": 25,
+      "identity_instructions": 25,
+      "removed_instructions": 25
+    },
+    {
+      "id": "scored_0283",
+      "current_instructions": 500,
+      "optimized_instructions": 479,
+      "improvement": 21,
+      "identity_instructions": 21,
+      "removed_instructions": 21
+    },
+    {
+      "id": "scored_0284",
+      "current_instructions": 408,
+      "optimized_instructions": 397,
+      "improvement": 11,
+      "identity_instructions": 11,
+      "removed_instructions": 11
+    },
+    {
+      "id": "scored_0285",
+      "current_instructions": 506,
+      "optimized_instructions": 485,
+      "improvement": 21,
+      "identity_instructions": 21,
+      "removed_instructions": 21
+    },
+    {
+      "id": "scored_0286",
+      "current_instructions": 391,
+      "optimized_instructions": 379,
+      "improvement": 12,
+      "identity_instructions": 12,
+      "removed_instructions": 12
+    },
+    {
+      "id": "scored_0287",
+      "current_instructions": 474,
+      "optimized_instructions": 462,
+      "improvement": 12,
+      "identity_instructions": 12,
+      "removed_instructions": 12
+    },
+    {
+      "id": "scored_0288",
+      "current_instructions": 360,
+      "optimized_instructions": 348,
+      "improvement": 12,
+      "identity_instructions": 12,
+      "removed_instructions": 12
+    },
+    {
+      "id": "scored_0290",
+      "current_instructions": 362,
+      "optimized_instructions": 349,
+      "improvement": 13,
+      "identity_instructions": 13,
+      "removed_instructions": 13
+    },
+    {
+      "id": "scored_0291",
+      "current_instructions": 390,
+      "optimized_instructions": 376,
+      "improvement": 14,
+      "identity_instructions": 14,
+      "removed_instructions": 14
+    },
+    {
+      "id": "scored_0293",
+      "current_instructions": 476,
+      "optimized_instructions": 458,
+      "improvement": 18,
+      "identity_instructions": 18,
+      "removed_instructions": 18
+    },
+    {
+      "id": "scored_0294",
+      "current_instructions": 399,
+      "optimized_instructions": 385,
+      "improvement": 14,
+      "identity_instructions": 14,
+      "removed_instructions": 14
+    },
+    {
+      "id": "scored_0295",
+      "current_instructions": 352,
+      "optimized_instructions": 340,
+      "improvement": 12,
+      "identity_instructions": 12,
+      "removed_instructions": 12
+    },
+    {
+      "id": "scored_0297",
+      "current_instructions": 335,
+      "optimized_instructions": 319,
+      "improvement": 16,
+      "identity_instructions": 16,
+      "removed_instructions": 16
+    },
+    {
+      "id": "scored_0299",
+      "current_instructions": 240,
+      "optimized_instructions": 231,
+      "improvement": 9,
+      "identity_instructions": 9,
+      "removed_instructions": 9
+    },
+    {
+      "id": "scored_0302",
+      "current_instructions": 444,
+      "optimized_instructions": 433,
+      "improvement": 11,
+      "identity_instructions": 11,
+      "removed_instructions": 11
+    },
+    {
+      "id": "scored_0303",
+      "current_instructions": 476,
+      "optimized_instructions": 455,
+      "improvement": 21,
+      "identity_instructions": 21,
+      "removed_instructions": 21
+    },
+    {
+      "id": "scored_0304",
+      "current_instructions": 438,
+      "optimized_instructions": 429,
+      "improvement": 9,
+      "identity_instructions": 9,
+      "removed_instructions": 9
+    },
+    {
+      "id": "scored_0305",
+      "current_instructions": 464,
+      "optimized_instructions": 448,
+      "improvement": 16,
+      "identity_instructions": 16,
+      "removed_instructions": 16
+    },
+    {
+      "id": "scored_0306",
+      "current_instructions": 620,
+      "optimized_instructions": 599,
+      "improvement": 21,
+      "identity_instructions": 21,
+      "removed_instructions": 21
+    },
+    {
+      "id": "scored_0307",
+      "current_instructions": 419,
+      "optimized_instructions": 407,
+      "improvement": 12,
+      "identity_instructions": 12,
+      "removed_instructions": 12
+    },
+    {
+      "id": "scored_0309",
+      "current_instructions": 366,
+      "optimized_instructions": 354,
+      "improvement": 12,
+      "identity_instructions": 11,
+      "removed_instructions": 12
+    },
+    {
+      "id": "scored_0310",
+      "current_instructions": 321,
+      "optimized_instructions": 310,
+      "improvement": 11,
+      "identity_instructions": 11,
+      "removed_instructions": 11
+    },
+    {
+      "id": "scored_0312",
+      "current_instructions": 600,
+      "optimized_instructions": 578,
+      "improvement": 22,
+      "identity_instructions": 22,
+      "removed_instructions": 22
+    },
+    {
+      "id": "scored_0313",
+      "current_instructions": 399,
+      "optimized_instructions": 378,
+      "improvement": 21,
+      "identity_instructions": 20,
+      "removed_instructions": 21
+    },
+    {
+      "id": "scored_0314",
+      "current_instructions": 485,
+      "optimized_instructions": 469,
+      "improvement": 16,
+      "identity_instructions": 16,
+      "removed_instructions": 16
+    },
+    {
+      "id": "scored_0315",
+      "current_instructions": 530,
+      "optimized_instructions": 505,
+      "improvement": 25,
+      "identity_instructions": 25,
+      "removed_instructions": 25
+    },
+    {
+      "id": "scored_0317",
+      "current_instructions": 425,
+      "optimized_instructions": 401,
+      "improvement": 24,
+      "identity_instructions": 24,
+      "removed_instructions": 24
+    },
+    {
+      "id": "scored_0318",
+      "current_instructions": 426,
+      "optimized_instructions": 401,
+      "improvement": 25,
+      "identity_instructions": 25,
+      "removed_instructions": 25
+    },
+    {
+      "id": "scored_0319",
+      "current_instructions": 564,
+      "optimized_instructions": 548,
+      "improvement": 16,
+      "identity_instructions": 16,
+      "removed_instructions": 16
+    },
+    {
+      "id": "scored_0321",
+      "current_instructions": 661,
+      "optimized_instructions": 636,
+      "improvement": 25,
+      "identity_instructions": 25,
+      "removed_instructions": 25
+    },
+    {
+      "id": "scored_0322",
+      "current_instructions": 406,
+      "optimized_instructions": 385,
+      "improvement": 21,
+      "identity_instructions": 21,
+      "removed_instructions": 21
+    },
+    {
+      "id": "scored_0323",
+      "current_instructions": 425,
+      "optimized_instructions": 413,
+      "improvement": 12,
+      "identity_instructions": 12,
+      "removed_instructions": 12
+    },
+    {
+      "id": "scored_0324",
+      "current_instructions": 436,
+      "optimized_instructions": 421,
+      "improvement": 15,
+      "identity_instructions": 15,
+      "removed_instructions": 15
+    },
+    {
+      "id": "scored_0325",
+      "current_instructions": 365,
+      "optimized_instructions": 356,
+      "improvement": 9,
+      "identity_instructions": 9,
+      "removed_instructions": 9
+    },
+    {
+      "id": "scored_0326",
+      "current_instructions": 375,
+      "optimized_instructions": 364,
+      "improvement": 11,
+      "identity_instructions": 11,
+      "removed_instructions": 11
+    },
+    {
+      "id": "scored_0327",
+      "current_instructions": 348,
+      "optimized_instructions": 334,
+      "improvement": 14,
+      "identity_instructions": 13,
+      "removed_instructions": 14
+    },
+    {
+      "id": "scored_0328",
+      "current_instructions": 569,
+      "optimized_instructions": 554,
+      "improvement": 15,
+      "identity_instructions": 15,
+      "removed_instructions": 15
+    },
+    {
+      "id": "scored_0329",
+      "current_instructions": 340,
+      "optimized_instructions": 329,
+      "improvement": 11,
+      "identity_instructions": 11,
+      "removed_instructions": 11
+    },
+    {
+      "id": "scored_0330",
+      "current_instructions": 454,
+      "optimized_instructions": 440,
+      "improvement": 14,
+      "identity_instructions": 14,
+      "removed_instructions": 14
+    },
+    {
+      "id": "scored_0331",
+      "current_instructions": 592,
+      "optimized_instructions": 570,
+      "improvement": 22,
+      "identity_instructions": 22,
+      "removed_instructions": 22
+    },
+    {
+      "id": "scored_0332",
+      "current_instructions": 370,
+      "optimized_instructions": 357,
+      "improvement": 13,
+      "identity_instructions": 13,
+      "removed_instructions": 13
+    },
+    {
+      "id": "scored_0333",
+      "current_instructions": 494,
+      "optimized_instructions": 472,
+      "improvement": 22,
+      "identity_instructions": 22,
+      "removed_instructions": 22
+    },
+    {
+      "id": "scored_0334",
+      "current_instructions": 574,
+      "optimized_instructions": 560,
+      "improvement": 14,
+      "identity_instructions": 14,
+      "removed_instructions": 14
+    },
+    {
+      "id": "scored_0335",
+      "current_instructions": 470,
+      "optimized_instructions": 456,
+      "improvement": 14,
+      "identity_instructions": 14,
+      "removed_instructions": 14
+    },
+    {
+      "id": "scored_0336",
+      "current_instructions": 381,
+      "optimized_instructions": 364,
+      "improvement": 17,
+      "identity_instructions": 17,
+      "removed_instructions": 17
+    },
+    {
+      "id": "scored_0338",
+      "current_instructions": 413,
+      "optimized_instructions": 391,
+      "improvement": 22,
+      "identity_instructions": 22,
+      "removed_instructions": 22
+    },
+    {
+      "id": "scored_0340",
+      "current_instructions": 333,
+      "optimized_instructions": 322,
+      "improvement": 11,
+      "identity_instructions": 11,
+      "removed_instructions": 11
+    },
+    {
+      "id": "scored_0342",
+      "current_instructions": 540,
+      "optimized_instructions": 525,
+      "improvement": 15,
+      "identity_instructions": 15,
+      "removed_instructions": 15
+    },
+    {
+      "id": "scored_0343",
+      "current_instructions": 305,
+      "optimized_instructions": 293,
+      "improvement": 12,
+      "identity_instructions": 12,
+      "removed_instructions": 12
+    },
+    {
+      "id": "scored_0344",
+      "current_instructions": 374,
+      "optimized_instructions": 354,
+      "improvement": 20,
+      "identity_instructions": 20,
+      "removed_instructions": 20
+    },
+    {
+      "id": "scored_0345",
+      "current_instructions": 495,
+      "optimized_instructions": 483,
+      "improvement": 12,
+      "identity_instructions": 12,
+      "removed_instructions": 12
+    },
+    {
+      "id": "scored_0346",
+      "current_instructions": 390,
+      "optimized_instructions": 369,
+      "improvement": 21,
+      "identity_instructions": 21,
+      "removed_instructions": 21
+    },
+    {
+      "id": "scored_0347",
+      "current_instructions": 341,
+      "optimized_instructions": 330,
+      "improvement": 11,
+      "identity_instructions": 11,
+      "removed_instructions": 11
+    },
+    {
+      "id": "scored_0349",
+      "current_instructions": 464,
+      "optimized_instructions": 455,
+      "improvement": 9,
+      "identity_instructions": 9,
+      "removed_instructions": 9
+    },
+    {
+      "id": "scored_0351",
+      "current_instructions": 384,
+      "optimized_instructions": 371,
+      "improvement": 13,
+      "identity_instructions": 13,
+      "removed_instructions": 13
+    },
+    {
+      "id": "scored_0352",
+      "current_instructions": 515,
+      "optimized_instructions": 491,
+      "improvement": 24,
+      "identity_instructions": 24,
+      "removed_instructions": 24
+    },
+    {
+      "id": "scored_0353",
+      "current_instructions": 345,
+      "optimized_instructions": 329,
+      "improvement": 16,
+      "identity_instructions": 16,
+      "removed_instructions": 16
+    },
+    {
+      "id": "scored_0354",
+      "current_instructions": 454,
+      "optimized_instructions": 439,
+      "improvement": 15,
+      "identity_instructions": 14,
+      "removed_instructions": 15
+    },
+    {
+      "id": "scored_0357",
+      "current_instructions": 533,
+      "optimized_instructions": 508,
+      "improvement": 25,
+      "identity_instructions": 25,
+      "removed_instructions": 25
+    },
+    {
+      "id": "scored_0358",
+      "current_instructions": 481,
+      "optimized_instructions": 469,
+      "improvement": 12,
+      "identity_instructions": 12,
+      "removed_instructions": 12
+    },
+    {
+      "id": "scored_0359",
+      "current_instructions": 304,
+      "optimized_instructions": 289,
+      "improvement": 15,
+      "identity_instructions": 15,
+      "removed_instructions": 15
+    },
+    {
+      "id": "scored_0360",
+      "current_instructions": 343,
+      "optimized_instructions": 329,
+      "improvement": 14,
+      "identity_instructions": 14,
+      "removed_instructions": 14
+    },
+    {
+      "id": "scored_0361",
+      "current_instructions": 480,
+      "optimized_instructions": 466,
+      "improvement": 14,
+      "identity_instructions": 13,
+      "removed_instructions": 14
+    },
+    {
+      "id": "scored_0363",
+      "current_instructions": 403,
+      "optimized_instructions": 387,
+      "improvement": 16,
+      "identity_instructions": 16,
+      "removed_instructions": 16
+    },
+    {
+      "id": "scored_0364",
+      "current_instructions": 491,
+      "optimized_instructions": 477,
+      "improvement": 14,
+      "identity_instructions": 14,
+      "removed_instructions": 14
+    },
+    {
+      "id": "scored_0366",
+      "current_instructions": 328,
+      "optimized_instructions": 316,
+      "improvement": 12,
+      "identity_instructions": 12,
+      "removed_instructions": 12
+    },
+    {
+      "id": "scored_0369",
+      "current_instructions": 583,
+      "optimized_instructions": 566,
+      "improvement": 17,
+      "identity_instructions": 16,
+      "removed_instructions": 17
+    },
+    {
+      "id": "scored_0370",
+      "current_instructions": 646,
+      "optimized_instructions": 622,
+      "improvement": 24,
+      "identity_instructions": 24,
+      "removed_instructions": 24
+    },
+    {
+      "id": "scored_0371",
+      "current_instructions": 392,
+      "optimized_instructions": 378,
+      "improvement": 14,
+      "identity_instructions": 14,
+      "removed_instructions": 14
+    },
+    {
+      "id": "scored_0373",
+      "current_instructions": 557,
+      "optimized_instructions": 541,
+      "improvement": 16,
+      "identity_instructions": 16,
+      "removed_instructions": 16
+    },
+    {
+      "id": "scored_0374",
+      "current_instructions": 569,
+      "optimized_instructions": 552,
+      "improvement": 17,
+      "identity_instructions": 17,
+      "removed_instructions": 17
+    },
+    {
+      "id": "scored_0375",
+      "current_instructions": 534,
+      "optimized_instructions": 517,
+      "improvement": 17,
+      "identity_instructions": 17,
+      "removed_instructions": 17
+    },
+    {
+      "id": "scored_0380",
+      "current_instructions": 398,
+      "optimized_instructions": 381,
+      "improvement": 17,
+      "identity_instructions": 17,
+      "removed_instructions": 17
+    },
+    {
+      "id": "scored_0381",
+      "current_instructions": 481,
+      "optimized_instructions": 462,
+      "improvement": 19,
+      "identity_instructions": 19,
+      "removed_instructions": 19
+    },
+    {
+      "id": "scored_0382",
+      "current_instructions": 378,
+      "optimized_instructions": 364,
+      "improvement": 14,
+      "identity_instructions": 14,
+      "removed_instructions": 14
+    },
+    {
+      "id": "scored_0383",
+      "current_instructions": 406,
+      "optimized_instructions": 389,
+      "improvement": 17,
+      "identity_instructions": 17,
+      "removed_instructions": 17
+    },
+    {
+      "id": "scored_0384",
+      "current_instructions": 362,
+      "optimized_instructions": 348,
+      "improvement": 14,
+      "identity_instructions": 14,
+      "removed_instructions": 14
+    },
+    {
+      "id": "scored_0385",
+      "current_instructions": 414,
+      "optimized_instructions": 403,
+      "improvement": 11,
+      "identity_instructions": 10,
+      "removed_instructions": 11
+    },
+    {
+      "id": "scored_0386",
+      "current_instructions": 486,
+      "optimized_instructions": 470,
+      "improvement": 16,
+      "identity_instructions": 15,
+      "removed_instructions": 16
+    },
+    {
+      "id": "scored_0389",
+      "current_instructions": 400,
+      "optimized_instructions": 378,
+      "improvement": 22,
+      "identity_instructions": 22,
+      "removed_instructions": 22
+    },
+    {
+      "id": "scored_0391",
+      "current_instructions": 543,
+      "optimized_instructions": 527,
+      "improvement": 16,
+      "identity_instructions": 16,
+      "removed_instructions": 16
+    },
+    {
+      "id": "scored_0394",
+      "current_instructions": 353,
+      "optimized_instructions": 340,
+      "improvement": 13,
+      "identity_instructions": 13,
+      "removed_instructions": 13
+    },
+    {
+      "id": "scored_0397",
+      "current_instructions": 464,
+      "optimized_instructions": 449,
+      "improvement": 15,
+      "identity_instructions": 15,
+      "removed_instructions": 15
+    },
+    {
+      "id": "scored_0398",
+      "current_instructions": 480,
+      "optimized_instructions": 459,
+      "improvement": 21,
+      "identity_instructions": 21,
+      "removed_instructions": 21
+    },
+    {
+      "id": "scored_0400",
+      "current_instructions": 518,
+      "optimized_instructions": 494,
+      "improvement": 24,
+      "identity_instructions": 24,
+      "removed_instructions": 24
+    },
+    {
+      "id": "scored_0403",
+      "current_instructions": 563,
+      "optimized_instructions": 546,
+      "improvement": 17,
+      "identity_instructions": 16,
+      "removed_instructions": 17
+    },
+    {
+      "id": "scored_0405",
+      "current_instructions": 632,
+      "optimized_instructions": 608,
+      "improvement": 24,
+      "identity_instructions": 23,
+      "removed_instructions": 24
+    },
+    {
+      "id": "scored_0406",
+      "current_instructions": 377,
+      "optimized_instructions": 366,
+      "improvement": 11,
+      "identity_instructions": 11,
+      "removed_instructions": 11
+    },
+    {
+      "id": "scored_0407",
+      "current_instructions": 381,
+      "optimized_instructions": 366,
+      "improvement": 15,
+      "identity_instructions": 14,
+      "removed_instructions": 15
+    },
+    {
+      "id": "scored_0408",
+      "current_instructions": 418,
+      "optimized_instructions": 396,
+      "improvement": 22,
+      "identity_instructions": 22,
+      "removed_instructions": 22
+    },
+    {
+      "id": "scored_0410",
+      "current_instructions": 412,
+      "optimized_instructions": 388,
+      "improvement": 24,
+      "identity_instructions": 24,
+      "removed_instructions": 24
+    },
+    {
+      "id": "scored_0411",
+      "current_instructions": 419,
+      "optimized_instructions": 396,
+      "improvement": 23,
+      "identity_instructions": 23,
+      "removed_instructions": 23
+    },
+    {
+      "id": "scored_0412",
+      "current_instructions": 393,
+      "optimized_instructions": 373,
+      "improvement": 20,
+      "identity_instructions": 20,
+      "removed_instructions": 20
+    },
+    {
+      "id": "scored_0413",
+      "current_instructions": 398,
+      "optimized_instructions": 380,
+      "improvement": 18,
+      "identity_instructions": 17,
+      "removed_instructions": 18
+    },
+    {
+      "id": "scored_0414",
+      "current_instructions": 364,
+      "optimized_instructions": 349,
+      "improvement": 15,
+      "identity_instructions": 15,
+      "removed_instructions": 15
+    },
+    {
+      "id": "scored_0415",
+      "current_instructions": 372,
+      "optimized_instructions": 358,
+      "improvement": 14,
+      "identity_instructions": 14,
+      "removed_instructions": 14
+    },
+    {
+      "id": "scored_0416",
+      "current_instructions": 483,
+      "optimized_instructions": 470,
+      "improvement": 13,
+      "identity_instructions": 13,
+      "removed_instructions": 13
+    },
+    {
+      "id": "scored_0417",
+      "current_instructions": 384,
+      "optimized_instructions": 364,
+      "improvement": 20,
+      "identity_instructions": 20,
+      "removed_instructions": 20
+    },
+    {
+      "id": "scored_0420",
+      "current_instructions": 394,
+      "optimized_instructions": 381,
+      "improvement": 13,
+      "identity_instructions": 13,
+      "removed_instructions": 13
+    },
+    {
+      "id": "scored_0421",
+      "current_instructions": 458,
+      "optimized_instructions": 446,
+      "improvement": 12,
+      "identity_instructions": 11,
+      "removed_instructions": 12
+    },
+    {
+      "id": "scored_0422",
+      "current_instructions": 383,
+      "optimized_instructions": 363,
+      "improvement": 20,
+      "identity_instructions": 20,
+      "removed_instructions": 20
+    },
+    {
+      "id": "scored_0424",
+      "current_instructions": 563,
+      "optimized_instructions": 548,
+      "improvement": 15,
+      "identity_instructions": 15,
+      "removed_instructions": 15
+    },
+    {
+      "id": "scored_0426",
+      "current_instructions": 345,
+      "optimized_instructions": 331,
+      "improvement": 14,
+      "identity_instructions": 13,
+      "removed_instructions": 14
+    },
+    {
+      "id": "scored_0427",
+      "current_instructions": 478,
+      "optimized_instructions": 462,
+      "improvement": 16,
+      "identity_instructions": 16,
+      "removed_instructions": 16
+    },
+    {
+      "id": "scored_0428",
+      "current_instructions": 545,
+      "optimized_instructions": 531,
+      "improvement": 14,
+      "identity_instructions": 14,
+      "removed_instructions": 14
+    },
+    {
+      "id": "scored_0432",
+      "current_instructions": 370,
+      "optimized_instructions": 360,
+      "improvement": 10,
+      "identity_instructions": 10,
+      "removed_instructions": 10
+    },
+    {
+      "id": "scored_0433",
+      "current_instructions": 362,
+      "optimized_instructions": 350,
+      "improvement": 12,
+      "identity_instructions": 12,
+      "removed_instructions": 12
+    },
+    {
+      "id": "scored_0435",
+      "current_instructions": 429,
+      "optimized_instructions": 420,
+      "improvement": 9,
+      "identity_instructions": 9,
+      "removed_instructions": 9
+    },
+    {
+      "id": "scored_0436",
+      "current_instructions": 466,
+      "optimized_instructions": 451,
+      "improvement": 15,
+      "identity_instructions": 15,
+      "removed_instructions": 15
+    },
+    {
+      "id": "scored_0437",
+      "current_instructions": 491,
+      "optimized_instructions": 476,
+      "improvement": 15,
+      "identity_instructions": 15,
+      "removed_instructions": 15
+    },
+    {
+      "id": "scored_0438",
+      "current_instructions": 517,
+      "optimized_instructions": 501,
+      "improvement": 16,
+      "identity_instructions": 16,
+      "removed_instructions": 16
+    },
+    {
+      "id": "scored_0439",
+      "current_instructions": 456,
+      "optimized_instructions": 444,
+      "improvement": 12,
+      "identity_instructions": 11,
+      "removed_instructions": 12
+    },
+    {
+      "id": "scored_0440",
+      "current_instructions": 479,
+      "optimized_instructions": 462,
+      "improvement": 17,
+      "identity_instructions": 17,
+      "removed_instructions": 17
+    },
+    {
+      "id": "scored_0441",
+      "current_instructions": 434,
+      "optimized_instructions": 421,
+      "improvement": 13,
+      "identity_instructions": 13,
+      "removed_instructions": 13
+    },
+    {
+      "id": "scored_0442",
+      "current_instructions": 444,
+      "optimized_instructions": 428,
+      "improvement": 16,
+      "identity_instructions": 16,
+      "removed_instructions": 16
+    },
+    {
+      "id": "scored_0444",
+      "current_instructions": 598,
+      "optimized_instructions": 577,
+      "improvement": 21,
+      "identity_instructions": 21,
+      "removed_instructions": 21
+    },
+    {
+      "id": "scored_0445",
+      "current_instructions": 536,
+      "optimized_instructions": 512,
+      "improvement": 24,
+      "identity_instructions": 24,
+      "removed_instructions": 24
+    },
+    {
+      "id": "scored_0446",
+      "current_instructions": 586,
+      "optimized_instructions": 564,
+      "improvement": 22,
+      "identity_instructions": 22,
+      "removed_instructions": 22
+    },
+    {
+      "id": "scored_0447",
+      "current_instructions": 520,
+      "optimized_instructions": 498,
+      "improvement": 22,
+      "identity_instructions": 22,
+      "removed_instructions": 22
+    },
+    {
+      "id": "scored_0448",
+      "current_instructions": 475,
+      "optimized_instructions": 454,
+      "improvement": 21,
+      "identity_instructions": 21,
+      "removed_instructions": 21
+    },
+    {
+      "id": "scored_0450",
+      "current_instructions": 654,
+      "optimized_instructions": 629,
+      "improvement": 25,
+      "identity_instructions": 25,
+      "removed_instructions": 25
+    },
+    {
+      "id": "scored_0452",
+      "current_instructions": 472,
+      "optimized_instructions": 451,
+      "improvement": 21,
+      "identity_instructions": 21,
+      "removed_instructions": 21
+    },
+    {
+      "id": "scored_0453",
+      "current_instructions": 443,
+      "optimized_instructions": 429,
+      "improvement": 14,
+      "identity_instructions": 14,
+      "removed_instructions": 14
+    },
+    {
+      "id": "scored_0454",
+      "current_instructions": 476,
+      "optimized_instructions": 455,
+      "improvement": 21,
+      "identity_instructions": 20,
+      "removed_instructions": 21
+    },
+    {
+      "id": "scored_0457",
+      "current_instructions": 408,
+      "optimized_instructions": 394,
+      "improvement": 14,
+      "identity_instructions": 13,
+      "removed_instructions": 14
+    },
+    {
+      "id": "scored_0458",
+      "current_instructions": 374,
+      "optimized_instructions": 362,
+      "improvement": 12,
+      "identity_instructions": 12,
+      "removed_instructions": 12
+    },
+    {
+      "id": "scored_0460",
+      "current_instructions": 384,
+      "optimized_instructions": 365,
+      "improvement": 19,
+      "identity_instructions": 19,
+      "removed_instructions": 19
+    },
+    {
+      "id": "scored_0465",
+      "current_instructions": 447,
+      "optimized_instructions": 438,
+      "improvement": 9,
+      "identity_instructions": 9,
+      "removed_instructions": 9
+    },
+    {
+      "id": "scored_0466",
+      "current_instructions": 455,
+      "optimized_instructions": 441,
+      "improvement": 14,
+      "identity_instructions": 13,
+      "removed_instructions": 14
+    },
+    {
+      "id": "scored_0468",
+      "current_instructions": 382,
+      "optimized_instructions": 366,
+      "improvement": 16,
+      "identity_instructions": 16,
+      "removed_instructions": 16
+    },
+    {
+      "id": "scored_0470",
+      "current_instructions": 605,
+      "optimized_instructions": 585,
+      "improvement": 20,
+      "identity_instructions": 20,
+      "removed_instructions": 20
+    },
+    {
+      "id": "scored_0475",
+      "current_instructions": 474,
+      "optimized_instructions": 454,
+      "improvement": 20,
+      "identity_instructions": 20,
+      "removed_instructions": 20
+    },
+    {
+      "id": "scored_0476",
+      "current_instructions": 553,
+      "optimized_instructions": 539,
+      "improvement": 14,
+      "identity_instructions": 14,
+      "removed_instructions": 14
+    },
+    {
+      "id": "scored_0477",
+      "current_instructions": 453,
+      "optimized_instructions": 443,
+      "improvement": 10,
+      "identity_instructions": 10,
+      "removed_instructions": 10
+    },
+    {
+      "id": "scored_0478",
+      "current_instructions": 216,
+      "optimized_instructions": 209,
+      "improvement": 7,
+      "identity_instructions": 7,
+      "removed_instructions": 7
+    },
+    {
+      "id": "scored_0480",
+      "current_instructions": 351,
+      "optimized_instructions": 335,
+      "improvement": 16,
+      "identity_instructions": 15,
+      "removed_instructions": 16
+    },
+    {
+      "id": "scored_0481",
+      "current_instructions": 439,
+      "optimized_instructions": 413,
+      "improvement": 26,
+      "identity_instructions": 26,
+      "removed_instructions": 26
+    },
+    {
+      "id": "scored_0482",
+      "current_instructions": 467,
+      "optimized_instructions": 450,
+      "improvement": 17,
+      "identity_instructions": 17,
+      "removed_instructions": 17
+    },
+    {
+      "id": "scored_0483",
+      "current_instructions": 375,
+      "optimized_instructions": 355,
+      "improvement": 20,
+      "identity_instructions": 20,
+      "removed_instructions": 20
+    },
+    {
+      "id": "scored_0484",
+      "current_instructions": 377,
+      "optimized_instructions": 366,
+      "improvement": 11,
+      "identity_instructions": 11,
+      "removed_instructions": 11
+    },
+    {
+      "id": "scored_0488",
+      "current_instructions": 383,
+      "optimized_instructions": 370,
+      "improvement": 13,
+      "identity_instructions": 13,
+      "removed_instructions": 13
+    },
+    {
+      "id": "scored_0489",
+      "current_instructions": 361,
+      "optimized_instructions": 344,
+      "improvement": 17,
+      "identity_instructions": 17,
+      "removed_instructions": 17
+    },
+    {
+      "id": "scored_0491",
+      "current_instructions": 473,
+      "optimized_instructions": 460,
+      "improvement": 13,
+      "identity_instructions": 13,
+      "removed_instructions": 13
+    },
+    {
+      "id": "scored_0493",
+      "current_instructions": 600,
+      "optimized_instructions": 582,
+      "improvement": 18,
+      "identity_instructions": 18,
+      "removed_instructions": 18
+    },
+    {
+      "id": "scored_0494",
+      "current_instructions": 586,
+      "optimized_instructions": 569,
+      "improvement": 17,
+      "identity_instructions": 17,
+      "removed_instructions": 17
+    },
+    {
+      "id": "scored_0495",
+      "current_instructions": 322,
+      "optimized_instructions": 312,
+      "improvement": 10,
+      "identity_instructions": 10,
+      "removed_instructions": 10
+    },
+    {
+      "id": "scored_0496",
+      "current_instructions": 371,
+      "optimized_instructions": 358,
+      "improvement": 13,
+      "identity_instructions": 13,
+      "removed_instructions": 13
+    },
+    {
+      "id": "scored_0497",
+      "current_instructions": 451,
+      "optimized_instructions": 436,
+      "improvement": 15,
+      "identity_instructions": 15,
+      "removed_instructions": 15
+    },
+    {
+      "id": "scored_0498",
+      "current_instructions": 483,
+      "optimized_instructions": 468,
+      "improvement": 15,
+      "identity_instructions": 15,
+      "removed_instructions": 15
+    },
+    {
+      "id": "scored_0499",
+      "current_instructions": 471,
+      "optimized_instructions": 459,
+      "improvement": 12,
+      "identity_instructions": 11,
+      "removed_instructions": 12
+    },
+    {
+      "id": "scored_0501",
+      "current_instructions": 396,
+      "optimized_instructions": 387,
+      "improvement": 9,
+      "identity_instructions": 9,
+      "removed_instructions": 9
+    },
+    {
+      "id": "scored_0502",
+      "current_instructions": 389,
+      "optimized_instructions": 370,
+      "improvement": 19,
+      "identity_instructions": 19,
+      "removed_instructions": 19
+    },
+    {
+      "id": "scored_0504",
+      "current_instructions": 470,
+      "optimized_instructions": 454,
+      "improvement": 16,
+      "identity_instructions": 16,
+      "removed_instructions": 16
+    },
+    {
+      "id": "scored_0505",
+      "current_instructions": 352,
+      "optimized_instructions": 341,
+      "improvement": 11,
+      "identity_instructions": 11,
+      "removed_instructions": 11
+    },
+    {
+      "id": "scored_0507",
+      "current_instructions": 383,
+      "optimized_instructions": 364,
+      "improvement": 19,
+      "identity_instructions": 19,
+      "removed_instructions": 19
+    },
+    {
+      "id": "scored_0508",
+      "current_instructions": 471,
+      "optimized_instructions": 453,
+      "improvement": 18,
+      "identity_instructions": 17,
+      "removed_instructions": 18
+    },
+    {
+      "id": "scored_0509",
+      "current_instructions": 343,
+      "optimized_instructions": 333,
+      "improvement": 10,
+      "identity_instructions": 10,
+      "removed_instructions": 10
+    },
+    {
+      "id": "scored_0511",
+      "current_instructions": 595,
+      "optimized_instructions": 571,
+      "improvement": 24,
+      "identity_instructions": 24,
+      "removed_instructions": 24
+    },
+    {
+      "id": "scored_0512",
+      "current_instructions": 427,
+      "optimized_instructions": 413,
+      "improvement": 14,
+      "identity_instructions": 14,
+      "removed_instructions": 14
+    },
+    {
+      "id": "scored_0513",
+      "current_instructions": 363,
+      "optimized_instructions": 346,
+      "improvement": 17,
+      "identity_instructions": 17,
+      "removed_instructions": 17
+    },
+    {
+      "id": "scored_0514",
+      "current_instructions": 498,
+      "optimized_instructions": 476,
+      "improvement": 22,
+      "identity_instructions": 22,
+      "removed_instructions": 22
+    },
+    {
+      "id": "scored_0516",
+      "current_instructions": 413,
+      "optimized_instructions": 397,
+      "improvement": 16,
+      "identity_instructions": 16,
+      "removed_instructions": 16
+    },
+    {
+      "id": "scored_0517",
+      "current_instructions": 410,
+      "optimized_instructions": 397,
+      "improvement": 13,
+      "identity_instructions": 13,
+      "removed_instructions": 13
+    },
+    {
+      "id": "scored_0518",
+      "current_instructions": 471,
+      "optimized_instructions": 456,
+      "improvement": 15,
+      "identity_instructions": 15,
+      "removed_instructions": 15
+    },
+    {
+      "id": "scored_0520",
+      "current_instructions": 392,
+      "optimized_instructions": 371,
+      "improvement": 21,
+      "identity_instructions": 21,
+      "removed_instructions": 21
+    },
+    {
+      "id": "scored_0521",
+      "current_instructions": 458,
+      "optimized_instructions": 448,
+      "improvement": 10,
+      "identity_instructions": 10,
+      "removed_instructions": 10
+    },
+    {
+      "id": "scored_0524",
+      "current_instructions": 408,
+      "optimized_instructions": 395,
+      "improvement": 13,
+      "identity_instructions": 13,
+      "removed_instructions": 13
+    },
+    {
+      "id": "scored_0525",
+      "current_instructions": 312,
+      "optimized_instructions": 302,
+      "improvement": 10,
+      "identity_instructions": 10,
+      "removed_instructions": 10
+    },
+    {
+      "id": "scored_0526",
+      "current_instructions": 497,
+      "optimized_instructions": 477,
+      "improvement": 20,
+      "identity_instructions": 20,
+      "removed_instructions": 20
+    },
+    {
+      "id": "scored_0527",
+      "current_instructions": 568,
+      "optimized_instructions": 549,
+      "improvement": 19,
+      "identity_instructions": 19,
+      "removed_instructions": 19
+    },
+    {
+      "id": "scored_0528",
+      "current_instructions": 349,
+      "optimized_instructions": 340,
+      "improvement": 9,
+      "identity_instructions": 9,
+      "removed_instructions": 9
+    },
+    {
+      "id": "scored_0529",
+      "current_instructions": 458,
+      "optimized_instructions": 446,
+      "improvement": 12,
+      "identity_instructions": 12,
+      "removed_instructions": 12
+    },
+    {
+      "id": "scored_0530",
+      "current_instructions": 370,
+      "optimized_instructions": 359,
+      "improvement": 11,
+      "identity_instructions": 11,
+      "removed_instructions": 11
+    },
+    {
+      "id": "scored_0531",
+      "current_instructions": 491,
+      "optimized_instructions": 478,
+      "improvement": 13,
+      "identity_instructions": 13,
+      "removed_instructions": 13
+    },
+    {
+      "id": "scored_0534",
+      "current_instructions": 358,
+      "optimized_instructions": 348,
+      "improvement": 10,
+      "identity_instructions": 10,
+      "removed_instructions": 10
+    },
+    {
+      "id": "scored_0535",
+      "current_instructions": 382,
+      "optimized_instructions": 370,
+      "improvement": 12,
+      "identity_instructions": 12,
+      "removed_instructions": 12
+    },
+    {
+      "id": "scored_0536",
+      "current_instructions": 581,
+      "optimized_instructions": 561,
+      "improvement": 20,
+      "identity_instructions": 20,
+      "removed_instructions": 20
+    },
+    {
+      "id": "scored_0538",
+      "current_instructions": 406,
+      "optimized_instructions": 384,
+      "improvement": 22,
+      "identity_instructions": 22,
+      "removed_instructions": 22
+    },
+    {
+      "id": "scored_0540",
+      "current_instructions": 396,
+      "optimized_instructions": 374,
+      "improvement": 22,
+      "identity_instructions": 22,
+      "removed_instructions": 22
+    },
+    {
+      "id": "scored_0542",
+      "current_instructions": 291,
+      "optimized_instructions": 277,
+      "improvement": 14,
+      "identity_instructions": 14,
+      "removed_instructions": 14
+    },
+    {
+      "id": "scored_0544",
+      "current_instructions": 410,
+      "optimized_instructions": 386,
+      "improvement": 24,
+      "identity_instructions": 23,
+      "removed_instructions": 24
+    },
+    {
+      "id": "scored_0545",
+      "current_instructions": 300,
+      "optimized_instructions": 285,
+      "improvement": 15,
+      "identity_instructions": 15,
+      "removed_instructions": 15
+    },
+    {
+      "id": "scored_0546",
+      "current_instructions": 365,
+      "optimized_instructions": 348,
+      "improvement": 17,
+      "identity_instructions": 17,
+      "removed_instructions": 17
+    },
+    {
+      "id": "scored_0550",
+      "current_instructions": 355,
+      "optimized_instructions": 343,
+      "improvement": 12,
+      "identity_instructions": 12,
+      "removed_instructions": 12
+    },
+    {
+      "id": "scored_0551",
+      "current_instructions": 412,
+      "optimized_instructions": 389,
+      "improvement": 23,
+      "identity_instructions": 23,
+      "removed_instructions": 23
+    },
+    {
+      "id": "scored_0552",
+      "current_instructions": 513,
+      "optimized_instructions": 492,
+      "improvement": 21,
+      "identity_instructions": 21,
+      "removed_instructions": 21
+    },
+    {
+      "id": "scored_0553",
+      "current_instructions": 457,
+      "optimized_instructions": 442,
+      "improvement": 15,
+      "identity_instructions": 14,
+      "removed_instructions": 15
+    },
+    {
+      "id": "scored_0554",
+      "current_instructions": 280,
+      "optimized_instructions": 268,
+      "improvement": 12,
+      "identity_instructions": 12,
+      "removed_instructions": 12
+    },
+    {
+      "id": "scored_0555",
+      "current_instructions": 357,
+      "optimized_instructions": 344,
+      "improvement": 13,
+      "identity_instructions": 13,
+      "removed_instructions": 13
+    },
+    {
+      "id": "scored_0557",
+      "current_instructions": 363,
+      "optimized_instructions": 351,
+      "improvement": 12,
+      "identity_instructions": 12,
+      "removed_instructions": 12
+    },
+    {
+      "id": "scored_0558",
+      "current_instructions": 331,
+      "optimized_instructions": 319,
+      "improvement": 12,
+      "identity_instructions": 12,
+      "removed_instructions": 12
+    },
+    {
+      "id": "scored_0565",
+      "current_instructions": 519,
+      "optimized_instructions": 496,
+      "improvement": 23,
+      "identity_instructions": 23,
+      "removed_instructions": 23
+    },
+    {
+      "id": "scored_0567",
+      "current_instructions": 408,
+      "optimized_instructions": 393,
+      "improvement": 15,
+      "identity_instructions": 15,
+      "removed_instructions": 15
+    },
+    {
+      "id": "scored_0568",
+      "current_instructions": 334,
+      "optimized_instructions": 319,
+      "improvement": 15,
+      "identity_instructions": 14,
+      "removed_instructions": 15
+    },
+    {
+      "id": "scored_0569",
+      "current_instructions": 430,
+      "optimized_instructions": 421,
+      "improvement": 9,
+      "identity_instructions": 9,
+      "removed_instructions": 9
+    },
+    {
+      "id": "scored_0571",
+      "current_instructions": 470,
+      "optimized_instructions": 455,
+      "improvement": 15,
+      "identity_instructions": 15,
+      "removed_instructions": 15
+    },
+    {
+      "id": "scored_0572",
+      "current_instructions": 532,
+      "optimized_instructions": 508,
+      "improvement": 24,
+      "identity_instructions": 24,
+      "removed_instructions": 24
+    },
+    {
+      "id": "scored_0573",
+      "current_instructions": 468,
+      "optimized_instructions": 454,
+      "improvement": 14,
+      "identity_instructions": 14,
+      "removed_instructions": 14
+    },
+    {
+      "id": "scored_0575",
+      "current_instructions": 423,
+      "optimized_instructions": 414,
+      "improvement": 9,
+      "identity_instructions": 9,
+      "removed_instructions": 9
+    },
+    {
+      "id": "scored_0576",
+      "current_instructions": 374,
+      "optimized_instructions": 353,
+      "improvement": 21,
+      "identity_instructions": 21,
+      "removed_instructions": 21
+    },
+    {
+      "id": "scored_0577",
+      "current_instructions": 466,
+      "optimized_instructions": 455,
+      "improvement": 11,
+      "identity_instructions": 11,
+      "removed_instructions": 11
+    },
+    {
+      "id": "scored_0578",
+      "current_instructions": 379,
+      "optimized_instructions": 366,
+      "improvement": 13,
+      "identity_instructions": 13,
+      "removed_instructions": 13
+    },
+    {
+      "id": "scored_0579",
+      "current_instructions": 389,
+      "optimized_instructions": 369,
+      "improvement": 20,
+      "identity_instructions": 20,
+      "removed_instructions": 20
+    },
+    {
+      "id": "scored_0580",
+      "current_instructions": 554,
+      "optimized_instructions": 538,
+      "improvement": 16,
+      "identity_instructions": 16,
+      "removed_instructions": 16
+    },
+    {
+      "id": "scored_0581",
+      "current_instructions": 614,
+      "optimized_instructions": 591,
+      "improvement": 23,
+      "identity_instructions": 23,
+      "removed_instructions": 23
+    },
+    {
+      "id": "scored_0582",
+      "current_instructions": 430,
+      "optimized_instructions": 417,
+      "improvement": 13,
+      "identity_instructions": 13,
+      "removed_instructions": 13
+    },
+    {
+      "id": "scored_0585",
+      "current_instructions": 419,
+      "optimized_instructions": 396,
+      "improvement": 23,
+      "identity_instructions": 23,
+      "removed_instructions": 23
+    },
+    {
+      "id": "scored_0587",
+      "current_instructions": 361,
+      "optimized_instructions": 348,
+      "improvement": 13,
+      "identity_instructions": 13,
+      "removed_instructions": 13
+    },
+    {
+      "id": "scored_0588",
+      "current_instructions": 332,
+      "optimized_instructions": 315,
+      "improvement": 17,
+      "identity_instructions": 17,
+      "removed_instructions": 17
+    },
+    {
+      "id": "scored_0590",
+      "current_instructions": 438,
+      "optimized_instructions": 424,
+      "improvement": 14,
+      "identity_instructions": 13,
+      "removed_instructions": 14
+    },
+    {
+      "id": "scored_0591",
+      "current_instructions": 340,
+      "optimized_instructions": 327,
+      "improvement": 13,
+      "identity_instructions": 13,
+      "removed_instructions": 13
+    },
+    {
+      "id": "scored_0592",
+      "current_instructions": 517,
+      "optimized_instructions": 502,
+      "improvement": 15,
+      "identity_instructions": 15,
+      "removed_instructions": 15
+    },
+    {
+      "id": "scored_0593",
+      "current_instructions": 543,
+      "optimized_instructions": 520,
+      "improvement": 23,
+      "identity_instructions": 23,
+      "removed_instructions": 23
+    },
+    {
+      "id": "scored_0594",
+      "current_instructions": 567,
+      "optimized_instructions": 552,
+      "improvement": 15,
+      "identity_instructions": 15,
+      "removed_instructions": 15
+    },
+    {
+      "id": "scored_0595",
+      "current_instructions": 310,
+      "optimized_instructions": 298,
+      "improvement": 12,
+      "identity_instructions": 12,
+      "removed_instructions": 12
+    },
+    {
+      "id": "scored_0596",
+      "current_instructions": 404,
+      "optimized_instructions": 396,
+      "improvement": 8,
+      "identity_instructions": 8,
+      "removed_instructions": 8
+    },
+    {
+      "id": "scored_0599",
+      "current_instructions": 487,
+      "optimized_instructions": 476,
+      "improvement": 11,
+      "identity_instructions": 11,
+      "removed_instructions": 11
+    },
+    {
+      "id": "scored_0603",
+      "current_instructions": 408,
+      "optimized_instructions": 397,
+      "improvement": 11,
+      "identity_instructions": 11,
+      "removed_instructions": 11
+    },
+    {
+      "id": "scored_0604",
+      "current_instructions": 421,
+      "optimized_instructions": 405,
+      "improvement": 16,
+      "identity_instructions": 16,
+      "removed_instructions": 16
+    },
+    {
+      "id": "scored_0605",
+      "current_instructions": 402,
+      "optimized_instructions": 385,
+      "improvement": 17,
+      "identity_instructions": 17,
+      "removed_instructions": 17
+    },
+    {
+      "id": "scored_0606",
+      "current_instructions": 397,
+      "optimized_instructions": 382,
+      "improvement": 15,
+      "identity_instructions": 15,
+      "removed_instructions": 15
+    },
+    {
+      "id": "scored_0608",
+      "current_instructions": 367,
+      "optimized_instructions": 351,
+      "improvement": 16,
+      "identity_instructions": 16,
+      "removed_instructions": 16
+    },
+    {
+      "id": "scored_0609",
+      "current_instructions": 367,
+      "optimized_instructions": 352,
+      "improvement": 15,
+      "identity_instructions": 15,
+      "removed_instructions": 15
+    },
+    {
+      "id": "scored_0610",
+      "current_instructions": 623,
+      "optimized_instructions": 600,
+      "improvement": 23,
+      "identity_instructions": 23,
+      "removed_instructions": 23
+    },
+    {
+      "id": "scored_0612",
+      "current_instructions": 630,
+      "optimized_instructions": 607,
+      "improvement": 23,
+      "identity_instructions": 23,
+      "removed_instructions": 23
+    },
+    {
+      "id": "scored_0616",
+      "current_instructions": 404,
+      "optimized_instructions": 394,
+      "improvement": 10,
+      "identity_instructions": 10,
+      "removed_instructions": 10
+    },
+    {
+      "id": "scored_0619",
+      "current_instructions": 417,
+      "optimized_instructions": 405,
+      "improvement": 12,
+      "identity_instructions": 12,
+      "removed_instructions": 12
+    },
+    {
+      "id": "scored_0621",
+      "current_instructions": 419,
+      "optimized_instructions": 402,
+      "improvement": 17,
+      "identity_instructions": 17,
+      "removed_instructions": 17
+    },
+    {
+      "id": "scored_0622",
+      "current_instructions": 437,
+      "optimized_instructions": 422,
+      "improvement": 15,
+      "identity_instructions": 14,
+      "removed_instructions": 15
+    },
+    {
+      "id": "scored_0626",
+      "current_instructions": 431,
+      "optimized_instructions": 419,
+      "improvement": 12,
+      "identity_instructions": 12,
+      "removed_instructions": 12
+    },
+    {
+      "id": "scored_0627",
+      "current_instructions": 389,
+      "optimized_instructions": 376,
+      "improvement": 13,
+      "identity_instructions": 13,
+      "removed_instructions": 13
+    },
+    {
+      "id": "scored_0628",
+      "current_instructions": 485,
+      "optimized_instructions": 466,
+      "improvement": 19,
+      "identity_instructions": 19,
+      "removed_instructions": 19
+    },
+    {
+      "id": "scored_0629",
+      "current_instructions": 407,
+      "optimized_instructions": 389,
+      "improvement": 18,
+      "identity_instructions": 17,
+      "removed_instructions": 18
+    },
+    {
+      "id": "scored_0631",
+      "current_instructions": 419,
+      "optimized_instructions": 410,
+      "improvement": 9,
+      "identity_instructions": 9,
+      "removed_instructions": 9
+    },
+    {
+      "id": "scored_0632",
+      "current_instructions": 454,
+      "optimized_instructions": 441,
+      "improvement": 13,
+      "identity_instructions": 13,
+      "removed_instructions": 13
+    },
+    {
+      "id": "scored_0633",
+      "current_instructions": 393,
+      "optimized_instructions": 373,
+      "improvement": 20,
+      "identity_instructions": 20,
+      "removed_instructions": 20
+    },
+    {
+      "id": "scored_0634",
+      "current_instructions": 392,
+      "optimized_instructions": 370,
+      "improvement": 22,
+      "identity_instructions": 21,
+      "removed_instructions": 22
+    },
+    {
+      "id": "scored_0636",
+      "current_instructions": 602,
+      "optimized_instructions": 583,
+      "improvement": 19,
+      "identity_instructions": 19,
+      "removed_instructions": 19
+    },
+    {
+      "id": "scored_0638",
+      "current_instructions": 649,
+      "optimized_instructions": 625,
+      "improvement": 24,
+      "identity_instructions": 24,
+      "removed_instructions": 24
+    },
+    {
+      "id": "scored_0640",
+      "current_instructions": 516,
+      "optimized_instructions": 500,
+      "improvement": 16,
+      "identity_instructions": 16,
+      "removed_instructions": 16
+    },
+    {
+      "id": "scored_0642",
+      "current_instructions": 328,
+      "optimized_instructions": 312,
+      "improvement": 16,
+      "identity_instructions": 16,
+      "removed_instructions": 16
+    },
+    {
+      "id": "scored_0643",
+      "current_instructions": 493,
+      "optimized_instructions": 481,
+      "improvement": 12,
+      "identity_instructions": 12,
+      "removed_instructions": 12
+    },
+    {
+      "id": "scored_0644",
+      "current_instructions": 345,
+      "optimized_instructions": 331,
+      "improvement": 14,
+      "identity_instructions": 14,
+      "removed_instructions": 14
+    },
+    {
+      "id": "scored_0645",
+      "current_instructions": 451,
+      "optimized_instructions": 436,
+      "improvement": 15,
+      "identity_instructions": 15,
+      "removed_instructions": 15
+    },
+    {
+      "id": "scored_0646",
+      "current_instructions": 478,
+      "optimized_instructions": 462,
+      "improvement": 16,
+      "identity_instructions": 16,
+      "removed_instructions": 16
+    },
+    {
+      "id": "scored_0647",
+      "current_instructions": 488,
+      "optimized_instructions": 465,
+      "improvement": 23,
+      "identity_instructions": 23,
+      "removed_instructions": 23
+    },
+    {
+      "id": "scored_0649",
+      "current_instructions": 313,
+      "optimized_instructions": 294,
+      "improvement": 19,
+      "identity_instructions": 19,
+      "removed_instructions": 19
+    },
+    {
+      "id": "scored_0651",
+      "current_instructions": 483,
+      "optimized_instructions": 470,
+      "improvement": 13,
+      "identity_instructions": 13,
+      "removed_instructions": 13
+    },
+    {
+      "id": "scored_0653",
+      "current_instructions": 424,
+      "optimized_instructions": 413,
+      "improvement": 11,
+      "identity_instructions": 11,
+      "removed_instructions": 11
+    },
+    {
+      "id": "scored_0655",
+      "current_instructions": 613,
+      "optimized_instructions": 590,
+      "improvement": 23,
+      "identity_instructions": 23,
+      "removed_instructions": 23
+    },
+    {
+      "id": "scored_0658",
+      "current_instructions": 410,
+      "optimized_instructions": 387,
+      "improvement": 23,
+      "identity_instructions": 23,
+      "removed_instructions": 23
+    },
+    {
+      "id": "scored_0660",
+      "current_instructions": 408,
+      "optimized_instructions": 387,
+      "improvement": 21,
+      "identity_instructions": 21,
+      "removed_instructions": 21
+    },
+    {
+      "id": "scored_0661",
+      "current_instructions": 534,
+      "optimized_instructions": 509,
+      "improvement": 25,
+      "identity_instructions": 25,
+      "removed_instructions": 25
+    },
+    {
+      "id": "scored_0662",
+      "current_instructions": 428,
+      "optimized_instructions": 417,
+      "improvement": 11,
+      "identity_instructions": 10,
+      "removed_instructions": 11
+    },
+    {
+      "id": "scored_0663",
+      "current_instructions": 460,
+      "optimized_instructions": 445,
+      "improvement": 15,
+      "identity_instructions": 15,
+      "removed_instructions": 15
+    },
+    {
+      "id": "scored_0664",
+      "current_instructions": 505,
+      "optimized_instructions": 484,
+      "improvement": 21,
+      "identity_instructions": 21,
+      "removed_instructions": 21
+    },
+    {
+      "id": "scored_0666",
+      "current_instructions": 357,
+      "optimized_instructions": 342,
+      "improvement": 15,
+      "identity_instructions": 15,
+      "removed_instructions": 15
+    },
+    {
+      "id": "scored_0667",
+      "current_instructions": 476,
+      "optimized_instructions": 462,
+      "improvement": 14,
+      "identity_instructions": 14,
+      "removed_instructions": 14
+    },
+    {
+      "id": "scored_0669",
+      "current_instructions": 405,
+      "optimized_instructions": 391,
+      "improvement": 14,
+      "identity_instructions": 14,
+      "removed_instructions": 14
+    },
+    {
+      "id": "scored_0670",
+      "current_instructions": 449,
+      "optimized_instructions": 437,
+      "improvement": 12,
+      "identity_instructions": 12,
+      "removed_instructions": 12
+    },
+    {
+      "id": "scored_0671",
+      "current_instructions": 466,
+      "optimized_instructions": 451,
+      "improvement": 15,
+      "identity_instructions": 15,
+      "removed_instructions": 15
+    },
+    {
+      "id": "scored_0673",
+      "current_instructions": 397,
+      "optimized_instructions": 381,
+      "improvement": 16,
+      "identity_instructions": 16,
+      "removed_instructions": 16
+    },
+    {
+      "id": "scored_0674",
+      "current_instructions": 354,
+      "optimized_instructions": 345,
+      "improvement": 9,
+      "identity_instructions": 9,
+      "removed_instructions": 9
+    },
+    {
+      "id": "scored_0675",
+      "current_instructions": 426,
+      "optimized_instructions": 411,
+      "improvement": 15,
+      "identity_instructions": 15,
+      "removed_instructions": 15
+    },
+    {
+      "id": "scored_0677",
+      "current_instructions": 517,
+      "optimized_instructions": 496,
+      "improvement": 21,
+      "identity_instructions": 21,
+      "removed_instructions": 21
+    },
+    {
+      "id": "scored_0678",
+      "current_instructions": 373,
+      "optimized_instructions": 355,
+      "improvement": 18,
+      "identity_instructions": 18,
+      "removed_instructions": 18
+    },
+    {
+      "id": "scored_0680",
+      "current_instructions": 513,
+      "optimized_instructions": 500,
+      "improvement": 13,
+      "identity_instructions": 13,
+      "removed_instructions": 13
+    },
+    {
+      "id": "scored_0681",
+      "current_instructions": 541,
+      "optimized_instructions": 525,
+      "improvement": 16,
+      "identity_instructions": 16,
+      "removed_instructions": 16
+    },
+    {
+      "id": "scored_0682",
+      "current_instructions": 629,
+      "optimized_instructions": 605,
+      "improvement": 24,
+      "identity_instructions": 24,
+      "removed_instructions": 24
+    },
+    {
+      "id": "scored_0683",
+      "current_instructions": 400,
+      "optimized_instructions": 388,
+      "improvement": 12,
+      "identity_instructions": 12,
+      "removed_instructions": 12
+    },
+    {
+      "id": "scored_0684",
+      "current_instructions": 331,
+      "optimized_instructions": 317,
+      "improvement": 14,
+      "identity_instructions": 14,
+      "removed_instructions": 14
+    },
+    {
+      "id": "scored_0685",
+      "current_instructions": 412,
+      "optimized_instructions": 389,
+      "improvement": 23,
+      "identity_instructions": 23,
+      "removed_instructions": 23
+    },
+    {
+      "id": "scored_0687",
+      "current_instructions": 543,
+      "optimized_instructions": 517,
+      "improvement": 26,
+      "identity_instructions": 26,
+      "removed_instructions": 26
+    },
+    {
+      "id": "scored_0688",
+      "current_instructions": 384,
+      "optimized_instructions": 363,
+      "improvement": 21,
+      "identity_instructions": 21,
+      "removed_instructions": 21
+    },
+    {
+      "id": "scored_0689",
+      "current_instructions": 425,
+      "optimized_instructions": 401,
+      "improvement": 24,
+      "identity_instructions": 24,
+      "removed_instructions": 24
+    },
+    {
+      "id": "scored_0690",
+      "current_instructions": 626,
+      "optimized_instructions": 605,
+      "improvement": 21,
+      "identity_instructions": 21,
+      "removed_instructions": 21
+    },
+    {
+      "id": "scored_0692",
+      "current_instructions": 508,
+      "optimized_instructions": 490,
+      "improvement": 18,
+      "identity_instructions": 17,
+      "removed_instructions": 18
+    },
+    {
+      "id": "scored_0693",
+      "current_instructions": 462,
+      "optimized_instructions": 450,
+      "improvement": 12,
+      "identity_instructions": 12,
+      "removed_instructions": 12
+    },
+    {
+      "id": "scored_0694",
+      "current_instructions": 393,
+      "optimized_instructions": 375,
+      "improvement": 18,
+      "identity_instructions": 18,
+      "removed_instructions": 18
+    },
+    {
+      "id": "scored_0698",
+      "current_instructions": 585,
+      "optimized_instructions": 565,
+      "improvement": 20,
+      "identity_instructions": 20,
+      "removed_instructions": 20
+    },
+    {
+      "id": "scored_0699",
+      "current_instructions": 382,
+      "optimized_instructions": 368,
+      "improvement": 14,
+      "identity_instructions": 14,
+      "removed_instructions": 14
+    },
+    {
+      "id": "scored_0700",
+      "current_instructions": 400,
+      "optimized_instructions": 379,
+      "improvement": 21,
+      "identity_instructions": 21,
+      "removed_instructions": 21
+    },
+    {
+      "id": "scored_0702",
+      "current_instructions": 489,
+      "optimized_instructions": 467,
+      "improvement": 22,
+      "identity_instructions": 22,
+      "removed_instructions": 22
+    },
+    {
+      "id": "scored_0703",
+      "current_instructions": 388,
+      "optimized_instructions": 365,
+      "improvement": 23,
+      "identity_instructions": 23,
+      "removed_instructions": 23
+    },
+    {
+      "id": "scored_0704",
+      "current_instructions": 343,
+      "optimized_instructions": 329,
+      "improvement": 14,
+      "identity_instructions": 14,
+      "removed_instructions": 14
+    },
+    {
+      "id": "scored_0705",
+      "current_instructions": 434,
+      "optimized_instructions": 424,
+      "improvement": 10,
+      "identity_instructions": 10,
+      "removed_instructions": 10
+    },
+    {
+      "id": "scored_0706",
+      "current_instructions": 460,
+      "optimized_instructions": 447,
+      "improvement": 13,
+      "identity_instructions": 13,
+      "removed_instructions": 13
+    },
+    {
+      "id": "scored_0708",
+      "current_instructions": 366,
+      "optimized_instructions": 349,
+      "improvement": 17,
+      "identity_instructions": 17,
+      "removed_instructions": 17
+    },
+    {
+      "id": "scored_0709",
+      "current_instructions": 443,
+      "optimized_instructions": 433,
+      "improvement": 10,
+      "identity_instructions": 10,
+      "removed_instructions": 10
+    },
+    {
+      "id": "scored_0712",
+      "current_instructions": 457,
+      "optimized_instructions": 439,
+      "improvement": 18,
+      "identity_instructions": 18,
+      "removed_instructions": 18
+    },
+    {
+      "id": "scored_0714",
+      "current_instructions": 518,
+      "optimized_instructions": 506,
+      "improvement": 12,
+      "identity_instructions": 12,
+      "removed_instructions": 12
+    },
+    {
+      "id": "scored_0715",
+      "current_instructions": 440,
+      "optimized_instructions": 428,
+      "improvement": 12,
+      "identity_instructions": 12,
+      "removed_instructions": 12
+    },
+    {
+      "id": "scored_0716",
+      "current_instructions": 311,
+      "optimized_instructions": 297,
+      "improvement": 14,
+      "identity_instructions": 14,
+      "removed_instructions": 14
+    },
+    {
+      "id": "scored_0717",
+      "current_instructions": 305,
+      "optimized_instructions": 292,
+      "improvement": 13,
+      "identity_instructions": 13,
+      "removed_instructions": 13
+    },
+    {
+      "id": "scored_0718",
+      "current_instructions": 366,
+      "optimized_instructions": 352,
+      "improvement": 14,
+      "identity_instructions": 14,
+      "removed_instructions": 14
+    },
+    {
+      "id": "scored_0719",
+      "current_instructions": 621,
+      "optimized_instructions": 597,
+      "improvement": 24,
+      "identity_instructions": 24,
+      "removed_instructions": 24
+    },
+    {
+      "id": "scored_0722",
+      "current_instructions": 477,
+      "optimized_instructions": 462,
+      "improvement": 15,
+      "identity_instructions": 15,
+      "removed_instructions": 15
+    },
+    {
+      "id": "scored_0724",
+      "current_instructions": 383,
+      "optimized_instructions": 363,
+      "improvement": 20,
+      "identity_instructions": 20,
+      "removed_instructions": 20
+    },
+    {
+      "id": "scored_0725",
+      "current_instructions": 552,
+      "optimized_instructions": 538,
+      "improvement": 14,
+      "identity_instructions": 14,
+      "removed_instructions": 14
+    },
+    {
+      "id": "scored_0726",
+      "current_instructions": 363,
+      "optimized_instructions": 349,
+      "improvement": 14,
+      "identity_instructions": 14,
+      "removed_instructions": 14
+    },
+    {
+      "id": "scored_0728",
+      "current_instructions": 616,
+      "optimized_instructions": 594,
+      "improvement": 22,
+      "identity_instructions": 22,
+      "removed_instructions": 22
+    },
+    {
+      "id": "scored_0729",
+      "current_instructions": 674,
+      "optimized_instructions": 649,
+      "improvement": 25,
+      "identity_instructions": 25,
+      "removed_instructions": 25
+    },
+    {
+      "id": "scored_0730",
+      "current_instructions": 356,
+      "optimized_instructions": 345,
+      "improvement": 11,
+      "identity_instructions": 11,
+      "removed_instructions": 11
+    },
+    {
+      "id": "scored_0731",
+      "current_instructions": 461,
+      "optimized_instructions": 451,
+      "improvement": 10,
+      "identity_instructions": 10,
+      "removed_instructions": 10
+    },
+    {
+      "id": "scored_0732",
+      "current_instructions": 325,
+      "optimized_instructions": 308,
+      "improvement": 17,
+      "identity_instructions": 16,
+      "removed_instructions": 17
+    },
+    {
+      "id": "scored_0734",
+      "current_instructions": 344,
+      "optimized_instructions": 331,
+      "improvement": 13,
+      "identity_instructions": 13,
+      "removed_instructions": 13
+    },
+    {
+      "id": "scored_0736",
+      "current_instructions": 472,
+      "optimized_instructions": 460,
+      "improvement": 12,
+      "identity_instructions": 12,
+      "removed_instructions": 12
+    },
+    {
+      "id": "scored_0738",
+      "current_instructions": 368,
+      "optimized_instructions": 355,
+      "improvement": 13,
+      "identity_instructions": 13,
+      "removed_instructions": 13
+    },
+    {
+      "id": "scored_0739",
+      "current_instructions": 349,
+      "optimized_instructions": 333,
+      "improvement": 16,
+      "identity_instructions": 15,
+      "removed_instructions": 16
+    },
+    {
+      "id": "scored_0740",
+      "current_instructions": 345,
+      "optimized_instructions": 337,
+      "improvement": 8,
+      "identity_instructions": 8,
+      "removed_instructions": 8
+    },
+    {
+      "id": "scored_0741",
+      "current_instructions": 350,
+      "optimized_instructions": 339,
+      "improvement": 11,
+      "identity_instructions": 11,
+      "removed_instructions": 11
+    },
+    {
+      "id": "scored_0742",
+      "current_instructions": 422,
+      "optimized_instructions": 399,
+      "improvement": 23,
+      "identity_instructions": 23,
+      "removed_instructions": 23
+    },
+    {
+      "id": "scored_0744",
+      "current_instructions": 656,
+      "optimized_instructions": 632,
+      "improvement": 24,
+      "identity_instructions": 24,
+      "removed_instructions": 24
+    },
+    {
+      "id": "scored_0745",
+      "current_instructions": 420,
+      "optimized_instructions": 395,
+      "improvement": 25,
+      "identity_instructions": 25,
+      "removed_instructions": 25
+    },
+    {
+      "id": "scored_0746",
+      "current_instructions": 444,
+      "optimized_instructions": 431,
+      "improvement": 13,
+      "identity_instructions": 13,
+      "removed_instructions": 13
+    },
+    {
+      "id": "scored_0747",
+      "current_instructions": 365,
+      "optimized_instructions": 344,
+      "improvement": 21,
+      "identity_instructions": 21,
+      "removed_instructions": 21
+    },
+    {
+      "id": "scored_0748",
+      "current_instructions": 531,
+      "optimized_instructions": 508,
+      "improvement": 23,
+      "identity_instructions": 23,
+      "removed_instructions": 23
+    },
+    {
+      "id": "scored_0751",
+      "current_instructions": 550,
+      "optimized_instructions": 532,
+      "improvement": 18,
+      "identity_instructions": 18,
+      "removed_instructions": 18
+    },
+    {
+      "id": "scored_0754",
+      "current_instructions": 384,
+      "optimized_instructions": 365,
+      "improvement": 19,
+      "identity_instructions": 19,
+      "removed_instructions": 19
+    },
+    {
+      "id": "scored_0755",
+      "current_instructions": 378,
+      "optimized_instructions": 365,
+      "improvement": 13,
+      "identity_instructions": 13,
+      "removed_instructions": 13
+    },
+    {
+      "id": "scored_0756",
+      "current_instructions": 367,
+      "optimized_instructions": 353,
+      "improvement": 14,
+      "identity_instructions": 14,
+      "removed_instructions": 14
+    },
+    {
+      "id": "scored_0759",
+      "current_instructions": 487,
+      "optimized_instructions": 472,
+      "improvement": 15,
+      "identity_instructions": 15,
+      "removed_instructions": 15
+    },
+    {
+      "id": "scored_0762",
+      "current_instructions": 631,
+      "optimized_instructions": 607,
+      "improvement": 24,
+      "identity_instructions": 24,
+      "removed_instructions": 24
+    },
+    {
+      "id": "scored_0764",
+      "current_instructions": 475,
+      "optimized_instructions": 463,
+      "improvement": 12,
+      "identity_instructions": 12,
+      "removed_instructions": 12
+    },
+    {
+      "id": "scored_0765",
+      "current_instructions": 420,
+      "optimized_instructions": 396,
+      "improvement": 24,
+      "identity_instructions": 24,
+      "removed_instructions": 24
+    },
+    {
+      "id": "scored_0766",
+      "current_instructions": 511,
+      "optimized_instructions": 488,
+      "improvement": 23,
+      "identity_instructions": 23,
+      "removed_instructions": 23
+    },
+    {
+      "id": "scored_0767",
+      "current_instructions": 314,
+      "optimized_instructions": 301,
+      "improvement": 13,
+      "identity_instructions": 13,
+      "removed_instructions": 13
+    },
+    {
+      "id": "scored_0768",
+      "current_instructions": 394,
+      "optimized_instructions": 383,
+      "improvement": 11,
+      "identity_instructions": 11,
+      "removed_instructions": 11
+    },
+    {
+      "id": "scored_0769",
+      "current_instructions": 371,
+      "optimized_instructions": 362,
+      "improvement": 9,
+      "identity_instructions": 9,
+      "removed_instructions": 9
+    },
+    {
+      "id": "scored_0770",
+      "current_instructions": 438,
+      "optimized_instructions": 426,
+      "improvement": 12,
+      "identity_instructions": 12,
+      "removed_instructions": 12
+    },
+    {
+      "id": "scored_0771",
+      "current_instructions": 634,
+      "optimized_instructions": 611,
+      "improvement": 23,
+      "identity_instructions": 23,
+      "removed_instructions": 23
+    },
+    {
+      "id": "scored_0774",
+      "current_instructions": 642,
+      "optimized_instructions": 617,
+      "improvement": 25,
+      "identity_instructions": 25,
+      "removed_instructions": 25
+    },
+    {
+      "id": "scored_0775",
+      "current_instructions": 466,
+      "optimized_instructions": 452,
+      "improvement": 14,
+      "identity_instructions": 14,
+      "removed_instructions": 14
+    },
+    {
+      "id": "scored_0776",
+      "current_instructions": 535,
+      "optimized_instructions": 512,
+      "improvement": 23,
+      "identity_instructions": 23,
+      "removed_instructions": 23
+    },
+    {
+      "id": "scored_0778",
+      "current_instructions": 353,
+      "optimized_instructions": 343,
+      "improvement": 10,
+      "identity_instructions": 10,
+      "removed_instructions": 10
+    },
+    {
+      "id": "scored_0779",
+      "current_instructions": 430,
+      "optimized_instructions": 418,
+      "improvement": 12,
+      "identity_instructions": 11,
+      "removed_instructions": 12
+    },
+    {
+      "id": "scored_0780",
+      "current_instructions": 621,
+      "optimized_instructions": 598,
+      "improvement": 23,
+      "identity_instructions": 23,
+      "removed_instructions": 23
+    },
+    {
+      "id": "scored_0781",
+      "current_instructions": 580,
+      "optimized_instructions": 560,
+      "improvement": 20,
+      "identity_instructions": 20,
+      "removed_instructions": 20
+    },
+    {
+      "id": "scored_0782",
+      "current_instructions": 354,
+      "optimized_instructions": 340,
+      "improvement": 14,
+      "identity_instructions": 14,
+      "removed_instructions": 14
+    },
+    {
+      "id": "scored_0784",
+      "current_instructions": 507,
+      "optimized_instructions": 484,
+      "improvement": 23,
+      "identity_instructions": 23,
+      "removed_instructions": 23
+    },
+    {
+      "id": "scored_0786",
+      "current_instructions": 598,
+      "optimized_instructions": 576,
+      "improvement": 22,
+      "identity_instructions": 22,
+      "removed_instructions": 22
+    },
+    {
+      "id": "scored_0788",
+      "current_instructions": 554,
+      "optimized_instructions": 540,
+      "improvement": 14,
+      "identity_instructions": 14,
+      "removed_instructions": 14
+    },
+    {
+      "id": "scored_0789",
+      "current_instructions": 462,
+      "optimized_instructions": 454,
+      "improvement": 8,
+      "identity_instructions": 8,
+      "removed_instructions": 8
+    },
+    {
+      "id": "scored_0790",
+      "current_instructions": 568,
+      "optimized_instructions": 549,
+      "improvement": 19,
+      "identity_instructions": 18,
+      "removed_instructions": 19
+    },
+    {
+      "id": "scored_0791",
+      "current_instructions": 426,
+      "optimized_instructions": 410,
+      "improvement": 16,
+      "identity_instructions": 16,
+      "removed_instructions": 16
+    },
+    {
+      "id": "scored_0792",
+      "current_instructions": 381,
+      "optimized_instructions": 368,
+      "improvement": 13,
+      "identity_instructions": 13,
+      "removed_instructions": 13
+    },
+    {
+      "id": "scored_0793",
+      "current_instructions": 527,
+      "optimized_instructions": 512,
+      "improvement": 15,
+      "identity_instructions": 15,
+      "removed_instructions": 15
+    },
+    {
+      "id": "scored_0794",
+      "current_instructions": 477,
+      "optimized_instructions": 466,
+      "improvement": 11,
+      "identity_instructions": 10,
+      "removed_instructions": 11
+    },
+    {
+      "id": "scored_0795",
+      "current_instructions": 433,
+      "optimized_instructions": 421,
+      "improvement": 12,
+      "identity_instructions": 12,
+      "removed_instructions": 12
+    },
+    {
+      "id": "scored_0796",
+      "current_instructions": 505,
+      "optimized_instructions": 485,
+      "improvement": 20,
+      "identity_instructions": 20,
+      "removed_instructions": 20
+    },
+    {
+      "id": "scored_0799",
+      "current_instructions": 531,
+      "optimized_instructions": 506,
+      "improvement": 25,
+      "identity_instructions": 25,
+      "removed_instructions": 25
+    },
+    {
+      "id": "scored_0802",
+      "current_instructions": 466,
+      "optimized_instructions": 452,
+      "improvement": 14,
+      "identity_instructions": 14,
+      "removed_instructions": 14
+    },
+    {
+      "id": "scored_0805",
+      "current_instructions": 457,
+      "optimized_instructions": 445,
+      "improvement": 12,
+      "identity_instructions": 12,
+      "removed_instructions": 12
+    },
+    {
+      "id": "scored_0807",
+      "current_instructions": 383,
+      "optimized_instructions": 373,
+      "improvement": 10,
+      "identity_instructions": 10,
+      "removed_instructions": 10
+    },
+    {
+      "id": "scored_0808",
+      "current_instructions": 588,
+      "optimized_instructions": 567,
+      "improvement": 21,
+      "identity_instructions": 21,
+      "removed_instructions": 21
+    },
+    {
+      "id": "scored_0809",
+      "current_instructions": 370,
+      "optimized_instructions": 358,
+      "improvement": 12,
+      "identity_instructions": 12,
+      "removed_instructions": 12
+    },
+    {
+      "id": "scored_0813",
+      "current_instructions": 523,
+      "optimized_instructions": 503,
+      "improvement": 20,
+      "identity_instructions": 20,
+      "removed_instructions": 20
+    },
+    {
+      "id": "scored_0814",
+      "current_instructions": 473,
+      "optimized_instructions": 458,
+      "improvement": 15,
+      "identity_instructions": 15,
+      "removed_instructions": 15
+    },
+    {
+      "id": "scored_0815",
+      "current_instructions": 550,
+      "optimized_instructions": 536,
+      "improvement": 14,
+      "identity_instructions": 14,
+      "removed_instructions": 14
+    },
+    {
+      "id": "scored_0817",
+      "current_instructions": 444,
+      "optimized_instructions": 434,
+      "improvement": 10,
+      "identity_instructions": 10,
+      "removed_instructions": 10
+    },
+    {
+      "id": "scored_0819",
+      "current_instructions": 573,
+      "optimized_instructions": 555,
+      "improvement": 18,
+      "identity_instructions": 18,
+      "removed_instructions": 18
+    },
+    {
+      "id": "scored_0820",
+      "current_instructions": 563,
+      "optimized_instructions": 546,
+      "improvement": 17,
+      "identity_instructions": 17,
+      "removed_instructions": 17
+    },
+    {
+      "id": "scored_0823",
+      "current_instructions": 461,
+      "optimized_instructions": 446,
+      "improvement": 15,
+      "identity_instructions": 15,
+      "removed_instructions": 15
+    },
+    {
+      "id": "scored_0824",
+      "current_instructions": 365,
+      "optimized_instructions": 352,
+      "improvement": 13,
+      "identity_instructions": 13,
+      "removed_instructions": 13
+    },
+    {
+      "id": "scored_0826",
+      "current_instructions": 522,
+      "optimized_instructions": 513,
+      "improvement": 9,
+      "identity_instructions": 9,
+      "removed_instructions": 9
+    },
+    {
+      "id": "scored_0827",
+      "current_instructions": 501,
+      "optimized_instructions": 486,
+      "improvement": 15,
+      "identity_instructions": 15,
+      "removed_instructions": 15
+    },
+    {
+      "id": "scored_0829",
+      "current_instructions": 402,
+      "optimized_instructions": 382,
+      "improvement": 20,
+      "identity_instructions": 20,
+      "removed_instructions": 20
+    },
+    {
+      "id": "scored_0832",
+      "current_instructions": 423,
+      "optimized_instructions": 399,
+      "improvement": 24,
+      "identity_instructions": 24,
+      "removed_instructions": 24
+    },
+    {
+      "id": "scored_0833",
+      "current_instructions": 344,
+      "optimized_instructions": 331,
+      "improvement": 13,
+      "identity_instructions": 13,
+      "removed_instructions": 13
+    },
+    {
+      "id": "scored_0834",
+      "current_instructions": 502,
+      "optimized_instructions": 479,
+      "improvement": 23,
+      "identity_instructions": 22,
+      "removed_instructions": 23
+    },
+    {
+      "id": "scored_0836",
+      "current_instructions": 428,
+      "optimized_instructions": 404,
+      "improvement": 24,
+      "identity_instructions": 24,
+      "removed_instructions": 24
+    },
+    {
+      "id": "scored_0837",
+      "current_instructions": 535,
+      "optimized_instructions": 509,
+      "improvement": 26,
+      "identity_instructions": 26,
+      "removed_instructions": 26
+    },
+    {
+      "id": "scored_0838",
+      "current_instructions": 324,
+      "optimized_instructions": 310,
+      "improvement": 14,
+      "identity_instructions": 14,
+      "removed_instructions": 14
+    },
+    {
+      "id": "scored_0839",
+      "current_instructions": 397,
+      "optimized_instructions": 376,
+      "improvement": 21,
+      "identity_instructions": 21,
+      "removed_instructions": 21
+    },
+    {
+      "id": "scored_0840",
+      "current_instructions": 525,
+      "optimized_instructions": 501,
+      "improvement": 24,
+      "identity_instructions": 24,
+      "removed_instructions": 24
+    },
+    {
+      "id": "scored_0841",
+      "current_instructions": 466,
+      "optimized_instructions": 454,
+      "improvement": 12,
+      "identity_instructions": 12,
+      "removed_instructions": 12
+    },
+    {
+      "id": "scored_0843",
+      "current_instructions": 360,
+      "optimized_instructions": 341,
+      "improvement": 19,
+      "identity_instructions": 18,
+      "removed_instructions": 19
+    },
+    {
+      "id": "scored_0844",
+      "current_instructions": 599,
+      "optimized_instructions": 578,
+      "improvement": 21,
+      "identity_instructions": 21,
+      "removed_instructions": 21
+    },
+    {
+      "id": "scored_0845",
+      "current_instructions": 508,
+      "optimized_instructions": 487,
+      "improvement": 21,
+      "identity_instructions": 21,
+      "removed_instructions": 21
+    },
+    {
+      "id": "scored_0847",
+      "current_instructions": 399,
+      "optimized_instructions": 377,
+      "improvement": 22,
+      "identity_instructions": 22,
+      "removed_instructions": 22
+    },
+    {
+      "id": "scored_0848",
+      "current_instructions": 602,
+      "optimized_instructions": 582,
+      "improvement": 20,
+      "identity_instructions": 20,
+      "removed_instructions": 20
+    },
+    {
+      "id": "scored_0849",
+      "current_instructions": 448,
+      "optimized_instructions": 433,
+      "improvement": 15,
+      "identity_instructions": 14,
+      "removed_instructions": 15
+    },
+    {
+      "id": "scored_0850",
+      "current_instructions": 420,
+      "optimized_instructions": 397,
+      "improvement": 23,
+      "identity_instructions": 23,
+      "removed_instructions": 23
+    },
+    {
+      "id": "scored_0852",
+      "current_instructions": 424,
+      "optimized_instructions": 409,
+      "improvement": 15,
+      "identity_instructions": 15,
+      "removed_instructions": 15
+    },
+    {
+      "id": "scored_0853",
+      "current_instructions": 426,
+      "optimized_instructions": 404,
+      "improvement": 22,
+      "identity_instructions": 22,
+      "removed_instructions": 22
+    },
+    {
+      "id": "scored_0854",
+      "current_instructions": 383,
+      "optimized_instructions": 367,
+      "improvement": 16,
+      "identity_instructions": 16,
+      "removed_instructions": 16
+    },
+    {
+      "id": "scored_0856",
+      "current_instructions": 488,
+      "optimized_instructions": 467,
+      "improvement": 21,
+      "identity_instructions": 21,
+      "removed_instructions": 21
+    },
+    {
+      "id": "scored_0857",
+      "current_instructions": 582,
+      "optimized_instructions": 566,
+      "improvement": 16,
+      "identity_instructions": 16,
+      "removed_instructions": 16
+    },
+    {
+      "id": "scored_0859",
+      "current_instructions": 507,
+      "optimized_instructions": 486,
+      "improvement": 21,
+      "identity_instructions": 21,
+      "removed_instructions": 21
+    },
+    {
+      "id": "scored_0860",
+      "current_instructions": 332,
+      "optimized_instructions": 319,
+      "improvement": 13,
+      "identity_instructions": 13,
+      "removed_instructions": 13
+    },
+    {
+      "id": "scored_0861",
+      "current_instructions": 388,
+      "optimized_instructions": 374,
+      "improvement": 14,
+      "identity_instructions": 14,
+      "removed_instructions": 14
+    },
+    {
+      "id": "scored_0862",
+      "current_instructions": 465,
+      "optimized_instructions": 451,
+      "improvement": 14,
+      "identity_instructions": 14,
+      "removed_instructions": 14
+    },
+    {
+      "id": "scored_0864",
+      "current_instructions": 475,
+      "optimized_instructions": 462,
+      "improvement": 13,
+      "identity_instructions": 13,
+      "removed_instructions": 13
+    },
+    {
+      "id": "scored_0865",
+      "current_instructions": 540,
+      "optimized_instructions": 516,
+      "improvement": 24,
+      "identity_instructions": 24,
+      "removed_instructions": 24
+    },
+    {
+      "id": "scored_0869",
+      "current_instructions": 326,
+      "optimized_instructions": 318,
+      "improvement": 8,
+      "identity_instructions": 8,
+      "removed_instructions": 8
+    },
+    {
+      "id": "scored_0870",
+      "current_instructions": 551,
+      "optimized_instructions": 535,
+      "improvement": 16,
+      "identity_instructions": 16,
+      "removed_instructions": 16
+    },
+    {
+      "id": "scored_0875",
+      "current_instructions": 384,
+      "optimized_instructions": 364,
+      "improvement": 20,
+      "identity_instructions": 20,
+      "removed_instructions": 20
+    },
+    {
+      "id": "scored_0876",
+      "current_instructions": 494,
+      "optimized_instructions": 476,
+      "improvement": 18,
+      "identity_instructions": 18,
+      "removed_instructions": 18
+    },
+    {
+      "id": "scored_0878",
+      "current_instructions": 373,
+      "optimized_instructions": 357,
+      "improvement": 16,
+      "identity_instructions": 15,
+      "removed_instructions": 16
+    },
+    {
+      "id": "scored_0885",
+      "current_instructions": 390,
+      "optimized_instructions": 373,
+      "improvement": 17,
+      "identity_instructions": 17,
+      "removed_instructions": 17
+    },
+    {
+      "id": "scored_0886",
+      "current_instructions": 418,
+      "optimized_instructions": 405,
+      "improvement": 13,
+      "identity_instructions": 12,
+      "removed_instructions": 13
+    },
+    {
+      "id": "scored_0888",
+      "current_instructions": 336,
+      "optimized_instructions": 321,
+      "improvement": 15,
+      "identity_instructions": 15,
+      "removed_instructions": 15
+    },
+    {
+      "id": "scored_0893",
+      "current_instructions": 339,
+      "optimized_instructions": 323,
+      "improvement": 16,
+      "identity_instructions": 16,
+      "removed_instructions": 16
+    },
+    {
+      "id": "scored_0894",
+      "current_instructions": 346,
+      "optimized_instructions": 333,
+      "improvement": 13,
+      "identity_instructions": 13,
+      "removed_instructions": 13
+    },
+    {
+      "id": "scored_0896",
+      "current_instructions": 504,
+      "optimized_instructions": 488,
+      "improvement": 16,
+      "identity_instructions": 16,
+      "removed_instructions": 16
+    },
+    {
+      "id": "scored_0899",
+      "current_instructions": 560,
+      "optimized_instructions": 547,
+      "improvement": 13,
+      "identity_instructions": 13,
+      "removed_instructions": 13
+    },
+    {
+      "id": "scored_0900",
+      "current_instructions": 407,
+      "optimized_instructions": 391,
+      "improvement": 16,
+      "identity_instructions": 16,
+      "removed_instructions": 16
+    },
+    {
+      "id": "scored_0902",
+      "current_instructions": 500,
+      "optimized_instructions": 481,
+      "improvement": 19,
+      "identity_instructions": 19,
+      "removed_instructions": 19
+    },
+    {
+      "id": "scored_0903",
+      "current_instructions": 367,
+      "optimized_instructions": 351,
+      "improvement": 16,
+      "identity_instructions": 15,
+      "removed_instructions": 16
+    },
+    {
+      "id": "scored_0904",
+      "current_instructions": 463,
+      "optimized_instructions": 451,
+      "improvement": 12,
+      "identity_instructions": 12,
+      "removed_instructions": 12
+    },
+    {
+      "id": "scored_0905",
+      "current_instructions": 523,
+      "optimized_instructions": 500,
+      "improvement": 23,
+      "identity_instructions": 23,
+      "removed_instructions": 23
+    },
+    {
+      "id": "scored_0906",
+      "current_instructions": 475,
+      "optimized_instructions": 455,
+      "improvement": 20,
+      "identity_instructions": 20,
+      "removed_instructions": 20
+    },
+    {
+      "id": "scored_0909",
+      "current_instructions": 465,
+      "optimized_instructions": 455,
+      "improvement": 10,
+      "identity_instructions": 10,
+      "removed_instructions": 10
+    },
+    {
+      "id": "scored_0912",
+      "current_instructions": 489,
+      "optimized_instructions": 467,
+      "improvement": 22,
+      "identity_instructions": 22,
+      "removed_instructions": 22
+    },
+    {
+      "id": "scored_0915",
+      "current_instructions": 469,
+      "optimized_instructions": 456,
+      "improvement": 13,
+      "identity_instructions": 13,
+      "removed_instructions": 13
+    },
+    {
+      "id": "scored_0916",
+      "current_instructions": 523,
+      "optimized_instructions": 499,
+      "improvement": 24,
+      "identity_instructions": 24,
+      "removed_instructions": 24
+    },
+    {
+      "id": "scored_0917",
+      "current_instructions": 517,
+      "optimized_instructions": 501,
+      "improvement": 16,
+      "identity_instructions": 16,
+      "removed_instructions": 16
+    },
+    {
+      "id": "scored_0918",
+      "current_instructions": 489,
+      "optimized_instructions": 470,
+      "improvement": 19,
+      "identity_instructions": 19,
+      "removed_instructions": 19
+    },
+    {
+      "id": "scored_0919",
+      "current_instructions": 444,
+      "optimized_instructions": 433,
+      "improvement": 11,
+      "identity_instructions": 11,
+      "removed_instructions": 11
+    },
+    {
+      "id": "scored_0920",
+      "current_instructions": 343,
+      "optimized_instructions": 329,
+      "improvement": 14,
+      "identity_instructions": 14,
+      "removed_instructions": 14
+    },
+    {
+      "id": "scored_0921",
+      "current_instructions": 402,
+      "optimized_instructions": 381,
+      "improvement": 21,
+      "identity_instructions": 21,
+      "removed_instructions": 21
+    },
+    {
+      "id": "scored_0923",
+      "current_instructions": 502,
+      "optimized_instructions": 487,
+      "improvement": 15,
+      "identity_instructions": 15,
+      "removed_instructions": 15
+    },
+    {
+      "id": "scored_0925",
+      "current_instructions": 477,
+      "optimized_instructions": 467,
+      "improvement": 10,
+      "identity_instructions": 10,
+      "removed_instructions": 10
+    },
+    {
+      "id": "scored_0927",
+      "current_instructions": 361,
+      "optimized_instructions": 349,
+      "improvement": 12,
+      "identity_instructions": 12,
+      "removed_instructions": 12
+    },
+    {
+      "id": "scored_0929",
+      "current_instructions": 387,
+      "optimized_instructions": 375,
+      "improvement": 12,
+      "identity_instructions": 12,
+      "removed_instructions": 12
+    },
+    {
+      "id": "scored_0932",
+      "current_instructions": 565,
+      "optimized_instructions": 548,
+      "improvement": 17,
+      "identity_instructions": 16,
+      "removed_instructions": 17
+    },
+    {
+      "id": "scored_0933",
+      "current_instructions": 455,
+      "optimized_instructions": 442,
+      "improvement": 13,
+      "identity_instructions": 13,
+      "removed_instructions": 13
+    },
+    {
+      "id": "scored_0934",
+      "current_instructions": 348,
+      "optimized_instructions": 333,
+      "improvement": 15,
+      "identity_instructions": 15,
+      "removed_instructions": 15
+    },
+    {
+      "id": "scored_0935",
+      "current_instructions": 415,
+      "optimized_instructions": 395,
+      "improvement": 20,
+      "identity_instructions": 19,
+      "removed_instructions": 20
+    },
+    {
+      "id": "scored_0936",
+      "current_instructions": 371,
+      "optimized_instructions": 357,
+      "improvement": 14,
+      "identity_instructions": 14,
+      "removed_instructions": 14
+    },
+    {
+      "id": "scored_0938",
+      "current_instructions": 454,
+      "optimized_instructions": 440,
+      "improvement": 14,
+      "identity_instructions": 14,
+      "removed_instructions": 14
+    },
+    {
+      "id": "scored_0939",
+      "current_instructions": 592,
+      "optimized_instructions": 574,
+      "improvement": 18,
+      "identity_instructions": 18,
+      "removed_instructions": 18
+    },
+    {
+      "id": "scored_0940",
+      "current_instructions": 335,
+      "optimized_instructions": 321,
+      "improvement": 14,
+      "identity_instructions": 14,
+      "removed_instructions": 14
+    },
+    {
+      "id": "scored_0941",
+      "current_instructions": 520,
+      "optimized_instructions": 496,
+      "improvement": 24,
+      "identity_instructions": 24,
+      "removed_instructions": 24
+    },
+    {
+      "id": "scored_0942",
+      "current_instructions": 459,
+      "optimized_instructions": 450,
+      "improvement": 9,
+      "identity_instructions": 9,
+      "removed_instructions": 9
+    },
+    {
+      "id": "scored_0944",
+      "current_instructions": 537,
+      "optimized_instructions": 519,
+      "improvement": 18,
+      "identity_instructions": 17,
+      "removed_instructions": 18
+    },
+    {
+      "id": "scored_0946",
+      "current_instructions": 514,
+      "optimized_instructions": 493,
+      "improvement": 21,
+      "identity_instructions": 21,
+      "removed_instructions": 21
+    },
+    {
+      "id": "scored_0948",
+      "current_instructions": 344,
+      "optimized_instructions": 329,
+      "improvement": 15,
+      "identity_instructions": 15,
+      "removed_instructions": 15
+    },
+    {
+      "id": "scored_0950",
+      "current_instructions": 341,
+      "optimized_instructions": 327,
+      "improvement": 14,
+      "identity_instructions": 14,
+      "removed_instructions": 14
+    },
+    {
+      "id": "scored_0952",
+      "current_instructions": 500,
+      "optimized_instructions": 479,
+      "improvement": 21,
+      "identity_instructions": 21,
+      "removed_instructions": 21
+    },
+    {
+      "id": "scored_0953",
+      "current_instructions": 423,
+      "optimized_instructions": 399,
+      "improvement": 24,
+      "identity_instructions": 24,
+      "removed_instructions": 24
+    },
+    {
+      "id": "scored_0956",
+      "current_instructions": 515,
+      "optimized_instructions": 490,
+      "improvement": 25,
+      "identity_instructions": 24,
+      "removed_instructions": 25
+    },
+    {
+      "id": "scored_0959",
+      "current_instructions": 531,
+      "optimized_instructions": 507,
+      "improvement": 24,
+      "identity_instructions": 24,
+      "removed_instructions": 24
+    },
+    {
+      "id": "scored_0963",
+      "current_instructions": 347,
+      "optimized_instructions": 335,
+      "improvement": 12,
+      "identity_instructions": 12,
+      "removed_instructions": 12
+    },
+    {
+      "id": "scored_0964",
+      "current_instructions": 490,
+      "optimized_instructions": 473,
+      "improvement": 17,
+      "identity_instructions": 17,
+      "removed_instructions": 17
+    },
+    {
+      "id": "scored_0965",
+      "current_instructions": 489,
+      "optimized_instructions": 474,
+      "improvement": 15,
+      "identity_instructions": 15,
+      "removed_instructions": 15
+    },
+    {
+      "id": "scored_0968",
+      "current_instructions": 382,
+      "optimized_instructions": 361,
+      "improvement": 21,
+      "identity_instructions": 21,
+      "removed_instructions": 21
+    },
+    {
+      "id": "scored_0969",
+      "current_instructions": 373,
+      "optimized_instructions": 355,
+      "improvement": 18,
+      "identity_instructions": 17,
+      "removed_instructions": 18
+    },
+    {
+      "id": "scored_0970",
+      "current_instructions": 529,
+      "optimized_instructions": 505,
+      "improvement": 24,
+      "identity_instructions": 24,
+      "removed_instructions": 24
+    },
+    {
+      "id": "scored_0972",
+      "current_instructions": 317,
+      "optimized_instructions": 301,
+      "improvement": 16,
+      "identity_instructions": 16,
+      "removed_instructions": 16
+    },
+    {
+      "id": "scored_0973",
+      "current_instructions": 281,
+      "optimized_instructions": 269,
+      "improvement": 12,
+      "identity_instructions": 12,
+      "removed_instructions": 12
+    },
+    {
+      "id": "scored_0974",
+      "current_instructions": 538,
+      "optimized_instructions": 514,
+      "improvement": 24,
+      "identity_instructions": 24,
+      "removed_instructions": 24
+    },
+    {
+      "id": "scored_0975",
+      "current_instructions": 377,
+      "optimized_instructions": 362,
+      "improvement": 15,
+      "identity_instructions": 14,
+      "removed_instructions": 15
+    },
+    {
+      "id": "scored_0976",
+      "current_instructions": 333,
+      "optimized_instructions": 323,
+      "improvement": 10,
+      "identity_instructions": 10,
+      "removed_instructions": 10
+    },
+    {
+      "id": "scored_0977",
+      "current_instructions": 380,
+      "optimized_instructions": 360,
+      "improvement": 20,
+      "identity_instructions": 20,
+      "removed_instructions": 20
+    },
+    {
+      "id": "scored_0979",
+      "current_instructions": 443,
+      "optimized_instructions": 426,
+      "improvement": 17,
+      "identity_instructions": 17,
+      "removed_instructions": 17
+    },
+    {
+      "id": "scored_0980",
+      "current_instructions": 333,
+      "optimized_instructions": 320,
+      "improvement": 13,
+      "identity_instructions": 13,
+      "removed_instructions": 13
+    },
+    {
+      "id": "scored_0982",
+      "current_instructions": 640,
+      "optimized_instructions": 616,
+      "improvement": 24,
+      "identity_instructions": 24,
+      "removed_instructions": 24
+    },
+    {
+      "id": "scored_0983",
+      "current_instructions": 367,
+      "optimized_instructions": 351,
+      "improvement": 16,
+      "identity_instructions": 15,
+      "removed_instructions": 16
+    },
+    {
+      "id": "scored_0984",
+      "current_instructions": 353,
+      "optimized_instructions": 340,
+      "improvement": 13,
+      "identity_instructions": 13,
+      "removed_instructions": 13
+    },
+    {
+      "id": "scored_0985",
+      "current_instructions": 348,
+      "optimized_instructions": 336,
+      "improvement": 12,
+      "identity_instructions": 11,
+      "removed_instructions": 12
+    },
+    {
+      "id": "scored_0986",
+      "current_instructions": 394,
+      "optimized_instructions": 372,
+      "improvement": 22,
+      "identity_instructions": 22,
+      "removed_instructions": 22
+    },
+    {
+      "id": "scored_0987",
+      "current_instructions": 396,
+      "optimized_instructions": 385,
+      "improvement": 11,
+      "identity_instructions": 11,
+      "removed_instructions": 11
+    },
+    {
+      "id": "scored_0988",
+      "current_instructions": 446,
+      "optimized_instructions": 429,
+      "improvement": 17,
+      "identity_instructions": 15,
+      "removed_instructions": 17
+    },
+    {
+      "id": "scored_0990",
+      "current_instructions": 403,
+      "optimized_instructions": 381,
+      "improvement": 22,
+      "identity_instructions": 22,
+      "removed_instructions": 22
+    },
+    {
+      "id": "scored_0991",
+      "current_instructions": 431,
+      "optimized_instructions": 415,
+      "improvement": 16,
+      "identity_instructions": 16,
+      "removed_instructions": 16
+    },
+    {
+      "id": "scored_0992",
+      "current_instructions": 631,
+      "optimized_instructions": 609,
+      "improvement": 22,
+      "identity_instructions": 22,
+      "removed_instructions": 22
+    },
+    {
+      "id": "scored_0993",
+      "current_instructions": 551,
+      "optimized_instructions": 535,
+      "improvement": 16,
+      "identity_instructions": 16,
+      "removed_instructions": 16
+    },
+    {
+      "id": "scored_0994",
+      "current_instructions": 414,
+      "optimized_instructions": 401,
+      "improvement": 13,
+      "identity_instructions": 13,
+      "removed_instructions": 13
+    },
+    {
+      "id": "scored_0995",
+      "current_instructions": 393,
+      "optimized_instructions": 377,
+      "improvement": 16,
+      "identity_instructions": 16,
+      "removed_instructions": 16
+    },
+    {
+      "id": "scored_0996",
+      "current_instructions": 357,
+      "optimized_instructions": 347,
+      "improvement": 10,
+      "identity_instructions": 10,
+      "removed_instructions": 10
+    },
+    {
+      "id": "scored_0997",
+      "current_instructions": 363,
+      "optimized_instructions": 351,
+      "improvement": 12,
+      "identity_instructions": 12,
+      "removed_instructions": 12
+    },
+    {
+      "id": "scored_0998",
+      "current_instructions": 500,
+      "optimized_instructions": 485,
+      "improvement": 15,
+      "identity_instructions": 15,
+      "removed_instructions": 15
+    },
+    {
+      "id": "scored_1000",
+      "current_instructions": 543,
+      "optimized_instructions": 521,
+      "improvement": 22,
+      "identity_instructions": 22,
+      "removed_instructions": 22
+    }
+  ]
+}

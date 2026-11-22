@@ -1,0 +1,35 @@
+{
+  "modes": {
+    "synthesis_first": {
+      "optimizer": "executable_candidates_and_short_synthesis",
+      "mode": "synthesis_first",
+      "current_submission": "submissions/submission_joint_reduction.csv",
+      "sources": [],
+      "output_submission": "submissions/submission_joint_cleanup_synthesis_first.csv",
+      "start_index": 0,
+      "end_index": 1000,
+      "cpu_budget_per_puzzle": 3.0,
+      "rounds": 12,
+      "proposal_limit": 128,
+      "windows": 1024,
+      "candidate_width": 8,
+      "graph_budget_fraction": "remaining_after_synthesis",
+      "workers": 8,
+      "current_score": 199995,
+      "selected_score": 198884,
+      "total_improvement": 1111,
+      "improved_puzzles": 554,
+      "cpu_seconds": 678.909,
+      "max_budget_overrun_seconds": 0.594084,
+      "validation": {
+        "valid": true,
+        "rows": 1000,
+        "score": 198884,
+        "maximum_instructions": 576,
+        "maximum_program_cell_bytes": 8355,
+        "file_bytes": 3232908
+      }
+    }
+  },
+  "wall_seconds": 132.136
+}

@@ -1,0 +1,1097 @@
+{
+  "seconds": 26.803571657999782,
+  "validation": {
+    "valid": true,
+    "rows": 1000,
+    "score": 197934,
+    "maximum_instructions": 576,
+    "maximum_program_cell_bytes": 8355,
+    "file_bytes": 3217857
+  },
+  "saved": 950,
+  "puzzles": [
+    {
+      "id": "scored_0001",
+      "before": 325,
+      "after": 320,
+      "saved": 5,
+      "parameters": [
+        0.25,
+        0
+      ],
+      "failures": 4,
+      "library_size": 3174
+    },
+    {
+      "id": "scored_0002",
+      "before": 346,
+      "after": 346,
+      "saved": 0,
+      "parameters": null,
+      "failures": 5,
+      "library_size": 3247
+    },
+    {
+      "id": "scored_0003",
+      "before": 406,
+      "after": 299,
+      "saved": 107,
+      "parameters": [
+        0.15,
+        0
+      ],
+      "failures": 7,
+      "library_size": 282
+    },
+    {
+      "id": "scored_0004",
+      "before": 290,
+      "after": 290,
+      "saved": 0,
+      "parameters": null,
+      "failures": 1,
+      "library_size": 1237
+    },
+    {
+      "id": "scored_0005",
+      "before": 72,
+      "after": 66,
+      "saved": 6,
+      "parameters": [
+        0.25,
+        1
+      ],
+      "failures": 0,
+      "library_size": 13243
+    },
+    {
+      "id": "scored_0006",
+      "before": 165,
+      "after": 165,
+      "saved": 0,
+      "parameters": null,
+      "failures": 0,
+      "library_size": 982
+    },
+    {
+      "id": "scored_0007",
+      "before": 216,
+      "after": 202,
+      "saved": 14,
+      "parameters": [
+        0.25,
+        1
+      ],
+      "failures": 1,
+      "library_size": 367
+    },
+    {
+      "id": "scored_0008",
+      "before": 160,
+      "after": 154,
+      "saved": 6,
+      "parameters": [
+        0.15,
+        1
+      ],
+      "failures": 0,
+      "library_size": 348
+    },
+    {
+      "id": "scored_0009",
+      "before": 44,
+      "after": 38,
+      "saved": 6,
+      "parameters": [
+        0.65,
+        0
+      ],
+      "failures": 0,
+      "library_size": 145
+    },
+    {
+      "id": "scored_0010",
+      "before": 257,
+      "after": 240,
+      "saved": 17,
+      "parameters": [
+        0.25,
+        1
+      ],
+      "failures": 2,
+      "library_size": 338
+    },
+    {
+      "id": "scored_0011",
+      "before": 173,
+      "after": 173,
+      "saved": 0,
+      "parameters": null,
+      "failures": 0,
+      "library_size": 1425
+    },
+    {
+      "id": "scored_0012",
+      "before": 251,
+      "after": 236,
+      "saved": 15,
+      "parameters": [
+        0.25,
+        1
+      ],
+      "failures": 0,
+      "library_size": 1648
+    },
+    {
+      "id": "scored_0013",
+      "before": 241,
+      "after": 231,
+      "saved": 10,
+      "parameters": [
+        0.4,
+        0
+      ],
+      "failures": 0,
+      "library_size": 50
+    },
+    {
+      "id": "scored_0014",
+      "before": 37,
+      "after": 35,
+      "saved": 2,
+      "parameters": [
+        0.4,
+        0
+      ],
+      "failures": 0,
+      "library_size": 627
+    },
+    {
+      "id": "scored_0015",
+      "before": 307,
+      "after": 297,
+      "saved": 10,
+      "parameters": [
+        0.25,
+        0
+      ],
+      "failures": 2,
+      "library_size": 63
+    },
+    {
+      "id": "scored_0016",
+      "before": 219,
+      "after": 215,
+      "saved": 4,
+      "parameters": [
+        0.25,
+        1
+      ],
+      "failures": 2,
+      "library_size": 928
+    },
+    {
+      "id": "scored_0017",
+      "before": 173,
+      "after": 165,
+      "saved": 8,
+      "parameters": [
+        0.65,
+        1
+      ],
+      "failures": 0,
+      "library_size": 1261
+    },
+    {
+      "id": "scored_0018",
+      "before": 165,
+      "after": 165,
+      "saved": 0,
+      "parameters": null,
+      "failures": 0,
+      "library_size": 912
+    },
+    {
+      "id": "scored_0019",
+      "before": 30,
+      "after": 30,
+      "saved": 0,
+      "parameters": null,
+      "failures": 0,
+      "library_size": 1490
+    },
+    {
+      "id": "scored_0020",
+      "before": 350,
+      "after": 350,
+      "saved": 0,
+      "parameters": null,
+      "failures": 7,
+      "library_size": 7004
+    },
+    {
+      "id": "scored_0021",
+      "before": 52,
+      "after": 52,
+      "saved": 0,
+      "parameters": null,
+      "failures": 0,
+      "library_size": 127
+    },
+    {
+      "id": "scored_0022",
+      "before": 165,
+      "after": 161,
+      "saved": 4,
+      "parameters": [
+        0.15,
+        1
+      ],
+      "failures": 0,
+      "library_size": 1916
+    },
+    {
+      "id": "scored_0023",
+      "before": 219,
+      "after": 219,
+      "saved": 0,
+      "parameters": null,
+      "failures": 0,
+      "library_size": 12799
+    },
+    {
+      "id": "scored_0024",
+      "before": 35,
+      "after": 35,
+      "saved": 0,
+      "parameters": null,
+      "failures": 0,
+      "library_size": 569
+    },
+    {
+      "id": "scored_0025",
+      "before": 190,
+      "after": 175,
+      "saved": 15,
+      "parameters": [
+        0.25,
+        1
+      ],
+      "failures": 0,
+      "library_size": 165
+    },
+    {
+      "id": "scored_0026",
+      "before": 253,
+      "after": 253,
+      "saved": 0,
+      "parameters": null,
+      "failures": 0,
+      "library_size": 1031
+    },
+    {
+      "id": "scored_0027",
+      "before": 147,
+      "after": 144,
+      "saved": 3,
+      "parameters": [
+        0.15,
+        1
+      ],
+      "failures": 0,
+      "library_size": 901
+    },
+    {
+      "id": "scored_0028",
+      "before": 202,
+      "after": 187,
+      "saved": 15,
+      "parameters": [
+        0.15,
+        1
+      ],
+      "failures": 1,
+      "library_size": 1621
+    },
+    {
+      "id": "scored_0029",
+      "before": 47,
+      "after": 47,
+      "saved": 0,
+      "parameters": null,
+      "failures": 0,
+      "library_size": 426
+    },
+    {
+      "id": "scored_0030",
+      "before": 295,
+      "after": 266,
+      "saved": 29,
+      "parameters": [
+        0.25,
+        0
+      ],
+      "failures": 3,
+      "library_size": 1534
+    },
+    {
+      "id": "scored_0031",
+      "before": 351,
+      "after": 338,
+      "saved": 13,
+      "parameters": [
+        0.25,
+        0
+      ],
+      "failures": 2,
+      "library_size": 3247
+    },
+    {
+      "id": "scored_0032",
+      "before": 142,
+      "after": 142,
+      "saved": 0,
+      "parameters": null,
+      "failures": 0,
+      "library_size": 278
+    },
+    {
+      "id": "scored_0033",
+      "before": 293,
+      "after": 289,
+      "saved": 4,
+      "parameters": [
+        0.25,
+        1
+      ],
+      "failures": 1,
+      "library_size": 3248
+    },
+    {
+      "id": "scored_0034",
+      "before": 233,
+      "after": 227,
+      "saved": 6,
+      "parameters": [
+        0.25,
+        1
+      ],
+      "failures": 0,
+      "library_size": 348
+    },
+    {
+      "id": "scored_0035",
+      "before": 147,
+      "after": 147,
+      "saved": 0,
+      "parameters": null,
+      "failures": 0,
+      "library_size": 1222
+    },
+    {
+      "id": "scored_0036",
+      "before": 316,
+      "after": 316,
+      "saved": 0,
+      "parameters": null,
+      "failures": 1,
+      "library_size": 63
+    },
+    {
+      "id": "scored_0037",
+      "before": 275,
+      "after": 261,
+      "saved": 14,
+      "parameters": [
+        0.25,
+        1
+      ],
+      "failures": 3,
+      "library_size": 926
+    },
+    {
+      "id": "scored_0038",
+      "before": 199,
+      "after": 196,
+      "saved": 3,
+      "parameters": [
+        0.4,
+        0
+      ],
+      "failures": 0,
+      "library_size": 1632
+    },
+    {
+      "id": "scored_0039",
+      "before": 146,
+      "after": 146,
+      "saved": 0,
+      "parameters": null,
+      "failures": 0,
+      "library_size": 1554
+    },
+    {
+      "id": "scored_0040",
+      "before": 248,
+      "after": 240,
+      "saved": 8,
+      "parameters": [
+        0.4,
+        1
+      ],
+      "failures": 3,
+      "library_size": 12424
+    },
+    {
+      "id": "scored_0041",
+      "before": 179,
+      "after": 175,
+      "saved": 4,
+      "parameters": [
+        0.25,
+        0
+      ],
+      "failures": 0,
+      "library_size": 1236
+    },
+    {
+      "id": "scored_0042",
+      "before": 240,
+      "after": 226,
+      "saved": 14,
+      "parameters": [
+        0.4,
+        0
+      ],
+      "failures": 0,
+      "library_size": 1140
+    },
+    {
+      "id": "scored_0043",
+      "before": 294,
+      "after": 287,
+      "saved": 7,
+      "parameters": [
+        0.25,
+        0
+      ],
+      "failures": 0,
+      "library_size": 370
+    },
+    {
+      "id": "scored_0044",
+      "before": 107,
+      "after": 104,
+      "saved": 3,
+      "parameters": [
+        0.15,
+        1
+      ],
+      "failures": 0,
+      "library_size": 3080
+    },
+    {
+      "id": "scored_0045",
+      "before": 216,
+      "after": 215,
+      "saved": 1,
+      "parameters": [
+        0.4,
+        0
+      ],
+      "failures": 0,
+      "library_size": 1018
+    },
+    {
+      "id": "scored_0046",
+      "before": 43,
+      "after": 39,
+      "saved": 4,
+      "parameters": [
+        0.4,
+        0
+      ],
+      "failures": 0,
+      "library_size": 229
+    },
+    {
+      "id": "scored_0047",
+      "before": 218,
+      "after": 218,
+      "saved": 0,
+      "parameters": null,
+      "failures": 0,
+      "library_size": 1242
+    },
+    {
+      "id": "scored_0048",
+      "before": 184,
+      "after": 184,
+      "saved": 0,
+      "parameters": null,
+      "failures": 0,
+      "library_size": 2778
+    },
+    {
+      "id": "scored_0049",
+      "before": 216,
+      "after": 202,
+      "saved": 14,
+      "parameters": [
+        0.65,
+        0
+      ],
+      "failures": 0,
+      "library_size": 173
+    },
+    {
+      "id": "scored_0050",
+      "before": 36,
+      "after": 36,
+      "saved": 0,
+      "parameters": null,
+      "failures": 0,
+      "library_size": 361
+    },
+    {
+      "id": "scored_0051",
+      "before": 388,
+      "after": 388,
+      "saved": 0,
+      "parameters": null,
+      "failures": 4,
+      "library_size": 369
+    },
+    {
+      "id": "scored_0052",
+      "before": 153,
+      "after": 137,
+      "saved": 16,
+      "parameters": [
+        0.4,
+        1
+      ],
+      "failures": 0,
+      "library_size": 2746
+    },
+    {
+      "id": "scored_0053",
+      "before": 164,
+      "after": 164,
+      "saved": 0,
+      "parameters": null,
+      "failures": 0,
+      "library_size": 636
+    },
+    {
+      "id": "scored_0054",
+      "before": 267,
+      "after": 255,
+      "saved": 12,
+      "parameters": [
+        0.4,
+        1
+      ],
+      "failures": 2,
+      "library_size": 344
+    },
+    {
+      "id": "scored_0055",
+      "before": 116,
+      "after": 108,
+      "saved": 8,
+      "parameters": [
+        0.25,
+        1
+      ],
+      "failures": 0,
+      "library_size": 978
+    },
+    {
+      "id": "scored_0056",
+      "before": 34,
+      "after": 34,
+      "saved": 0,
+      "parameters": null,
+      "failures": 0,
+      "library_size": 932
+    },
+    {
+      "id": "scored_0057",
+      "before": 304,
+      "after": 304,
+      "saved": 0,
+      "parameters": null,
+      "failures": 4,
+      "library_size": 13212
+    },
+    {
+      "id": "scored_0058",
+      "before": 377,
+      "after": 377,
+      "saved": 0,
+      "parameters": null,
+      "failures": 7,
+      "library_size": 6952
+    },
+    {
+      "id": "scored_0059",
+      "before": 207,
+      "after": 190,
+      "saved": 17,
+      "parameters": [
+        0.15,
+        1
+      ],
+      "failures": 0,
+      "library_size": 3162
+    },
+    {
+      "id": "scored_0060",
+      "before": 362,
+      "after": 362,
+      "saved": 0,
+      "parameters": null,
+      "failures": 5,
+      "library_size": 366
+    },
+    {
+      "id": "scored_0061",
+      "before": 4,
+      "after": 4,
+      "saved": 0,
+      "parameters": null,
+      "failures": 0,
+      "library_size": 10
+    },
+    {
+      "id": "scored_0062",
+      "before": 195,
+      "after": 195,
+      "saved": 0,
+      "parameters": null,
+      "failures": 0,
+      "library_size": 261
+    },
+    {
+      "id": "scored_0063",
+      "before": 158,
+      "after": 155,
+      "saved": 3,
+      "parameters": [
+        0.25,
+        1
+      ],
+      "failures": 0,
+      "library_size": 1803
+    },
+    {
+      "id": "scored_0064",
+      "before": 163,
+      "after": 163,
+      "saved": 0,
+      "parameters": null,
+      "failures": 0,
+      "library_size": 915
+    },
+    {
+      "id": "scored_0065",
+      "before": 47,
+      "after": 47,
+      "saved": 0,
+      "parameters": null,
+      "failures": 0,
+      "library_size": 494
+    },
+    {
+      "id": "scored_0066",
+      "before": 49,
+      "after": 48,
+      "saved": 1,
+      "parameters": [
+        0.25,
+        1
+      ],
+      "failures": 0,
+      "library_size": 1767
+    },
+    {
+      "id": "scored_0067",
+      "before": 526,
+      "after": 371,
+      "saved": 155,
+      "parameters": [
+        0.25,
+        1
+      ],
+      "failures": 5,
+      "library_size": 1259
+    },
+    {
+      "id": "scored_0068",
+      "before": 195,
+      "after": 179,
+      "saved": 16,
+      "parameters": [
+        0.4,
+        1
+      ],
+      "failures": 0,
+      "library_size": 2170
+    },
+    {
+      "id": "scored_0069",
+      "before": 391,
+      "after": 388,
+      "saved": 3,
+      "parameters": [
+        0.15,
+        0
+      ],
+      "failures": 6,
+      "library_size": 3189
+    },
+    {
+      "id": "scored_0070",
+      "before": 179,
+      "after": 179,
+      "saved": 0,
+      "parameters": null,
+      "failures": 0,
+      "library_size": 966
+    },
+    {
+      "id": "scored_0071",
+      "before": 148,
+      "after": 146,
+      "saved": 2,
+      "parameters": [
+        0.25,
+        1
+      ],
+      "failures": 0,
+      "library_size": 838
+    },
+    {
+      "id": "scored_0072",
+      "before": 172,
+      "after": 165,
+      "saved": 7,
+      "parameters": [
+        0.15,
+        1
+      ],
+      "failures": 0,
+      "library_size": 492
+    },
+    {
+      "id": "scored_0073",
+      "before": 169,
+      "after": 162,
+      "saved": 7,
+      "parameters": [
+        0.4,
+        0
+      ],
+      "failures": 0,
+      "library_size": 1381
+    },
+    {
+      "id": "scored_0074",
+      "before": 295,
+      "after": 286,
+      "saved": 9,
+      "parameters": [
+        0.15,
+        1
+      ],
+      "failures": 3,
+      "library_size": 13197
+    },
+    {
+      "id": "scored_0075",
+      "before": 359,
+      "after": 359,
+      "saved": 0,
+      "parameters": null,
+      "failures": 5,
+      "library_size": 365
+    },
+    {
+      "id": "scored_0076",
+      "before": 202,
+      "after": 192,
+      "saved": 10,
+      "parameters": [
+        0.15,
+        1
+      ],
+      "failures": 0,
+      "library_size": 913
+    },
+    {
+      "id": "scored_0077",
+      "before": 153,
+      "after": 137,
+      "saved": 16,
+      "parameters": [
+        0.25,
+        1
+      ],
+      "failures": 0,
+      "library_size": 1706
+    },
+    {
+      "id": "scored_0078",
+      "before": 140,
+      "after": 134,
+      "saved": 6,
+      "parameters": [
+        0.65,
+        1
+      ],
+      "failures": 0,
+      "library_size": 2392
+    },
+    {
+      "id": "scored_0079",
+      "before": 206,
+      "after": 195,
+      "saved": 11,
+      "parameters": [
+        0.65,
+        1
+      ],
+      "failures": 0,
+      "library_size": 328
+    },
+    {
+      "id": "scored_0080",
+      "before": 196,
+      "after": 196,
+      "saved": 0,
+      "parameters": null,
+      "failures": 0,
+      "library_size": 325
+    },
+    {
+      "id": "scored_0081",
+      "before": 164,
+      "after": 161,
+      "saved": 3,
+      "parameters": [
+        0.25,
+        0
+      ],
+      "failures": 0,
+      "library_size": 884
+    },
+    {
+      "id": "scored_0082",
+      "before": 161,
+      "after": 161,
+      "saved": 0,
+      "parameters": null,
+      "failures": 0,
+      "library_size": 3372
+    },
+    {
+      "id": "scored_0083",
+      "before": 237,
+      "after": 237,
+      "saved": 0,
+      "parameters": null,
+      "failures": 0,
+      "library_size": 339
+    },
+    {
+      "id": "scored_0084",
+      "before": 51,
+      "after": 51,
+      "saved": 0,
+      "parameters": null,
+      "failures": 0,
+      "library_size": 380
+    },
+    {
+      "id": "scored_0085",
+      "before": 123,
+      "after": 115,
+      "saved": 8,
+      "parameters": [
+        0.4,
+        0
+      ],
+      "failures": 0,
+      "library_size": 3401
+    },
+    {
+      "id": "scored_0086",
+      "before": 141,
+      "after": 141,
+      "saved": 0,
+      "parameters": null,
+      "failures": 0,
+      "library_size": 347
+    },
+    {
+      "id": "scored_0087",
+      "before": 379,
+      "after": 353,
+      "saved": 26,
+      "parameters": [
+        0.15,
+        0
+      ],
+      "failures": 6,
+      "library_size": 3240
+    },
+    {
+      "id": "scored_0088",
+      "before": 317,
+      "after": 292,
+      "saved": 25,
+      "parameters": [
+        0.15,
+        0
+      ],
+      "failures": 7,
+      "library_size": 1895
+    },
+    {
+      "id": "scored_0089",
+      "before": 165,
+      "after": 163,
+      "saved": 2,
+      "parameters": [
+        0.15,
+        1
+      ],
+      "failures": 0,
+      "library_size": 2035
+    },
+    {
+      "id": "scored_0090",
+      "before": 258,
+      "after": 258,
+      "saved": 0,
+      "parameters": null,
+      "failures": 3,
+      "library_size": 860
+    },
+    {
+      "id": "scored_0091",
+      "before": 35,
+      "after": 33,
+      "saved": 2,
+      "parameters": [
+        0.25,
+        1
+      ],
+      "failures": 0,
+      "library_size": 232
+    },
+    {
+      "id": "scored_0092",
+      "before": 43,
+      "after": 43,
+      "saved": 0,
+      "parameters": null,
+      "failures": 0,
+      "library_size": 1400
+    },
+    {
+      "id": "scored_0093",
+      "before": 157,
+      "after": 137,
+      "saved": 20,
+      "parameters": [
+        0.25,
+        1
+      ],
+      "failures": 0,
+      "library_size": 2495
+    },
+    {
+      "id": "scored_0094",
+      "before": 537,
+      "after": 375,
+      "saved": 162,
+      "parameters": [
+        0.15,
+        1
+      ],
+      "failures": 6,
+      "library_size": 6890
+    },
+    {
+      "id": "scored_0095",
+      "before": 43,
+      "after": 43,
+      "saved": 0,
+      "parameters": null,
+      "failures": 0,
+      "library_size": 770
+    },
+    {
+      "id": "scored_0096",
+      "before": 248,
+      "after": 240,
+      "saved": 8,
+      "parameters": [
+        0.4,
+        1
+      ],
+      "failures": 2,
+      "library_size": 1146
+    },
+    {
+      "id": "scored_0097",
+      "before": 125,
+      "after": 124,
+      "saved": 1,
+      "parameters": [
+        0.25,
+        0
+      ],
+      "failures": 0,
+      "library_size": 2747
+    },
+    {
+      "id": "scored_0098",
+      "before": 260,
+      "after": 256,
+      "saved": 4,
+      "parameters": [
+        0.25,
+        1
+      ],
+      "failures": 2,
+      "library_size": 348
+    },
+    {
+      "id": "scored_0099",
+      "before": 200,
+      "after": 183,
+      "saved": 17,
+      "parameters": [
+        0.25,
+        1
+      ],
+      "failures": 0,
+      "library_size": 1140
+    },
+    {
+      "id": "scored_0100",
+      "before": 190,
+      "after": 188,
+      "saved": 2,
+      "parameters": [
+        0.15,
+        1
+      ],
+      "failures": 0,
+      "library_size": 996
+    }
+  ]
+}

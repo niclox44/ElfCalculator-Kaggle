@@ -1,0 +1,42 @@
+{
+  "percent_saved": 5.219693338940999,
+  "median_saved": 9.0,
+  "max_saved": 73,
+  "pilot_merge_savings": 20,
+  "families_predicted": {
+    "independent": {
+      "count": 253,
+      "improved": 234,
+      "before": 100670,
+      "after": 97020
+    },
+    "mixed": {
+      "count": 222,
+      "improved": 211,
+      "before": 85744,
+      "after": 79645
+    },
+    "shared": {
+      "count": 271,
+      "improved": 247,
+      "before": 79004,
+      "after": 73827
+    },
+    "multiplicative": {
+      "count": 238,
+      "improved": 218,
+      "before": 41248,
+      "after": 40164
+    },
+    "tiny": {
+      "count": 16,
+      "improved": 0,
+      "before": 57,
+      "after": 57
+    }
+  },
+  "production_synthesis_saved": 15315,
+  "production_rewrites": 7779,
+  "production_new_intermediates": 12851,
+  "base_reduction": 80.49402199037962
+}

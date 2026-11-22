@@ -1,0 +1,2138 @@
+{
+  "optimizer": "extended_pair_dag_lns",
+  "current": "submissions/submission_public_v89.csv",
+  "output": "submissions/submission_rebase_pilot.csv",
+  "before": 132255,
+  "after": 132255,
+  "saved": 0,
+  "processed": 100,
+  "complete": true,
+  "configs": [
+    [
+      "--time",
+      8,
+      "--rebase",
+      1,
+      "--seed",
+      130000
+    ]
+  ],
+  "improved": 0,
+  "start_index": 0,
+  "end_index": 100,
+  "source": "native/elfopt_extended.cpp",
+  "source_sha256": "44ba6a155efd5bbaa1c76a4cbcd31e98ebc8c174cc179c6f72266f6e0cb89f07",
+  "workers": 8,
+  "timeout": 40.0,
+  "wall_seconds": 49.983773382000095,
+  "puzzles": [
+    {
+      "id": "scored_0001",
+      "before": 229,
+      "after": 229,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 229,
+          "diagnostics": "scored_0001 229 -> 229 evals 4 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 8.4\n",
+          "seconds": 8.396
+        }
+      ]
+    },
+    {
+      "id": "scored_0002",
+      "before": 245,
+      "after": 245,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 245,
+          "diagnostics": "scored_0002 245 -> 245 evals 1 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 8.0\n",
+          "seconds": 8.032
+        }
+      ]
+    },
+    {
+      "id": "scored_0003",
+      "before": 193,
+      "after": 193,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 193,
+          "diagnostics": "scored_0003 193 -> 193 evals 2 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 8.1\n",
+          "seconds": 8.155
+        }
+      ]
+    },
+    {
+      "id": "scored_0004",
+      "before": 211,
+      "after": 211,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 211,
+          "diagnostics": "scored_0004 211 -> 211 evals 2 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 8.5\n",
+          "seconds": 8.555
+        }
+      ]
+    },
+    {
+      "id": "scored_0005",
+      "before": 46,
+      "after": 46,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 46,
+          "diagnostics": "scored_0005 46 -> 46 evals 3 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 0.0\n",
+          "seconds": 0.023
+        }
+      ]
+    },
+    {
+      "id": "scored_0006",
+      "before": 108,
+      "after": 108,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 108,
+          "diagnostics": "scored_0006 108 -> 108 evals 5 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 0.4\n",
+          "seconds": 0.371
+        }
+      ]
+    },
+    {
+      "id": "scored_0007",
+      "before": 130,
+      "after": 130,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 130,
+          "diagnostics": "scored_0007 130 -> 130 evals 7 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 5.2\n",
+          "seconds": 5.216
+        }
+      ]
+    },
+    {
+      "id": "scored_0008",
+      "before": 102,
+      "after": 102,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 102,
+          "diagnostics": "scored_0008 102 -> 102 evals 2 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 0.3\n",
+          "seconds": 0.288
+        }
+      ]
+    },
+    {
+      "id": "scored_0009",
+      "before": 28,
+      "after": 28,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 28,
+          "diagnostics": "scored_0009 28 -> 28 evals 3 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 0.0\n",
+          "seconds": 0.021
+        }
+      ]
+    },
+    {
+      "id": "scored_0010",
+      "before": 176,
+      "after": 176,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 176,
+          "diagnostics": "scored_0010 176 -> 176 evals 5 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 8.0\n",
+          "seconds": 8.019
+        }
+      ]
+    },
+    {
+      "id": "scored_0011",
+      "before": 104,
+      "after": 104,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 104,
+          "diagnostics": "scored_0011 104 -> 104 evals 4 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 0.0\n",
+          "seconds": 0.039
+        }
+      ]
+    },
+    {
+      "id": "scored_0012",
+      "before": 180,
+      "after": 180,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 180,
+          "diagnostics": "scored_0012 180 -> 180 evals 4 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 8.0\n",
+          "seconds": 8.039
+        }
+      ]
+    },
+    {
+      "id": "scored_0013",
+      "before": 176,
+      "after": 176,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 176,
+          "diagnostics": "scored_0013 176 -> 176 evals 1 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 8.2\n",
+          "seconds": 8.185
+        }
+      ]
+    },
+    {
+      "id": "scored_0014",
+      "before": 24,
+      "after": 24,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 24,
+          "diagnostics": "scored_0014 24 -> 24 evals 2 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 0.0\n",
+          "seconds": 0.015
+        }
+      ]
+    },
+    {
+      "id": "scored_0015",
+      "before": 216,
+      "after": 216,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 216,
+          "diagnostics": "scored_0015 216 -> 216 evals 2 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 8.5\n",
+          "seconds": 8.553
+        }
+      ]
+    },
+    {
+      "id": "scored_0016",
+      "before": 121,
+      "after": 121,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 121,
+          "diagnostics": "scored_0016 121 -> 121 evals 4 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 0.2\n",
+          "seconds": 0.251
+        }
+      ]
+    },
+    {
+      "id": "scored_0017",
+      "before": 105,
+      "after": 105,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 105,
+          "diagnostics": "scored_0017 105 -> 105 evals 4 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 0.3\n",
+          "seconds": 0.268
+        }
+      ]
+    },
+    {
+      "id": "scored_0018",
+      "before": 117,
+      "after": 117,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 117,
+          "diagnostics": "scored_0018 117 -> 117 evals 10 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 1.5\n",
+          "seconds": 1.562
+        }
+      ]
+    },
+    {
+      "id": "scored_0019",
+      "before": 22,
+      "after": 22,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 22,
+          "diagnostics": "scored_0019 22 -> 22 evals 3 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 0.0\n",
+          "seconds": 0.019
+        }
+      ]
+    },
+    {
+      "id": "scored_0020",
+      "before": 240,
+      "after": 240,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 240,
+          "diagnostics": "scored_0020 240 -> 240 evals 1 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 8.7\n",
+          "seconds": 8.759
+        }
+      ]
+    },
+    {
+      "id": "scored_0021",
+      "before": 37,
+      "after": 37,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 37,
+          "diagnostics": "scored_0021 37 -> 37 evals 3 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 0.0\n",
+          "seconds": 0.015
+        }
+      ]
+    },
+    {
+      "id": "scored_0022",
+      "before": 101,
+      "after": 101,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 101,
+          "diagnostics": "scored_0022 101 -> 101 evals 1 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 0.0\n",
+          "seconds": 0.029
+        }
+      ]
+    },
+    {
+      "id": "scored_0023",
+      "before": 155,
+      "after": 155,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 155,
+          "diagnostics": "scored_0023 155 -> 155 evals 3 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 8.1\n",
+          "seconds": 8.07
+        }
+      ]
+    },
+    {
+      "id": "scored_0024",
+      "before": 28,
+      "after": 28,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 28,
+          "diagnostics": "scored_0024 28 -> 28 evals 0 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 0.0\n",
+          "seconds": 0.016
+        }
+      ]
+    },
+    {
+      "id": "scored_0025",
+      "before": 116,
+      "after": 116,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 116,
+          "diagnostics": "scored_0025 116 -> 116 evals 0 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 0.0\n",
+          "seconds": 0.017
+        }
+      ]
+    },
+    {
+      "id": "scored_0026",
+      "before": 179,
+      "after": 179,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 179,
+          "diagnostics": "scored_0026 179 -> 179 evals 3 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 8.1\n",
+          "seconds": 8.107
+        }
+      ]
+    },
+    {
+      "id": "scored_0027",
+      "before": 101,
+      "after": 101,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 101,
+          "diagnostics": "scored_0027 101 -> 101 evals 3 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 0.3\n",
+          "seconds": 0.274
+        }
+      ]
+    },
+    {
+      "id": "scored_0028",
+      "before": 117,
+      "after": 117,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 117,
+          "diagnostics": "scored_0028 117 -> 117 evals 6 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 0.1\n",
+          "seconds": 0.108
+        }
+      ]
+    },
+    {
+      "id": "scored_0029",
+      "before": 34,
+      "after": 34,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 34,
+          "diagnostics": "scored_0029 34 -> 34 evals 2 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 0.0\n",
+          "seconds": 0.024
+        }
+      ]
+    },
+    {
+      "id": "scored_0030",
+      "before": 187,
+      "after": 187,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 187,
+          "diagnostics": "scored_0030 187 -> 187 evals 1 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 8.3\n",
+          "seconds": 8.339
+        }
+      ]
+    },
+    {
+      "id": "scored_0031",
+      "before": 245,
+      "after": 245,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 245,
+          "diagnostics": "scored_0031 245 -> 245 evals 1 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 8.2\n",
+          "seconds": 8.253
+        }
+      ]
+    },
+    {
+      "id": "scored_0032",
+      "before": 99,
+      "after": 99,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 99,
+          "diagnostics": "scored_0032 99 -> 99 evals 3 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 0.2\n",
+          "seconds": 0.163
+        }
+      ]
+    },
+    {
+      "id": "scored_0033",
+      "before": 204,
+      "after": 204,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 204,
+          "diagnostics": "scored_0033 204 -> 204 evals 4 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 8.2\n",
+          "seconds": 8.187
+        }
+      ]
+    },
+    {
+      "id": "scored_0034",
+      "before": 163,
+      "after": 163,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 163,
+          "diagnostics": "scored_0034 163 -> 163 evals 9 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 4.8\n",
+          "seconds": 4.836
+        }
+      ]
+    },
+    {
+      "id": "scored_0035",
+      "before": 100,
+      "after": 100,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 100,
+          "diagnostics": "scored_0035 100 -> 100 evals 3 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 0.4\n",
+          "seconds": 0.369
+        }
+      ]
+    },
+    {
+      "id": "scored_0036",
+      "before": 230,
+      "after": 230,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 230,
+          "diagnostics": "scored_0036 230 -> 230 evals 1 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 8.1\n",
+          "seconds": 8.11
+        }
+      ]
+    },
+    {
+      "id": "scored_0037",
+      "before": 190,
+      "after": 190,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 190,
+          "diagnostics": "scored_0037 190 -> 190 evals 1 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 8.4\n",
+          "seconds": 8.389
+        }
+      ]
+    },
+    {
+      "id": "scored_0038",
+      "before": 140,
+      "after": 140,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 140,
+          "diagnostics": "scored_0038 140 -> 140 evals 10 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 3.7\n",
+          "seconds": 3.67
+        }
+      ]
+    },
+    {
+      "id": "scored_0039",
+      "before": 107,
+      "after": 107,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 107,
+          "diagnostics": "scored_0039 107 -> 107 evals 4 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 0.9\n",
+          "seconds": 0.944
+        }
+      ]
+    },
+    {
+      "id": "scored_0040",
+      "before": 167,
+      "after": 167,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 167,
+          "diagnostics": "scored_0040 167 -> 167 evals 8 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 8.2\n",
+          "seconds": 8.181
+        }
+      ]
+    },
+    {
+      "id": "scored_0041",
+      "before": 114,
+      "after": 114,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 114,
+          "diagnostics": "scored_0041 114 -> 114 evals 1 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 0.1\n",
+          "seconds": 0.071
+        }
+      ]
+    },
+    {
+      "id": "scored_0042",
+      "before": 161,
+      "after": 161,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 161,
+          "diagnostics": "scored_0042 161 -> 161 evals 5 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 8.1\n",
+          "seconds": 8.075
+        }
+      ]
+    },
+    {
+      "id": "scored_0043",
+      "before": 208,
+      "after": 208,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 208,
+          "diagnostics": "scored_0043 208 -> 208 evals 3 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 8.1\n",
+          "seconds": 8.152
+        }
+      ]
+    },
+    {
+      "id": "scored_0044",
+      "before": 73,
+      "after": 73,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 73,
+          "diagnostics": "scored_0044 73 -> 73 evals 1 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 0.0\n",
+          "seconds": 0.011
+        }
+      ]
+    },
+    {
+      "id": "scored_0045",
+      "before": 160,
+      "after": 160,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 160,
+          "diagnostics": "scored_0045 160 -> 160 evals 7 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 8.2\n",
+          "seconds": 8.189
+        }
+      ]
+    },
+    {
+      "id": "scored_0046",
+      "before": 27,
+      "after": 27,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 27,
+          "diagnostics": "scored_0046 27 -> 27 evals 3 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 0.0\n",
+          "seconds": 0.015
+        }
+      ]
+    },
+    {
+      "id": "scored_0047",
+      "before": 166,
+      "after": 166,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 166,
+          "diagnostics": "scored_0047 166 -> 166 evals 5 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 8.2\n",
+          "seconds": 8.2
+        }
+      ]
+    },
+    {
+      "id": "scored_0048",
+      "before": 141,
+      "after": 141,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 141,
+          "diagnostics": "scored_0048 141 -> 141 evals 6 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 7.5\n",
+          "seconds": 7.533
+        }
+      ]
+    },
+    {
+      "id": "scored_0049",
+      "before": 155,
+      "after": 155,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 155,
+          "diagnostics": "scored_0049 155 -> 155 evals 7 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 4.6\n",
+          "seconds": 4.617
+        }
+      ]
+    },
+    {
+      "id": "scored_0050",
+      "before": 26,
+      "after": 26,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 26,
+          "diagnostics": "scored_0050 26 -> 26 evals 0 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 0.0\n",
+          "seconds": 0.008
+        }
+      ]
+    },
+    {
+      "id": "scored_0051",
+      "before": 277,
+      "after": 277,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 277,
+          "diagnostics": "scored_0051 277 -> 277 evals 1 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 8.3\n",
+          "seconds": 8.33
+        }
+      ]
+    },
+    {
+      "id": "scored_0052",
+      "before": 108,
+      "after": 108,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 108,
+          "diagnostics": "scored_0052 108 -> 108 evals 4 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 0.1\n",
+          "seconds": 0.096
+        }
+      ]
+    },
+    {
+      "id": "scored_0053",
+      "before": 107,
+      "after": 107,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 107,
+          "diagnostics": "scored_0053 107 -> 107 evals 1 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 0.0\n",
+          "seconds": 0.02
+        }
+      ]
+    },
+    {
+      "id": "scored_0054",
+      "before": 193,
+      "after": 193,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 193,
+          "diagnostics": "scored_0054 193 -> 193 evals 2 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 8.0\n",
+          "seconds": 8.049
+        }
+      ]
+    },
+    {
+      "id": "scored_0055",
+      "before": 77,
+      "after": 77,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 77,
+          "diagnostics": "scored_0055 77 -> 77 evals 8 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 0.5\n",
+          "seconds": 0.479
+        }
+      ]
+    },
+    {
+      "id": "scored_0056",
+      "before": 24,
+      "after": 24,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 24,
+          "diagnostics": "scored_0056 24 -> 24 evals 1 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 0.0\n",
+          "seconds": 0.006
+        }
+      ]
+    },
+    {
+      "id": "scored_0057",
+      "before": 213,
+      "after": 213,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 213,
+          "diagnostics": "scored_0057 213 -> 213 evals 2 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 8.0\n",
+          "seconds": 8.032
+        }
+      ]
+    },
+    {
+      "id": "scored_0058",
+      "before": 263,
+      "after": 263,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 263,
+          "diagnostics": "scored_0058 263 -> 263 evals 1 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 8.5\n",
+          "seconds": 8.542
+        }
+      ]
+    },
+    {
+      "id": "scored_0059",
+      "before": 139,
+      "after": 139,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 139,
+          "diagnostics": "scored_0059 139 -> 139 evals 9 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 3.4\n",
+          "seconds": 3.393
+        }
+      ]
+    },
+    {
+      "id": "scored_0060",
+      "before": 251,
+      "after": 251,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 251,
+          "diagnostics": "scored_0060 251 -> 251 evals 1 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 8.0\n",
+          "seconds": 8.036
+        }
+      ]
+    },
+    {
+      "id": "scored_0061",
+      "before": 4,
+      "after": 4,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 4,
+          "diagnostics": "scored_0061 4 -> 4 evals 0 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 0.0\n",
+          "seconds": 0.007
+        }
+      ]
+    },
+    {
+      "id": "scored_0062",
+      "before": 147,
+      "after": 147,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 147,
+          "diagnostics": "scored_0062 147 -> 147 evals 7 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 8.1\n",
+          "seconds": 8.118
+        }
+      ]
+    },
+    {
+      "id": "scored_0063",
+      "before": 101,
+      "after": 101,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 101,
+          "diagnostics": "scored_0063 101 -> 101 evals 3 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 0.0\n",
+          "seconds": 0.056
+        }
+      ]
+    },
+    {
+      "id": "scored_0064",
+      "before": 109,
+      "after": 109,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 109,
+          "diagnostics": "scored_0064 109 -> 109 evals 7 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 3.1\n",
+          "seconds": 3.118
+        }
+      ]
+    },
+    {
+      "id": "scored_0065",
+      "before": 34,
+      "after": 34,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 34,
+          "diagnostics": "scored_0065 34 -> 34 evals 2 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 0.0\n",
+          "seconds": 0.006
+        }
+      ]
+    },
+    {
+      "id": "scored_0066",
+      "before": 36,
+      "after": 36,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 36,
+          "diagnostics": "scored_0066 36 -> 36 evals 3 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 0.0\n",
+          "seconds": 0.007
+        }
+      ]
+    },
+    {
+      "id": "scored_0067",
+      "before": 256,
+      "after": 256,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 256,
+          "diagnostics": "scored_0067 256 -> 256 evals 1 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 8.1\n",
+          "seconds": 8.146
+        }
+      ]
+    },
+    {
+      "id": "scored_0068",
+      "before": 115,
+      "after": 115,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 115,
+          "diagnostics": "scored_0068 115 -> 115 evals 7 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 0.2\n",
+          "seconds": 0.229
+        }
+      ]
+    },
+    {
+      "id": "scored_0069",
+      "before": 272,
+      "after": 272,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 272,
+          "diagnostics": "scored_0069 272 -> 272 evals 1 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 8.1\n",
+          "seconds": 8.135
+        }
+      ]
+    },
+    {
+      "id": "scored_0070",
+      "before": 113,
+      "after": 113,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 113,
+          "diagnostics": "scored_0070 113 -> 113 evals 3 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 0.1\n",
+          "seconds": 0.074
+        }
+      ]
+    },
+    {
+      "id": "scored_0071",
+      "before": 110,
+      "after": 110,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 110,
+          "diagnostics": "scored_0071 110 -> 110 evals 1 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 0.0\n",
+          "seconds": 0.026
+        }
+      ]
+    },
+    {
+      "id": "scored_0072",
+      "before": 99,
+      "after": 99,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 99,
+          "diagnostics": "scored_0072 99 -> 99 evals 2 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 0.0\n",
+          "seconds": 0.027
+        }
+      ]
+    },
+    {
+      "id": "scored_0073",
+      "before": 111,
+      "after": 111,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 111,
+          "diagnostics": "scored_0073 111 -> 111 evals 4 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 0.1\n",
+          "seconds": 0.136
+        }
+      ]
+    },
+    {
+      "id": "scored_0074",
+      "before": 203,
+      "after": 203,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 203,
+          "diagnostics": "scored_0074 203 -> 203 evals 1 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 8.4\n",
+          "seconds": 8.38
+        }
+      ]
+    },
+    {
+      "id": "scored_0075",
+      "before": 253,
+      "after": 253,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 253,
+          "diagnostics": "scored_0075 253 -> 253 evals 1 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 8.4\n",
+          "seconds": 8.384
+        }
+      ]
+    },
+    {
+      "id": "scored_0076",
+      "before": 140,
+      "after": 140,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 140,
+          "diagnostics": "scored_0076 140 -> 140 evals 4 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 8.1\n",
+          "seconds": 8.072
+        }
+      ]
+    },
+    {
+      "id": "scored_0077",
+      "before": 104,
+      "after": 104,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 104,
+          "diagnostics": "scored_0077 104 -> 104 evals 3 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 0.1\n",
+          "seconds": 0.065
+        }
+      ]
+    },
+    {
+      "id": "scored_0078",
+      "before": 105,
+      "after": 105,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 105,
+          "diagnostics": "scored_0078 105 -> 105 evals 5 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 0.8\n",
+          "seconds": 0.82
+        }
+      ]
+    },
+    {
+      "id": "scored_0079",
+      "before": 129,
+      "after": 129,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 129,
+          "diagnostics": "scored_0079 129 -> 129 evals 6 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 3.8\n",
+          "seconds": 3.808
+        }
+      ]
+    },
+    {
+      "id": "scored_0080",
+      "before": 143,
+      "after": 143,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 143,
+          "diagnostics": "scored_0080 143 -> 143 evals 9 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 7.2\n",
+          "seconds": 7.162
+        }
+      ]
+    },
+    {
+      "id": "scored_0081",
+      "before": 120,
+      "after": 120,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 120,
+          "diagnostics": "scored_0081 120 -> 120 evals 7 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 1.6\n",
+          "seconds": 1.631
+        }
+      ]
+    },
+    {
+      "id": "scored_0082",
+      "before": 92,
+      "after": 92,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 92,
+          "diagnostics": "scored_0082 92 -> 92 evals 6 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 0.1\n",
+          "seconds": 0.084
+        }
+      ]
+    },
+    {
+      "id": "scored_0083",
+      "before": 174,
+      "after": 174,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 174,
+          "diagnostics": "scored_0083 174 -> 174 evals 2 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 8.1\n",
+          "seconds": 8.086
+        }
+      ]
+    },
+    {
+      "id": "scored_0084",
+      "before": 38,
+      "after": 38,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 38,
+          "diagnostics": "scored_0084 38 -> 38 evals 4 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 0.0\n",
+          "seconds": 0.007
+        }
+      ]
+    },
+    {
+      "id": "scored_0085",
+      "before": 85,
+      "after": 85,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 85,
+          "diagnostics": "scored_0085 85 -> 85 evals 1 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 0.2\n",
+          "seconds": 0.158
+        }
+      ]
+    },
+    {
+      "id": "scored_0086",
+      "before": 96,
+      "after": 96,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 96,
+          "diagnostics": "scored_0086 96 -> 96 evals 3 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 0.0\n",
+          "seconds": 0.035
+        }
+      ]
+    },
+    {
+      "id": "scored_0087",
+      "before": 242,
+      "after": 242,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 242,
+          "diagnostics": "scored_0087 242 -> 242 evals 1 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 8.0\n",
+          "seconds": 8.037
+        }
+      ]
+    },
+    {
+      "id": "scored_0088",
+      "before": 201,
+      "after": 201,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 201,
+          "diagnostics": "scored_0088 201 -> 201 evals 1 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 8.0\n",
+          "seconds": 8.037
+        }
+      ]
+    },
+    {
+      "id": "scored_0089",
+      "before": 118,
+      "after": 118,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 118,
+          "diagnostics": "scored_0089 118 -> 118 evals 9 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 1.0\n",
+          "seconds": 1.035
+        }
+      ]
+    },
+    {
+      "id": "scored_0090",
+      "before": 181,
+      "after": 181,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 181,
+          "diagnostics": "scored_0090 181 -> 181 evals 11 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 7.0\n",
+          "seconds": 7.017
+        }
+      ]
+    },
+    {
+      "id": "scored_0091",
+      "before": 23,
+      "after": 23,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 23,
+          "diagnostics": "scored_0091 23 -> 23 evals 0 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 0.0\n",
+          "seconds": 0.005
+        }
+      ]
+    },
+    {
+      "id": "scored_0092",
+      "before": 33,
+      "after": 33,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 33,
+          "diagnostics": "scored_0092 33 -> 33 evals 1 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 0.0\n",
+          "seconds": 0.008
+        }
+      ]
+    },
+    {
+      "id": "scored_0093",
+      "before": 105,
+      "after": 105,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 105,
+          "diagnostics": "scored_0093 105 -> 105 evals 4 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 0.1\n",
+          "seconds": 0.102
+        }
+      ]
+    },
+    {
+      "id": "scored_0094",
+      "before": 250,
+      "after": 250,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 250,
+          "diagnostics": "scored_0094 250 -> 250 evals 3 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 8.0\n",
+          "seconds": 8.044
+        }
+      ]
+    },
+    {
+      "id": "scored_0095",
+      "before": 32,
+      "after": 32,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 32,
+          "diagnostics": "scored_0095 32 -> 32 evals 1 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 0.0\n",
+          "seconds": 0.023
+        }
+      ]
+    },
+    {
+      "id": "scored_0096",
+      "before": 170,
+      "after": 170,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 170,
+          "diagnostics": "scored_0096 170 -> 170 evals 5 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 7.4\n",
+          "seconds": 7.448
+        }
+      ]
+    },
+    {
+      "id": "scored_0097",
+      "before": 92,
+      "after": 92,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 92,
+          "diagnostics": "scored_0097 92 -> 92 evals 8 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 0.1\n",
+          "seconds": 0.13
+        }
+      ]
+    },
+    {
+      "id": "scored_0098",
+      "before": 182,
+      "after": 182,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 182,
+          "diagnostics": "scored_0098 182 -> 182 evals 3 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 8.0\n",
+          "seconds": 8.013
+        }
+      ]
+    },
+    {
+      "id": "scored_0099",
+      "before": 118,
+      "after": 118,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 118,
+          "diagnostics": "scored_0099 118 -> 118 evals 6 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 0.2\n",
+          "seconds": 0.219
+        }
+      ]
+    },
+    {
+      "id": "scored_0100",
+      "before": 117,
+      "after": 117,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            "--time",
+            8,
+            "--rebase",
+            1,
+            "--seed",
+            130000
+          ],
+          "before": 117,
+          "diagnostics": "scored_0100 117 -> 117 evals 3 acc 0 strict 0 pair 0 help 0 rejP 0 rejPs 0 kicks 0 t 0.1\n",
+          "seconds": 0.121
+        }
+      ]
+    }
+  ],
+  "validation": {
+    "valid": true,
+    "rows": 1000,
+    "score": 132255,
+    "maximum_instructions": 277,
+    "maximum_program_cell_bytes": 3977,
+    "file_bytes": 2132823
+  }
+}

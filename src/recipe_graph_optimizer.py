@@ -368,7 +368,27 @@ def rewrite_available_values(puzzle, program, catalog, rounds=3):
     return candidate, {"ssa_rewrites": moves, "ssa_candidates": evaluated}
 
 
-def optimize(puzzle, incumbent, donors, rounds=12, proposal_limit=192):
+def select_executable_graph(puzzle, graphs, instruction_limit, deadline=None):
+    """Select by emitted length, allowing a larger DAG to beat a failed one."""
+    selected = None
+    failures = 0
+    for graph in graphs:
+        if deadline is not None and time.process_time() >= deadline:
+            break
+        if len(graph) > instruction_limit:
+            continue
+        try:
+            program, peak = schedule(puzzle, graph, instruction_limit)
+        except InvalidGraph:
+            failures += 1
+            continue
+        selected = graph, program, peak
+        instruction_limit = len(program) - 1
+    return selected, failures
+
+
+def optimize(puzzle, incumbent, donors, rounds=12, proposal_limit=192, candidate_width=1,
+             deadline=None):
     initial = set(puzzle.starting_values)
     catalog = defaultdict(set)
     seeds = []
@@ -387,6 +407,8 @@ def optimize(puzzle, incumbent, donors, rounds=12, proposal_limit=192):
     metadata = {"catalog_values": len(catalog), "catalog_recipes": sum(map(len, catalog.values())),
                 "evaluated_graphs": 0, "cyclic_candidates": 0, "schedule_failures": 0,
                 "accepted_moves": 0, "peak_registers": None, "recomputed_instructions": 0,
+                "executable_alternative_wins": 0,
+                "graph_budget_exhausted": False,
                 "ssa_improvement": len(incumbent) - len(ssa_candidate), **ssa_metadata}
     best = ssa_candidate if len(ssa_candidate) < len(incumbent) else incumbent
     candidate_seeds = []
@@ -404,6 +426,9 @@ def optimize(puzzle, incumbent, donors, rounds=12, proposal_limit=192):
 
     def consider(graph):
         nonlocal best
+        if deadline is not None and time.process_time() >= deadline:
+            metadata["graph_budget_exhausted"] = True
+            return
         if len(graph) >= len(best):
             return
         try:
@@ -419,8 +444,14 @@ def optimize(puzzle, incumbent, donors, rounds=12, proposal_limit=192):
         consider(graph)
     for graph in ordered_seeds:
         for _ in range(rounds):
-            winner = graph
+            if deadline is not None and time.process_time() >= deadline:
+                metadata["graph_budget_exhausted"] = True
+                break
+            finalists = []
             for patch in proposals(graph, catalog, costs, initial, proposal_limit):
+                if deadline is not None and time.process_time() >= deadline:
+                    metadata["graph_budget_exhausted"] = True
+                    break
                 selected = graph | patch
                 metadata["evaluated_graphs"] += 1
                 try:
@@ -428,13 +459,27 @@ def optimize(puzzle, incumbent, donors, rounds=12, proposal_limit=192):
                 except InvalidGraph:
                     metadata["cyclic_candidates"] += 1
                     continue
-                if len(candidate) < len(winner):
-                    winner = candidate
-            if winner is graph:
+                if len(candidate) >= len(graph):
+                    continue
+                if len(finalists) >= candidate_width and len(candidate) >= len(finalists[-1]):
+                    continue
+                if any(candidate == previous for previous in finalists):
+                    continue
+                finalists.append(candidate)
+                finalists.sort(key=len)
+                del finalists[candidate_width:]
+            if not finalists:
                 break
             metadata["accepted_moves"] += 1
-            graph = winner
-            consider(graph)
+            selected, failures = select_executable_graph(puzzle, finalists, len(best) - 1, deadline)
+            metadata["schedule_failures"] += failures
+            if selected is None:
+                graph = finalists[0]
+            else:
+                graph, best, peak = selected
+                metadata["executable_alternative_wins"] += graph != finalists[0]
+                metadata["peak_registers"] = peak
+                metadata["recomputed_instructions"] = len(best) - len(graph)
     final_ssa, final_metadata = rewrite_available_values(puzzle, best, catalog)
     if len(final_ssa) < len(best):
         metadata["final_ssa_improvement"] = len(best) - len(final_ssa)
@@ -447,9 +492,9 @@ def optimize(puzzle, incumbent, donors, rounds=12, proposal_limit=192):
 
 
 def solve_job(job):
-    puzzle, incumbent, donors, rounds, proposal_limit = job
+    puzzle, incumbent, donors, rounds, proposal_limit, candidate_width = job
     started = time.monotonic()
-    program, metadata = optimize(puzzle, incumbent, donors, rounds, proposal_limit)
+    program, metadata = optimize(puzzle, incumbent, donors, rounds, proposal_limit, candidate_width)
     return puzzle.puzzle_id, program, round(time.monotonic() - started, 4), metadata
 
 
@@ -463,6 +508,7 @@ def main():
     parser.add_argument("--rounds", type=int, default=12)
     parser.add_argument("--proposal-limit", type=int, default=192)
     parser.add_argument("--workers", type=int, default=1)
+    parser.add_argument("--candidate-width", type=int, default=1)
     parser.add_argument("--start-index", type=int, default=0)
     parser.add_argument("--end-index", type=int)
     args = parser.parse_args()
@@ -470,8 +516,8 @@ def main():
     end = len(puzzles) if args.end_index is None else args.end_index
     if not 0 <= args.start_index <= end <= len(puzzles):
         parser.error("invalid puzzle range")
-    if args.rounds < 0 or args.proposal_limit < 1 or args.workers < 1:
-        parser.error("rounds must be nonnegative; proposal-limit and workers positive")
+    if args.rounds < 0 or min(args.proposal_limit, args.workers, args.candidate_width) < 1:
+        parser.error("rounds must be nonnegative; search widths and workers positive")
     # Validate all source files independently before extracting any recipes.
     for path in [args.current, *args.source]:
         validate(args.puzzles, path)
@@ -481,7 +527,7 @@ def main():
     rows = []
     started = time.monotonic()
     jobs = ((puzzle, current[puzzle.puzzle_id], [source[puzzle.puzzle_id] for source in sources],
-             args.rounds, args.proposal_limit) for puzzle in puzzles[args.start_index:end])
+             args.rounds, args.proposal_limit, args.candidate_width) for puzzle in puzzles[args.start_index:end])
     executor = ProcessPoolExecutor(max_workers=args.workers) if args.workers > 1 else None
     results = executor.map(solve_job, jobs) if executor is not None else map(solve_job, jobs)
     try:
@@ -504,6 +550,7 @@ def main():
               "sources": list(map(str, args.source)), "output_submission": str(args.output),
               "start_index": args.start_index, "end_index": end, "rounds": args.rounds,
               "proposal_limit": args.proposal_limit, "workers": args.workers,
+              "candidate_width": args.candidate_width,
               "current_score": sum(map(len, current.values())), "selected_score": validation["score"],
               "total_improvement": sum(r["improvement"] for r in rows),
               "improved_puzzles": sum(r["improvement"] > 0 for r in rows),

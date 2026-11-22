@@ -1,0 +1,1191 @@
+{
+  "seconds": 94.02125286299997,
+  "saved": 8937,
+  "puzzles": [
+    {
+      "id": "scored_0001",
+      "before": 463,
+      "after": 326,
+      "saved": 137,
+      "parameters": [
+        0.2,
+        0
+      ],
+      "failures": 2,
+      "minnodes": 326
+    },
+    {
+      "id": "scored_0002",
+      "before": 516,
+      "after": 347,
+      "saved": 169,
+      "parameters": [
+        0.2,
+        0
+      ],
+      "failures": 4,
+      "minnodes": 332
+    },
+    {
+      "id": "scored_0003",
+      "before": 444,
+      "after": 444,
+      "saved": 0,
+      "parameters": null,
+      "failures": 7,
+      "minnodes": 281
+    },
+    {
+      "id": "scored_0004",
+      "before": 436,
+      "after": 290,
+      "saved": 146,
+      "parameters": [
+        0.2,
+        0
+      ],
+      "failures": 3,
+      "minnodes": 290
+    },
+    {
+      "id": "scored_0005",
+      "before": 86,
+      "after": 73,
+      "saved": 13,
+      "parameters": [
+        0.6,
+        0
+      ],
+      "failures": 6,
+      "minnodes": 73
+    },
+    {
+      "id": "scored_0006",
+      "before": 377,
+      "after": 168,
+      "saved": 209,
+      "parameters": [
+        0.2,
+        0
+      ],
+      "failures": 2,
+      "minnodes": 168
+    },
+    {
+      "id": "scored_0007",
+      "before": 400,
+      "after": 218,
+      "saved": 182,
+      "parameters": [
+        0.6,
+        0
+      ],
+      "failures": 5,
+      "minnodes": 214
+    },
+    {
+      "id": "scored_0008",
+      "before": 286,
+      "after": 162,
+      "saved": 124,
+      "parameters": [
+        0.6,
+        0
+      ],
+      "failures": 5,
+      "minnodes": 162
+    },
+    {
+      "id": "scored_0009",
+      "before": 57,
+      "after": 44,
+      "saved": 13,
+      "parameters": [
+        0.2,
+        0
+      ],
+      "failures": 3,
+      "minnodes": 44
+    },
+    {
+      "id": "scored_0010",
+      "before": 342,
+      "after": 257,
+      "saved": 85,
+      "parameters": [
+        0.2,
+        0
+      ],
+      "failures": 5,
+      "minnodes": 246
+    },
+    {
+      "id": "scored_0011",
+      "before": 383,
+      "after": 174,
+      "saved": 209,
+      "parameters": [
+        0.35,
+        0
+      ],
+      "failures": 1,
+      "minnodes": 174
+    },
+    {
+      "id": "scored_0012",
+      "before": 378,
+      "after": 251,
+      "saved": 127,
+      "parameters": [
+        0.2,
+        0
+      ],
+      "failures": 4,
+      "minnodes": 249
+    },
+    {
+      "id": "scored_0013",
+      "before": 334,
+      "after": 241,
+      "saved": 93,
+      "parameters": [
+        0.6,
+        0
+      ],
+      "failures": 4,
+      "minnodes": 234
+    },
+    {
+      "id": "scored_0014",
+      "before": 46,
+      "after": 43,
+      "saved": 3,
+      "parameters": [
+        0.1,
+        0
+      ],
+      "failures": 6,
+      "minnodes": 43
+    },
+    {
+      "id": "scored_0015",
+      "before": 447,
+      "after": 307,
+      "saved": 140,
+      "parameters": [
+        0.2,
+        0
+      ],
+      "failures": 4,
+      "minnodes": 303
+    },
+    {
+      "id": "scored_0016",
+      "before": 358,
+      "after": 220,
+      "saved": 138,
+      "parameters": [
+        0.6,
+        0
+      ],
+      "failures": 4,
+      "minnodes": 220
+    },
+    {
+      "id": "scored_0017",
+      "before": 255,
+      "after": 173,
+      "saved": 82,
+      "parameters": [
+        0.6,
+        0
+      ],
+      "failures": 2,
+      "minnodes": 173
+    },
+    {
+      "id": "scored_0018",
+      "before": 253,
+      "after": 168,
+      "saved": 85,
+      "parameters": [
+        0.35,
+        0
+      ],
+      "failures": 3,
+      "minnodes": 168
+    },
+    {
+      "id": "scored_0019",
+      "before": 44,
+      "after": 32,
+      "saved": 12,
+      "parameters": [
+        0.35,
+        0
+      ],
+      "failures": 3,
+      "minnodes": 32
+    },
+    {
+      "id": "scored_0020",
+      "before": 514,
+      "after": 352,
+      "saved": 162,
+      "parameters": [
+        0.2,
+        0
+      ],
+      "failures": 6,
+      "minnodes": 330
+    },
+    {
+      "id": "scored_0021",
+      "before": 68,
+      "after": 53,
+      "saved": 15,
+      "parameters": [
+        0.35,
+        0
+      ],
+      "failures": 2,
+      "minnodes": 53
+    },
+    {
+      "id": "scored_0022",
+      "before": 239,
+      "after": 166,
+      "saved": 73,
+      "parameters": [
+        0.35,
+        0
+      ],
+      "failures": 2,
+      "minnodes": 166
+    },
+    {
+      "id": "scored_0023",
+      "before": 314,
+      "after": 219,
+      "saved": 95,
+      "parameters": [
+        0.35,
+        0
+      ],
+      "failures": 4,
+      "minnodes": 219
+    },
+    {
+      "id": "scored_0024",
+      "before": 40,
+      "after": 36,
+      "saved": 4,
+      "parameters": [
+        0.2,
+        0
+      ],
+      "failures": 4,
+      "minnodes": 36
+    },
+    {
+      "id": "scored_0025",
+      "before": 295,
+      "after": 191,
+      "saved": 104,
+      "parameters": [
+        0.35,
+        0
+      ],
+      "failures": 1,
+      "minnodes": 191
+    },
+    {
+      "id": "scored_0026",
+      "before": 361,
+      "after": 253,
+      "saved": 108,
+      "parameters": [
+        0.35,
+        0
+      ],
+      "failures": 3,
+      "minnodes": 253
+    },
+    {
+      "id": "scored_0027",
+      "before": 238,
+      "after": 148,
+      "saved": 90,
+      "parameters": [
+        0.2,
+        0
+      ],
+      "failures": 4,
+      "minnodes": 148
+    },
+    {
+      "id": "scored_0028",
+      "before": 388,
+      "after": 203,
+      "saved": 185,
+      "parameters": [
+        0.2,
+        0
+      ],
+      "failures": 4,
+      "minnodes": 203
+    },
+    {
+      "id": "scored_0029",
+      "before": 63,
+      "after": 50,
+      "saved": 13,
+      "parameters": [
+        0.6,
+        0
+      ],
+      "failures": 3,
+      "minnodes": 50
+    },
+    {
+      "id": "scored_0030",
+      "before": 403,
+      "after": 403,
+      "saved": 0,
+      "parameters": null,
+      "failures": 7,
+      "minnodes": 282
+    },
+    {
+      "id": "scored_0031",
+      "before": 517,
+      "after": 351,
+      "saved": 166,
+      "parameters": [
+        0.2,
+        0
+      ],
+      "failures": 5,
+      "minnodes": 336
+    },
+    {
+      "id": "scored_0032",
+      "before": 219,
+      "after": 142,
+      "saved": 77,
+      "parameters": [
+        0.35,
+        0
+      ],
+      "failures": 3,
+      "minnodes": 142
+    },
+    {
+      "id": "scored_0033",
+      "before": 425,
+      "after": 293,
+      "saved": 132,
+      "parameters": [
+        0.2,
+        0
+      ],
+      "failures": 3,
+      "minnodes": 293
+    },
+    {
+      "id": "scored_0034",
+      "before": 324,
+      "after": 233,
+      "saved": 91,
+      "parameters": [
+        0.35,
+        0
+      ],
+      "failures": 4,
+      "minnodes": 233
+    },
+    {
+      "id": "scored_0035",
+      "before": 212,
+      "after": 165,
+      "saved": 47,
+      "parameters": [
+        0.1,
+        0
+      ],
+      "failures": 6,
+      "minnodes": 165
+    },
+    {
+      "id": "scored_0036",
+      "before": 453,
+      "after": 316,
+      "saved": 137,
+      "parameters": [
+        0.2,
+        0
+      ],
+      "failures": 3,
+      "minnodes": 316
+    },
+    {
+      "id": "scored_0037",
+      "before": 417,
+      "after": 276,
+      "saved": 141,
+      "parameters": [
+        0.2,
+        0
+      ],
+      "failures": 5,
+      "minnodes": 268
+    },
+    {
+      "id": "scored_0038",
+      "before": 278,
+      "after": 200,
+      "saved": 78,
+      "parameters": [
+        0.35,
+        0
+      ],
+      "failures": 3,
+      "minnodes": 200
+    },
+    {
+      "id": "scored_0039",
+      "before": 194,
+      "after": 147,
+      "saved": 47,
+      "parameters": [
+        0.35,
+        0
+      ],
+      "failures": 4,
+      "minnodes": 147
+    },
+    {
+      "id": "scored_0040",
+      "before": 347,
+      "after": 248,
+      "saved": 99,
+      "parameters": [
+        0.2,
+        0
+      ],
+      "failures": 5,
+      "minnodes": 244
+    },
+    {
+      "id": "scored_0041",
+      "before": 280,
+      "after": 180,
+      "saved": 100,
+      "parameters": [
+        0.2,
+        0
+      ],
+      "failures": 2,
+      "minnodes": 180
+    },
+    {
+      "id": "scored_0042",
+      "before": 326,
+      "after": 240,
+      "saved": 86,
+      "parameters": [
+        0.2,
+        0
+      ],
+      "failures": 6,
+      "minnodes": 240
+    },
+    {
+      "id": "scored_0043",
+      "before": 400,
+      "after": 294,
+      "saved": 106,
+      "parameters": [
+        0.2,
+        0
+      ],
+      "failures": 4,
+      "minnodes": 294
+    },
+    {
+      "id": "scored_0044",
+      "before": 130,
+      "after": 111,
+      "saved": 19,
+      "parameters": [
+        0.2,
+        0
+      ],
+      "failures": 4,
+      "minnodes": 111
+    },
+    {
+      "id": "scored_0045",
+      "before": 299,
+      "after": 217,
+      "saved": 82,
+      "parameters": [
+        0.35,
+        0
+      ],
+      "failures": 1,
+      "minnodes": 217
+    },
+    {
+      "id": "scored_0046",
+      "before": 55,
+      "after": 44,
+      "saved": 11,
+      "parameters": [
+        0.6,
+        0
+      ],
+      "failures": 3,
+      "minnodes": 44
+    },
+    {
+      "id": "scored_0047",
+      "before": 345,
+      "after": 218,
+      "saved": 127,
+      "parameters": [
+        0.6,
+        0
+      ],
+      "failures": 3,
+      "minnodes": 218
+    },
+    {
+      "id": "scored_0048",
+      "before": 290,
+      "after": 189,
+      "saved": 101,
+      "parameters": [
+        0.6,
+        0
+      ],
+      "failures": 3,
+      "minnodes": 189
+    },
+    {
+      "id": "scored_0049",
+      "before": 309,
+      "after": 216,
+      "saved": 93,
+      "parameters": [
+        0.35,
+        0
+      ],
+      "failures": 3,
+      "minnodes": 216
+    },
+    {
+      "id": "scored_0050",
+      "before": 45,
+      "after": 37,
+      "saved": 8,
+      "parameters": [
+        0.1,
+        0
+      ],
+      "failures": 1,
+      "minnodes": 37
+    },
+    {
+      "id": "scored_0051",
+      "before": 558,
+      "after": 389,
+      "saved": 169,
+      "parameters": [
+        0.2,
+        0
+      ],
+      "failures": 5,
+      "minnodes": 377
+    },
+    {
+      "id": "scored_0052",
+      "before": 198,
+      "after": 155,
+      "saved": 43,
+      "parameters": [
+        0.6,
+        0
+      ],
+      "failures": 4,
+      "minnodes": 155
+    },
+    {
+      "id": "scored_0053",
+      "before": 392,
+      "after": 169,
+      "saved": 223,
+      "parameters": [
+        0.35,
+        0
+      ],
+      "failures": 3,
+      "minnodes": 169
+    },
+    {
+      "id": "scored_0054",
+      "before": 393,
+      "after": 267,
+      "saved": 126,
+      "parameters": [
+        0.2,
+        0
+      ],
+      "failures": 6,
+      "minnodes": 250
+    },
+    {
+      "id": "scored_0055",
+      "before": 141,
+      "after": 116,
+      "saved": 25,
+      "parameters": [
+        0.6,
+        0
+      ],
+      "failures": 5,
+      "minnodes": 116
+    },
+    {
+      "id": "scored_0056",
+      "before": 44,
+      "after": 36,
+      "saved": 8,
+      "parameters": [
+        2,
+        1
+      ],
+      "failures": 0,
+      "minnodes": 36
+    },
+    {
+      "id": "scored_0057",
+      "before": 446,
+      "after": 304,
+      "saved": 142,
+      "parameters": [
+        0.2,
+        0
+      ],
+      "failures": 3,
+      "minnodes": 299
+    },
+    {
+      "id": "scored_0058",
+      "before": 560,
+      "after": 378,
+      "saved": 182,
+      "parameters": [
+        0.2,
+        0
+      ],
+      "failures": 5,
+      "minnodes": 373
+    },
+    {
+      "id": "scored_0059",
+      "before": 291,
+      "after": 210,
+      "saved": 81,
+      "parameters": [
+        0.6,
+        0
+      ],
+      "failures": 4,
+      "minnodes": 210
+    },
+    {
+      "id": "scored_0060",
+      "before": 527,
+      "after": 363,
+      "saved": 164,
+      "parameters": [
+        0.2,
+        0
+      ],
+      "failures": 4,
+      "minnodes": 355
+    },
+    {
+      "id": "scored_0061",
+      "before": 4,
+      "after": 4,
+      "saved": 0,
+      "parameters": null,
+      "failures": 0,
+      "minnodes": 4
+    },
+    {
+      "id": "scored_0062",
+      "before": 285,
+      "after": 198,
+      "saved": 87,
+      "parameters": [
+        0.35,
+        0
+      ],
+      "failures": 4,
+      "minnodes": 198
+    },
+    {
+      "id": "scored_0063",
+      "before": 252,
+      "after": 159,
+      "saved": 93,
+      "parameters": [
+        0.6,
+        0
+      ],
+      "failures": 6,
+      "minnodes": 159
+    },
+    {
+      "id": "scored_0064",
+      "before": 257,
+      "after": 164,
+      "saved": 93,
+      "parameters": [
+        0.35,
+        0
+      ],
+      "failures": 3,
+      "minnodes": 164
+    },
+    {
+      "id": "scored_0065",
+      "before": 62,
+      "after": 47,
+      "saved": 15,
+      "parameters": [
+        0.35,
+        0
+      ],
+      "failures": 2,
+      "minnodes": 47
+    },
+    {
+      "id": "scored_0066",
+      "before": 62,
+      "after": 49,
+      "saved": 13,
+      "parameters": [
+        0.35,
+        0
+      ],
+      "failures": 4,
+      "minnodes": 49
+    },
+    {
+      "id": "scored_0067",
+      "before": 550,
+      "after": 550,
+      "saved": 0,
+      "parameters": null,
+      "failures": 7,
+      "minnodes": 363
+    },
+    {
+      "id": "scored_0068",
+      "before": 345,
+      "after": 195,
+      "saved": 150,
+      "parameters": [
+        0.6,
+        0
+      ],
+      "failures": 3,
+      "minnodes": 195
+    },
+    {
+      "id": "scored_0069",
+      "before": 580,
+      "after": 391,
+      "saved": 189,
+      "parameters": [
+        0.2,
+        0
+      ],
+      "failures": 6,
+      "minnodes": 384
+    },
+    {
+      "id": "scored_0070",
+      "before": 325,
+      "after": 181,
+      "saved": 144,
+      "parameters": [
+        0.6,
+        0
+      ],
+      "failures": 3,
+      "minnodes": 181
+    },
+    {
+      "id": "scored_0071",
+      "before": 215,
+      "after": 148,
+      "saved": 67,
+      "parameters": [
+        0.2,
+        0
+      ],
+      "failures": 4,
+      "minnodes": 148
+    },
+    {
+      "id": "scored_0072",
+      "before": 286,
+      "after": 172,
+      "saved": 114,
+      "parameters": [
+        0.35,
+        0
+      ],
+      "failures": 3,
+      "minnodes": 172
+    },
+    {
+      "id": "scored_0073",
+      "before": 236,
+      "after": 171,
+      "saved": 65,
+      "parameters": [
+        0.35,
+        0
+      ],
+      "failures": 2,
+      "minnodes": 171
+    },
+    {
+      "id": "scored_0074",
+      "before": 427,
+      "after": 296,
+      "saved": 131,
+      "parameters": [
+        0.35,
+        0
+      ],
+      "failures": 5,
+      "minnodes": 291
+    },
+    {
+      "id": "scored_0075",
+      "before": 533,
+      "after": 363,
+      "saved": 170,
+      "parameters": [
+        0.2,
+        0
+      ],
+      "failures": 2,
+      "minnodes": 355
+    },
+    {
+      "id": "scored_0076",
+      "before": 277,
+      "after": 202,
+      "saved": 75,
+      "parameters": [
+        0.2,
+        0
+      ],
+      "failures": 3,
+      "minnodes": 202
+    },
+    {
+      "id": "scored_0077",
+      "before": 211,
+      "after": 153,
+      "saved": 58,
+      "parameters": [
+        0.35,
+        0
+      ],
+      "failures": 3,
+      "minnodes": 153
+    },
+    {
+      "id": "scored_0078",
+      "before": 203,
+      "after": 141,
+      "saved": 62,
+      "parameters": [
+        0.6,
+        0
+      ],
+      "failures": 2,
+      "minnodes": 141
+    },
+    {
+      "id": "scored_0079",
+      "before": 314,
+      "after": 206,
+      "saved": 108,
+      "parameters": [
+        0.6,
+        0
+      ],
+      "failures": 3,
+      "minnodes": 206
+    },
+    {
+      "id": "scored_0080",
+      "before": 287,
+      "after": 197,
+      "saved": 90,
+      "parameters": [
+        0.2,
+        0
+      ],
+      "failures": 2,
+      "minnodes": 197
+    },
+    {
+      "id": "scored_0081",
+      "before": 244,
+      "after": 166,
+      "saved": 78,
+      "parameters": [
+        0.6,
+        0
+      ],
+      "failures": 4,
+      "minnodes": 166
+    },
+    {
+      "id": "scored_0082",
+      "before": 341,
+      "after": 161,
+      "saved": 180,
+      "parameters": [
+        0.2,
+        0
+      ],
+      "failures": 3,
+      "minnodes": 161
+    },
+    {
+      "id": "scored_0083",
+      "before": 329,
+      "after": 237,
+      "saved": 92,
+      "parameters": [
+        0.6,
+        0
+      ],
+      "failures": 5,
+      "minnodes": 237
+    },
+    {
+      "id": "scored_0084",
+      "before": 70,
+      "after": 55,
+      "saved": 15,
+      "parameters": [
+        0.2,
+        0
+      ],
+      "failures": 1,
+      "minnodes": 55
+    },
+    {
+      "id": "scored_0085",
+      "before": 162,
+      "after": 124,
+      "saved": 38,
+      "parameters": [
+        0.6,
+        0
+      ],
+      "failures": 2,
+      "minnodes": 124
+    },
+    {
+      "id": "scored_0086",
+      "before": 222,
+      "after": 143,
+      "saved": 79,
+      "parameters": [
+        0.6,
+        0
+      ],
+      "failures": 3,
+      "minnodes": 143
+    },
+    {
+      "id": "scored_0087",
+      "before": 510,
+      "after": 379,
+      "saved": 131,
+      "parameters": [
+        0.1,
+        0
+      ],
+      "failures": 5,
+      "minnodes": 338
+    },
+    {
+      "id": "scored_0088",
+      "before": 437,
+      "after": 437,
+      "saved": 0,
+      "parameters": null,
+      "failures": 6,
+      "minnodes": 267
+    },
+    {
+      "id": "scored_0089",
+      "before": 231,
+      "after": 166,
+      "saved": 65,
+      "parameters": [
+        0.2,
+        0
+      ],
+      "failures": 3,
+      "minnodes": 166
+    },
+    {
+      "id": "scored_0090",
+      "before": 373,
+      "after": 259,
+      "saved": 114,
+      "parameters": [
+        0.35,
+        0
+      ],
+      "failures": 4,
+      "minnodes": 259
+    },
+    {
+      "id": "scored_0091",
+      "before": 40,
+      "after": 35,
+      "saved": 5,
+      "parameters": [
+        0.35,
+        0
+      ],
+      "failures": 2,
+      "minnodes": 35
+    },
+    {
+      "id": "scored_0092",
+      "before": 64,
+      "after": 48,
+      "saved": 16,
+      "parameters": [
+        0.2,
+        0
+      ],
+      "failures": 5,
+      "minnodes": 48
+    },
+    {
+      "id": "scored_0093",
+      "before": 191,
+      "after": 159,
+      "saved": 32,
+      "parameters": [
+        0.6,
+        0
+      ],
+      "failures": 4,
+      "minnodes": 159
+    },
+    {
+      "id": "scored_0094",
+      "before": 537,
+      "after": 384,
+      "saved": 153,
+      "parameters": [
+        0.1,
+        0
+      ],
+      "failures": 6,
+      "minnodes": 355
+    },
+    {
+      "id": "scored_0095",
+      "before": 54,
+      "after": 45,
+      "saved": 9,
+      "parameters": [
+        0.6,
+        0
+      ],
+      "failures": 6,
+      "minnodes": 45
+    },
+    {
+      "id": "scored_0096",
+      "before": 334,
+      "after": 250,
+      "saved": 84,
+      "parameters": [
+        0.35,
+        0
+      ],
+      "failures": 5,
+      "minnodes": 250
+    },
+    {
+      "id": "scored_0097",
+      "before": 167,
+      "after": 127,
+      "saved": 40,
+      "parameters": [
+        0.2,
+        0
+      ],
+      "failures": 1,
+      "minnodes": 127
+    },
+    {
+      "id": "scored_0098",
+      "before": 359,
+      "after": 261,
+      "saved": 98,
+      "parameters": [
+        0.2,
+        0
+      ],
+      "failures": 4,
+      "minnodes": 257
+    },
+    {
+      "id": "scored_0099",
+      "before": 365,
+      "after": 204,
+      "saved": 161,
+      "parameters": [
+        0.6,
+        0
+      ],
+      "failures": 3,
+      "minnodes": 204
+    },
+    {
+      "id": "scored_0100",
+      "before": 288,
+      "after": 192,
+      "saved": 96,
+      "parameters": [
+        0.35,
+        0
+      ],
+      "failures": 4,
+      "minnodes": 192
+    }
+  ]
+}

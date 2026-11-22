@@ -1,0 +1,913 @@
+{
+  "validation": {
+    "valid": true,
+    "rows": 1000,
+    "score": 132255,
+    "maximum_instructions": 277,
+    "maximum_program_cell_bytes": 3977,
+    "file_bytes": 2132823
+  },
+  "seconds": 20.676137316999984,
+  "puzzles": [
+    {
+      "id": "scored_0001",
+      "candidate_helpers": 512,
+      "tested": 347,
+      "closed": 273,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0002",
+      "candidate_helpers": 512,
+      "tested": 174,
+      "closed": 140,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0003",
+      "candidate_helpers": 512,
+      "tested": 1188,
+      "closed": 897,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0004",
+      "candidate_helpers": 512,
+      "tested": 276,
+      "closed": 226,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0005",
+      "candidate_helpers": 503,
+      "tested": 485,
+      "closed": 370,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0006",
+      "candidate_helpers": 512,
+      "tested": 1891,
+      "closed": 1318,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0007",
+      "candidate_helpers": 512,
+      "tested": 847,
+      "closed": 658,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0008",
+      "candidate_helpers": 512,
+      "tested": 1141,
+      "closed": 976,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0009",
+      "candidate_helpers": 197,
+      "tested": 160,
+      "closed": 130,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0010",
+      "candidate_helpers": 512,
+      "tested": 497,
+      "closed": 408,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0011",
+      "candidate_helpers": 512,
+      "tested": 1489,
+      "closed": 1375,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0012",
+      "candidate_helpers": 512,
+      "tested": 186,
+      "closed": 160,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0013",
+      "candidate_helpers": 512,
+      "tested": 274,
+      "closed": 224,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0014",
+      "candidate_helpers": 87,
+      "tested": 127,
+      "closed": 113,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0015",
+      "candidate_helpers": 512,
+      "tested": 520,
+      "closed": 388,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0016",
+      "candidate_helpers": 512,
+      "tested": 1127,
+      "closed": 817,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0017",
+      "candidate_helpers": 512,
+      "tested": 716,
+      "closed": 507,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0018",
+      "candidate_helpers": 512,
+      "tested": 785,
+      "closed": 740,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0019",
+      "candidate_helpers": 54,
+      "tested": 51,
+      "closed": 46,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0020",
+      "candidate_helpers": 512,
+      "tested": 204,
+      "closed": 158,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0021",
+      "candidate_helpers": 382,
+      "tested": 370,
+      "closed": 202,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0022",
+      "candidate_helpers": 512,
+      "tested": 950,
+      "closed": 739,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0023",
+      "candidate_helpers": 512,
+      "tested": 253,
+      "closed": 219,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0024",
+      "candidate_helpers": 211,
+      "tested": 467,
+      "closed": 252,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0025",
+      "candidate_helpers": 512,
+      "tested": 1096,
+      "closed": 947,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0026",
+      "candidate_helpers": 512,
+      "tested": 1038,
+      "closed": 756,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0027",
+      "candidate_helpers": 512,
+      "tested": 2353,
+      "closed": 2065,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0028",
+      "candidate_helpers": 512,
+      "tested": 1297,
+      "closed": 1106,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0029",
+      "candidate_helpers": 299,
+      "tested": 366,
+      "closed": 303,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0030",
+      "candidate_helpers": 512,
+      "tested": 237,
+      "closed": 173,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0031",
+      "candidate_helpers": 512,
+      "tested": 277,
+      "closed": 201,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0032",
+      "candidate_helpers": 512,
+      "tested": 1285,
+      "closed": 1149,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0033",
+      "candidate_helpers": 512,
+      "tested": 193,
+      "closed": 138,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0034",
+      "candidate_helpers": 512,
+      "tested": 749,
+      "closed": 702,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0035",
+      "candidate_helpers": 512,
+      "tested": 1331,
+      "closed": 777,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0036",
+      "candidate_helpers": 512,
+      "tested": 764,
+      "closed": 548,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0037",
+      "candidate_helpers": 512,
+      "tested": 233,
+      "closed": 195,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0038",
+      "candidate_helpers": 512,
+      "tested": 345,
+      "closed": 277,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0039",
+      "candidate_helpers": 512,
+      "tested": 543,
+      "closed": 446,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0040",
+      "candidate_helpers": 512,
+      "tested": 768,
+      "closed": 626,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0041",
+      "candidate_helpers": 512,
+      "tested": 1068,
+      "closed": 771,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0042",
+      "candidate_helpers": 512,
+      "tested": 842,
+      "closed": 598,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0043",
+      "candidate_helpers": 512,
+      "tested": 463,
+      "closed": 314,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0044",
+      "candidate_helpers": 512,
+      "tested": 998,
+      "closed": 815,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0045",
+      "candidate_helpers": 512,
+      "tested": 273,
+      "closed": 211,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0046",
+      "candidate_helpers": 210,
+      "tested": 167,
+      "closed": 138,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0047",
+      "candidate_helpers": 512,
+      "tested": 422,
+      "closed": 310,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0048",
+      "candidate_helpers": 512,
+      "tested": 507,
+      "closed": 343,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0049",
+      "candidate_helpers": 512,
+      "tested": 337,
+      "closed": 313,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0050",
+      "candidate_helpers": 222,
+      "tested": 355,
+      "closed": 191,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0051",
+      "candidate_helpers": 512,
+      "tested": 165,
+      "closed": 121,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0052",
+      "candidate_helpers": 512,
+      "tested": 818,
+      "closed": 557,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0053",
+      "candidate_helpers": 512,
+      "tested": 948,
+      "closed": 860,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0054",
+      "candidate_helpers": 512,
+      "tested": 279,
+      "closed": 204,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0055",
+      "candidate_helpers": 512,
+      "tested": 375,
+      "closed": 257,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0056",
+      "candidate_helpers": 135,
+      "tested": 189,
+      "closed": 126,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0057",
+      "candidate_helpers": 512,
+      "tested": 151,
+      "closed": 137,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0058",
+      "candidate_helpers": 512,
+      "tested": 146,
+      "closed": 134,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0059",
+      "candidate_helpers": 512,
+      "tested": 297,
+      "closed": 230,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0060",
+      "candidate_helpers": 512,
+      "tested": 224,
+      "closed": 142,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0061",
+      "candidate_helpers": 2,
+      "tested": 7,
+      "closed": 7,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0062",
+      "candidate_helpers": 512,
+      "tested": 699,
+      "closed": 630,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0063",
+      "candidate_helpers": 512,
+      "tested": 1355,
+      "closed": 1111,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0064",
+      "candidate_helpers": 512,
+      "tested": 1396,
+      "closed": 1062,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0065",
+      "candidate_helpers": 315,
+      "tested": 408,
+      "closed": 278,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0066",
+      "candidate_helpers": 357,
+      "tested": 287,
+      "closed": 175,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0067",
+      "candidate_helpers": 512,
+      "tested": 261,
+      "closed": 194,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0068",
+      "candidate_helpers": 512,
+      "tested": 2323,
+      "closed": 1675,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0069",
+      "candidate_helpers": 512,
+      "tested": 94,
+      "closed": 80,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0070",
+      "candidate_helpers": 512,
+      "tested": 783,
+      "closed": 603,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0071",
+      "candidate_helpers": 512,
+      "tested": 779,
+      "closed": 538,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0072",
+      "candidate_helpers": 512,
+      "tested": 825,
+      "closed": 594,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0073",
+      "candidate_helpers": 512,
+      "tested": 564,
+      "closed": 463,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0074",
+      "candidate_helpers": 512,
+      "tested": 395,
+      "closed": 298,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0075",
+      "candidate_helpers": 512,
+      "tested": 245,
+      "closed": 149,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0076",
+      "candidate_helpers": 512,
+      "tested": 445,
+      "closed": 338,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0077",
+      "candidate_helpers": 512,
+      "tested": 666,
+      "closed": 576,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0078",
+      "candidate_helpers": 512,
+      "tested": 276,
+      "closed": 180,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0079",
+      "candidate_helpers": 512,
+      "tested": 1221,
+      "closed": 901,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0080",
+      "candidate_helpers": 512,
+      "tested": 455,
+      "closed": 324,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0081",
+      "candidate_helpers": 512,
+      "tested": 1212,
+      "closed": 1099,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0082",
+      "candidate_helpers": 512,
+      "tested": 1406,
+      "closed": 1238,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0083",
+      "candidate_helpers": 512,
+      "tested": 407,
+      "closed": 289,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0084",
+      "candidate_helpers": 313,
+      "tested": 316,
+      "closed": 262,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0085",
+      "candidate_helpers": 512,
+      "tested": 402,
+      "closed": 333,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0086",
+      "candidate_helpers": 512,
+      "tested": 1715,
+      "closed": 1474,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0087",
+      "candidate_helpers": 512,
+      "tested": 209,
+      "closed": 148,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0088",
+      "candidate_helpers": 512,
+      "tested": 287,
+      "closed": 148,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0089",
+      "candidate_helpers": 512,
+      "tested": 272,
+      "closed": 224,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0090",
+      "candidate_helpers": 512,
+      "tested": 452,
+      "closed": 361,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0091",
+      "candidate_helpers": 117,
+      "tested": 116,
+      "closed": 111,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0092",
+      "candidate_helpers": 238,
+      "tested": 217,
+      "closed": 174,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0093",
+      "candidate_helpers": 512,
+      "tested": 518,
+      "closed": 399,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0094",
+      "candidate_helpers": 512,
+      "tested": 517,
+      "closed": 373,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0095",
+      "candidate_helpers": 175,
+      "tested": 126,
+      "closed": 110,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0096",
+      "candidate_helpers": 512,
+      "tested": 874,
+      "closed": 684,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0097",
+      "candidate_helpers": 512,
+      "tested": 383,
+      "closed": 325,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0098",
+      "candidate_helpers": 512,
+      "tested": 430,
+      "closed": 343,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0099",
+      "candidate_helpers": 512,
+      "tested": 1187,
+      "closed": 1087,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    },
+    {
+      "id": "scored_0100",
+      "candidate_helpers": 512,
+      "tested": 1259,
+      "closed": 972,
+      "improvements": 0,
+      "saved": 0,
+      "budget_exhausted": false
+    }
+  ]
+}

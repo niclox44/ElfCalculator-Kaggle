@@ -1,0 +1,906 @@
+{
+  "seconds": 19.406353984999896,
+  "saved": 0,
+  "puzzles": [
+    {
+      "id": "scored_0001",
+      "before": 463,
+      "after": 463,
+      "saved": 0,
+      "nodes": 884,
+      "planned": 3012,
+      "failure": null
+    },
+    {
+      "id": "scored_0002",
+      "before": 516,
+      "after": 516,
+      "saved": 0,
+      "nodes": 1393,
+      "planned": 3022,
+      "failure": null
+    },
+    {
+      "id": "scored_0003",
+      "before": 444,
+      "after": 444,
+      "saved": 0,
+      "nodes": 1141,
+      "planned": 3019,
+      "failure": null
+    },
+    {
+      "id": "scored_0004",
+      "before": 436,
+      "after": 436,
+      "saved": 0,
+      "nodes": 643,
+      "planned": 3012,
+      "failure": null
+    },
+    {
+      "id": "scored_0005",
+      "before": 86,
+      "after": 86,
+      "saved": 0,
+      "nodes": 126,
+      "planned": 231,
+      "failure": null
+    },
+    {
+      "id": "scored_0006",
+      "before": 377,
+      "after": 377,
+      "saved": 0,
+      "nodes": 488,
+      "planned": 2475,
+      "failure": null
+    },
+    {
+      "id": "scored_0007",
+      "before": 400,
+      "after": 400,
+      "saved": 0,
+      "nodes": 542,
+      "planned": 3009,
+      "failure": null
+    },
+    {
+      "id": "scored_0008",
+      "before": 286,
+      "after": 286,
+      "saved": 0,
+      "nodes": 375,
+      "planned": 1780,
+      "failure": null
+    },
+    {
+      "id": "scored_0009",
+      "before": 57,
+      "after": 57,
+      "saved": 0,
+      "nodes": 97,
+      "planned": 320,
+      "failure": null
+    },
+    {
+      "id": "scored_0010",
+      "before": 342,
+      "after": 342,
+      "saved": 0,
+      "nodes": 451,
+      "planned": 1684,
+      "failure": null
+    },
+    {
+      "id": "scored_0011",
+      "before": 383,
+      "after": 383,
+      "saved": 0,
+      "nodes": 771,
+      "planned": 3011,
+      "failure": null
+    },
+    {
+      "id": "scored_0012",
+      "before": 378,
+      "after": 378,
+      "saved": 0,
+      "nodes": 501,
+      "planned": 3004,
+      "failure": null
+    },
+    {
+      "id": "scored_0013",
+      "before": 334,
+      "after": 334,
+      "saved": 0,
+      "nodes": 440,
+      "planned": 1629,
+      "failure": null
+    },
+    {
+      "id": "scored_0014",
+      "before": 46,
+      "after": 46,
+      "saved": 0,
+      "nodes": 65,
+      "planned": 130,
+      "failure": null
+    },
+    {
+      "id": "scored_0015",
+      "before": 447,
+      "after": 447,
+      "saved": 0,
+      "nodes": 542,
+      "planned": 2877,
+      "failure": null
+    },
+    {
+      "id": "scored_0016",
+      "before": 358,
+      "after": 358,
+      "saved": 0,
+      "nodes": 536,
+      "planned": 3014,
+      "failure": null
+    },
+    {
+      "id": "scored_0017",
+      "before": 255,
+      "after": 255,
+      "saved": 0,
+      "nodes": 357,
+      "planned": 1709,
+      "failure": null
+    },
+    {
+      "id": "scored_0018",
+      "before": 253,
+      "after": 253,
+      "saved": 0,
+      "nodes": 344,
+      "planned": 1278,
+      "failure": null
+    },
+    {
+      "id": "scored_0019",
+      "before": 44,
+      "after": 44,
+      "saved": 0,
+      "nodes": 52,
+      "planned": 158,
+      "failure": null
+    },
+    {
+      "id": "scored_0020",
+      "before": 514,
+      "after": 514,
+      "saved": 0,
+      "nodes": 1529,
+      "planned": 3025,
+      "failure": null
+    },
+    {
+      "id": "scored_0021",
+      "before": 68,
+      "after": 68,
+      "saved": 0,
+      "nodes": 102,
+      "planned": 179,
+      "failure": null
+    },
+    {
+      "id": "scored_0022",
+      "before": 239,
+      "after": 239,
+      "saved": 0,
+      "nodes": 328,
+      "planned": 1347,
+      "failure": null
+    },
+    {
+      "id": "scored_0023",
+      "before": 314,
+      "after": 314,
+      "saved": 0,
+      "nodes": 422,
+      "planned": 1790,
+      "failure": null
+    },
+    {
+      "id": "scored_0024",
+      "before": 40,
+      "after": 40,
+      "saved": 0,
+      "nodes": 67,
+      "planned": 85,
+      "failure": null
+    },
+    {
+      "id": "scored_0025",
+      "before": 295,
+      "after": 295,
+      "saved": 0,
+      "nodes": 386,
+      "planned": 2139,
+      "failure": null
+    },
+    {
+      "id": "scored_0026",
+      "before": 361,
+      "after": 361,
+      "saved": 0,
+      "nodes": 487,
+      "planned": 1596,
+      "failure": null
+    },
+    {
+      "id": "scored_0027",
+      "before": 238,
+      "after": 238,
+      "saved": 0,
+      "nodes": 349,
+      "planned": 1027,
+      "failure": null
+    },
+    {
+      "id": "scored_0028",
+      "before": 388,
+      "after": 388,
+      "saved": 0,
+      "nodes": 647,
+      "planned": 3013,
+      "failure": null
+    },
+    {
+      "id": "scored_0029",
+      "before": 63,
+      "after": 63,
+      "saved": 0,
+      "nodes": 92,
+      "planned": 350,
+      "failure": null
+    },
+    {
+      "id": "scored_0030",
+      "before": 403,
+      "after": 403,
+      "saved": 0,
+      "nodes": 513,
+      "planned": 2974,
+      "failure": null
+    },
+    {
+      "id": "scored_0031",
+      "before": 517,
+      "after": 517,
+      "saved": 0,
+      "nodes": 1565,
+      "planned": 3023,
+      "failure": null
+    },
+    {
+      "id": "scored_0032",
+      "before": 219,
+      "after": 219,
+      "saved": 0,
+      "nodes": 319,
+      "planned": 883,
+      "failure": null
+    },
+    {
+      "id": "scored_0033",
+      "before": 425,
+      "after": 425,
+      "saved": 0,
+      "nodes": 504,
+      "planned": 2781,
+      "failure": null
+    },
+    {
+      "id": "scored_0034",
+      "before": 324,
+      "after": 324,
+      "saved": 0,
+      "nodes": 449,
+      "planned": 1556,
+      "failure": null
+    },
+    {
+      "id": "scored_0035",
+      "before": 212,
+      "after": 212,
+      "saved": 0,
+      "nodes": 306,
+      "planned": 1013,
+      "failure": null
+    },
+    {
+      "id": "scored_0036",
+      "before": 453,
+      "after": 453,
+      "saved": 0,
+      "nodes": 690,
+      "planned": 3004,
+      "failure": null
+    },
+    {
+      "id": "scored_0037",
+      "before": 417,
+      "after": 417,
+      "saved": 0,
+      "nodes": 500,
+      "planned": 2510,
+      "failure": null
+    },
+    {
+      "id": "scored_0038",
+      "before": 278,
+      "after": 278,
+      "saved": 0,
+      "nodes": 377,
+      "planned": 1505,
+      "failure": null
+    },
+    {
+      "id": "scored_0039",
+      "before": 194,
+      "after": 194,
+      "saved": 0,
+      "nodes": 294,
+      "planned": 759,
+      "failure": null
+    },
+    {
+      "id": "scored_0040",
+      "before": 347,
+      "after": 347,
+      "saved": 0,
+      "nodes": 467,
+      "planned": 1971,
+      "failure": null
+    },
+    {
+      "id": "scored_0041",
+      "before": 280,
+      "after": 280,
+      "saved": 0,
+      "nodes": 402,
+      "planned": 1904,
+      "failure": null
+    },
+    {
+      "id": "scored_0042",
+      "before": 326,
+      "after": 326,
+      "saved": 0,
+      "nodes": 409,
+      "planned": 1649,
+      "failure": null
+    },
+    {
+      "id": "scored_0043",
+      "before": 400,
+      "after": 400,
+      "saved": 0,
+      "nodes": 530,
+      "planned": 3004,
+      "failure": null
+    },
+    {
+      "id": "scored_0044",
+      "before": 130,
+      "after": 130,
+      "saved": 0,
+      "nodes": 213,
+      "planned": 465,
+      "failure": null
+    },
+    {
+      "id": "scored_0045",
+      "before": 299,
+      "after": 299,
+      "saved": 0,
+      "nodes": 427,
+      "planned": 1554,
+      "failure": null
+    },
+    {
+      "id": "scored_0046",
+      "before": 55,
+      "after": 55,
+      "saved": 0,
+      "nodes": 72,
+      "planned": 185,
+      "failure": null
+    },
+    {
+      "id": "scored_0047",
+      "before": 345,
+      "after": 345,
+      "saved": 0,
+      "nodes": 446,
+      "planned": 2613,
+      "failure": null
+    },
+    {
+      "id": "scored_0048",
+      "before": 290,
+      "after": 290,
+      "saved": 0,
+      "nodes": 404,
+      "planned": 1661,
+      "failure": null
+    },
+    {
+      "id": "scored_0049",
+      "before": 309,
+      "after": 309,
+      "saved": 0,
+      "nodes": 410,
+      "planned": 2205,
+      "failure": null
+    },
+    {
+      "id": "scored_0050",
+      "before": 45,
+      "after": 45,
+      "saved": 0,
+      "nodes": 53,
+      "planned": 133,
+      "failure": null
+    },
+    {
+      "id": "scored_0051",
+      "before": 558,
+      "after": 558,
+      "saved": 0,
+      "nodes": 1964,
+      "planned": 3026,
+      "failure": null
+    },
+    {
+      "id": "scored_0052",
+      "before": 198,
+      "after": 198,
+      "saved": 0,
+      "nodes": 280,
+      "planned": 1016,
+      "failure": null
+    },
+    {
+      "id": "scored_0053",
+      "before": 392,
+      "after": 392,
+      "saved": 0,
+      "nodes": 620,
+      "planned": 3004,
+      "failure": null
+    },
+    {
+      "id": "scored_0054",
+      "before": 393,
+      "after": 393,
+      "saved": 0,
+      "nodes": 494,
+      "planned": 2315,
+      "failure": null
+    },
+    {
+      "id": "scored_0055",
+      "before": 141,
+      "after": 141,
+      "saved": 0,
+      "nodes": 198,
+      "planned": 470,
+      "failure": null
+    },
+    {
+      "id": "scored_0056",
+      "before": 44,
+      "after": 44,
+      "saved": 0,
+      "nodes": 58,
+      "planned": 118,
+      "failure": null
+    },
+    {
+      "id": "scored_0057",
+      "before": 446,
+      "after": 446,
+      "saved": 0,
+      "nodes": 590,
+      "planned": 3008,
+      "failure": null
+    },
+    {
+      "id": "scored_0058",
+      "before": 560,
+      "after": 560,
+      "saved": 0,
+      "nodes": 1647,
+      "planned": 3024,
+      "failure": null
+    },
+    {
+      "id": "scored_0059",
+      "before": 291,
+      "after": 291,
+      "saved": 0,
+      "nodes": 357,
+      "planned": 1889,
+      "failure": null
+    },
+    {
+      "id": "scored_0060",
+      "before": 527,
+      "after": 527,
+      "saved": 0,
+      "nodes": 1606,
+      "planned": 3028,
+      "failure": null
+    },
+    {
+      "id": "scored_0061",
+      "before": 4,
+      "after": 4,
+      "saved": 0,
+      "nodes": 4,
+      "planned": 4,
+      "failure": null
+    },
+    {
+      "id": "scored_0062",
+      "before": 285,
+      "after": 285,
+      "saved": 0,
+      "nodes": 378,
+      "planned": 1529,
+      "failure": null
+    },
+    {
+      "id": "scored_0063",
+      "before": 252,
+      "after": 252,
+      "saved": 0,
+      "nodes": 342,
+      "planned": 1149,
+      "failure": null
+    },
+    {
+      "id": "scored_0064",
+      "before": 257,
+      "after": 257,
+      "saved": 0,
+      "nodes": 381,
+      "planned": 1294,
+      "failure": null
+    },
+    {
+      "id": "scored_0065",
+      "before": 62,
+      "after": 62,
+      "saved": 0,
+      "nodes": 89,
+      "planned": 179,
+      "failure": null
+    },
+    {
+      "id": "scored_0066",
+      "before": 62,
+      "after": 62,
+      "saved": 0,
+      "nodes": 105,
+      "planned": 211,
+      "failure": null
+    },
+    {
+      "id": "scored_0067",
+      "before": 550,
+      "after": 550,
+      "saved": 0,
+      "nodes": 1545,
+      "planned": 3023,
+      "failure": null
+    },
+    {
+      "id": "scored_0068",
+      "before": 345,
+      "after": 345,
+      "saved": 0,
+      "nodes": 450,
+      "planned": 3002,
+      "failure": null
+    },
+    {
+      "id": "scored_0069",
+      "before": 580,
+      "after": 580,
+      "saved": 0,
+      "nodes": 1769,
+      "planned": 3029,
+      "failure": null
+    },
+    {
+      "id": "scored_0070",
+      "before": 325,
+      "after": 325,
+      "saved": 0,
+      "nodes": 445,
+      "planned": 2877,
+      "failure": null
+    },
+    {
+      "id": "scored_0071",
+      "before": 215,
+      "after": 215,
+      "saved": 0,
+      "nodes": 296,
+      "planned": 711,
+      "failure": null
+    },
+    {
+      "id": "scored_0072",
+      "before": 286,
+      "after": 286,
+      "saved": 0,
+      "nodes": 398,
+      "planned": 3012,
+      "failure": null
+    },
+    {
+      "id": "scored_0073",
+      "before": 236,
+      "after": 236,
+      "saved": 0,
+      "nodes": 333,
+      "planned": 1611,
+      "failure": null
+    },
+    {
+      "id": "scored_0074",
+      "before": 427,
+      "after": 427,
+      "saved": 0,
+      "nodes": 655,
+      "planned": 3011,
+      "failure": null
+    },
+    {
+      "id": "scored_0075",
+      "before": 533,
+      "after": 533,
+      "saved": 0,
+      "nodes": 1661,
+      "planned": 3027,
+      "failure": null
+    },
+    {
+      "id": "scored_0076",
+      "before": 277,
+      "after": 277,
+      "saved": 0,
+      "nodes": 365,
+      "planned": 1667,
+      "failure": null
+    },
+    {
+      "id": "scored_0077",
+      "before": 211,
+      "after": 211,
+      "saved": 0,
+      "nodes": 286,
+      "planned": 1289,
+      "failure": null
+    },
+    {
+      "id": "scored_0078",
+      "before": 203,
+      "after": 203,
+      "saved": 0,
+      "nodes": 270,
+      "planned": 836,
+      "failure": null
+    },
+    {
+      "id": "scored_0079",
+      "before": 314,
+      "after": 314,
+      "saved": 0,
+      "nodes": 425,
+      "planned": 1688,
+      "failure": null
+    },
+    {
+      "id": "scored_0080",
+      "before": 287,
+      "after": 287,
+      "saved": 0,
+      "nodes": 392,
+      "planned": 1250,
+      "failure": null
+    },
+    {
+      "id": "scored_0081",
+      "before": 244,
+      "after": 244,
+      "saved": 0,
+      "nodes": 329,
+      "planned": 1017,
+      "failure": null
+    },
+    {
+      "id": "scored_0082",
+      "before": 341,
+      "after": 341,
+      "saved": 0,
+      "nodes": 536,
+      "planned": 3004,
+      "failure": null
+    },
+    {
+      "id": "scored_0083",
+      "before": 329,
+      "after": 329,
+      "saved": 0,
+      "nodes": 453,
+      "planned": 1788,
+      "failure": null
+    },
+    {
+      "id": "scored_0084",
+      "before": 70,
+      "after": 70,
+      "saved": 0,
+      "nodes": 94,
+      "planned": 309,
+      "failure": null
+    },
+    {
+      "id": "scored_0085",
+      "before": 162,
+      "after": 162,
+      "saved": 0,
+      "nodes": 245,
+      "planned": 646,
+      "failure": null
+    },
+    {
+      "id": "scored_0086",
+      "before": 222,
+      "after": 222,
+      "saved": 0,
+      "nodes": 294,
+      "planned": 717,
+      "failure": null
+    },
+    {
+      "id": "scored_0087",
+      "before": 510,
+      "after": 510,
+      "saved": 0,
+      "nodes": 1457,
+      "planned": 3022,
+      "failure": null
+    },
+    {
+      "id": "scored_0088",
+      "before": 437,
+      "after": 437,
+      "saved": 0,
+      "nodes": 965,
+      "planned": 3027,
+      "failure": null
+    },
+    {
+      "id": "scored_0089",
+      "before": 231,
+      "after": 231,
+      "saved": 0,
+      "nodes": 307,
+      "planned": 2547,
+      "failure": null
+    },
+    {
+      "id": "scored_0090",
+      "before": 373,
+      "after": 373,
+      "saved": 0,
+      "nodes": 484,
+      "planned": 2927,
+      "failure": null
+    },
+    {
+      "id": "scored_0091",
+      "before": 40,
+      "after": 40,
+      "saved": 0,
+      "nodes": 76,
+      "planned": 139,
+      "failure": null
+    },
+    {
+      "id": "scored_0092",
+      "before": 64,
+      "after": 64,
+      "saved": 0,
+      "nodes": 94,
+      "planned": 185,
+      "failure": null
+    },
+    {
+      "id": "scored_0093",
+      "before": 191,
+      "after": 191,
+      "saved": 0,
+      "nodes": 276,
+      "planned": 1751,
+      "failure": null
+    },
+    {
+      "id": "scored_0094",
+      "before": 537,
+      "after": 537,
+      "saved": 0,
+      "nodes": 1715,
+      "planned": 3023,
+      "failure": null
+    },
+    {
+      "id": "scored_0095",
+      "before": 54,
+      "after": 54,
+      "saved": 0,
+      "nodes": 85,
+      "planned": 162,
+      "failure": null
+    },
+    {
+      "id": "scored_0096",
+      "before": 334,
+      "after": 334,
+      "saved": 0,
+      "nodes": 449,
+      "planned": 1796,
+      "failure": null
+    },
+    {
+      "id": "scored_0097",
+      "before": 167,
+      "after": 167,
+      "saved": 0,
+      "nodes": 245,
+      "planned": 676,
+      "failure": null
+    },
+    {
+      "id": "scored_0098",
+      "before": 359,
+      "after": 359,
+      "saved": 0,
+      "nodes": 495,
+      "planned": 1828,
+      "failure": null
+    },
+    {
+      "id": "scored_0099",
+      "before": 365,
+      "after": 365,
+      "saved": 0,
+      "nodes": 562,
+      "planned": 3010,
+      "failure": null
+    },
+    {
+      "id": "scored_0100",
+      "before": 288,
+      "after": 288,
+      "saved": 0,
+      "nodes": 397,
+      "planned": 1280,
+      "failure": null
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "seconds": 6.362113248999776,
+  "saved": 59,
+  "puzzles": [
+    {
+      "id": "scored_0001",
+      "before": 463,
+      "after": 463,
+      "saved": 0,
+      "nodes": 458,
+      "planned": 29,
+      "failure": "all scheduling orders exceed register limit"
+    },
+    {
+      "id": "scored_0002",
+      "before": 516,
+      "after": 516,
+      "saved": 0,
+      "nodes": 465,
+      "planned": 49,
+      "failure": "all scheduling orders exceed register limit"
+    },
+    {
+      "id": "scored_0003",
+      "before": 444,
+      "after": 444,
+      "saved": 0,
+      "nodes": 416,
+      "planned": 58,
+      "failure": "all scheduling orders exceed register limit"
+    },
+    {
+      "id": "scored_0004",
+      "before": 436,
+      "after": 407,
+      "saved": 29,
+      "nodes": 407,
+      "planned": 36,
+      "failure": null
+    },
+    {
+      "id": "scored_0005",
+      "before": 86,
+      "after": 86,
+      "saved": 0,
+      "nodes": 108,
+      "planned": 26,
+      "failure": null
+    },
+    {
+      "id": "scored_0006",
+      "before": 377,
+      "after": 377,
+      "saved": 0,
+      "nodes": 381,
+      "planned": 67,
+      "failure": null
+    },
+    {
+      "id": "scored_0007",
+      "before": 400,
+      "after": 400,
+      "saved": 0,
+      "nodes": 401,
+      "planned": 59,
+      "failure": null
+    },
+    {
+      "id": "scored_0008",
+      "before": 286,
+      "after": 286,
+      "saved": 0,
+      "nodes": 294,
+      "planned": 89,
+      "failure": null
+    },
+    {
+      "id": "scored_0009",
+      "before": 57,
+      "after": 57,
+      "saved": 0,
+      "nodes": 78,
+      "planned": 48,
+      "failure": null
+    },
+    {
+      "id": "scored_0010",
+      "before": 342,
+      "after": 342,
+      "saved": 0,
+      "nodes": 352,
+      "planned": 21,
+      "failure": null
+    },
+    {
+      "id": "scored_0011",
+      "before": 383,
+      "after": 370,
+      "saved": 13,
+      "nodes": 370,
+      "planned": 363,
+      "failure": null
+    },
+    {
+      "id": "scored_0012",
+      "before": 378,
+      "after": 361,
+      "saved": 17,
+      "nodes": 361,
+      "planned": 62,
+      "failure": null
+    },
+    {
+      "id": "scored_0013",
+      "before": 334,
+      "after": 334,
+      "saved": 0,
+      "nodes": 343,
+      "planned": 36,
+      "failure": null
+    },
+    {
+      "id": "scored_0014",
+      "before": 46,
+      "after": 46,
+      "saved": 0,
+      "nodes": 51,
+      "planned": 23,
+      "failure": null
+    },
+    {
+      "id": "scored_0015",
+      "before": 447,
+      "after": 447,
+      "saved": 0,
+      "nodes": 452,
+      "planned": 70,
+      "failure": null
+    },
+    {
+      "id": "scored_0016",
+      "before": 358,
+      "after": 358,
+      "saved": 0,
+      "nodes": 368,
+      "planned": 121,
+      "failure": null
+    },
+    {
+      "id": "scored_0017",
+      "before": 255,
+      "after": 255,
+      "saved": 0,
+      "nodes": 269,
+      "planned": 124,
+      "failure": null
+    },
+    {
+      "id": "scored_0018",
+      "before": 253,
+      "after": 253,
+      "saved": 0,
+      "nodes": 267,
+      "planned": 60,
+      "failure": null
+    },
+    {
+      "id": "scored_0019",
+      "before": 44,
+      "after": 44,
+      "saved": 0,
+      "nodes": 45,
+      "planned": 30,
+      "failure": null
+    },
+    {
+      "id": "scored_0020",
+      "before": 514,
+      "after": 514,
+      "saved": 0,
+      "nodes": 485,
+      "planned": 48,
+      "failure": "all scheduling orders exceed register limit"
+    }
+  ]
+}

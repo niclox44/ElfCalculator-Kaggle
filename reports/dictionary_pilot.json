@@ -1,0 +1,3648 @@
+{
+  "optimizer": "public_dictionary_portfolio",
+  "current": "submissions/submission_dictionary_base.csv",
+  "output": "submissions/submission_dictionary_pilot.csv",
+  "before": 181974,
+  "after": 181612,
+  "saved": 362,
+  "processed": 100,
+  "complete": true,
+  "configs": [
+    [
+      3,
+      0.18,
+      52,
+      56,
+      20,
+      0,
+      0
+    ],
+    [
+      3,
+      0.18,
+      52,
+      56,
+      20,
+      1,
+      0
+    ]
+  ],
+  "improved": 36,
+  "start_index": 0,
+  "end_index": 100,
+  "source": "third_party/santa_dictionary/beam_search.cpp",
+  "source_sha256": "b0468e79adca7358d24b3ac44d5678536f29bf01774c5039d1119b0c01c415a4",
+  "workers": 8,
+  "timeout": 60,
+  "wall_seconds": 134.20965844400007,
+  "puzzles": [
+    {
+      "id": "scored_0001",
+      "before": 306,
+      "after": 291,
+      "saved": 15,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 306,
+          "candidate": 310,
+          "seconds": 3.154
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 306,
+          "candidate": 291,
+          "seconds": 7.849
+        }
+      ]
+    },
+    {
+      "id": "scored_0002",
+      "before": 330,
+      "after": 312,
+      "saved": 18,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 330,
+          "candidate": 385,
+          "seconds": 3.016
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 330,
+          "candidate": 312,
+          "seconds": 8.377
+        }
+      ]
+    },
+    {
+      "id": "scored_0003",
+      "before": 284,
+      "after": 280,
+      "saved": 4,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 284,
+          "candidate": 296,
+          "seconds": 3.492
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 284,
+          "candidate": 280,
+          "seconds": 8.253
+        }
+      ]
+    },
+    {
+      "id": "scored_0004",
+      "before": 283,
+      "after": 275,
+      "saved": 8,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 283,
+          "candidate": 281,
+          "seconds": 3.276
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 281,
+          "candidate": 275,
+          "seconds": 8.226
+        }
+      ]
+    },
+    {
+      "id": "scored_0005",
+      "before": 64,
+      "after": 64,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 64,
+          "candidate": 71,
+          "seconds": 0.781
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 64,
+          "candidate": 68,
+          "seconds": 0.817
+        }
+      ]
+    },
+    {
+      "id": "scored_0006",
+      "before": 163,
+      "after": 163,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 163,
+          "candidate": 184,
+          "seconds": 3.92
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 163,
+          "candidate": 180,
+          "seconds": 8.556
+        }
+      ]
+    },
+    {
+      "id": "scored_0007",
+      "before": 191,
+      "after": 191,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 191,
+          "candidate": 244,
+          "seconds": 4.095
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 191,
+          "candidate": 229,
+          "seconds": 9.258
+        }
+      ]
+    },
+    {
+      "id": "scored_0008",
+      "before": 142,
+      "after": 142,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 142,
+          "candidate": 171,
+          "seconds": 4.305
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 142,
+          "candidate": 162,
+          "seconds": 6.25
+        }
+      ]
+    },
+    {
+      "id": "scored_0009",
+      "before": 32,
+      "after": 32,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 32,
+          "candidate": 50,
+          "seconds": 0.491
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 32,
+          "candidate": 50,
+          "seconds": 0.512
+        }
+      ]
+    },
+    {
+      "id": "scored_0010",
+      "before": 226,
+      "after": 226,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 226,
+          "candidate": 241,
+          "seconds": 2.767
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 226,
+          "candidate": 226,
+          "seconds": 5.998
+        }
+      ]
+    },
+    {
+      "id": "scored_0011",
+      "before": 169,
+      "after": 169,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 169,
+          "candidate": 200,
+          "seconds": 3.527
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 169,
+          "candidate": 184,
+          "seconds": 6.369
+        }
+      ]
+    },
+    {
+      "id": "scored_0012",
+      "before": 229,
+      "after": 229,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 229,
+          "candidate": 246,
+          "seconds": 3.202
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 229,
+          "candidate": 240,
+          "seconds": 7.882
+        }
+      ]
+    },
+    {
+      "id": "scored_0013",
+      "before": 221,
+      "after": 215,
+      "saved": 6,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 221,
+          "candidate": 239,
+          "seconds": 2.99
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 221,
+          "candidate": 215,
+          "seconds": 5.811
+        }
+      ]
+    },
+    {
+      "id": "scored_0014",
+      "before": 32,
+      "after": 32,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 32,
+          "candidate": 41,
+          "seconds": 0.148
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 32,
+          "candidate": 41,
+          "seconds": 0.141
+        }
+      ]
+    },
+    {
+      "id": "scored_0015",
+      "before": 283,
+      "after": 283,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 283,
+          "candidate": 295,
+          "seconds": 3.212
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 283,
+          "candidate": 285,
+          "seconds": 6.681
+        }
+      ]
+    },
+    {
+      "id": "scored_0016",
+      "before": 200,
+      "after": 200,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 200,
+          "candidate": 231,
+          "seconds": 3.777
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 200,
+          "candidate": 226,
+          "seconds": 7.923
+        }
+      ]
+    },
+    {
+      "id": "scored_0017",
+      "before": 156,
+      "after": 156,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 156,
+          "candidate": 176,
+          "seconds": 3.947
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 156,
+          "candidate": 166,
+          "seconds": 6.636
+        }
+      ]
+    },
+    {
+      "id": "scored_0018",
+      "before": 155,
+      "after": 155,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 155,
+          "candidate": 173,
+          "seconds": 3.269
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 155,
+          "candidate": 167,
+          "seconds": 4.873
+        }
+      ]
+    },
+    {
+      "id": "scored_0019",
+      "before": 29,
+      "after": 29,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 29,
+          "candidate": 36,
+          "seconds": 0.175
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 29,
+          "candidate": 35,
+          "seconds": 0.185
+        }
+      ]
+    },
+    {
+      "id": "scored_0020",
+      "before": 329,
+      "after": 309,
+      "saved": 20,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 329,
+          "candidate": 330,
+          "seconds": 3.227
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 329,
+          "candidate": 309,
+          "seconds": 8.252
+        }
+      ]
+    },
+    {
+      "id": "scored_0021",
+      "before": 46,
+      "after": 46,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 46,
+          "candidate": 55,
+          "seconds": 0.409
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 46,
+          "candidate": 52,
+          "seconds": 0.411
+        }
+      ]
+    },
+    {
+      "id": "scored_0022",
+      "before": 154,
+      "after": 154,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 154,
+          "candidate": 169,
+          "seconds": 4.546
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 154,
+          "candidate": 161,
+          "seconds": 6.323
+        }
+      ]
+    },
+    {
+      "id": "scored_0023",
+      "before": 214,
+      "after": 206,
+      "saved": 8,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 214,
+          "candidate": 215,
+          "seconds": 2.893
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 214,
+          "candidate": 206,
+          "seconds": 6.121
+        }
+      ]
+    },
+    {
+      "id": "scored_0024",
+      "before": 34,
+      "after": 34,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 34,
+          "candidate": 43,
+          "seconds": 0.186
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 34,
+          "candidate": 44,
+          "seconds": 0.176
+        }
+      ]
+    },
+    {
+      "id": "scored_0025",
+      "before": 168,
+      "after": 168,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 168,
+          "candidate": 191,
+          "seconds": 3.975
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 168,
+          "candidate": 173,
+          "seconds": 6.551
+        }
+      ]
+    },
+    {
+      "id": "scored_0026",
+      "before": 237,
+      "after": 230,
+      "saved": 7,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 237,
+          "candidate": 242,
+          "seconds": 3.232
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 237,
+          "candidate": 230,
+          "seconds": 6.856
+        }
+      ]
+    },
+    {
+      "id": "scored_0027",
+      "before": 136,
+      "after": 136,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 136,
+          "candidate": 148,
+          "seconds": 3.195
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 136,
+          "candidate": 139,
+          "seconds": 4.489
+        }
+      ]
+    },
+    {
+      "id": "scored_0028",
+      "before": 180,
+      "after": 180,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 180,
+          "candidate": 202,
+          "seconds": 4.613
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 180,
+          "candidate": 203,
+          "seconds": 9.681
+        }
+      ]
+    },
+    {
+      "id": "scored_0029",
+      "before": 47,
+      "after": 47,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 47,
+          "candidate": 54,
+          "seconds": 0.691
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 47,
+          "candidate": 53,
+          "seconds": 0.786
+        }
+      ]
+    },
+    {
+      "id": "scored_0030",
+      "before": 256,
+      "after": 256,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 256,
+          "candidate": 274,
+          "seconds": 4.371
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 256,
+          "candidate": 261,
+          "seconds": 9.025
+        }
+      ]
+    },
+    {
+      "id": "scored_0031",
+      "before": 331,
+      "after": 313,
+      "saved": 18,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 331,
+          "candidate": 327,
+          "seconds": 2.924
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 327,
+          "candidate": 313,
+          "seconds": 7.789
+        }
+      ]
+    },
+    {
+      "id": "scored_0032",
+      "before": 129,
+      "after": 129,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 129,
+          "candidate": 142,
+          "seconds": 3.501
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 129,
+          "candidate": 136,
+          "seconds": 4.469
+        }
+      ]
+    },
+    {
+      "id": "scored_0033",
+      "before": 278,
+      "after": 264,
+      "saved": 14,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 278,
+          "candidate": 288,
+          "seconds": 3.288
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 278,
+          "candidate": 264,
+          "seconds": 6.673
+        }
+      ]
+    },
+    {
+      "id": "scored_0034",
+      "before": 221,
+      "after": 216,
+      "saved": 5,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 221,
+          "candidate": 221,
+          "seconds": 2.855
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 221,
+          "candidate": 216,
+          "seconds": 5.203
+        }
+      ]
+    },
+    {
+      "id": "scored_0035",
+      "before": 135,
+      "after": 135,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 135,
+          "candidate": 148,
+          "seconds": 3.969
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 135,
+          "candidate": 144,
+          "seconds": 4.774
+        }
+      ]
+    },
+    {
+      "id": "scored_0036",
+      "before": 307,
+      "after": 304,
+      "saved": 3,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 307,
+          "candidate": 329,
+          "seconds": 3.292
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 307,
+          "candidate": 304,
+          "seconds": 7.649
+        }
+      ]
+    },
+    {
+      "id": "scored_0037",
+      "before": 247,
+      "after": 247,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 247,
+          "candidate": 265,
+          "seconds": 3.857
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 247,
+          "candidate": 257,
+          "seconds": 6.539
+        }
+      ]
+    },
+    {
+      "id": "scored_0038",
+      "before": 185,
+      "after": 185,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 185,
+          "candidate": 193,
+          "seconds": 2.925
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 185,
+          "candidate": 185,
+          "seconds": 4.357
+        }
+      ]
+    },
+    {
+      "id": "scored_0039",
+      "before": 141,
+      "after": 138,
+      "saved": 3,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 141,
+          "candidate": 143,
+          "seconds": 3.097
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 141,
+          "candidate": 138,
+          "seconds": 3.223
+        }
+      ]
+    },
+    {
+      "id": "scored_0040",
+      "before": 222,
+      "after": 222,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 222,
+          "candidate": 239,
+          "seconds": 3.014
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 222,
+          "candidate": 223,
+          "seconds": 6.371
+        }
+      ]
+    },
+    {
+      "id": "scored_0041",
+      "before": 171,
+      "after": 171,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 171,
+          "candidate": 197,
+          "seconds": 3.203
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 171,
+          "candidate": 183,
+          "seconds": 5.647
+        }
+      ]
+    },
+    {
+      "id": "scored_0042",
+      "before": 215,
+      "after": 204,
+      "saved": 11,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 215,
+          "candidate": 217,
+          "seconds": 2.099
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 215,
+          "candidate": 204,
+          "seconds": 5.089
+        }
+      ]
+    },
+    {
+      "id": "scored_0043",
+      "before": 278,
+      "after": 271,
+      "saved": 7,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 278,
+          "candidate": 288,
+          "seconds": 2.481
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 278,
+          "candidate": 271,
+          "seconds": 6.047
+        }
+      ]
+    },
+    {
+      "id": "scored_0044",
+      "before": 94,
+      "after": 94,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 94,
+          "candidate": 108,
+          "seconds": 2.209
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 94,
+          "candidate": 108,
+          "seconds": 2.647
+        }
+      ]
+    },
+    {
+      "id": "scored_0045",
+      "before": 208,
+      "after": 202,
+      "saved": 6,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 208,
+          "candidate": 215,
+          "seconds": 3.057
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 208,
+          "candidate": 202,
+          "seconds": 5.796
+        }
+      ]
+    },
+    {
+      "id": "scored_0046",
+      "before": 37,
+      "after": 37,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 37,
+          "candidate": 41,
+          "seconds": 0.159
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 37,
+          "candidate": 39,
+          "seconds": 0.152
+        }
+      ]
+    },
+    {
+      "id": "scored_0047",
+      "before": 212,
+      "after": 212,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 212,
+          "candidate": 232,
+          "seconds": 3.038
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 212,
+          "candidate": 225,
+          "seconds": 6.696
+        }
+      ]
+    },
+    {
+      "id": "scored_0048",
+      "before": 178,
+      "after": 178,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 178,
+          "candidate": 200,
+          "seconds": 3.032
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 178,
+          "candidate": 190,
+          "seconds": 5.465
+        }
+      ]
+    },
+    {
+      "id": "scored_0049",
+      "before": 197,
+      "after": 197,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 197,
+          "candidate": 213,
+          "seconds": 3.345
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 197,
+          "candidate": 204,
+          "seconds": 6.25
+        }
+      ]
+    },
+    {
+      "id": "scored_0050",
+      "before": 35,
+      "after": 35,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 35,
+          "candidate": 44,
+          "seconds": 0.318
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 35,
+          "candidate": 40,
+          "seconds": 0.293
+        }
+      ]
+    },
+    {
+      "id": "scored_0051",
+      "before": 377,
+      "after": 355,
+      "saved": 22,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 377,
+          "candidate": 386,
+          "seconds": 3.053
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 377,
+          "candidate": 355,
+          "seconds": 10.353
+        }
+      ]
+    },
+    {
+      "id": "scored_0052",
+      "before": 132,
+      "after": 132,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 132,
+          "candidate": 144,
+          "seconds": 3.659
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 132,
+          "candidate": 143,
+          "seconds": 5.084
+        }
+      ]
+    },
+    {
+      "id": "scored_0053",
+      "before": 161,
+      "after": 161,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 161,
+          "candidate": 220,
+          "seconds": 3.887
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 161,
+          "candidate": 200,
+          "seconds": 7.192
+        }
+      ]
+    },
+    {
+      "id": "scored_0054",
+      "before": 246,
+      "after": 246,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 246,
+          "candidate": 265,
+          "seconds": 3.121
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 246,
+          "candidate": 252,
+          "seconds": 7.456
+        }
+      ]
+    },
+    {
+      "id": "scored_0055",
+      "before": 105,
+      "after": 98,
+      "saved": 7,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 105,
+          "candidate": 103,
+          "seconds": 1.152
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 103,
+          "candidate": 98,
+          "seconds": 1.413
+        }
+      ]
+    },
+    {
+      "id": "scored_0056",
+      "before": 30,
+      "after": 30,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 30,
+          "candidate": 37,
+          "seconds": 0.156
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 30,
+          "candidate": 36,
+          "seconds": 0.169
+        }
+      ]
+    },
+    {
+      "id": "scored_0057",
+      "before": 289,
+      "after": 277,
+      "saved": 12,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 289,
+          "candidate": 288,
+          "seconds": 3.107
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 288,
+          "candidate": 277,
+          "seconds": 7.266
+        }
+      ]
+    },
+    {
+      "id": "scored_0058",
+      "before": 355,
+      "after": 341,
+      "saved": 14,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 355,
+          "candidate": 355,
+          "seconds": 3.181
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 355,
+          "candidate": 341,
+          "seconds": 9.729
+        }
+      ]
+    },
+    {
+      "id": "scored_0059",
+      "before": 177,
+      "after": 177,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 177,
+          "candidate": 195,
+          "seconds": 3.544
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 177,
+          "candidate": 188,
+          "seconds": 6.127
+        }
+      ]
+    },
+    {
+      "id": "scored_0060",
+      "before": 337,
+      "after": 319,
+      "saved": 18,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 337,
+          "candidate": 355,
+          "seconds": 2.919
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 337,
+          "candidate": 319,
+          "seconds": 8.081
+        }
+      ]
+    },
+    {
+      "id": "scored_0061",
+      "before": 4,
+      "after": 4,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 4,
+          "candidate": 4,
+          "seconds": 0.032
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 4,
+          "candidate": 4,
+          "seconds": 0.034
+        }
+      ]
+    },
+    {
+      "id": "scored_0062",
+      "before": 187,
+      "after": 187,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 187,
+          "candidate": 188,
+          "seconds": 3.297
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 187,
+          "candidate": 188,
+          "seconds": 6.09
+        }
+      ]
+    },
+    {
+      "id": "scored_0063",
+      "before": 145,
+      "after": 145,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 145,
+          "candidate": 166,
+          "seconds": 3.246
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 145,
+          "candidate": 159,
+          "seconds": 4.899
+        }
+      ]
+    },
+    {
+      "id": "scored_0064",
+      "before": 154,
+      "after": 154,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 154,
+          "candidate": 182,
+          "seconds": 3.544
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 154,
+          "candidate": 176,
+          "seconds": 6.331
+        }
+      ]
+    },
+    {
+      "id": "scored_0065",
+      "before": 46,
+      "after": 46,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 46,
+          "candidate": 50,
+          "seconds": 0.37
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 46,
+          "candidate": 50,
+          "seconds": 0.408
+        }
+      ]
+    },
+    {
+      "id": "scored_0066",
+      "before": 46,
+      "after": 46,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 46,
+          "candidate": 55,
+          "seconds": 0.699
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 46,
+          "candidate": 48,
+          "seconds": 0.599
+        }
+      ]
+    },
+    {
+      "id": "scored_0067",
+      "before": 350,
+      "after": 336,
+      "saved": 14,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 350,
+          "candidate": 346,
+          "seconds": 3.509
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 346,
+          "candidate": 336,
+          "seconds": 10.435
+        }
+      ]
+    },
+    {
+      "id": "scored_0068",
+      "before": 175,
+      "after": 175,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 175,
+          "candidate": 208,
+          "seconds": 4.188
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 175,
+          "candidate": 191,
+          "seconds": 8.097
+        }
+      ]
+    },
+    {
+      "id": "scored_0069",
+      "before": 370,
+      "after": 359,
+      "saved": 11,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 370,
+          "candidate": 375,
+          "seconds": 3.349
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 370,
+          "candidate": 359,
+          "seconds": 12.263
+        }
+      ]
+    },
+    {
+      "id": "scored_0070",
+      "before": 158,
+      "after": 158,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 158,
+          "candidate": 207,
+          "seconds": 4.128
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 158,
+          "candidate": 199,
+          "seconds": 8.641
+        }
+      ]
+    },
+    {
+      "id": "scored_0071",
+      "before": 132,
+      "after": 132,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 132,
+          "candidate": 148,
+          "seconds": 3.995
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 132,
+          "candidate": 142,
+          "seconds": 6.354
+        }
+      ]
+    },
+    {
+      "id": "scored_0072",
+      "before": 159,
+      "after": 159,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 159,
+          "candidate": 181,
+          "seconds": 3.937
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 159,
+          "candidate": 173,
+          "seconds": 7.849
+        }
+      ]
+    },
+    {
+      "id": "scored_0073",
+      "before": 153,
+      "after": 153,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 153,
+          "candidate": 163,
+          "seconds": 3.658
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 153,
+          "candidate": 160,
+          "seconds": 5.993
+        }
+      ]
+    },
+    {
+      "id": "scored_0074",
+      "before": 282,
+      "after": 263,
+      "saved": 19,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 282,
+          "candidate": 284,
+          "seconds": 3.138
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 282,
+          "candidate": 263,
+          "seconds": 8.862
+        }
+      ]
+    },
+    {
+      "id": "scored_0075",
+      "before": 345,
+      "after": 325,
+      "saved": 20,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 345,
+          "candidate": 359,
+          "seconds": 3.85
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 345,
+          "candidate": 325,
+          "seconds": 15.184
+        }
+      ]
+    },
+    {
+      "id": "scored_0076",
+      "before": 185,
+      "after": 181,
+      "saved": 4,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 185,
+          "candidate": 187,
+          "seconds": 4.248
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 185,
+          "candidate": 181,
+          "seconds": 6.222
+        }
+      ]
+    },
+    {
+      "id": "scored_0077",
+      "before": 128,
+      "after": 128,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 128,
+          "candidate": 143,
+          "seconds": 4.935
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 128,
+          "candidate": 141,
+          "seconds": 8.974
+        }
+      ]
+    },
+    {
+      "id": "scored_0078",
+      "before": 129,
+      "after": 129,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 129,
+          "candidate": 137,
+          "seconds": 4.245
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 129,
+          "candidate": 130,
+          "seconds": 6.142
+        }
+      ]
+    },
+    {
+      "id": "scored_0079",
+      "before": 190,
+      "after": 190,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 190,
+          "candidate": 209,
+          "seconds": 6.563
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 190,
+          "candidate": 201,
+          "seconds": 8.938
+        }
+      ]
+    },
+    {
+      "id": "scored_0080",
+      "before": 191,
+      "after": 187,
+      "saved": 4,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 191,
+          "candidate": 196,
+          "seconds": 3.693
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 191,
+          "candidate": 187,
+          "seconds": 5.952
+        }
+      ]
+    },
+    {
+      "id": "scored_0081",
+      "before": 154,
+      "after": 153,
+      "saved": 1,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 154,
+          "candidate": 160,
+          "seconds": 4.454
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 154,
+          "candidate": 153,
+          "seconds": 10.675
+        }
+      ]
+    },
+    {
+      "id": "scored_0082",
+      "before": 158,
+      "after": 150,
+      "saved": 8,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 158,
+          "candidate": 164,
+          "seconds": 4.99
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 158,
+          "candidate": 150,
+          "seconds": 11.598
+        }
+      ]
+    },
+    {
+      "id": "scored_0083",
+      "before": 219,
+      "after": 216,
+      "saved": 3,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 219,
+          "candidate": 235,
+          "seconds": 4.952
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 219,
+          "candidate": 216,
+          "seconds": 11.367
+        }
+      ]
+    },
+    {
+      "id": "scored_0084",
+      "before": 47,
+      "after": 47,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 47,
+          "candidate": 52,
+          "seconds": 1.351
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 47,
+          "candidate": 53,
+          "seconds": 0.987
+        }
+      ]
+    },
+    {
+      "id": "scored_0085",
+      "before": 109,
+      "after": 109,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 109,
+          "candidate": 122,
+          "seconds": 8.072
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 109,
+          "candidate": 119,
+          "seconds": 6.895
+        }
+      ]
+    },
+    {
+      "id": "scored_0086",
+      "before": 134,
+      "after": 133,
+      "saved": 1,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 134,
+          "candidate": 137,
+          "seconds": 4.513
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 134,
+          "candidate": 133,
+          "seconds": 6.025
+        }
+      ]
+    },
+    {
+      "id": "scored_0087",
+      "before": 336,
+      "after": 312,
+      "saved": 24,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 336,
+          "candidate": 329,
+          "seconds": 6.972
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 329,
+          "candidate": 312,
+          "seconds": 15.531
+        }
+      ]
+    },
+    {
+      "id": "scored_0088",
+      "before": 268,
+      "after": 268,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 268,
+          "candidate": 290,
+          "seconds": 6.177
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 268,
+          "candidate": 273,
+          "seconds": 19.206
+        }
+      ]
+    },
+    {
+      "id": "scored_0089",
+      "before": 152,
+      "after": 152,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 152,
+          "candidate": 159,
+          "seconds": 8.188
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 152,
+          "candidate": 156,
+          "seconds": 12.265
+        }
+      ]
+    },
+    {
+      "id": "scored_0090",
+      "before": 250,
+      "after": 247,
+      "saved": 3,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 250,
+          "candidate": 259,
+          "seconds": 7.078
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 250,
+          "candidate": 247,
+          "seconds": 15.794
+        }
+      ]
+    },
+    {
+      "id": "scored_0091",
+      "before": 26,
+      "after": 26,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 26,
+          "candidate": 42,
+          "seconds": 0.322
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 26,
+          "candidate": 36,
+          "seconds": 0.648
+        }
+      ]
+    },
+    {
+      "id": "scored_0092",
+      "before": 43,
+      "after": 43,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 43,
+          "candidate": 56,
+          "seconds": 1.176
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 43,
+          "candidate": 55,
+          "seconds": 0.46
+        }
+      ]
+    },
+    {
+      "id": "scored_0093",
+      "before": 133,
+      "after": 133,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 133,
+          "candidate": 146,
+          "seconds": 6.782
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 133,
+          "candidate": 143,
+          "seconds": 11.644
+        }
+      ]
+    },
+    {
+      "id": "scored_0094",
+      "before": 336,
+      "after": 321,
+      "saved": 15,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 336,
+          "candidate": 337,
+          "seconds": 7.133
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 336,
+          "candidate": 321,
+          "seconds": 15.316
+        }
+      ]
+    },
+    {
+      "id": "scored_0095",
+      "before": 40,
+      "after": 40,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 40,
+          "candidate": 47,
+          "seconds": 0.888
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 40,
+          "candidate": 48,
+          "seconds": 0.512
+        }
+      ]
+    },
+    {
+      "id": "scored_0096",
+      "before": 224,
+      "after": 218,
+      "saved": 6,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 224,
+          "candidate": 235,
+          "seconds": 5.544
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 224,
+          "candidate": 218,
+          "seconds": 10.845
+        }
+      ]
+    },
+    {
+      "id": "scored_0097",
+      "before": 116,
+      "after": 116,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 116,
+          "candidate": 131,
+          "seconds": 4.536
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 116,
+          "candidate": 122,
+          "seconds": 3.654
+        }
+      ]
+    },
+    {
+      "id": "scored_0098",
+      "before": 234,
+      "after": 231,
+      "saved": 3,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 234,
+          "candidate": 249,
+          "seconds": 7.521
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 234,
+          "candidate": 231,
+          "seconds": 8.572
+        }
+      ]
+    },
+    {
+      "id": "scored_0099",
+      "before": 179,
+      "after": 179,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 179,
+          "candidate": 220,
+          "seconds": 7.801
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 179,
+          "candidate": 193,
+          "seconds": 11.222
+        }
+      ]
+    },
+    {
+      "id": "scored_0100",
+      "before": 185,
+      "after": 185,
+      "saved": 0,
+      "trials": [
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            0,
+            0
+          ],
+          "before": 185,
+          "candidate": 199,
+          "seconds": 4.852
+        },
+        {
+          "config": [
+            3,
+            0.18,
+            52,
+            56,
+            20,
+            1,
+            0
+          ],
+          "before": 185,
+          "candidate": 198,
+          "seconds": 8.792
+        }
+      ]
+    }
+  ],
+  "validation": {
+    "valid": true,
+    "rows": 1000,
+    "score": 181612,
+    "maximum_instructions": 413,
+    "maximum_program_cell_bytes": 5860,
+    "file_bytes": 2955248
+  }
+}

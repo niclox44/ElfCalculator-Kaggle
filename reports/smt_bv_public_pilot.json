@@ -1,0 +1,813 @@
+{
+  "validation": {
+    "valid": true,
+    "rows": 1000,
+    "score": 132255,
+    "maximum_instructions": 277,
+    "maximum_program_cell_bytes": 3977,
+    "file_bytes": 2132823
+  },
+  "seconds": 55.868543810999995,
+  "puzzles": [
+    {
+      "id": "scored_0001",
+      "smt_values": 974,
+      "smt_recipes": 6920,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0002",
+      "smt_values": 833,
+      "smt_recipes": 5216,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0003",
+      "smt_values": 1006,
+      "smt_recipes": 8324,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0004",
+      "smt_values": 490,
+      "smt_recipes": 2850,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0005",
+      "smt_values": 131,
+      "smt_recipes": 878,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0006",
+      "smt_values": 234,
+      "smt_recipes": 1760,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0007",
+      "smt_values": 409,
+      "smt_recipes": 3364,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0008",
+      "smt_values": 268,
+      "smt_recipes": 2397,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0009",
+      "smt_values": 73,
+      "smt_recipes": 565,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0010",
+      "smt_values": 697,
+      "smt_recipes": 5555,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0011",
+      "smt_values": 240,
+      "smt_recipes": 1657,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0012",
+      "smt_values": 552,
+      "smt_recipes": 3960,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0013",
+      "smt_values": 517,
+      "smt_recipes": 3904,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0014",
+      "smt_values": 72,
+      "smt_recipes": 481,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0015",
+      "smt_values": 903,
+      "smt_recipes": 6721,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0016",
+      "smt_values": 395,
+      "smt_recipes": 3212,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0017",
+      "smt_values": 342,
+      "smt_recipes": 3090,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0018",
+      "smt_values": 331,
+      "smt_recipes": 3141,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0019",
+      "smt_values": 62,
+      "smt_recipes": 266,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0020",
+      "smt_values": 826,
+      "smt_recipes": 5388,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0021",
+      "smt_values": 110,
+      "smt_recipes": 939,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0022",
+      "smt_values": 321,
+      "smt_recipes": 2765,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0023",
+      "smt_values": 347,
+      "smt_recipes": 1907,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0024",
+      "smt_values": 48,
+      "smt_recipes": 313,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0025",
+      "smt_values": 368,
+      "smt_recipes": 3057,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0026",
+      "smt_values": 573,
+      "smt_recipes": 3561,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0027",
+      "smt_values": 323,
+      "smt_recipes": 3426,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0028",
+      "smt_values": 354,
+      "smt_recipes": 3007,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0029",
+      "smt_values": 75,
+      "smt_recipes": 411,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0030",
+      "smt_values": 632,
+      "smt_recipes": 4741,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0031",
+      "smt_values": 803,
+      "smt_recipes": 4923,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0032",
+      "smt_values": 258,
+      "smt_recipes": 2219,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0033",
+      "smt_values": 688,
+      "smt_recipes": 4585,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0034",
+      "smt_values": 642,
+      "smt_recipes": 5700,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0035",
+      "smt_values": 287,
+      "smt_recipes": 2560,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0036",
+      "smt_values": 510,
+      "smt_recipes": 2980,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0037",
+      "smt_values": 769,
+      "smt_recipes": 6041,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0038",
+      "smt_values": 452,
+      "smt_recipes": 3150,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0039",
+      "smt_values": 262,
+      "smt_recipes": 1946,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0040",
+      "smt_values": 707,
+      "smt_recipes": 5792,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0041",
+      "smt_values": 343,
+      "smt_recipes": 2861,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0042",
+      "smt_values": 528,
+      "smt_recipes": 3957,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0043",
+      "smt_values": 631,
+      "smt_recipes": 4402,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0044",
+      "smt_values": 206,
+      "smt_recipes": 2263,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0045",
+      "smt_values": 481,
+      "smt_recipes": 3851,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0046",
+      "smt_values": 99,
+      "smt_recipes": 850,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0047",
+      "smt_values": 347,
+      "smt_recipes": 2046,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0048",
+      "smt_values": 298,
+      "smt_recipes": 1841,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0049",
+      "smt_values": 461,
+      "smt_recipes": 3675,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0050",
+      "smt_values": 49,
+      "smt_recipes": 321,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0051",
+      "smt_values": 923,
+      "smt_recipes": 6011,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0052",
+      "smt_values": 314,
+      "smt_recipes": 2986,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0053",
+      "smt_values": 234,
+      "smt_recipes": 1559,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0054",
+      "smt_values": 725,
+      "smt_recipes": 6542,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0055",
+      "smt_values": 313,
+      "smt_recipes": 2450,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0056",
+      "smt_values": 71,
+      "smt_recipes": 383,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0057",
+      "smt_values": 669,
+      "smt_recipes": 4201,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0058",
+      "smt_values": 883,
+      "smt_recipes": 5273,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0059",
+      "smt_values": 446,
+      "smt_recipes": 3698,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0060",
+      "smt_values": 850,
+      "smt_recipes": 5266,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0061",
+      "smt_values": 4,
+      "smt_recipes": 19,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0062",
+      "smt_values": 310,
+      "smt_recipes": 1967,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0063",
+      "smt_values": 297,
+      "smt_recipes": 2900,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0064",
+      "smt_values": 298,
+      "smt_recipes": 2637,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0065",
+      "smt_values": 66,
+      "smt_recipes": 314,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0066",
+      "smt_values": 109,
+      "smt_recipes": 803,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0067",
+      "smt_values": 1326,
+      "smt_recipes": 10274,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0068",
+      "smt_values": 392,
+      "smt_recipes": 3774,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0069",
+      "smt_values": 1169,
+      "smt_recipes": 8001,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0070",
+      "smt_values": 374,
+      "smt_recipes": 3760,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0071",
+      "smt_values": 313,
+      "smt_recipes": 2543,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0072",
+      "smt_values": 319,
+      "smt_recipes": 3044,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0073",
+      "smt_values": 406,
+      "smt_recipes": 3545,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0074",
+      "smt_values": 693,
+      "smt_recipes": 4599,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0075",
+      "smt_values": 847,
+      "smt_recipes": 5165,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0076",
+      "smt_values": 434,
+      "smt_recipes": 3416,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0077",
+      "smt_values": 370,
+      "smt_recipes": 4071,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0078",
+      "smt_values": 373,
+      "smt_recipes": 3365,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0079",
+      "smt_values": 450,
+      "smt_recipes": 4458,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0080",
+      "smt_values": 411,
+      "smt_recipes": 3078,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0081",
+      "smt_values": 342,
+      "smt_recipes": 2947,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0082",
+      "smt_values": 212,
+      "smt_recipes": 1336,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0083",
+      "smt_values": 577,
+      "smt_recipes": 3797,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0084",
+      "smt_values": 101,
+      "smt_recipes": 600,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0085",
+      "smt_values": 284,
+      "smt_recipes": 2384,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0086",
+      "smt_values": 272,
+      "smt_recipes": 2944,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0087",
+      "smt_values": 1100,
+      "smt_recipes": 7954,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0088",
+      "smt_values": 892,
+      "smt_recipes": 6986,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0089",
+      "smt_values": 377,
+      "smt_recipes": 3089,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0090",
+      "smt_values": 583,
+      "smt_recipes": 4333,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0091",
+      "smt_values": 57,
+      "smt_recipes": 435,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0092",
+      "smt_values": 66,
+      "smt_recipes": 257,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0093",
+      "smt_values": 338,
+      "smt_recipes": 2986,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0094",
+      "smt_values": 1314,
+      "smt_recipes": 10252,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0095",
+      "smt_values": 90,
+      "smt_recipes": 531,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0096",
+      "smt_values": 552,
+      "smt_recipes": 3865,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0097",
+      "smt_values": 297,
+      "smt_recipes": 2320,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0098",
+      "smt_values": 721,
+      "smt_recipes": 6430,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0099",
+      "smt_values": 356,
+      "smt_recipes": 2932,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    },
+    {
+      "id": "scored_0100",
+      "smt_values": 398,
+      "smt_recipes": 3616,
+      "smt_status": "no_model",
+      "smt_saved": 0,
+      "smt_diagnostics": "checks 1 cycle_cuts 0"
+    }
+  ]
+}

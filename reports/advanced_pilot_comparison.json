@@ -1,0 +1,137 @@
+{
+  "modes": {
+    "baseline": {
+      "optimizer": "executable_candidates_and_short_synthesis",
+      "mode": "baseline",
+      "current_submission": "submissions/submission_recipe_graph.csv",
+      "sources": [
+        "submissions/submission_deep_anchor.csv",
+        "submissions/submission_multifactor.csv",
+        "submissions/submission_signed_digits.csv"
+      ],
+      "output_submission": "submissions/submission_advanced_pilot_baseline.csv",
+      "start_index": 0,
+      "end_index": 100,
+      "cpu_budget_per_puzzle": 2.0,
+      "rounds": 8,
+      "proposal_limit": 128,
+      "windows": 96,
+      "candidate_width": 1,
+      "workers": 4,
+      "current_score": 306723,
+      "selected_score": 306629,
+      "total_improvement": 94,
+      "improved_puzzles": 9,
+      "cpu_seconds": 94.389,
+      "max_budget_overrun_seconds": 0.125646,
+      "validation": {
+        "valid": true,
+        "rows": 1000,
+        "score": 306629,
+        "maximum_instructions": 606,
+        "maximum_program_cell_bytes": 8618,
+        "file_bytes": 4975469
+      }
+    },
+    "wide": {
+      "optimizer": "executable_candidates_and_short_synthesis",
+      "mode": "wide",
+      "current_submission": "submissions/submission_recipe_graph.csv",
+      "sources": [
+        "submissions/submission_deep_anchor.csv",
+        "submissions/submission_multifactor.csv",
+        "submissions/submission_signed_digits.csv"
+      ],
+      "output_submission": "submissions/submission_advanced_pilot_wide.csv",
+      "start_index": 0,
+      "end_index": 100,
+      "cpu_budget_per_puzzle": 2.0,
+      "rounds": 8,
+      "proposal_limit": 128,
+      "windows": 96,
+      "candidate_width": 8,
+      "workers": 4,
+      "current_score": 306723,
+      "selected_score": 306500,
+      "total_improvement": 223,
+      "improved_puzzles": 14,
+      "cpu_seconds": 119.277,
+      "max_budget_overrun_seconds": 0.251493,
+      "validation": {
+        "valid": true,
+        "rows": 1000,
+        "score": 306500,
+        "maximum_instructions": 606,
+        "maximum_program_cell_bytes": 8618,
+        "file_bytes": 4974340
+      }
+    },
+    "synthesis": {
+      "optimizer": "executable_candidates_and_short_synthesis",
+      "mode": "synthesis",
+      "current_submission": "submissions/submission_recipe_graph.csv",
+      "sources": [
+        "submissions/submission_deep_anchor.csv",
+        "submissions/submission_multifactor.csv",
+        "submissions/submission_signed_digits.csv"
+      ],
+      "output_submission": "submissions/submission_advanced_pilot_synthesis.csv",
+      "start_index": 0,
+      "end_index": 100,
+      "cpu_budget_per_puzzle": 2.0,
+      "rounds": 8,
+      "proposal_limit": 128,
+      "windows": 96,
+      "candidate_width": 8,
+      "workers": 4,
+      "current_score": 306723,
+      "selected_score": 306592,
+      "total_improvement": 131,
+      "improved_puzzles": 50,
+      "cpu_seconds": 14.98,
+      "max_budget_overrun_seconds": 0,
+      "validation": {
+        "valid": true,
+        "rows": 1000,
+        "score": 306592,
+        "maximum_instructions": 606,
+        "maximum_program_cell_bytes": 8618,
+        "file_bytes": 4973662
+      }
+    },
+    "combined": {
+      "optimizer": "executable_candidates_and_short_synthesis",
+      "mode": "combined",
+      "current_submission": "submissions/submission_recipe_graph.csv",
+      "sources": [
+        "submissions/submission_deep_anchor.csv",
+        "submissions/submission_multifactor.csv",
+        "submissions/submission_signed_digits.csv"
+      ],
+      "output_submission": "submissions/submission_advanced_pilot_combined.csv",
+      "start_index": 0,
+      "end_index": 100,
+      "cpu_budget_per_puzzle": 2.0,
+      "rounds": 8,
+      "proposal_limit": 128,
+      "windows": 96,
+      "candidate_width": 8,
+      "workers": 4,
+      "current_score": 306723,
+      "selected_score": 306517,
+      "total_improvement": 206,
+      "improved_puzzles": 54,
+      "cpu_seconds": 83.511,
+      "max_budget_overrun_seconds": 0,
+      "validation": {
+        "valid": true,
+        "rows": 1000,
+        "score": 306517,
+        "maximum_instructions": 606,
+        "maximum_program_cell_bytes": 8618,
+        "file_bytes": 4973353
+      }
+    }
+  },
+  "wall_seconds": 80.15
+}

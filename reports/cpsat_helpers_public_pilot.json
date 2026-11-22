@@ -1,0 +1,413 @@
+{
+  "validation": {
+    "valid": true,
+    "rows": 1000,
+    "score": 132255,
+    "maximum_instructions": 277,
+    "maximum_program_cell_bytes": 3977,
+    "file_bytes": 2132823
+  },
+  "seconds": 47.53881992300012,
+  "puzzles": [
+    {
+      "id": "scored_0001",
+      "status": "FEASIBLE",
+      "values": 1077,
+      "recipes": 7146,
+      "saved": 0,
+      "seconds": 8.004403675,
+      "objective": 229.0,
+      "bound": 32.0
+    },
+    {
+      "id": "scored_0002",
+      "status": "FEASIBLE",
+      "values": 859,
+      "recipes": 5269,
+      "saved": 0,
+      "seconds": 8.003768869,
+      "objective": 245.0,
+      "bound": 28.0
+    },
+    {
+      "id": "scored_0003",
+      "status": "FEASIBLE",
+      "values": 1190,
+      "recipes": 8728,
+      "saved": 0,
+      "seconds": 8.044772178,
+      "objective": 193.0,
+      "bound": 28.0
+    },
+    {
+      "id": "scored_0004",
+      "status": "FEASIBLE",
+      "values": 597,
+      "recipes": 3068,
+      "saved": 0,
+      "seconds": 8.005010016,
+      "objective": 211.0,
+      "bound": 29.0
+    },
+    {
+      "id": "scored_0005",
+      "status": "FEASIBLE",
+      "values": 205,
+      "recipes": 1055,
+      "saved": 0,
+      "seconds": 8.007537018,
+      "objective": 46.0,
+      "bound": 17.0
+    },
+    {
+      "id": "scored_0006",
+      "status": "FEASIBLE",
+      "values": 310,
+      "recipes": 1933,
+      "saved": 0,
+      "seconds": 8.002882723,
+      "objective": 108.0,
+      "bound": 45.0
+    },
+    {
+      "id": "scored_0007",
+      "status": "FEASIBLE",
+      "values": 484,
+      "recipes": 3532,
+      "saved": 0,
+      "seconds": 8.004914849,
+      "objective": 130.0,
+      "bound": 38.0
+    },
+    {
+      "id": "scored_0008",
+      "status": "FEASIBLE",
+      "values": 388,
+      "recipes": 2654,
+      "saved": 0,
+      "seconds": 8.004951538,
+      "objective": 102.0,
+      "bound": 35.0
+    },
+    {
+      "id": "scored_0009",
+      "status": "OPTIMAL",
+      "values": 109,
+      "recipes": 646,
+      "saved": 0,
+      "seconds": 3.1105860940000003,
+      "objective": 28.0,
+      "bound": 28.0
+    },
+    {
+      "id": "scored_0010",
+      "status": "FEASIBLE",
+      "values": 795,
+      "recipes": 5761,
+      "saved": 0,
+      "seconds": 8.004679867,
+      "objective": 176.0,
+      "bound": 31.0
+    },
+    {
+      "id": "scored_0011",
+      "status": "FEASIBLE",
+      "values": 305,
+      "recipes": 1819,
+      "saved": 0,
+      "seconds": 8.003973285,
+      "objective": 104.0,
+      "bound": 38.0
+    },
+    {
+      "id": "scored_0012",
+      "status": "FEASIBLE",
+      "values": 610,
+      "recipes": 4092,
+      "saved": 0,
+      "seconds": 8.003580271,
+      "objective": 180.0,
+      "bound": 29.0
+    },
+    {
+      "id": "scored_0013",
+      "status": "FEASIBLE",
+      "values": 604,
+      "recipes": 4091,
+      "saved": 0,
+      "seconds": 8.005411767,
+      "objective": 176.0,
+      "bound": 30.0
+    },
+    {
+      "id": "scored_0014",
+      "status": "OPTIMAL",
+      "values": 79,
+      "recipes": 499,
+      "saved": 0,
+      "seconds": 0.709496466,
+      "objective": 24.0,
+      "bound": 24.0
+    },
+    {
+      "id": "scored_0015",
+      "status": "FEASIBLE",
+      "values": 1005,
+      "recipes": 6932,
+      "saved": 0,
+      "seconds": 8.00715213,
+      "objective": 216.0,
+      "bound": 30.0
+    },
+    {
+      "id": "scored_0016",
+      "status": "FEASIBLE",
+      "values": 487,
+      "recipes": 3414,
+      "saved": 0,
+      "seconds": 8.004966559,
+      "objective": 121.0,
+      "bound": 34.0
+    },
+    {
+      "id": "scored_0017",
+      "status": "FEASIBLE",
+      "values": 402,
+      "recipes": 3216,
+      "saved": 0,
+      "seconds": 8.008977422000001,
+      "objective": 105.0,
+      "bound": 32.0
+    },
+    {
+      "id": "scored_0018",
+      "status": "FEASIBLE",
+      "values": 381,
+      "recipes": 3259,
+      "saved": 0,
+      "seconds": 8.006666979,
+      "objective": 117.0,
+      "bound": 38.0
+    },
+    {
+      "id": "scored_0019",
+      "status": "OPTIMAL",
+      "values": 74,
+      "recipes": 294,
+      "saved": 0,
+      "seconds": 0.50467615,
+      "objective": 22.0,
+      "bound": 22.0
+    },
+    {
+      "id": "scored_0020",
+      "status": "FEASIBLE",
+      "values": 962,
+      "recipes": 5679,
+      "saved": 0,
+      "seconds": 8.006653572000001,
+      "objective": 240.0,
+      "bound": 28.0
+    },
+    {
+      "id": "scored_0021",
+      "status": "FEASIBLE",
+      "values": 144,
+      "recipes": 1020,
+      "saved": 0,
+      "seconds": 8.002779692,
+      "objective": 37.0,
+      "bound": 13.0
+    },
+    {
+      "id": "scored_0022",
+      "status": "FEASIBLE",
+      "values": 387,
+      "recipes": 2910,
+      "saved": 0,
+      "seconds": 8.003629007,
+      "objective": 101.0,
+      "bound": 33.0
+    },
+    {
+      "id": "scored_0023",
+      "status": "FEASIBLE",
+      "values": 438,
+      "recipes": 2092,
+      "saved": 0,
+      "seconds": 8.00406046,
+      "objective": 155.0,
+      "bound": 31.0
+    },
+    {
+      "id": "scored_0024",
+      "status": "OPTIMAL",
+      "values": 55,
+      "recipes": 334,
+      "saved": 0,
+      "seconds": 0.25586920700000004,
+      "objective": 28.0,
+      "bound": 28.0
+    },
+    {
+      "id": "scored_0025",
+      "status": "FEASIBLE",
+      "values": 445,
+      "recipes": 3233,
+      "saved": 0,
+      "seconds": 8.005317871,
+      "objective": 116.0,
+      "bound": 35.0
+    },
+    {
+      "id": "scored_0026",
+      "status": "FEASIBLE",
+      "values": 684,
+      "recipes": 3802,
+      "saved": 0,
+      "seconds": 8.005809983,
+      "objective": 179.0,
+      "bound": 32.0
+    },
+    {
+      "id": "scored_0027",
+      "status": "FEASIBLE",
+      "values": 430,
+      "recipes": 3684,
+      "saved": 0,
+      "seconds": 8.003090420000001,
+      "objective": 101.0,
+      "bound": 32.0
+    },
+    {
+      "id": "scored_0028",
+      "status": "FEASIBLE",
+      "values": 433,
+      "recipes": 3211,
+      "saved": 0,
+      "seconds": 8.005814226,
+      "objective": 117.0,
+      "bound": 41.0
+    },
+    {
+      "id": "scored_0029",
+      "status": "OPTIMAL",
+      "values": 91,
+      "recipes": 454,
+      "saved": 0,
+      "seconds": 1.438017204,
+      "objective": 34.0,
+      "bound": 34.0
+    },
+    {
+      "id": "scored_0030",
+      "status": "FEASIBLE",
+      "values": 748,
+      "recipes": 4988,
+      "saved": 0,
+      "seconds": 8.065853005000001,
+      "objective": 187.0,
+      "bound": 32.0
+    },
+    {
+      "id": "scored_0031",
+      "status": "FEASIBLE",
+      "values": 896,
+      "recipes": 5114,
+      "saved": 0,
+      "seconds": 8.004594105,
+      "objective": 245.0,
+      "bound": 28.0
+    },
+    {
+      "id": "scored_0032",
+      "status": "FEASIBLE",
+      "values": 309,
+      "recipes": 2351,
+      "saved": 0,
+      "seconds": 8.005026828,
+      "objective": 99.0,
+      "bound": 37.0
+    },
+    {
+      "id": "scored_0033",
+      "status": "FEASIBLE",
+      "values": 721,
+      "recipes": 4658,
+      "saved": 0,
+      "seconds": 8.004518098,
+      "objective": 204.0,
+      "bound": 29.0
+    },
+    {
+      "id": "scored_0034",
+      "status": "FEASIBLE",
+      "values": 721,
+      "recipes": 5874,
+      "saved": 0,
+      "seconds": 8.00510326,
+      "objective": 163.0,
+      "bound": 29.0
+    },
+    {
+      "id": "scored_0035",
+      "status": "FEASIBLE",
+      "values": 340,
+      "recipes": 2679,
+      "saved": 0,
+      "seconds": 8.003282191,
+      "objective": 100.0,
+      "bound": 31.0
+    },
+    {
+      "id": "scored_0036",
+      "status": "FEASIBLE",
+      "values": 632,
+      "recipes": 3254,
+      "saved": 0,
+      "seconds": 8.004263806,
+      "objective": 230.0,
+      "bound": 33.0
+    },
+    {
+      "id": "scored_0037",
+      "status": "FEASIBLE",
+      "values": 865,
+      "recipes": 6235,
+      "saved": 0,
+      "seconds": 8.029991606000001,
+      "objective": 190.0,
+      "bound": 30.0
+    },
+    {
+      "id": "scored_0038",
+      "status": "FEASIBLE",
+      "values": 527,
+      "recipes": 3313,
+      "saved": 0,
+      "seconds": 8.003222142,
+      "objective": 140.0,
+      "bound": 28.0
+    },
+    {
+      "id": "scored_0039",
+      "status": "FEASIBLE",
+      "values": 364,
+      "recipes": 2168,
+      "saved": 0,
+      "seconds": 8.002394194,
+      "objective": 107.0,
+      "bound": 31.0
+    },
+    {
+      "id": "scored_0040",
+      "status": "FEASIBLE",
+      "values": 868,
+      "recipes": 6146,
+      "saved": 0,
+      "seconds": 8.002137014,
+      "objective": 167.0,
+      "bound": 32.0
+    }
+  ]
+}

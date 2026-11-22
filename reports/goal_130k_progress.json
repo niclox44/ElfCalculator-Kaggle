@@ -1,0 +1,20 @@
+{
+  "goal": 130000,
+  "best_validated_score": 132255,
+  "remaining_instructions": 2255,
+  "submission": "submissions/submission_public_v89.csv",
+  "validation": {
+    "valid": true,
+    "rows": 1000,
+    "score": 132255,
+    "maximum_instructions": 277,
+    "maximum_program_cell_bytes": 3977,
+    "file_bytes": 2132823
+  },
+  "sha256": "4590f6fa27c902762f03ddb2af6c4dfc103ae44fe65ae02d4937eea1e0e6eb14",
+  "original_goal_start": 288244,
+  "saved_since_goal_start": 155989,
+  "status": "active",
+  "provenance": "Public Apache-2.0 reference programs combined per puzzle. The savings from 181974 to 132255 are inherited public work, not local optimizer gains.",
+  "local_only_score": 181974
+}

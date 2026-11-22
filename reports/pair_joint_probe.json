@@ -1,0 +1,1054 @@
+{
+  "seconds": 177.8886798930007,
+  "validation": {
+    "valid": true,
+    "rows": 1000,
+    "score": 197519,
+    "maximum_instructions": 576,
+    "maximum_program_cell_bytes": 8355,
+    "file_bytes": 3210641
+  },
+  "saved": 1365,
+  "puzzles": [
+    {
+      "id": "scored_0001",
+      "before": 325,
+      "after": 311,
+      "saved": 14,
+      "parameters": [
+        0.25,
+        0
+      ],
+      "failures": 0
+    },
+    {
+      "id": "scored_0002",
+      "before": 346,
+      "after": 334,
+      "saved": 12,
+      "parameters": [
+        0.25,
+        0
+      ],
+      "failures": 1
+    },
+    {
+      "id": "scored_0003",
+      "before": 406,
+      "after": 292,
+      "saved": 114,
+      "parameters": [
+        0.15,
+        0
+      ],
+      "failures": 7
+    },
+    {
+      "id": "scored_0004",
+      "before": 290,
+      "after": 284,
+      "saved": 6,
+      "parameters": [
+        0.15,
+        1
+      ],
+      "failures": 1
+    },
+    {
+      "id": "scored_0005",
+      "before": 72,
+      "after": 66,
+      "saved": 6,
+      "parameters": [
+        0.25,
+        0
+      ],
+      "failures": 0
+    },
+    {
+      "id": "scored_0006",
+      "before": 165,
+      "after": 165,
+      "saved": 0,
+      "parameters": null,
+      "failures": 0
+    },
+    {
+      "id": "scored_0007",
+      "before": 216,
+      "after": 196,
+      "saved": 20,
+      "parameters": [
+        0.25,
+        1
+      ],
+      "failures": 1
+    },
+    {
+      "id": "scored_0008",
+      "before": 160,
+      "after": 150,
+      "saved": 10,
+      "parameters": [
+        0.15,
+        1
+      ],
+      "failures": 0
+    },
+    {
+      "id": "scored_0009",
+      "before": 44,
+      "after": 42,
+      "saved": 2,
+      "parameters": [
+        0.15,
+        0
+      ],
+      "failures": 0
+    },
+    {
+      "id": "scored_0010",
+      "before": 257,
+      "after": 231,
+      "saved": 26,
+      "parameters": [
+        0.4,
+        1
+      ],
+      "failures": 1
+    },
+    {
+      "id": "scored_0011",
+      "before": 173,
+      "after": 173,
+      "saved": 0,
+      "parameters": null,
+      "failures": 0
+    },
+    {
+      "id": "scored_0012",
+      "before": 251,
+      "after": 238,
+      "saved": 13,
+      "parameters": [
+        0.15,
+        1
+      ],
+      "failures": 0
+    },
+    {
+      "id": "scored_0013",
+      "before": 241,
+      "after": 228,
+      "saved": 13,
+      "parameters": [
+        0.15,
+        1
+      ],
+      "failures": 0
+    },
+    {
+      "id": "scored_0014",
+      "before": 37,
+      "after": 36,
+      "saved": 1,
+      "parameters": [
+        0.4,
+        0
+      ],
+      "failures": 0
+    },
+    {
+      "id": "scored_0015",
+      "before": 307,
+      "after": 289,
+      "saved": 18,
+      "parameters": [
+        0.25,
+        0
+      ],
+      "failures": 1
+    },
+    {
+      "id": "scored_0016",
+      "before": 219,
+      "after": 206,
+      "saved": 13,
+      "parameters": [
+        0.25,
+        1
+      ],
+      "failures": 0
+    },
+    {
+      "id": "scored_0017",
+      "before": 173,
+      "after": 167,
+      "saved": 6,
+      "parameters": [
+        0.15,
+        1
+      ],
+      "failures": 0
+    },
+    {
+      "id": "scored_0018",
+      "before": 165,
+      "after": 163,
+      "saved": 2,
+      "parameters": [
+        0.65,
+        0
+      ],
+      "failures": 0
+    },
+    {
+      "id": "scored_0019",
+      "before": 30,
+      "after": 30,
+      "saved": 0,
+      "parameters": null,
+      "failures": 0
+    },
+    {
+      "id": "scored_0020",
+      "before": 350,
+      "after": 334,
+      "saved": 16,
+      "parameters": [
+        0.15,
+        0
+      ],
+      "failures": 6
+    },
+    {
+      "id": "scored_0021",
+      "before": 52,
+      "after": 52,
+      "saved": 0,
+      "parameters": null,
+      "failures": 0
+    },
+    {
+      "id": "scored_0022",
+      "before": 165,
+      "after": 157,
+      "saved": 8,
+      "parameters": [
+        0.65,
+        1
+      ],
+      "failures": 0
+    },
+    {
+      "id": "scored_0023",
+      "before": 219,
+      "after": 218,
+      "saved": 1,
+      "parameters": [
+        0.25,
+        0
+      ],
+      "failures": 0
+    },
+    {
+      "id": "scored_0024",
+      "before": 35,
+      "after": 35,
+      "saved": 0,
+      "parameters": null,
+      "failures": 0
+    },
+    {
+      "id": "scored_0025",
+      "before": 190,
+      "after": 179,
+      "saved": 11,
+      "parameters": [
+        0.25,
+        1
+      ],
+      "failures": 0
+    },
+    {
+      "id": "scored_0026",
+      "before": 253,
+      "after": 241,
+      "saved": 12,
+      "parameters": [
+        0.25,
+        0
+      ],
+      "failures": 1
+    },
+    {
+      "id": "scored_0027",
+      "before": 147,
+      "after": 140,
+      "saved": 7,
+      "parameters": [
+        0.25,
+        1
+      ],
+      "failures": 0
+    },
+    {
+      "id": "scored_0028",
+      "before": 202,
+      "after": 186,
+      "saved": 16,
+      "parameters": [
+        0.15,
+        1
+      ],
+      "failures": 0
+    },
+    {
+      "id": "scored_0029",
+      "before": 47,
+      "after": 47,
+      "saved": 0,
+      "parameters": null,
+      "failures": 0
+    },
+    {
+      "id": "scored_0030",
+      "before": 295,
+      "after": 263,
+      "saved": 32,
+      "parameters": [
+        0.25,
+        0
+      ],
+      "failures": 2
+    },
+    {
+      "id": "scored_0031",
+      "before": 351,
+      "after": 333,
+      "saved": 18,
+      "parameters": [
+        0.25,
+        1
+      ],
+      "failures": 0
+    },
+    {
+      "id": "scored_0032",
+      "before": 142,
+      "after": 138,
+      "saved": 4,
+      "parameters": [
+        0.15,
+        1
+      ],
+      "failures": 0
+    },
+    {
+      "id": "scored_0033",
+      "before": 293,
+      "after": 283,
+      "saved": 10,
+      "parameters": [
+        0.25,
+        0
+      ],
+      "failures": 1
+    },
+    {
+      "id": "scored_0034",
+      "before": 233,
+      "after": 224,
+      "saved": 9,
+      "parameters": [
+        0.25,
+        1
+      ],
+      "failures": 0
+    },
+    {
+      "id": "scored_0035",
+      "before": 147,
+      "after": 147,
+      "saved": 0,
+      "parameters": null,
+      "failures": 0
+    },
+    {
+      "id": "scored_0036",
+      "before": 316,
+      "after": 310,
+      "saved": 6,
+      "parameters": [
+        0.15,
+        1
+      ],
+      "failures": 3
+    },
+    {
+      "id": "scored_0037",
+      "before": 275,
+      "after": 253,
+      "saved": 22,
+      "parameters": [
+        0.15,
+        1
+      ],
+      "failures": 0
+    },
+    {
+      "id": "scored_0038",
+      "before": 199,
+      "after": 189,
+      "saved": 10,
+      "parameters": [
+        0.25,
+        0
+      ],
+      "failures": 0
+    },
+    {
+      "id": "scored_0039",
+      "before": 146,
+      "after": 145,
+      "saved": 1,
+      "parameters": [
+        0.65,
+        0
+      ],
+      "failures": 1
+    },
+    {
+      "id": "scored_0040",
+      "before": 248,
+      "after": 226,
+      "saved": 22,
+      "parameters": [
+        0.25,
+        1
+      ],
+      "failures": 1
+    },
+    {
+      "id": "scored_0041",
+      "before": 179,
+      "after": 175,
+      "saved": 4,
+      "parameters": [
+        0.65,
+        1
+      ],
+      "failures": 0
+    },
+    {
+      "id": "scored_0042",
+      "before": 240,
+      "after": 220,
+      "saved": 20,
+      "parameters": [
+        0.15,
+        1
+      ],
+      "failures": 1
+    },
+    {
+      "id": "scored_0043",
+      "before": 294,
+      "after": 280,
+      "saved": 14,
+      "parameters": [
+        0.25,
+        1
+      ],
+      "failures": 1
+    },
+    {
+      "id": "scored_0044",
+      "before": 107,
+      "after": 100,
+      "saved": 7,
+      "parameters": [
+        0.15,
+        1
+      ],
+      "failures": 0
+    },
+    {
+      "id": "scored_0045",
+      "before": 216,
+      "after": 212,
+      "saved": 4,
+      "parameters": [
+        0.15,
+        1
+      ],
+      "failures": 0
+    },
+    {
+      "id": "scored_0046",
+      "before": 43,
+      "after": 41,
+      "saved": 2,
+      "parameters": [
+        0.4,
+        1
+      ],
+      "failures": 0
+    },
+    {
+      "id": "scored_0047",
+      "before": 218,
+      "after": 218,
+      "saved": 0,
+      "parameters": null,
+      "failures": 0
+    },
+    {
+      "id": "scored_0048",
+      "before": 184,
+      "after": 184,
+      "saved": 0,
+      "parameters": null,
+      "failures": 0
+    },
+    {
+      "id": "scored_0049",
+      "before": 216,
+      "after": 204,
+      "saved": 12,
+      "parameters": [
+        0.25,
+        1
+      ],
+      "failures": 0
+    },
+    {
+      "id": "scored_0050",
+      "before": 36,
+      "after": 36,
+      "saved": 0,
+      "parameters": null,
+      "failures": 1
+    },
+    {
+      "id": "scored_0051",
+      "before": 388,
+      "after": 381,
+      "saved": 7,
+      "parameters": [
+        0.15,
+        0
+      ],
+      "failures": 5
+    },
+    {
+      "id": "scored_0052",
+      "before": 153,
+      "after": 136,
+      "saved": 17,
+      "parameters": [
+        0.15,
+        1
+      ],
+      "failures": 0
+    },
+    {
+      "id": "scored_0053",
+      "before": 164,
+      "after": 164,
+      "saved": 0,
+      "parameters": null,
+      "failures": 0
+    },
+    {
+      "id": "scored_0054",
+      "before": 267,
+      "after": 256,
+      "saved": 11,
+      "parameters": [
+        0.15,
+        1
+      ],
+      "failures": 2
+    },
+    {
+      "id": "scored_0055",
+      "before": 116,
+      "after": 106,
+      "saved": 10,
+      "parameters": [
+        0.4,
+        1
+      ],
+      "failures": 1
+    },
+    {
+      "id": "scored_0056",
+      "before": 34,
+      "after": 34,
+      "saved": 0,
+      "parameters": null,
+      "failures": 0
+    },
+    {
+      "id": "scored_0057",
+      "before": 304,
+      "after": 295,
+      "saved": 9,
+      "parameters": [
+        0.15,
+        0
+      ],
+      "failures": 3
+    },
+    {
+      "id": "scored_0058",
+      "before": 377,
+      "after": 358,
+      "saved": 19,
+      "parameters": [
+        0.15,
+        0
+      ],
+      "failures": 3
+    },
+    {
+      "id": "scored_0059",
+      "before": 207,
+      "after": 186,
+      "saved": 21,
+      "parameters": [
+        0.15,
+        1
+      ],
+      "failures": 1
+    },
+    {
+      "id": "scored_0060",
+      "before": 362,
+      "after": 340,
+      "saved": 22,
+      "parameters": [
+        0.15,
+        1
+      ],
+      "failures": 2
+    },
+    {
+      "id": "scored_0061",
+      "before": 4,
+      "after": 4,
+      "saved": 0,
+      "parameters": null,
+      "failures": 0
+    },
+    {
+      "id": "scored_0062",
+      "before": 195,
+      "after": 195,
+      "saved": 0,
+      "parameters": null,
+      "failures": 1
+    },
+    {
+      "id": "scored_0063",
+      "before": 158,
+      "after": 157,
+      "saved": 1,
+      "parameters": [
+        0.25,
+        1
+      ],
+      "failures": 1
+    },
+    {
+      "id": "scored_0064",
+      "before": 163,
+      "after": 160,
+      "saved": 3,
+      "parameters": [
+        0.25,
+        1
+      ],
+      "failures": 0
+    },
+    {
+      "id": "scored_0065",
+      "before": 47,
+      "after": 47,
+      "saved": 0,
+      "parameters": null,
+      "failures": 0
+    },
+    {
+      "id": "scored_0066",
+      "before": 49,
+      "after": 48,
+      "saved": 1,
+      "parameters": [
+        0.25,
+        1
+      ],
+      "failures": 0
+    },
+    {
+      "id": "scored_0067",
+      "before": 526,
+      "after": 354,
+      "saved": 172,
+      "parameters": [
+        0.15,
+        1
+      ],
+      "failures": 4
+    },
+    {
+      "id": "scored_0068",
+      "before": 195,
+      "after": 185,
+      "saved": 10,
+      "parameters": [
+        0.25,
+        1
+      ],
+      "failures": 0
+    },
+    {
+      "id": "scored_0069",
+      "before": 391,
+      "after": 372,
+      "saved": 19,
+      "parameters": [
+        0.15,
+        1
+      ],
+      "failures": 4
+    },
+    {
+      "id": "scored_0070",
+      "before": 179,
+      "after": 173,
+      "saved": 6,
+      "parameters": [
+        0.65,
+        1
+      ],
+      "failures": 0
+    },
+    {
+      "id": "scored_0071",
+      "before": 148,
+      "after": 143,
+      "saved": 5,
+      "parameters": [
+        0.15,
+        1
+      ],
+      "failures": 0
+    },
+    {
+      "id": "scored_0072",
+      "before": 172,
+      "after": 164,
+      "saved": 8,
+      "parameters": [
+        0.15,
+        1
+      ],
+      "failures": 0
+    },
+    {
+      "id": "scored_0073",
+      "before": 169,
+      "after": 160,
+      "saved": 9,
+      "parameters": [
+        0.15,
+        1
+      ],
+      "failures": 0
+    },
+    {
+      "id": "scored_0074",
+      "before": 295,
+      "after": 282,
+      "saved": 13,
+      "parameters": [
+        0.25,
+        1
+      ],
+      "failures": 0
+    },
+    {
+      "id": "scored_0075",
+      "before": 359,
+      "after": 349,
+      "saved": 10,
+      "parameters": [
+        0.15,
+        1
+      ],
+      "failures": 3
+    },
+    {
+      "id": "scored_0076",
+      "before": 202,
+      "after": 191,
+      "saved": 11,
+      "parameters": [
+        0.4,
+        1
+      ],
+      "failures": 0
+    },
+    {
+      "id": "scored_0077",
+      "before": 153,
+      "after": 133,
+      "saved": 20,
+      "parameters": [
+        0.15,
+        1
+      ],
+      "failures": 0
+    },
+    {
+      "id": "scored_0078",
+      "before": 140,
+      "after": 136,
+      "saved": 4,
+      "parameters": [
+        0.25,
+        1
+      ],
+      "failures": 0
+    },
+    {
+      "id": "scored_0079",
+      "before": 206,
+      "after": 200,
+      "saved": 6,
+      "parameters": [
+        0.15,
+        1
+      ],
+      "failures": 0
+    },
+    {
+      "id": "scored_0080",
+      "before": 196,
+      "after": 192,
+      "saved": 4,
+      "parameters": [
+        0.4,
+        1
+      ],
+      "failures": 0
+    },
+    {
+      "id": "scored_0081",
+      "before": 164,
+      "after": 164,
+      "saved": 0,
+      "parameters": null,
+      "failures": 1
+    },
+    {
+      "id": "scored_0082",
+      "before": 161,
+      "after": 159,
+      "saved": 2,
+      "parameters": [
+        0.15,
+        1
+      ],
+      "failures": 1
+    },
+    {
+      "id": "scored_0083",
+      "before": 237,
+      "after": 224,
+      "saved": 13,
+      "parameters": [
+        0.15,
+        0
+      ],
+      "failures": 0
+    },
+    {
+      "id": "scored_0084",
+      "before": 51,
+      "after": 51,
+      "saved": 0,
+      "parameters": null,
+      "failures": 2
+    },
+    {
+      "id": "scored_0085",
+      "before": 123,
+      "after": 121,
+      "saved": 2,
+      "parameters": [
+        0.25,
+        0
+      ],
+      "failures": 0
+    },
+    {
+      "id": "scored_0086",
+      "before": 141,
+      "after": 139,
+      "saved": 2,
+      "parameters": [
+        0.25,
+        0
+      ],
+      "failures": 1
+    },
+    {
+      "id": "scored_0087",
+      "before": 379,
+      "after": 339,
+      "saved": 40,
+      "parameters": [
+        0.15,
+        1
+      ],
+      "failures": 4
+    },
+    {
+      "id": "scored_0088",
+      "before": 317,
+      "after": 271,
+      "saved": 46,
+      "parameters": [
+        0.25,
+        0
+      ],
+      "failures": 1
+    },
+    {
+      "id": "scored_0089",
+      "before": 165,
+      "after": 155,
+      "saved": 10,
+      "parameters": [
+        0.15,
+        1
+      ],
+      "failures": 0
+    },
+    {
+      "id": "scored_0090",
+      "before": 258,
+      "after": 251,
+      "saved": 7,
+      "parameters": [
+        0.25,
+        1
+      ],
+      "failures": 1
+    },
+    {
+      "id": "scored_0091",
+      "before": 35,
+      "after": 33,
+      "saved": 2,
+      "parameters": [
+        0.25,
+        1
+      ],
+      "failures": 0
+    },
+    {
+      "id": "scored_0092",
+      "before": 43,
+      "after": 43,
+      "saved": 0,
+      "parameters": null,
+      "failures": 0
+    },
+    {
+      "id": "scored_0093",
+      "before": 157,
+      "after": 135,
+      "saved": 22,
+      "parameters": [
+        0.25,
+        1
+      ],
+      "failures": 0
+    },
+    {
+      "id": "scored_0094",
+      "before": 537,
+      "after": 340,
+      "saved": 197,
+      "parameters": [
+        0.15,
+        1
+      ],
+      "failures": 1
+    },
+    {
+      "id": "scored_0095",
+      "before": 43,
+      "after": 43,
+      "saved": 0,
+      "parameters": null,
+      "failures": 0
+    },
+    {
+      "id": "scored_0096",
+      "before": 248,
+      "after": 227,
+      "saved": 21,
+      "parameters": [
+        0.25,
+        0
+      ],
+      "failures": 0
+    },
+    {
+      "id": "scored_0097",
+      "before": 125,
+      "after": 123,
+      "saved": 2,
+      "parameters": [
+        0.15,
+        1
+      ],
+      "failures": 1
+    },
+    {
+      "id": "scored_0098",
+      "before": 260,
+      "after": 239,
+      "saved": 21,
+      "parameters": [
+        0.15,
+        1
+      ],
+      "failures": 0
+    },
+    {
+      "id": "scored_0099",
+      "before": 200,
+      "after": 184,
+      "saved": 16,
+      "parameters": [
+        0.25,
+        1
+      ],
+      "failures": 0
+    },
+    {
+      "id": "scored_0100",
+      "before": 190,
+      "after": 190,
+      "saved": 0,
+      "parameters": null,
+      "failures": 0
+    }
+  ]
+}

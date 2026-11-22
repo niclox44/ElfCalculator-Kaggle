@@ -1,0 +1,1221 @@
+{
+  "optimizer": "randomized_joint_reduction",
+  "current": "submissions/submission_joint_factors.csv",
+  "output": "submissions/submission_random_joint_pilot.csv",
+  "before": 187451,
+  "after": 187283,
+  "saved": 168,
+  "improved": 42,
+  "processed": 100,
+  "complete": true,
+  "restarts": 32,
+  "seed": 130000,
+  "workers": 8,
+  "start_index": 0,
+  "end_index": 100,
+  "wall_seconds": 60.926604610999675,
+  "puzzles": [
+    {
+      "id": "scored_0001",
+      "before": 320,
+      "after": 320,
+      "saved": 0,
+      "winner": null,
+      "failures": 10,
+      "cpu_seconds": 8.170838
+    },
+    {
+      "id": "scored_0002",
+      "before": 346,
+      "after": 346,
+      "saved": 0,
+      "winner": null,
+      "failures": 18,
+      "cpu_seconds": 8.091895
+    },
+    {
+      "id": "scored_0003",
+      "before": 299,
+      "after": 292,
+      "saved": 7,
+      "winner": {
+        "iteration": 29,
+        "weight": 0.13353208055905333,
+        "factor_mode": 1,
+        "temperature": 0.07469427809298221,
+        "order_window": 1,
+        "trial_seed": 1902673476
+      },
+      "failures": 28,
+      "cpu_seconds": 8.276143
+    },
+    {
+      "id": "scored_0004",
+      "before": 290,
+      "after": 290,
+      "saved": 0,
+      "winner": null,
+      "failures": 2,
+      "cpu_seconds": 5.948988
+    },
+    {
+      "id": "scored_0005",
+      "before": 66,
+      "after": 66,
+      "saved": 0,
+      "winner": null,
+      "failures": 0,
+      "cpu_seconds": 0.52193
+    },
+    {
+      "id": "scored_0006",
+      "before": 165,
+      "after": 165,
+      "saved": 0,
+      "winner": null,
+      "failures": 0,
+      "cpu_seconds": 2.254941
+    },
+    {
+      "id": "scored_0007",
+      "before": 198,
+      "after": 198,
+      "saved": 0,
+      "winner": null,
+      "failures": 0,
+      "cpu_seconds": 2.95951
+    },
+    {
+      "id": "scored_0008",
+      "before": 147,
+      "after": 144,
+      "saved": 3,
+      "winner": {
+        "iteration": 14,
+        "weight": 0.39315121491399263,
+        "factor_mode": 1,
+        "temperature": 0.6401030927673405,
+        "order_window": 1,
+        "trial_seed": 277351822
+      },
+      "failures": 0,
+      "cpu_seconds": 2.033651
+    },
+    {
+      "id": "scored_0009",
+      "before": 38,
+      "after": 38,
+      "saved": 0,
+      "winner": null,
+      "failures": 0,
+      "cpu_seconds": 0.275439
+    },
+    {
+      "id": "scored_0010",
+      "before": 240,
+      "after": 240,
+      "saved": 0,
+      "winner": null,
+      "failures": 0,
+      "cpu_seconds": 4.069444
+    },
+    {
+      "id": "scored_0011",
+      "before": 173,
+      "after": 173,
+      "saved": 0,
+      "winner": null,
+      "failures": 0,
+      "cpu_seconds": 2.518774
+    },
+    {
+      "id": "scored_0012",
+      "before": 236,
+      "after": 236,
+      "saved": 0,
+      "winner": null,
+      "failures": 1,
+      "cpu_seconds": 3.755676
+    },
+    {
+      "id": "scored_0013",
+      "before": 231,
+      "after": 230,
+      "saved": 1,
+      "winner": {
+        "iteration": 1,
+        "weight": 0.23968249563901778,
+        "factor_mode": 2,
+        "temperature": 0.30648181338908426,
+        "order_window": 1,
+        "trial_seed": 1231885258
+      },
+      "failures": 0,
+      "cpu_seconds": 3.664711
+    },
+    {
+      "id": "scored_0014",
+      "before": 34,
+      "after": 33,
+      "saved": 1,
+      "winner": {
+        "iteration": 15,
+        "weight": 0.3640669211456522,
+        "factor_mode": 1,
+        "temperature": 0.5637149563873041,
+        "order_window": 1,
+        "trial_seed": 1523309845
+      },
+      "failures": 0,
+      "cpu_seconds": 0.228864
+    },
+    {
+      "id": "scored_0015",
+      "before": 297,
+      "after": 297,
+      "saved": 0,
+      "winner": null,
+      "failures": 2,
+      "cpu_seconds": 4.524527
+    },
+    {
+      "id": "scored_0016",
+      "before": 209,
+      "after": 206,
+      "saved": 3,
+      "winner": {
+        "iteration": 24,
+        "weight": 0.3811360346618877,
+        "factor_mode": 1,
+        "temperature": 0.09553411076888188,
+        "order_window": 2,
+        "trial_seed": 3846047456
+      },
+      "failures": 0,
+      "cpu_seconds": 2.966937
+    },
+    {
+      "id": "scored_0017",
+      "before": 165,
+      "after": 165,
+      "saved": 0,
+      "winner": null,
+      "failures": 0,
+      "cpu_seconds": 2.674826
+    },
+    {
+      "id": "scored_0018",
+      "before": 158,
+      "after": 158,
+      "saved": 0,
+      "winner": null,
+      "failures": 0,
+      "cpu_seconds": 1.926435
+    },
+    {
+      "id": "scored_0019",
+      "before": 30,
+      "after": 30,
+      "saved": 0,
+      "winner": null,
+      "failures": 0,
+      "cpu_seconds": 0.172661
+    },
+    {
+      "id": "scored_0020",
+      "before": 350,
+      "after": 350,
+      "saved": 0,
+      "winner": null,
+      "failures": 24,
+      "cpu_seconds": 9.82946
+    },
+    {
+      "id": "scored_0021",
+      "before": 51,
+      "after": 50,
+      "saved": 1,
+      "winner": {
+        "iteration": 10,
+        "weight": 0.2964563566083046,
+        "factor_mode": 1,
+        "temperature": 0.3523953940751613,
+        "order_window": 3,
+        "trial_seed": 2051865361
+      },
+      "failures": 0,
+      "cpu_seconds": 0.292119
+    },
+    {
+      "id": "scored_0022",
+      "before": 156,
+      "after": 156,
+      "saved": 0,
+      "winner": null,
+      "failures": 0,
+      "cpu_seconds": 1.826498
+    },
+    {
+      "id": "scored_0023",
+      "before": 219,
+      "after": 219,
+      "saved": 0,
+      "winner": null,
+      "failures": 0,
+      "cpu_seconds": 2.779852
+    },
+    {
+      "id": "scored_0024",
+      "before": 35,
+      "after": 35,
+      "saved": 0,
+      "winner": null,
+      "failures": 0,
+      "cpu_seconds": 0.192321
+    },
+    {
+      "id": "scored_0025",
+      "before": 175,
+      "after": 175,
+      "saved": 0,
+      "winner": null,
+      "failures": 0,
+      "cpu_seconds": 3.016793
+    },
+    {
+      "id": "scored_0026",
+      "before": 253,
+      "after": 246,
+      "saved": 7,
+      "winner": {
+        "iteration": 24,
+        "weight": 0.2973241831145943,
+        "factor_mode": 1,
+        "temperature": 0.2727033558171108,
+        "order_window": 1,
+        "trial_seed": 679340236
+      },
+      "failures": 5,
+      "cpu_seconds": 4.530082
+    },
+    {
+      "id": "scored_0027",
+      "before": 139,
+      "after": 139,
+      "saved": 0,
+      "winner": null,
+      "failures": 0,
+      "cpu_seconds": 1.616377
+    },
+    {
+      "id": "scored_0028",
+      "before": 187,
+      "after": 184,
+      "saved": 3,
+      "winner": {
+        "iteration": 31,
+        "weight": 0.2533502137457676,
+        "factor_mode": 1,
+        "temperature": 0.6233835728420848,
+        "order_window": 1,
+        "trial_seed": 4044939050
+      },
+      "failures": 0,
+      "cpu_seconds": 3.309505
+    },
+    {
+      "id": "scored_0029",
+      "before": 47,
+      "after": 47,
+      "saved": 0,
+      "winner": null,
+      "failures": 0,
+      "cpu_seconds": 0.30771
+    },
+    {
+      "id": "scored_0030",
+      "before": 259,
+      "after": 259,
+      "saved": 0,
+      "winner": null,
+      "failures": 3,
+      "cpu_seconds": 4.027729
+    },
+    {
+      "id": "scored_0031",
+      "before": 338,
+      "after": 338,
+      "saved": 0,
+      "winner": null,
+      "failures": 7,
+      "cpu_seconds": 6.554447
+    },
+    {
+      "id": "scored_0032",
+      "before": 137,
+      "after": 135,
+      "saved": 2,
+      "winner": {
+        "iteration": 0,
+        "weight": 0.27061307946280144,
+        "factor_mode": 1,
+        "temperature": 0.07708066778324665,
+        "order_window": 1,
+        "trial_seed": 3923987527
+      },
+      "failures": 0,
+      "cpu_seconds": 1.462622
+    },
+    {
+      "id": "scored_0033",
+      "before": 285,
+      "after": 285,
+      "saved": 0,
+      "winner": null,
+      "failures": 0,
+      "cpu_seconds": 4.144511
+    },
+    {
+      "id": "scored_0034",
+      "before": 226,
+      "after": 221,
+      "saved": 5,
+      "winner": {
+        "iteration": 23,
+        "weight": 0.23927825969681546,
+        "factor_mode": 1,
+        "temperature": 0.20436222617227662,
+        "order_window": 2,
+        "trial_seed": 1318345343
+      },
+      "failures": 0,
+      "cpu_seconds": 3.942313
+    },
+    {
+      "id": "scored_0035",
+      "before": 146,
+      "after": 142,
+      "saved": 4,
+      "winner": {
+        "iteration": 4,
+        "weight": 0.2730237137522874,
+        "factor_mode": 2,
+        "temperature": 0.37035564906653834,
+        "order_window": 1,
+        "trial_seed": 3630689365
+      },
+      "failures": 0,
+      "cpu_seconds": 1.646713
+    },
+    {
+      "id": "scored_0036",
+      "before": 316,
+      "after": 316,
+      "saved": 0,
+      "winner": null,
+      "failures": 6,
+      "cpu_seconds": 5.45781
+    },
+    {
+      "id": "scored_0037",
+      "before": 261,
+      "after": 258,
+      "saved": 3,
+      "winner": {
+        "iteration": 24,
+        "weight": 0.3788573755768694,
+        "factor_mode": 2,
+        "temperature": 0.36672584389799745,
+        "order_window": 2,
+        "trial_seed": 913700287
+      },
+      "failures": 4,
+      "cpu_seconds": 4.891905
+    },
+    {
+      "id": "scored_0038",
+      "before": 195,
+      "after": 192,
+      "saved": 3,
+      "winner": {
+        "iteration": 8,
+        "weight": 0.2414137632684985,
+        "factor_mode": 2,
+        "temperature": 0.06334163989464507,
+        "order_window": 3,
+        "trial_seed": 2946064720
+      },
+      "failures": 0,
+      "cpu_seconds": 2.574566
+    },
+    {
+      "id": "scored_0039",
+      "before": 141,
+      "after": 141,
+      "saved": 0,
+      "winner": null,
+      "failures": 0,
+      "cpu_seconds": 1.799228
+    },
+    {
+      "id": "scored_0040",
+      "before": 240,
+      "after": 239,
+      "saved": 1,
+      "winner": {
+        "iteration": 20,
+        "weight": 0.4203665841187658,
+        "factor_mode": 0,
+        "temperature": 0.3110636849409687,
+        "order_window": 1,
+        "trial_seed": 2404662506
+      },
+      "failures": 4,
+      "cpu_seconds": 4.47082
+    },
+    {
+      "id": "scored_0041",
+      "before": 174,
+      "after": 174,
+      "saved": 0,
+      "winner": null,
+      "failures": 0,
+      "cpu_seconds": 2.826635
+    },
+    {
+      "id": "scored_0042",
+      "before": 220,
+      "after": 220,
+      "saved": 0,
+      "winner": null,
+      "failures": 0,
+      "cpu_seconds": 3.763906
+    },
+    {
+      "id": "scored_0043",
+      "before": 287,
+      "after": 287,
+      "saved": 0,
+      "winner": null,
+      "failures": 1,
+      "cpu_seconds": 5.585891
+    },
+    {
+      "id": "scored_0044",
+      "before": 101,
+      "after": 100,
+      "saved": 1,
+      "winner": {
+        "iteration": 28,
+        "weight": 0.2761046792865617,
+        "factor_mode": 2,
+        "temperature": 0.4535523715433166,
+        "order_window": 3,
+        "trial_seed": 1482258803
+      },
+      "failures": 0,
+      "cpu_seconds": 1.233739
+    },
+    {
+      "id": "scored_0045",
+      "before": 214,
+      "after": 212,
+      "saved": 2,
+      "winner": {
+        "iteration": 14,
+        "weight": 0.18768801354300674,
+        "factor_mode": 2,
+        "temperature": 0.5361281717525863,
+        "order_window": 1,
+        "trial_seed": 154233914
+      },
+      "failures": 0,
+      "cpu_seconds": 3.825883
+    },
+    {
+      "id": "scored_0046",
+      "before": 39,
+      "after": 37,
+      "saved": 2,
+      "winner": {
+        "iteration": 18,
+        "weight": 0.48684604251126606,
+        "factor_mode": 2,
+        "temperature": 0.3830823583918095,
+        "order_window": 2,
+        "trial_seed": 3825661750
+      },
+      "failures": 0,
+      "cpu_seconds": 0.242994
+    },
+    {
+      "id": "scored_0047",
+      "before": 218,
+      "after": 218,
+      "saved": 0,
+      "winner": null,
+      "failures": 0,
+      "cpu_seconds": 4.980893
+    },
+    {
+      "id": "scored_0048",
+      "before": 184,
+      "after": 184,
+      "saved": 0,
+      "winner": null,
+      "failures": 0,
+      "cpu_seconds": 3.664141
+    },
+    {
+      "id": "scored_0049",
+      "before": 202,
+      "after": 202,
+      "saved": 0,
+      "winner": null,
+      "failures": 0,
+      "cpu_seconds": 4.769289
+    },
+    {
+      "id": "scored_0050",
+      "before": 36,
+      "after": 35,
+      "saved": 1,
+      "winner": {
+        "iteration": 24,
+        "weight": 0.3400784355961851,
+        "factor_mode": 1,
+        "temperature": 0.5308210040384104,
+        "order_window": 3,
+        "trial_seed": 795438035
+      },
+      "failures": 0,
+      "cpu_seconds": 0.264804
+    },
+    {
+      "id": "scored_0051",
+      "before": 388,
+      "after": 388,
+      "saved": 0,
+      "winner": null,
+      "failures": 19,
+      "cpu_seconds": 15.071262
+    },
+    {
+      "id": "scored_0052",
+      "before": 137,
+      "after": 135,
+      "saved": 2,
+      "winner": {
+        "iteration": 21,
+        "weight": 0.3265503243247788,
+        "factor_mode": 1,
+        "temperature": 0.5418316127563211,
+        "order_window": 1,
+        "trial_seed": 2949372330
+      },
+      "failures": 0,
+      "cpu_seconds": 2.659487
+    },
+    {
+      "id": "scored_0053",
+      "before": 164,
+      "after": 161,
+      "saved": 3,
+      "winner": {
+        "iteration": 18,
+        "weight": 0.5333793790617425,
+        "factor_mode": 2,
+        "temperature": 0.10192248890760469,
+        "order_window": 1,
+        "trial_seed": 1057285031
+      },
+      "failures": 0,
+      "cpu_seconds": 3.896303
+    },
+    {
+      "id": "scored_0054",
+      "before": 254,
+      "after": 246,
+      "saved": 8,
+      "winner": {
+        "iteration": 6,
+        "weight": 0.641574899422028,
+        "factor_mode": 1,
+        "temperature": 0.6349885847034922,
+        "order_window": 1,
+        "trial_seed": 1163783440
+      },
+      "failures": 3,
+      "cpu_seconds": 5.518254
+    },
+    {
+      "id": "scored_0055",
+      "before": 108,
+      "after": 108,
+      "saved": 0,
+      "winner": null,
+      "failures": 0,
+      "cpu_seconds": 1.776721
+    },
+    {
+      "id": "scored_0056",
+      "before": 34,
+      "after": 34,
+      "saved": 0,
+      "winner": null,
+      "failures": 0,
+      "cpu_seconds": 0.403519
+    },
+    {
+      "id": "scored_0057",
+      "before": 304,
+      "after": 304,
+      "saved": 0,
+      "winner": null,
+      "failures": 17,
+      "cpu_seconds": 12.521924
+    },
+    {
+      "id": "scored_0058",
+      "before": 377,
+      "after": 377,
+      "saved": 0,
+      "winner": null,
+      "failures": 20,
+      "cpu_seconds": 15.411869
+    },
+    {
+      "id": "scored_0059",
+      "before": 187,
+      "after": 185,
+      "saved": 2,
+      "winner": {
+        "iteration": 29,
+        "weight": 0.3058361637231596,
+        "factor_mode": 1,
+        "temperature": 0.3281180524624513,
+        "order_window": 3,
+        "trial_seed": 3704274836
+      },
+      "failures": 0,
+      "cpu_seconds": 4.753522
+    },
+    {
+      "id": "scored_0060",
+      "before": 362,
+      "after": 353,
+      "saved": 9,
+      "winner": {
+        "iteration": 11,
+        "weight": 0.22067210505976553,
+        "factor_mode": 1,
+        "temperature": 0.0667187720905192,
+        "order_window": 2,
+        "trial_seed": 3537738286
+      },
+      "failures": 11,
+      "cpu_seconds": 11.92965
+    },
+    {
+      "id": "scored_0061",
+      "before": 4,
+      "after": 4,
+      "saved": 0,
+      "winner": null,
+      "failures": 0,
+      "cpu_seconds": 0.007432
+    },
+    {
+      "id": "scored_0062",
+      "before": 195,
+      "after": 193,
+      "saved": 2,
+      "winner": {
+        "iteration": 22,
+        "weight": 0.5581857141833322,
+        "factor_mode": 1,
+        "temperature": 0.6499564562408118,
+        "order_window": 1,
+        "trial_seed": 1233819519
+      },
+      "failures": 0,
+      "cpu_seconds": 4.861436
+    },
+    {
+      "id": "scored_0063",
+      "before": 151,
+      "after": 151,
+      "saved": 0,
+      "winner": null,
+      "failures": 0,
+      "cpu_seconds": 2.716954
+    },
+    {
+      "id": "scored_0064",
+      "before": 160,
+      "after": 160,
+      "saved": 0,
+      "winner": null,
+      "failures": 0,
+      "cpu_seconds": 3.590582
+    },
+    {
+      "id": "scored_0065",
+      "before": 47,
+      "after": 47,
+      "saved": 0,
+      "winner": null,
+      "failures": 0,
+      "cpu_seconds": 0.415452
+    },
+    {
+      "id": "scored_0066",
+      "before": 48,
+      "after": 47,
+      "saved": 1,
+      "winner": {
+        "iteration": 26,
+        "weight": 0.6191527635001478,
+        "factor_mode": 1,
+        "temperature": 0.33637512124732943,
+        "order_window": 3,
+        "trial_seed": 4173911974
+      },
+      "failures": 0,
+      "cpu_seconds": 0.47968
+    },
+    {
+      "id": "scored_0067",
+      "before": 371,
+      "after": 371,
+      "saved": 0,
+      "winner": null,
+      "failures": 20,
+      "cpu_seconds": 15.977513
+    },
+    {
+      "id": "scored_0068",
+      "before": 178,
+      "after": 175,
+      "saved": 3,
+      "winner": {
+        "iteration": 18,
+        "weight": 0.5459265079172392,
+        "factor_mode": 1,
+        "temperature": 0.5696207836125325,
+        "order_window": 1,
+        "trial_seed": 1303837126
+      },
+      "failures": 0,
+      "cpu_seconds": 5.136511
+    },
+    {
+      "id": "scored_0069",
+      "before": 388,
+      "after": 388,
+      "saved": 0,
+      "winner": null,
+      "failures": 17,
+      "cpu_seconds": 17.611004
+    },
+    {
+      "id": "scored_0070",
+      "before": 171,
+      "after": 170,
+      "saved": 1,
+      "winner": {
+        "iteration": 2,
+        "weight": 0.42598782589830286,
+        "factor_mode": 2,
+        "temperature": 0.23675328119457234,
+        "order_window": 1,
+        "trial_seed": 1595456568
+      },
+      "failures": 0,
+      "cpu_seconds": 5.041617
+    },
+    {
+      "id": "scored_0071",
+      "before": 138,
+      "after": 138,
+      "saved": 0,
+      "winner": null,
+      "failures": 0,
+      "cpu_seconds": 2.43995
+    },
+    {
+      "id": "scored_0072",
+      "before": 165,
+      "after": 159,
+      "saved": 6,
+      "winner": {
+        "iteration": 10,
+        "weight": 0.34293368958454873,
+        "factor_mode": 1,
+        "temperature": 0.5095982238194917,
+        "order_window": 2,
+        "trial_seed": 2562824125
+      },
+      "failures": 0,
+      "cpu_seconds": 4.472155
+    },
+    {
+      "id": "scored_0073",
+      "before": 160,
+      "after": 156,
+      "saved": 4,
+      "winner": {
+        "iteration": 16,
+        "weight": 0.26677480732058245,
+        "factor_mode": 2,
+        "temperature": 0.07675231506450841,
+        "order_window": 1,
+        "trial_seed": 1927903089
+      },
+      "failures": 0,
+      "cpu_seconds": 4.28291
+    },
+    {
+      "id": "scored_0074",
+      "before": 286,
+      "after": 286,
+      "saved": 0,
+      "winner": null,
+      "failures": 0,
+      "cpu_seconds": 7.81398
+    },
+    {
+      "id": "scored_0075",
+      "before": 359,
+      "after": 359,
+      "saved": 0,
+      "winner": null,
+      "failures": 16,
+      "cpu_seconds": 10.910792
+    },
+    {
+      "id": "scored_0076",
+      "before": 188,
+      "after": 186,
+      "saved": 2,
+      "winner": {
+        "iteration": 25,
+        "weight": 0.21243129072783373,
+        "factor_mode": 2,
+        "temperature": 0.13728258282704636,
+        "order_window": 1,
+        "trial_seed": 1950228292
+      },
+      "failures": 0,
+      "cpu_seconds": 3.69937
+    },
+    {
+      "id": "scored_0077",
+      "before": 137,
+      "after": 137,
+      "saved": 0,
+      "winner": null,
+      "failures": 0,
+      "cpu_seconds": 3.533608
+    },
+    {
+      "id": "scored_0078",
+      "before": 134,
+      "after": 134,
+      "saved": 0,
+      "winner": null,
+      "failures": 0,
+      "cpu_seconds": 3.154069
+    },
+    {
+      "id": "scored_0079",
+      "before": 195,
+      "after": 195,
+      "saved": 0,
+      "winner": null,
+      "failures": 0,
+      "cpu_seconds": 4.399883
+    },
+    {
+      "id": "scored_0080",
+      "before": 194,
+      "after": 192,
+      "saved": 2,
+      "winner": {
+        "iteration": 29,
+        "weight": 0.49117067678151927,
+        "factor_mode": 1,
+        "temperature": 0.5902540482100483,
+        "order_window": 3,
+        "trial_seed": 2768827991
+      },
+      "failures": 0,
+      "cpu_seconds": 3.342731
+    },
+    {
+      "id": "scored_0081",
+      "before": 161,
+      "after": 157,
+      "saved": 4,
+      "winner": {
+        "iteration": 5,
+        "weight": 0.3581609220912716,
+        "factor_mode": 1,
+        "temperature": 0.141811173566566,
+        "order_window": 1,
+        "trial_seed": 3343404773
+      },
+      "failures": 0,
+      "cpu_seconds": 3.932958
+    },
+    {
+      "id": "scored_0082",
+      "before": 161,
+      "after": 161,
+      "saved": 0,
+      "winner": null,
+      "failures": 0,
+      "cpu_seconds": 3.730429
+    },
+    {
+      "id": "scored_0083",
+      "before": 237,
+      "after": 225,
+      "saved": 12,
+      "winner": {
+        "iteration": 2,
+        "weight": 0.21684571258865076,
+        "factor_mode": 1,
+        "temperature": 0.09502546375635365,
+        "order_window": 3,
+        "trial_seed": 415330771
+      },
+      "failures": 0,
+      "cpu_seconds": 4.59765
+    },
+    {
+      "id": "scored_0084",
+      "before": 51,
+      "after": 50,
+      "saved": 1,
+      "winner": {
+        "iteration": 1,
+        "weight": 0.22793956405214488,
+        "factor_mode": 2,
+        "temperature": 0.40843997106264407,
+        "order_window": 1,
+        "trial_seed": 2754784791
+      },
+      "failures": 0,
+      "cpu_seconds": 0.433347
+    },
+    {
+      "id": "scored_0085",
+      "before": 115,
+      "after": 115,
+      "saved": 0,
+      "winner": null,
+      "failures": 0,
+      "cpu_seconds": 1.849959
+    },
+    {
+      "id": "scored_0086",
+      "before": 140,
+      "after": 136,
+      "saved": 4,
+      "winner": {
+        "iteration": 3,
+        "weight": 0.19141368806420886,
+        "factor_mode": 2,
+        "temperature": 0.39635963039314803,
+        "order_window": 1,
+        "trial_seed": 4256734073
+      },
+      "failures": 0,
+      "cpu_seconds": 3.060369
+    },
+    {
+      "id": "scored_0087",
+      "before": 347,
+      "after": 340,
+      "saved": 7,
+      "winner": {
+        "iteration": 30,
+        "weight": 0.20017734223659361,
+        "factor_mode": 1,
+        "temperature": 0.39021164367168093,
+        "order_window": 1,
+        "trial_seed": 997058086
+      },
+      "failures": 10,
+      "cpu_seconds": 13.189882
+    },
+    {
+      "id": "scored_0088",
+      "before": 280,
+      "after": 280,
+      "saved": 0,
+      "winner": null,
+      "failures": 19,
+      "cpu_seconds": 9.242098
+    },
+    {
+      "id": "scored_0089",
+      "before": 158,
+      "after": 152,
+      "saved": 6,
+      "winner": {
+        "iteration": 6,
+        "weight": 0.5461388891056622,
+        "factor_mode": 1,
+        "temperature": 0.518813292548798,
+        "order_window": 1,
+        "trial_seed": 121892205
+      },
+      "failures": 0,
+      "cpu_seconds": 3.800469
+    },
+    {
+      "id": "scored_0090",
+      "before": 254,
+      "after": 254,
+      "saved": 0,
+      "winner": null,
+      "failures": 6,
+      "cpu_seconds": 5.929337
+    },
+    {
+      "id": "scored_0091",
+      "before": 31,
+      "after": 31,
+      "saved": 0,
+      "winner": null,
+      "failures": 0,
+      "cpu_seconds": 0.347412
+    },
+    {
+      "id": "scored_0092",
+      "before": 43,
+      "after": 43,
+      "saved": 0,
+      "winner": null,
+      "failures": 0,
+      "cpu_seconds": 0.553811
+    },
+    {
+      "id": "scored_0093",
+      "before": 137,
+      "after": 137,
+      "saved": 0,
+      "winner": null,
+      "failures": 0,
+      "cpu_seconds": 3.587907
+    },
+    {
+      "id": "scored_0094",
+      "before": 375,
+      "after": 353,
+      "saved": 22,
+      "winner": {
+        "iteration": 7,
+        "weight": 0.18790106104985843,
+        "factor_mode": 0,
+        "temperature": 0.6164076369505239,
+        "order_window": 1,
+        "trial_seed": 3010090068
+      },
+      "failures": 16,
+      "cpu_seconds": 11.246513
+    },
+    {
+      "id": "scored_0095",
+      "before": 43,
+      "after": 43,
+      "saved": 0,
+      "winner": null,
+      "failures": 0,
+      "cpu_seconds": 0.481026
+    },
+    {
+      "id": "scored_0096",
+      "before": 236,
+      "after": 230,
+      "saved": 6,
+      "winner": {
+        "iteration": 26,
+        "weight": 0.23448575575479805,
+        "factor_mode": 2,
+        "temperature": 0.2717726151181774,
+        "order_window": 1,
+        "trial_seed": 1787532620
+      },
+      "failures": 3,
+      "cpu_seconds": 6.773022
+    },
+    {
+      "id": "scored_0097",
+      "before": 124,
+      "after": 121,
+      "saved": 3,
+      "winner": {
+        "iteration": 31,
+        "weight": 0.5895513499568367,
+        "factor_mode": 2,
+        "temperature": 0.31389180378058223,
+        "order_window": 3,
+        "trial_seed": 2005521264
+      },
+      "failures": 0,
+      "cpu_seconds": 2.778091
+    },
+    {
+      "id": "scored_0098",
+      "before": 252,
+      "after": 246,
+      "saved": 6,
+      "winner": {
+        "iteration": 26,
+        "weight": 0.19933083948513047,
+        "factor_mode": 0,
+        "temperature": 0.11275038623186584,
+        "order_window": 1,
+        "trial_seed": 3543272379
+      },
+      "failures": 2,
+      "cpu_seconds": 7.660745
+    },
+    {
+      "id": "scored_0099",
+      "before": 182,
+      "after": 180,
+      "saved": 2,
+      "winner": {
+        "iteration": 12,
+        "weight": 0.263169640859836,
+        "factor_mode": 1,
+        "temperature": 0.5362857187898387,
+        "order_window": 1,
+        "trial_seed": 2593905985
+      },
+      "failures": 0,
+      "cpu_seconds": 5.063217
+    },
+    {
+      "id": "scored_0100",
+      "before": 188,
+      "after": 188,
+      "saved": 0,
+      "winner": null,
+      "failures": 0,
+      "cpu_seconds": 4.745769
+    }
+  ],
+  "validation": {
+    "valid": true,
+    "rows": 1000,
+    "score": 187283,
+    "maximum_instructions": 414,
+    "maximum_program_cell_bytes": 5866,
+    "file_bytes": 3047734
+  }
+}

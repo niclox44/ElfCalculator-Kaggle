@@ -1,0 +1,231 @@
+{
+  "seconds": 42.54157612100016,
+  "saved": 1700,
+  "puzzles": [
+    {
+      "id": "scored_0001",
+      "before": 463,
+      "after": 338,
+      "saved": 125,
+      "parameters": [
+        0.1,
+        0
+      ],
+      "failures": 6,
+      "minnodes": 338
+    },
+    {
+      "id": "scored_0002",
+      "before": 516,
+      "after": 380,
+      "saved": 136,
+      "parameters": [
+        0.1,
+        0
+      ],
+      "failures": 6,
+      "minnodes": 380
+    },
+    {
+      "id": "scored_0003",
+      "before": 444,
+      "after": 444,
+      "saved": 0,
+      "parameters": null,
+      "failures": 7,
+      "minnodes": 285
+    },
+    {
+      "id": "scored_0004",
+      "before": 436,
+      "after": 436,
+      "saved": 0,
+      "parameters": null,
+      "failures": 7,
+      "minnodes": 1000000000
+    },
+    {
+      "id": "scored_0005",
+      "before": 86,
+      "after": 86,
+      "saved": 0,
+      "parameters": null,
+      "failures": 7,
+      "minnodes": 1000000000
+    },
+    {
+      "id": "scored_0006",
+      "before": 377,
+      "after": 167,
+      "saved": 210,
+      "parameters": [
+        0.2,
+        0
+      ],
+      "failures": 3,
+      "minnodes": 167
+    },
+    {
+      "id": "scored_0007",
+      "before": 400,
+      "after": 217,
+      "saved": 183,
+      "parameters": [
+        0.35,
+        0
+      ],
+      "failures": 3,
+      "minnodes": 217
+    },
+    {
+      "id": "scored_0008",
+      "before": 286,
+      "after": 162,
+      "saved": 124,
+      "parameters": [
+        0.6,
+        0
+      ],
+      "failures": 4,
+      "minnodes": 162
+    },
+    {
+      "id": "scored_0009",
+      "before": 57,
+      "after": 41,
+      "saved": 16,
+      "parameters": [
+        0.35,
+        0
+      ],
+      "failures": 2,
+      "minnodes": 41
+    },
+    {
+      "id": "scored_0010",
+      "before": 342,
+      "after": 252,
+      "saved": 90,
+      "parameters": [
+        0.6,
+        0
+      ],
+      "failures": 4,
+      "minnodes": 245
+    },
+    {
+      "id": "scored_0011",
+      "before": 383,
+      "after": 176,
+      "saved": 207,
+      "parameters": [
+        0.35,
+        0
+      ],
+      "failures": 3,
+      "minnodes": 176
+    },
+    {
+      "id": "scored_0012",
+      "before": 378,
+      "after": 250,
+      "saved": 128,
+      "parameters": [
+        0.2,
+        0
+      ],
+      "failures": 5,
+      "minnodes": 235
+    },
+    {
+      "id": "scored_0013",
+      "before": 334,
+      "after": 242,
+      "saved": 92,
+      "parameters": [
+        0.6,
+        0
+      ],
+      "failures": 5,
+      "minnodes": 234
+    },
+    {
+      "id": "scored_0014",
+      "before": 46,
+      "after": 34,
+      "saved": 12,
+      "parameters": [
+        0.35,
+        0
+      ],
+      "failures": 6,
+      "minnodes": 34
+    },
+    {
+      "id": "scored_0015",
+      "before": 447,
+      "after": 306,
+      "saved": 141,
+      "parameters": [
+        0.2,
+        0
+      ],
+      "failures": 3,
+      "minnodes": 303
+    },
+    {
+      "id": "scored_0016",
+      "before": 358,
+      "after": 216,
+      "saved": 142,
+      "parameters": [
+        0.6,
+        0
+      ],
+      "failures": 2,
+      "minnodes": 216
+    },
+    {
+      "id": "scored_0017",
+      "before": 255,
+      "after": 171,
+      "saved": 84,
+      "parameters": [
+        0.6,
+        0
+      ],
+      "failures": 3,
+      "minnodes": 171
+    },
+    {
+      "id": "scored_0018",
+      "before": 253,
+      "after": 253,
+      "saved": 0,
+      "parameters": null,
+      "failures": 7,
+      "minnodes": 1000000000
+    },
+    {
+      "id": "scored_0019",
+      "before": 44,
+      "after": 34,
+      "saved": 10,
+      "parameters": [
+        0.2,
+        0
+      ],
+      "failures": 5,
+      "minnodes": 34
+    },
+    {
+      "id": "scored_0020",
+      "before": 514,
+      "after": 514,
+      "saved": 0,
+      "parameters": null,
+      "failures": 7,
+      "minnodes": 1000000000
+    }
+  ]
+}

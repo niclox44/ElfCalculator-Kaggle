@@ -1,0 +1,27 @@
+{
+  "total": 290713,
+  "missing_targets_lower_bound": 26898,
+  "target_per_puzzle_mean": 26.902,
+  "instructions_per_missing_target": 10.807978288348576,
+  "target_instruction_per_missing_target": 4.8330730909361295,
+  "required_saving": 160714,
+  "required_reduction_percent": 55.28270149597713,
+  "puzzles_under_130": 142,
+  "target_max_bits_distribution": {
+    "50": 312,
+    "60": 139,
+    "20": 97,
+    "30": 107,
+    "40": 314,
+    "10": 15,
+    "0": 16
+  },
+  "output_submission": "submissions/submission_target130k_radix.csv",
+  "new_score": 288244,
+  "saved": 2469,
+  "improved": 213,
+  "unchanged": 787,
+  "regressions": 0,
+  "tiny_unchanged": true,
+  "remaining_to_below_130k": 158245
+}

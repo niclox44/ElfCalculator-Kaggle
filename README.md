@@ -2,6 +2,46 @@
 
 Proyecto de optimización para construir los 1.000 programas aritméticos de la competición con el menor número total de instrucciones.
 
+## Búsqueda activa de 130.000 instrucciones
+
+Mejor envío validado a 22/11/2026: **132.255 instrucciones** en
+`submissions/submission_public_v89.csv`, con ZIP en
+`deliverables/submission_public_v89.zip`. Los 1.000 programas son válidos y
+ningún puzle empeora respecto al envío anterior. Faltan 2.255 instrucciones;
+el objetivo todavía no se ha alcanzado. Estado actual y hash en
+`reports/goal_130k_progress.json`.
+
+Este resultado incorpora programas públicos Apache-2.0 de goodpjw2008 y
+Juan-Severiano. El ahorro desde 181.974 hasta 132.255 procede de esas
+referencias; no es una mejora producida por nuestros optimizadores.
+La procedencia está en `third_party/goodpjw_v89/NOTICE.md`,
+`third_party/santa_dictionary/NOTICE.md` y `reports/public_v89.json`.
+El mejor resultado construido exclusivamente aquí es 181.974.
+
+Los nuevos motores locales incluyen reducción conjunta por cocientes y residuos,
+reutilización de factores, síntesis de intermediarios compartidos y planificación
+de registros. Los experimentos opcionales de selección de recetas usan C++17
+y la biblioteca de desarrollo Z3; el constructor público de diccionarios usa
+C++17. El validador independiente sigue usando solo la biblioteca estándar de Python.
+Las cifras de las secciones siguientes documentan etapas anteriores.
+
+Después de fijar la referencia pública, la síntesis global de un intermediario
+se ejecutó sobre los 1.000 puzles sin ahorro adicional. Los pilotos de 100 casos
+de selección Z3, síntesis de dos intermediarios, reconstrucción conjunta de
+pares y sustitución de valores compartidos tampoco mejoraron el envío.
+Estos resultados se conservan en `reports/public_global.json`,
+`reports/smt_public_pilot.json`, `reports/smt_bv_public_pilot.json`,
+`reports/multi_helper_public_pilot.json`, `reports/lns_pair_pilot.json` y
+`reports/rebase2_pilot.json`. Son resultados negativos de búsquedas limitadas,
+no pruebas de optimalidad ni de imposibilidad de alcanzar 130.000.
+
+Backend opcional CP-SAT: `src/cpsat_recipe_optimizer.py`. Sus dependencias se
+instalan dentro del proyecto con
+`python3 -m pip install --target .deps/ortools -r requirements-optimization.lock`.
+El selector cobra todos los nodos nuevos, impone un orden sin ciclos y verifica
+el programa final con el validador existente. Pruebas controladas comprueban
+que selecciona correctamente uno y dos intermediarios nuevos compartidos.
+
 ## Estructura
 
 - `data/`: archivos originales de Kaggle.
@@ -24,6 +64,14 @@ Proyecto de optimización para construir los 1.000 programas aritméticos de la 
   sustitución de subgrafos y reescritura SSA con valores disponibles.
 - `src/test_recipe_graph_optimizer.py`: pruebas de ciclos, cobertura transitoria,
   registros, recomputación y conservación de soluciones óptimas pequeñas.
+- `src/short_synthesis_optimizer.py`: síntesis acotada de fragmentos con
+  intermediarios nuevos y entre una y tres operaciones.
+- `src/advanced_optimizer.py`: comparación de estrategias con presupuesto de
+  CPU por puzle y ejecución de la síntesis seguida de búsqueda de grafos.
+- `src/test_short_synthesis_optimizer.py`: pruebas de síntesis, planificación
+  entre varios candidatos y conservación de objetivos y dependencias compartidas.
+- `src/merge_best_submissions.py`: valida varios envíos completos y conserva el
+  programa más corto por puzle, registrando su procedencia.
 - `src/merge_hybrid_parts.py`: combina rangos híbridos procesados de forma
   independiente y vuelve a validar el envío completo.
 - `src/validate_submission.py`: validador independiente de envíos completos.
@@ -41,14 +89,16 @@ Todo el código actual usa únicamente la biblioteca estándar de Python.
 - Puntuación con anclas y diferencias: `399,864`.
 - Puntuación tras factores múltiples: `397,499`.
 - Puntuación con anclas recursivas de dos niveles: `376,815`.
-- Mejor puntuación local, con tres/cuatro niveles: `363,056`.
+- Puntuación con tres/cuatro niveles: `363,056`.
 - Puntuación tras la primera etapa de optimización de grafos: `338,407`.
 - Puntuación con el planificador híbrido: `322,106`.
-- Mejor puntuación local, con catálogo de recetas y reescritura SSA: `306,723`.
-- Última mejora frente al híbrido: `15,383` instrucciones (`4.78 %`), en 977 puzzles.
-- Mejora acumulada frente a la solución base: `1,183,656` instrucciones (`79.42 %`).
+- Puntuación con catálogo de recetas y reescritura SSA: `306,723`.
+- Puntuación con síntesis de fragmentos y selección de candidatos: `290,713`.
+- Mejor puntuación local, tras búsqueda ampliada y construcción por bases: `288,244`.
+- Última mejora: `2,469` instrucciones (`0.85 %`), en 213 puzles; ninguno empeora.
+- Mejora acumulada frente a la solución base: `1,202,135` instrucciones (`80.66 %`).
 - Los 1.000 programas se validan localmente contra las reglas del concurso.
-- Máximo por puzzle: `606` instrucciones; máximo por celda: `8,618` bytes.
+- Máximo por puzle: `583` instrucciones; máximo por celda: `8,475` bytes.
 
 ## Regenerar la clasificación estructural
 
@@ -95,7 +145,7 @@ python3 src/power_basis_solver.py \
 
 Cada etapa conserva, puzzle por puzzle, el programa más corto de la etapa
 anterior. Los comandos completos están reflejados en los propios scripts; la
-última etapa se regenera así:
+etapa de anclas profundas se regenera así:
 
 ```bash
 python3 src/deep_anchor_solver.py \
@@ -110,7 +160,7 @@ python3 src/deep_anchor_solver.py \
 ```bash
 python3 src/validate_submission.py \
   --puzzles data/puzzles.csv \
-  --submission submissions/submission_recipe_graph.csv
+  --submission submissions/submission_target130k_radix.csv
 ```
 
 ## Primera etapa de la fase 2
@@ -155,7 +205,7 @@ python3 src/hybrid_planner.py \
 Para ejecuciones por bloques, `src/merge_hybrid_parts.py` combina los rangos y
 exige que cubran exactamente los 1.000 puzzles sin solapamientos.
 
-El ZIP para Kaggle debe contener únicamente `submission_hybrid.csv`.
+El ZIP de esta etapa contiene únicamente `submission_hybrid.csv`.
 
 ## Catálogo de recetas y reescritura de programas
 
@@ -219,3 +269,122 @@ esos mismos puzzles en la ejecución completa con cuatro procesos.
 - Informe legible: `reports/recipe_graph_summary.md`.
 - Métricas completas: `reports/recipe_graph_report.json`.
 - Comparación y ausencia de regresiones: `reports/recipe_graph_comparison.json`.
+
+## Síntesis de fragmentos y selección de candidatos ejecutables
+
+La búsqueda de grafos admite `--candidate-width 8`: conserva hasta ocho
+alternativas de cada ronda y selecciona por la longitud del programa ejecutable.
+Un grafo pequeño que no consigue asignar registros ya no descarta por sí solo
+las demás alternativas retenidas. El valor predeterminado sigue siendo uno
+para conservar la configuración de la etapa anterior.
+
+El sintetizador trabaja sobre regiones privadas del grafo SSA de hasta seis
+operaciones, protegiendo las dependencias usadas por otros resultados y los
+objetivos transitorios. Enumera reemplazos de una a tres operaciones con nuevos
+intermediarios en cadenas o ramas. Usa aritmética entera exacta, sin constantes
+gratuitas ni intermediarios fuera de los límites del puzle. La enumeración está
+acotada por valores de entrada, candidatos, regiones y tiempo; no prueba
+optimalidad global.
+
+La comparación de los primeros 100 puzles, con el mismo presupuesto nominal de
+dos segundos de CPU por puzle y método, dio:
+
+| Método | Ahorro adicional | Puzles mejorados |
+|---|---:|---:|
+| Repetir el optimizador anterior | 94 | 9 |
+| Seleccionar entre ocho grafos | 239 | 14 |
+| Síntesis de fragmentos | 1.475 | 92 |
+| Grafos primero y después síntesis | 970 | 83 |
+| Síntesis primero y grafos con el tiempo restante | 1.495 | 92 |
+
+El presupuesto es cooperativo: se comprueba entre unidades de búsqueda, con
+limpieza y validación finales. El informe registra el tiempo efectivo y los
+excesos sobre el presupuesto. Las decisiones cercanas al límite pueden
+variar entre ejecuciones. Los métodos no tienen por qué agotar todo su tiempo.
+
+Reproducir la comparación principal:
+
+```bash
+python3 src/advanced_optimizer.py \
+  --puzzles data/puzzles.csv \
+  --current submissions/submission_recipe_graph.csv \
+  --source submissions/submission_deep_anchor.csv \
+  --source submissions/submission_multifactor.csv \
+  --source submissions/submission_signed_digits.csv \
+  --modes baseline wide synthesis combined \
+  --prefix advanced_pilot_v2 --end-index 100 \
+  --cpu-budget 2 --windows 512 --workers 4
+```
+
+La variante que prioriza la síntesis se compara con `--modes synthesis_first`.
+Los informes de la comparación están en `reports/advanced_pilot_v2_comparison.json`
+y `reports/advanced_priority_pilot_comparison.json`.
+
+Ejecutar la variante elegida sobre los 1.000 puzles:
+
+```bash
+python3 src/advanced_optimizer.py \
+  --puzzles data/puzzles.csv \
+  --current submissions/submission_recipe_graph.csv \
+  --source submissions/submission_deep_anchor.csv \
+  --source submissions/submission_multifactor.csv \
+  --source submissions/submission_signed_digits.csv \
+  --modes synthesis_first --prefix advanced \
+  --cpu-budget 2 --windows 512 --workers 8
+```
+
+Ejecutar las pruebas de ambas etapas:
+
+```bash
+python3 -m unittest discover -s src -p 'test_*optimizer.py' -v
+```
+
+
+La ejecución completa produjo **290.733 instrucciones** en 184 segundos con ocho
+procesos. Al conservar también las mejores soluciones puntuales de los pilotos,
+el resultado final es **290.713 instrucciones**: 910 puzles mejoran, 90 mantienen
+su longitud y ninguno empeora. Los 16 programas `tiny` permanecen idénticos.
+
+Recombinar los resultados guardados, con validación de cada entrada y del envío final:
+
+```bash
+python3 src/merge_best_submissions.py \
+  --puzzles data/puzzles.csv \
+  --base submissions/submission_recipe_graph.csv \
+  --candidate submissions/submission_advanced_synthesis_first.csv \
+  --candidate submissions/submission_advanced_pilot_baseline.csv \
+  --candidate submissions/submission_advanced_pilot_wide.csv \
+  --candidate submissions/submission_advanced_pilot_synthesis.csv \
+  --candidate submissions/submission_advanced_pilot_combined.csv \
+  --candidate submissions/submission_advanced_pilot_v2_baseline.csv \
+  --candidate submissions/submission_advanced_pilot_v2_wide.csv \
+  --candidate submissions/submission_advanced_pilot_v2_synthesis.csv \
+  --candidate submissions/submission_advanced_pilot_v2_combined.csv \
+  --candidate submissions/submission_advanced_priority_pilot_synthesis_first.csv \
+  --output submissions/submission_advanced.csv \
+  --report reports/advanced_final_report.json
+```
+
+La combinación es reproducible a partir de los CSV guardados. Regenerar búsquedas
+con límite de CPU puede producir otras soluciones cerca del límite temporal.
+Las 21 pruebas de los optimizadores pasan y el validador independiente acepta los
+1.000 programas del envío final.
+
+- Envío de esta etapa: `submissions/submission_advanced.csv`.
+- ZIP con un único CSV: `deliverables/submission_advanced.zip`.
+- Informe legible: `reports/advanced_summary.md`.
+- Procedencia y validación: `reports/advanced_final_report.json`.
+- Comparación por familia: `reports/advanced_final_comparison.json`.
+
+
+## Evaluación del objetivo de 130.000 instrucciones
+
+Dos experimentos adicionales reducen el total a **288.244 instrucciones**. El
+objetivo de menos de 130.000 no está alcanzado. La búsqueda ampliada sobre los
+primeros 100 puzles ahorra 254 instrucciones; la construcción por bases sobre
+los 1.000 ahorra otras 2.215. El diagnóstico, los límites y los comandos están en
+`reports/target130k_assessment.md`.
+
+- Mejor envío actual: `submissions/submission_target130k_radix.csv`.
+- ZIP validado: `deliverables/submission_target130k_radix.zip`.
+- Código experimental: `experiments/target130k_radix_probe.py`.
